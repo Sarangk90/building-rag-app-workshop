@@ -1,8 +1,8 @@
-jupyter
-wikipedia
-mwparserfromhell
-beautifulsoup4
-openai
-qdrant-client
-tqdm
-python-dotenv
+jupyter==1.1.1
+wikipedia==1.4.0
+mwparserfromhell==0.6.6
+beautifulsoup4==4.13.3
+openai==1.61.1
+qdrant-client==1.13.2
+tqdm==4.67.1
+python-dotenv==1.0.1
