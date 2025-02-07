@@ -1,0 +1,8 @@
+jupyter
+wikipedia
+mwparserfromhell
+beautifulsoup4
+openai
+qdrant-client
+tqdm
+python-dotenv
