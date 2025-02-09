@@ -1,1 +1,5 @@
 threshold: medium
+fileignoreconfig:
+- filename: advanced-rag/01-data-indexing.ipynb
+  checksum: 6e6bce37572ea4722f26ba90b34733bbed9b99d0514945bce7a793b6c2142821
+version: ""
