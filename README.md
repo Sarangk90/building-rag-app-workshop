@@ -2,6 +2,8 @@
 
 This repository contains materials for the Building RAG (Retrieval-Augmented Generation) Applications Workshop. The workshop covers both naive RAG implementations and advanced RAG techniques to help you understand and build effective RAG systems.
 
+This repository is used for the O'Reilly training course: [Building Reliable RAG Applications: From PoC to Production](https://learning.oreilly.com/live-events/building-reliable-rag-applications-from-poc-to-production/0642572012347/).
+
 ## Prerequisites
 
 - Python 3.11+ recommended
