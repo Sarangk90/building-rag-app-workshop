@@ -1,0 +1,206 @@
+Quantitative analysis is the use of mathematical and statistical methods in finance and investment management. Those working in the field are quantitative analysts (quants). Quants tend to specialize in specific areas which may include derivative structuring or pricing, risk management, investment management and other related finance occupations. The occupation is similar to those in industrial mathematics in other industries. The process usually consists of searching vast databases for patterns, such as correlations among liquid assets or price-movement patterns (trend following or reversion).
+Although the original quantitative analysts were "sell side quants" from market maker firms, concerned with derivatives pricing and risk management, the meaning of the term has expanded over time to include those individuals involved in almost any application of mathematical finance, including the buy side. Applied quantitative analysis is commonly associated with quantitative investment management which includes a variety of methods such as statistical arbitrage, algorithmic trading and electronic trading.
+Some of the larger investment managers using quantitative analysis include Renaissance Technologies, D. E. Shaw & Co., and AQR Capital Management.
+
+
+== History ==
+
+Quantitative finance started in 1900 with Louis Bachelier's doctoral thesis "Theory of Speculation", which provided a model to price options under a normal distribution. 
+Jules Regnault had posited already in 1863 that stock prices can be modelled as a random walk, suggesting "in a more literary form, the conceptual setting for the application of probability to stockmarket operations".
+It was, however, only in the years 1960-1970 that the "merit of [these] was recognized" 
+
+as options pricing theory was developed. 
+Harry Markowitz's 1952 doctoral thesis "Portfolio Selection" and its published version was one of the first efforts in economics journals to formally adapt mathematical concepts to finance (mathematics was until then confined to specialized economics journals). Markowitz formalized a notion of mean return and covariances for common stocks which allowed him to quantify the concept of "diversification" in a market. He showed how to compute the mean return and variance for a given portfolio and argued that investors should hold  only those portfolios whose variance is minimal among all portfolios with a given mean return. 
+Thus, although the language of finance now involves Itô calculus, management of risk in a quantifiable manner underlies much of the modern theory.
+Modern quantitative investment management was first introduced from the research of Edward Thorp, a mathematics professor at New Mexico State University (1961–1965) and University of California, Irvine (1965–1977). Considered the "Father of Quantitative Investing", Thorp sought to predict and simulate blackjack, a card-game he played in Las Vegas casinos. He was able to create a system, known broadly as card counting, which used probability theory and statistical analysis to successfully win blackjack games. His research was subsequently used during the 1980s and 1990s by investment management firms seeking to generate systematic and consistent returns in the U.S. stock market.
+The field has grown to incorporate numerous approaches and techniques; see Outline of finance § Quantitative investing, Post-modern portfolio theory, Financial economics  § Portfolio theory.
+In 1965, Paul Samuelson introduced stochastic calculus into the study of finance. In 1969, Robert Merton promoted continuous stochastic calculus and continuous-time processes. Merton was motivated by the desire to understand how prices are set in financial markets, which is the classical economics question of "equilibrium", and in later papers he used the machinery of stochastic calculus to begin investigation of this issue. At the same time as Merton's work and with Merton's assistance, Fischer Black and Myron Scholes developed the Black–Scholes model, which was awarded the 1997 Nobel Memorial Prize in Economic Sciences. It provided a solution for a practical problem, that of finding a fair price for a European call option, i.e., the right to buy one share of a given stock at a specified price and time. Such options are frequently purchased by investors as a risk-hedging device.
+In 1981, Harrison and Pliska used the general theory of continuous-time stochastic processes to put the Black–Scholes model on a solid theoretical basis, and showed how to price numerous other derivative securities, laying the groundwork for the development of the fundamental theorem of asset pricing. The various short-rate models (beginning with Vasicek in 1977), and the more general HJM Framework (1987), relatedly allowed for an extension to fixed income and interest rate derivatives. Similarly, and in parallel, models were developed for various other underpinnings and applications, including credit derivatives, exotic derivatives, real options, and employee stock options. Quants are thus involved in pricing and hedging a wide range of securities – asset-backed, government, and corporate – additional to classic derivatives; see contingent claim analysis. 
+Emanuel Derman's 2004 book My Life as a Quant helped to both make the role of a quantitative analyst better known outside of finance, and to popularize the abbreviation "quant" for a quantitative analyst.
+After the 2008 financial crisis, considerations regarding counterparty credit risk were incorporated into the modelling, previously performed in an entirely "risk neutral world", entailing three major developments; see Valuation of options § Post crisis: 
+(i) Option pricing and hedging inhere the relevant volatility surface - to some extent, equity-option prices have incorporated the volatility smile since the 1987 crash - and banks then apply "surface aware" local- or stochastic volatility models;
+(ii) The risk neutral value is adjusted for the impact of counter-party credit risk via a credit valuation adjustment, or CVA, as well as various of the other XVA;
+(iii) For discounting, the OIS curve is used for the "risk free rate", as opposed to LIBOR as previously, and, relatedly, quants must model under a "multi-curve framework"
+(LIBOR is being phased out, with replacements including SOFR and TONAR, necessitating technical changes to the latter framework, while the underlying logic is unaffected).
+
+
+== Types ==
+
+
+=== Front office quantitative analyst ===
+In sales and trading, quantitative analysts work to determine prices, manage risk, and identify profitable opportunities. Historically this was a distinct activity from trading but the boundary between a desk quantitative analyst and a quantitative trader is increasingly blurred, and it is now difficult to enter trading as a profession without at least some quantitative analysis education. 
+Front office work favours a higher speed to quality ratio, with a greater emphasis on solutions to specific problems than detailed modeling. FOQs typically are significantly better paid than those in back office, risk, and model validation. Although highly skilled analysts, FOQs frequently lack software engineering experience or formal training, and bound by time constraints and business pressures, tactical solutions are often adopted.
+Increasingly, quants are attached to specific desks. Two cases are: XVA specialists, responsible for managing counterparty risk as well as (minimizing) the capital requirements under Basel III;  and structurers, tasked with the design and manufacture of client specific solutions.
+
+
+=== Quantitative investment management ===
+
+Quantitative analysis is used extensively by asset managers. Some, such as FQ, AQR or Barclays, rely almost exclusively on quantitative strategies while others, such as PIMCO, BlackRock or Citadel use a mix of quantitative and fundamental methods.
+One of the first quantitative investment funds to launch was based in Santa Fe, New Mexico and began trading in 1991 under the name Prediction Company. By the late-1990s, Prediction Company began using statistical arbitrage to secure investment returns, along with three other funds at the time, Renaissance Technologies and D. E. Shaw & Co, both based in New York. Prediction hired scientists and computer programmers from the neighboring Los Alamos National Laboratory to create sophisticated statistical models using "industrial-strength computers" in order to "[build] the Supercollider of Finance".
+Machine learning models are now capable of identifying complex patterns in financial market data. With the aid of artificial intelligence, investors are increasingly turning to deep learning techniques to forecast and analyze trends in stock and foreign exchange markets.
+See Applications of artificial intelligence § Trading and investment.
+
+
+=== Library quantitative analysis ===
+Major firms invest large sums in an attempt to produce standard methods of evaluating prices and risk. These differ from front office tools in that Excel is very rare, with most development being in C++, though Java, C# and Python are sometimes used in non-performance critical tasks. LQs spend more time modeling ensuring the analytics are both efficient and correct, though there is tension between LQs and FOQs on the validity of their results. LQs are required to understand techniques such as Monte Carlo methods and finite difference methods, as well as the nature of the products being modeled.
+
+
+=== Algorithmic trading quantitative analyst ===
+Often the highest paid form of Quant, ATQs make use of methods taken from signal processing, game theory, gambling Kelly criterion, market microstructure, econometrics, and time series analysis. 
+
+
+=== Risk management ===
+
+This area has grown in importance in recent years, as the credit crisis exposed holes in the mechanisms used to ensure that positions were correctly hedged; see FRTB, {{Section link}}: required section parameter(s) missing.
+A core technique continues to be value at risk 
+- applying both  the parametric and "Historical" approaches, as well as Conditional value at risk and Extreme value theory - 
+while this is supplemented with various forms of stress test, expected shortfall methodologies, economic capital analysis, direct analysis of the positions at the desk level, 
+and, as below, assessment of the models used by the bank's various divisions.
+
+
+=== Innovation ===
+After the 2008 financial crisis, there surfaced the recognition that quantitative valuation methods were generally too narrow in their approach. An agreed upon fix adopted by numerous financial institutions has been to improve collaboration.
+
+
+=== Model validation ===
+Model validation (MV) takes the models and methods developed by front office, library, and modeling quantitative analysts and determines their validity and correctness; see model risk. 
+The MV group might well be seen as a superset of the quantitative operations in a financial institution, since it must deal with new and advanced models and trading techniques from across the firm.
+Post crisis, regulators now typically talk directly to the quants in the middle office - such as the model validators - and since profits highly depend on the regulatory infrastructure, model validation has gained in weight and importance with respect to the quants in the front office.
+Before the crisis however, the pay structure in all firms was such that MV groups struggle to attract and retain adequate staff, often with talented quantitative analysts leaving at the first opportunity. 
+This gravely impacted corporate ability to manage model risk, or to ensure that the positions being held were correctly valued. 
+An MV quantitative analyst would typically earn a fraction of quantitative analysts in other groups with similar length of experience. In the years following the crisis, as mentioned, this has changed.
+
+
+=== Quantitative developer ===
+Quantitative developers, sometimes called quantitative software engineers, or quantitative engineers, are computer specialists that assist, implement and maintain the quantitative models. They tend to be highly specialised language technicians that bridge the gap between software engineers and quantitative analysts. The term is also sometimes used outside the finance industry to refer to those working at the intersection of software engineering and quantitative research.
+
+
+=== Hypothesis of non-ergodicity of financial markets ===
+The nonergodicity of financial markets and the time dependence of returns are central issues in modern approaches to quantitative trading. Financial markets are complex systems in which traditional assumptions, such as independence and normal distribution of returns, are frequently challenged by empirical evidence. 
+Thus, under the non-ergodicity hypothesis, the future returns about an investment strategy, which operates on a non-stationary system, depend on the ability of the algorithm itself to predict the future evolutions to which the system is subject. As discussed by Ole Peters in 2011, ergodicity is a crucial element in understanding economic dynamics, especially in non-stationary contexts. Identifying and developing methodologies to estimate this ability represents one of the main challenges of modern quantitative trading. In this perspective, it becomes fundamental to shift the focus from the result of individual financial operations to the individual evolutions of the system.
+Operationally, this implies that clusters of trades oriented in the same direction offer little value in evaluating the strategy. On the contrary, sequences of trades with alternating buy and sell are much more significant. Since they indicate that the strategy is actually predicting a statistically significant number of evolutions of the system.
+
+
+== Mathematical and statistical approaches ==
+
+Because of their backgrounds, quantitative analysts draw from various forms of mathematics: statistics and probability, calculus centered around partial differential equations, linear algebra, discrete mathematics, and econometrics. Some on the buy side may use machine learning. The
+majority of quantitative analysts have received little formal education in mainstream economics, and often apply a mindset drawn from the physical sciences. Quants use mathematical skills learned from diverse fields such as computer science, physics and engineering. These skills include (but are not limited to) advanced statistics,  linear algebra and partial differential equations as well as solutions to these based upon numerical analysis.
+Commonly used numerical methods are:
+
+Finite difference method – used to solve partial differential equations;
+Monte Carlo method – Also used to solve partial differential equations, but Monte Carlo simulation is also common in risk management;
+Ordinary least squares – used to estimate parameters in statistical regression analysis;
+Spline interpolation – used to interpolate values from spot and forward interest rates curves, and volatility smiles;
+Bisection, Newton, and Secant methods – used to find the roots, maxima and minima of functions (e.g. internal rate of return, interest rate curve-building.)
+
+
+=== Techniques ===
+A typical problem for a mathematically oriented quantitative analyst would be to develop a model for pricing, hedging, and risk-managing a complex derivative product. These quantitative analysts tend to rely more on numerical analysis than statistics and econometrics. One of the principal mathematical tools of quantitative finance is stochastic calculus. The mindset, however, is to prefer a deterministically "correct" answer, as once there is agreement on input values and market variable dynamics, there is only one correct price for any given security (which can be demonstrated, albeit often inefficiently, through a large volume of Monte Carlo simulations).
+A typical problem for a statistically oriented quantitative analyst would be to develop a model for deciding which stocks are relatively expensive and which stocks are relatively cheap. The model might include a company's book value to price ratio, its trailing earnings to price ratio, and other accounting factors. An investment manager might implement this analysis by buying the underpriced stocks, selling the overpriced stocks, or both. Statistically oriented quantitative analysts tend to have more of a reliance on statistics and econometrics, and less of a reliance on sophisticated numerical techniques and object-oriented programming. These quantitative analysts tend to be of the psychology that enjoys trying to find the best approach to modeling data, and can accept that there is no "right answer" until time has passed and we can retrospectively see how the model performed. Both types of quantitative analysts demand a strong knowledge of sophisticated mathematics and computer programming proficiency.
+
+
+== Education ==
+
+Quantitative analysts often come from applied mathematics, physics or engineering backgrounds,  learning finance "on the job".  Quantitative analysis is a then major source of employment for those with mathematics and physics PhD degrees. 
+Typically, a quantitative analyst will also need 
+ 
+extensive skills in computer programming, most commonly C, C++ and Java, and lately R, MATLAB, Mathematica, and Python.
+Data science and machine learning analysis and methods are being increasingly employed in portfolio performance and portfolio risk modelling, and as such data science and machine learning Master's graduates are also hired as quantitative analysts.
+The demand for quantitative skills has led to  the creation of specialized Masters  and PhD courses in financial engineering, mathematical finance and computational finance (as well as in specific topics such as financial reinsurance). In particular, the Master of Quantitative Finance, Master of Financial Mathematics, Master of Computational Finance and Master of Financial Engineering are becoming popular with students and with employers.
+See Master of Quantitative Finance § History.
+This has, in parallel, led to a resurgence in demand for actuarial qualifications, as well as commercial certifications such as the CQF.
+Similarly, the more general Master of Finance (and Master of Financial Economics) increasingly 
+
+includes a significant technical component.
+Likewise, masters programs in operations research, computational statistics, applied mathematics and industrial engineering may offer a quantitative finance specialization.
+
+
+== Academic and technical field journals ==
+Society for Industrial and Applied Mathematics (SIAM) Journal on Financial Mathematics
+The Journal of Portfolio Management
+Quantitative Finance
+Risk Magazine
+Wilmott Magazine
+Finance and Stochastics
+Mathematical Finance
+
+
+== Areas of work ==
+Trading strategy development
+Portfolio management and Portfolio optimization
+Derivatives pricing and hedging: involves software development, advanced numerical techniques, and stochastic calculus.
+Risk management: involves a lot of time series analysis, calibration, and backtesting.
+Credit analysis
+Asset and liability management
+Structured finance and securitization
+Asset pricing
+
+
+== Seminal publications ==
+1900 – Louis Bachelier, Théorie de la spéculation
+1938 – Frederick Macaulay, The Movements of Interest Rates. Bond Yields and Stock Prices in the United States since 1856, pp. 44–53, Bond duration
+1944 – Kiyosi Itô, "Stochastic Integral", Proceedings of the Imperial Academy, 20(8), pp. 519–524
+1952 – Harry Markowitz, Portfolio Selection, Modern portfolio theory
+1956 – John Kelly, A New Interpretation of Information Rate
+1958 – Franco Modigliani and Merton Miller, The Cost of Capital, Corporation Finance and the Theory of Investment, Modigliani–Miller theorem and Corporate finance
+1964 – William F. Sharpe, Capital asset prices: A theory of market equilibrium under conditions of risk, Capital asset pricing model
+1965 – John Lintner, The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets, Capital asset pricing model
+1967 – Edward O. Thorp and Sheen Kassouf, Beat the Market
+1972 – Eugene Fama and Merton Miller, Theory of Finance
+1972 – Martin L. Leibowitz and Sydney Homer, Inside the Yield Book, Fixed income analysis
+1973 – Fischer Black and Myron Scholes, The Pricing of Options and Corporate Liabilities and Robert C. Merton, Theory of Rational Option Pricing, Black–Scholes
+1976 – Fischer Black, The pricing of commodity contracts, Black model
+1977 – Phelim Boyle, Options: A Monte Carlo Approach, Monte Carlo methods for option pricing
+1977 – Oldřich Vašíček, An equilibrium characterisation of the term structure, Vasicek model
+1979 – John Carrington Cox; Stephen Ross; Mark Rubinstein, Option pricing: A simplified approach, Binomial options pricing model and Lattice model
+1980 – Lawrence G. McMillan, Options as a Strategic Investment
+1982 – Barr Rosenberg and Andrew Rudd, Factor-Related and Specific Returns of Common Stocks: Serial Correlation and Market Inefficiency, Journal of Finance, May 1982 V. 37: #2
+1982 – Robert Engle, Autoregressive Conditional Heteroskedasticity With Estimates of the Variance of U.K. Inflation, Seminal paper in ARCH family of models GARCH
+1985 – John C. Cox, Jonathan E. Ingersoll and Stephen Ross, A theory of the term structure of interest rates, Cox–Ingersoll–Ross model
+1987 – Giovanni Barone-Adesi and Robert Whaley, Efficient analytic approximation of American option values. Journal of Finance. 42 (2): 301–20. Barone-Adesi and Whaley method for pricing American options.
+1987 – David Heath, Robert A. Jarrow, and Andrew Morton Bond pricing and the term structure of interest rates: a new methodology (1987), Heath–Jarrow–Morton framework for interest rates
+1990 – Fischer Black, Emanuel Derman and William Toy, A One-Factor Model of Interest Rates and Its Application to Treasury Bond, Black–Derman–Toy model
+1990 – John Hull and Alan White, "Pricing interest-rate derivative securities", The Review of Financial Studies, Vol 3, No. 4 (1990) Hull-White model
+1991 – Ioannis Karatzas & Steven E. Shreve. Brownian motion and stochastic calculus.
+1992 – Fischer Black and Robert Litterman: Global Portfolio Optimization, Financial Analysts Journal, September 1992, pp. 28–43 JSTOR 4479577 Black–Litterman model
+1994 – J.P. Morgan RiskMetrics Group, RiskMetrics Technical Document, 1996, RiskMetrics model and framework
+2002 – Patrick Hagan, Deep Kumar, Andrew Lesniewski, Diana Woodward, Managing Smile Risk, Wilmott Magazine, January 2002, SABR volatility model.
+2004 – Emanuel Derman, My Life as a Quant: Reflections on Physics and Finance
+
+
+== See also ==
+List of quantitative analysts
+Quantitative fund
+Financial modeling
+Black–Scholes equation
+Financial signal processing
+Financial analyst
+Technical analysis
+Fundamental analysis
+Financial economics
+Mathematical finance
+Alpha generation platform
+Rocket science (finance)
+
+
+== References ==
+
+
+== Further reading ==
+Bernstein, Peter L. (1992) Capital Ideas: The Improbable Origins of Modern Wall Street
+Bernstein, Peter L. (2007) Capital Ideas Evolving
+Derman, Emanuel (2007) My Life as a Quant ISBN 0-470-19273-9
+Patterson, Scott D. (2010). The Quants: How a New Breed of Math Whizzes Conquered Wall Street and Nearly Destroyed It. Crown Business, 352 pages. ISBN 0-307-45337-5 ISBN 978-0-307-45337-2. Amazon page for book via Patterson and Thorp interview on Fresh Air, February 1, 2010, including excerpt "Chapter 2: The Godfather: Ed Thorp". Also, an excerpt from "Chapter 10: The August Factor", in the January 23, 2010 Wall Street Journal.
+Read, Colin (2012) Rise of the Quants (Great Minds in Finance Series) ISBN 023027417X
+Analysing Quantitative Data for Business and Management Students
+
+
+== External links ==
+Society of Quantitative Analysts
+Q-Group Institute for Quantitative Research in Finance
+CQA—Chicago Quantitative Alliance
+Quantitative Work Alliance for Finance Education and Wisdom (QWAFAFEW)
+Professional Risk Managers Industry Association (PRMIA)
+International Association of Quantitative Finance
+London Quant Group
+Quantitative Finance at Stack Exchange – question and answer site for quantitative finance

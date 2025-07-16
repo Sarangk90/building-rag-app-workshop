@@ -1,0 +1,37 @@
+In finance, a portfolio is a collection of investments.
+
+
+== Definition ==
+
+The term "portfolio" refers to any combination of financial assets such as stocks, bonds and cash. Portfolios may be held by individual investors or managed by financial professionals, hedge funds, banks and other financial institutions. It is a generally accepted principle that a portfolio is designed according to the investor's risk tolerance, time frame and investment objectives. The monetary value of each asset may influence the risk/reward ratio of the portfolio.
+When determining asset allocation, the aim is to maximise the expected return and minimise the risk. This is an example of a multi-objective optimization problem: many efficient solutions are available and the preferred solution must be selected by considering a tradeoff between risk and return. In particular, a portfolio A is dominated by another portfolio A' if A' has a greater expected gain and a lesser risk than A. If no portfolio dominates A, A is a Pareto-optimal portfolio.
+The set of Pareto-optimal returns and risks is called the Pareto efficient frontier for the Markowitz portfolio selection problem. Recently, an alternative approach to portfolio diversification has been suggested in the literatures that combines risk and return in the optimization problem.
+
+
+== Description ==
+There are many types of portfolios including the market portfolio and the zero-investment portfolio. A portfolio's asset allocation may be managed utilizing any of the following investment approaches and principles: dividend weighting, equal weighting, capitalization-weighting, price-weighting, risk parity, the capital asset pricing model, arbitrage pricing theory, the Jensen Index, the Treynor ratio, the Sharpe diagonal (or index) model, the value at risk model, modern portfolio theory and others.
+There are several methods for calculating portfolio returns and performance. One traditional method is using quarterly or monthly money-weighted returns; however, the true time-weighted method is a method preferred by many investors in financial markets. There are also several models for measuring the performance attribution of a portfolio's returns when compared to an index or benchmark, partly viewed as investment strategy.
+
+
+== See also ==
+Outline of finance § Portfolio theory
+Capital asset pricing model
+Hedge (finance)
+Infection ratio
+Investment management
+Portfolio investment
+Portfolio optimization
+Financial risk management § Investment management
+
+
+== References ==
+
+
+== Bibliography ==
+Baker, H. Kent; Filbeck, Greg (2015). Investment Risk Management. Oxford Academic. ISBN 978-0199331963.
+Grinold, Richard; Kahn, Ronald (1999). Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk (2nd ed.). McGraw Hill. ISBN 978-0070248823.
+Harvey, Campbell; Rattray, Sandy; Van Hemert,Otto (2021). Strategic Risk Management: Designing Portfolios and Managing Risk. Wiley Finance. ISBN 978-1119773917.
+Maginn, John L.; Tuttle, Donald L.; Pinto, Jerald E.; McLeavey,Dennis W. (2007). Managing Investment Portfolios: A Dynamic Process (3rd ed.). Springer. ISBN 978-0470080146.
+Paleologo, Giuseppe A. (2021). Advanced Portfolio Management: A Quant's Guide for Fundamental Investors (1st ed.). Wiley. ISBN 978-1119789796.
+Rasmussen, M. (2003). Quantitative Portfolio Optimisation, Asset Allocation and Risk Management. Palgrave Macmillan. ISBN 978-1403904584.
+Schulmerich, Marcus; Leporcher,  Yves-Michel; Eu, Ching-Hwa (2015). Applied Asset and Risk Management. Springer. ISBN 978-3642554438.

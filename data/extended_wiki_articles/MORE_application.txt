@@ -1,0 +1,32 @@
+MORE is an outline processor application that was created for the Macintosh in 1986 by software developer Dave Winer and that was not ported to any other platforms. An earlier outliner, ThinkTank, was developed by  Winer, his brother Peter, and Doug Baron for Apple II, Apple III, IBM PC compatiblesl then ported by Peter to the Macintosh.
+MORE was the result of combining three planned products into one expanding around the outliner, and described by its author as an outline processor. In MORE, the outlines could be formatted with different layouts, colors, and shapes. Outline "nodes" could include pictures and graphics.
+The company that made these products, Living Videotext, merged with Symantec in July 1987. Around July 1999, with Symantec's permission, Mr. Winer released versions of the ThinkTank and MORE products on a Web site for free download.
+
+
+== Functions ==
+In 1987, MORE had evolved into a tool that was used to create presentations, a category that ultimately would be dominated by PowerPoint when Microsoft chose to pass up on acquiring Living Videotext.
+Functions in these outliners included:
+
+Appending notes, comments, rough drafts of sentences and paragraphs under some topics
+Assembling various low-level topics and creating a new topic to group them under
+Deleting duplicate topics
+Demoting a topic to become a subtopic under some other topic
+Disassembling a grouping that does not work, parceling its subtopics out among various other topics
+Dividing one topic into its component subtopics
+Dragging to rearrange the order of topics
+Making a hierarchical list of topics
+Merging related topics
+Promoting a subtopic to the level of a topic
+
+
+== Reception ==
+Mick O'Neill of Personal Computer World in January 1987 praised Living Videotext for "having comprehensively responded to every major shortcoming" of ThinkTank with MORE. He cited the ability to open multiple files simultaneously, file export of outlines, detailed documentation, and lack of copy protection as among virtues, concluding that "No matter what your requirements, I suspect that you'll find MORE a remarkable package".
+MORE was selected for the 2nd Annual Editor's Choice awards of the magazine MacUser as Best Organizer and Best Product of 1986.
+
+
+== References ==
+
+
+== External links ==
+Outliners.com Archived information by Dave Winer
+How Electronic Outlining Can Help You Create Online Materials at The Communication Circle

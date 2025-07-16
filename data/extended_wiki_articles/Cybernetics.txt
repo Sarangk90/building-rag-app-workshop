@@ -1,0 +1,143 @@
+Cybernetics is the transdisciplinary study of circular causal processes such as feedback and recursion, where the effects of a system's actions (its outputs) return as inputs to that system, influencing subsequent action. It is concerned with general principles that are relevant across multiple contexts, including in engineering, ecological, economic, biological, cognitive and social systems and also in practical activities such as designing, learning, and managing. Cybernetics' transdisciplinary character has meant that it intersects with a number of other fields, leading to it having both wide influence and diverse interpretations.
+The field is named after an example of circular causal feedback—that of steering a ship (the ancient Greek κυβερνήτης (kybernḗtēs) refers to the person who steers a ship). In steering a ship, the position of the rudder is adjusted in continual response to the effect it is observed as having, forming a feedback loop through which a steady course can be maintained in a changing environment, responding to disturbances from cross winds and tide.
+Cybernetics has its origins in exchanges between numerous disciplines during the 1940s. Initial developments were consolidated through meetings such as the Macy Conferences and the Ratio Club. Early focuses included purposeful behaviour, neural networks, heterarchy, information theory, and self-organising systems. As cybernetics developed, it became broader in scope to include work in design, family therapy, management and organisation, pedagogy, sociology, the creative arts and the counterculture.
+
+
+== Definitions ==
+Cybernetics has been defined in a variety of ways, reflecting "the richness of its conceptual base." One of the best known definitions is that of the American scientist Norbert Wiener, who characterised cybernetics as concerned with "control and communication in the animal and the machine." Another early definition is that of the Macy cybernetics conferences, where cybernetics was understood as the study of "circular causal and feedback mechanisms in biological and social systems." Margaret Mead emphasised the role of cybernetics as "a form of cross-disciplinary thought which made it possible for members of many disciplines to communicate with each other easily in a language which all could understand."
+Other definitions include: "the art of governing or the science of government" (André-Marie Ampère); "the art of steersmanship" (Ross Ashby); "the study of systems of any nature which are capable of receiving, storing, and processing information so as to use it for control" (Andrey Kolmogorov); and "a branch of mathematics dealing with problems of control, recursiveness, and information, focuses on forms and the patterns that connect" (Gregory Bateson).
+
+
+== Etymology ==
+
+The Ancient Greek term κυβερνητικός (kubernētikos, '(good at) steering') appears in Plato's Republic and Alcibiades, where the metaphor of a steersman is used to signify the governance of people. The French word cybernétique was also used in 1834 by the physicist André-Marie Ampère to denote the sciences of government in his classification system of human knowledge.
+According to Norbert Wiener, the word cybernetics was coined by a research group involving himself and Arturo Rosenblueth in the summer of 1947. It has been attested in print since at least 1948 through Wiener's book Cybernetics: Or Control and Communication in the Animal and the Machine. In the book, Wiener states:
+
+After much consideration, we have come to the conclusion that all the existing terminology has too heavy a bias to one side or another to serve the future development of the field as well as it should; and as happens so often to scientists, we have been forced to coin at least one artificial neo-Greek expression to fill the gap. We have decided to call the entire field of control and communication theory, whether in the machine or in the animal, by the name Cybernetics, which we form from the Greek κυβερνήτης or steersman.
+Moreover, Wiener explains, the term was chosen to recognize James Clerk Maxwell's 1868 publication on feedback mechanisms involving governors, noting that the term governor is also derived from κυβερνήτης (kubernḗtēs) via a Latin corruption gubernator. Finally, Wiener motivates the choice by steering engines of a ship being "one of the earliest and best-developed forms of feedback mechanisms".
+
+
+== History ==
+
+
+=== First wave ===
+
+The initial focus of cybernetics was on parallels between regulatory feedback processes in biological and technological systems. Two foundational articles were published in 1943: "Behavior, Purpose and Teleology" by Arturo Rosenblueth, Norbert Wiener, and Julian Bigelow – based on the research on living organisms that Rosenblueth did in Mexico – and the paper "A Logical Calculus of the Ideas Immanent in Nervous Activity" by Warren McCulloch and Walter Pitts. The foundations of cybernetics were then developed through a series of transdisciplinary conferences funded by the Josiah Macy, Jr. Foundation, between 1946 and 1953. The conferences were chaired by McCulloch and had participants included Ross Ashby, Gregory Bateson, Heinz von Foerster, Margaret Mead, John von Neumann, and Norbert Wiener. In the UK, similar focuses were explored by the Ratio Club, an informal dining club of young psychiatrists, psychologists, physiologists, mathematicians and engineers that met between 1949 and 1958. Wiener introduced the neologism cybernetics to denote the study of "teleological mechanisms" and popularized it through the book Cybernetics: Or Control and Communication in the Animal and the Machine.
+During the 1950s, cybernetics was developed as a primarily technical discipline, such as in Qian Xuesen's 1954 "Engineering Cybernetics". In the Soviet Union, Cybernetics was initially considered with suspicion but became accepted from the mid to late 1950s.
+By the 1960s and 1970s, however, cybernetics' transdisciplinarity fragmented, with technical focuses separating into separate fields. Artificial intelligence (AI) was founded as a distinct discipline at the Dartmouth workshop in 1956, differentiating itself from the broader cybernetics field. After some uneasy coexistence, AI gained funding and prominence. Consequently, cybernetic sciences such as the study of artificial neural networks were downplayed. Similarly, computer science became defined as a distinct academic discipline in the 1950s and early 1960s.
+
+
+=== Second wave ===
+The second wave of cybernetics came to prominence from the 1960s onwards, with its focus inflecting away from technology toward social, ecological, and philosophical concerns. It was still grounded in biology, notably Maturana and Varela's autopoiesis, and built on earlier work on self-organising systems and the presence of anthropologists Mead and Bateson in the Macy meetings. The Biological Computer Laboratory, founded in 1958 and active until the mid-1970s under the direction of Heinz von Foerster at the University of Illinois at Urbana–Champaign, was a major incubator of this trend in cybernetics research.
+Focuses of the second wave of cybernetics included management cybernetics, such as Stafford Beer's biologically inspired viable system model; work in family therapy, drawing on Bateson; social systems, such as in the work of Niklas Luhmann; epistemology and pedagogy, such as in the development of radical constructivism. Cybernetics' core theme of circular causality was developed beyond goal-oriented processes to concerns with reflexivity and recursion. This was especially so in the development of second-order cybernetics (or the cybernetics of cybernetics), developed and promoted by Heinz von Foerster, which focused on questions of observation, cognition, epistemology, and ethics.
+The 1960s onwards also saw cybernetics begin to develop exchanges with the creative arts, design, and architecture, notably with the Cybernetic Serendipity exhibition (ICA, London, 1968), curated by Jasia Reichardt, and the unrealised Fun Palace project (London, unrealised, 1964 onwards), where Gordon Pask was consultant to architect Cedric Price and theatre director Joan Littlewood.
+
+
+=== Third wave ===
+From the 1990s onwards, there has been a renewed interest in cybernetics from a number of directions. Early cybernetic work on artificial neural networks has been returned to as a paradigm in machine learning and artificial intelligence. The entanglements of society with emerging technologies has led to exchanges with feminist technoscience and posthumanism. Re-examinations of cybernetics' history have seen science studies scholars emphasising cybernetics' unusual qualities as a science, such as its "performative ontology". Practical design disciplines have drawn on cybernetics for theoretical underpinning and transdisciplinary connections. Emerging topics include how cybernetics' engagements with social, human, and ecological contexts might come together with its earlier technological focus, whether as a critical discourse or a "new branch of engineering".
+
+
+== Key concepts and theories ==
+The central theme in cybernetics is feedback. Feedback is a process where the observed outcomes of actions are taken as inputs for further action in ways that support the pursuit, maintenance, or disruption of particular conditions, forming a circular causal relationship. In steering a ship, the helmsperson maintains a steady course in a changing environment by adjusting their steering in continual response to the effect it is observed as having.
+Other examples of circular causal feedback include: technological devices such as the thermostat, where the action of a heater responds to measured changes in temperature regulating the temperature of the room within a set range, and the centrifugal governor of a steam engine, which regulates the engine speed; biological examples such as the coordination of volitional movement through the nervous system and the homeostatic processes that regulate variables such as blood sugar; and processes of social interaction such as conversation.
+Negative feedback processes are those that maintain particular conditions by reducing (hence 'negative') the difference from a desired state, such as where a thermostat turns on a heater when it is too cold and turns a heater off when it is too hot. Positive feedback processes increase (hence 'positive') the difference from a desired state. An example of positive feedback is when a microphone picks up the sound that it is producing through a speaker, which is then played through the speaker, and so on.
+In addition to feedback, cybernetics is concerned with other forms of circular processes including: feedforward, recursion, and reflexivity.
+Other key concepts and theories in cybernetics include:
+
+Autopoiesis
+Black box
+Conversation theory
+Double bind theory: Double binds are patterns created in interaction between two or more parties in ongoing relationships where there is a contradiction between messages at different logical levels that creates a situation with emotional threat but no possibility of withdrawal from the situation and no way to articulate the problem. The theory was first described by Gregory Bateson and colleagues in the 1950s with regard to the origins of schizophrenia, but it is also characteristic of many other social contexts.
+Experimental epistemology
+Good regulator theorem
+Heterarchy
+Perceptual control theory: A model of behavior based on the properties of negative feedback (cybernetic) control loops. A key insight of PCT is that the controlled variable is not the output of the system (the behavioral actions), but its input, "perception". The theory came to be known as "perceptual control theory" to distinguish from those control theorists that assert or assume that it is the system's output that is controlled. Method of levels is an approach to psychotherapy based on perceptual control theory where the therapist aims to help the patient shift their awareness to higher levels of perception in order to resolve conflicts and allow reorganization to take place.
+Radical constructivism
+Second-order cybernetics: Also known as the cybernetics of cybernetics, second-order cybernetics is the recursive application of cybernetics to itself and the practice of cybernetics according to such a critique.
+Schismogenesis
+Self-organisation
+Social systems theory
+Syntegrity
+Variety and Requisite Variety
+Viable system model
+
+
+== Related fields and applications ==
+Cybernetics' central concept of circular causality is of wide applicability, leading to diverse applications and relations with other fields. Many of the initial applications of cybernetics focused on engineering, biology, and exchanges between the two, such as medical cybernetics and robotics and topics such as neural networks, heterarchy. In the social and behavioral sciences, cybernetics has included and influenced work in anthropology, sociology, economics, family therapy, cognitive science, and psychology.
+As cybernetics has developed, it broadened in scope to include work in management, design, pedagogy, and the creative arts, while also developing exchanges with constructivist philosophies, counter-cultural movements, and media studies. The development of management cybernetics has led to a variety of applications, notably to the national economy of Chile under the Allende government in Project Cybersyn. In design, cybernetics has been influential on interactive architecture, human-computer interaction, design research, and the development of systemic design and metadesign practices.
+
+Cybernetics is often understood within the context of systems science, systems theory, and systems thinking. Systems approaches influenced by cybernetics include critical systems thinking, which incorporates the viable system model; systemic design; and system dynamics, which is based on the concept of causal feedback loops.
+Many fields trace their origins in whole or part to work carried out in cybernetics, or were partially absorbed into cybernetics when it was developed. These include artificial intelligence, bionics, cognitive science, control theory, complexity science, computer science, information theory and robotics. Some aspects of modern artificial intelligence, particularly the social machine, are often described in cybernetic terms.
+
+
+== Journals and societies ==
+
+Academic journals with focuses in cybernetics include:
+
+IEEE Transactions on Systems, Man, and Cybernetics: Systems
+IEEE Transactions on Human-Machine Systems
+IEEE Transactions on Cybernetics
+IEEE Transactions on Computational Social Systems
+Biological Cybernetics
+Constructivist Foundations
+Cybernetics and Human Knowing
+Cybernetics and Systems
+Enacting Cybernetics. An open access journal published by the Cybernetics Society and hosted by Ubiquity Press.
+Kybernetes
+Academic societies primarily concerned with cybernetics or aspects of it include:
+
+American Society for Cybernetics (ASC), founded in 1964
+British Cybernetics Society (CybSoc)
+Metaphorum: The Metaphorum group was set up in 2003 to develop Stafford Beer's legacy in Organizational Cybernetics. The Metaphorum Group was born in a Syntegration in 2003 and have every year after developed a Conference on issues related to Organizational Cybernetics' theory and practice.
+IEEE Systems, Man, and Cybernetics Society
+RC51 Sociocybernetics: RC51 is a research committee of the International Sociological Association promoting the development of (socio)cybernetic theory and research within the social sciences.
+SCiO (Systems and Complexity in Organisation) is a community of systems practitioners who believe that traditional approaches to running organisations are no longer capable of dealing with the complexity and turbulence faced by organisations today and are responsible for many of the problems we see today. SCiO delivers an apprenticeship on masters level and a certification in systems practice.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Ascott, Roy (1967). Behaviourist Art and the Cybernetic Vision. Cybernetica, Journal of the International Association for Cybernetics (Namur), 10, pp. 25–56
+Ashby, William Ross (1956). An introduction to cybernetics (PDF). Chapman & Hall. Retrieved 3 June 2012.
+Beer, Stafford (1974). Designing freedom. Chichester, West Sussex, England: Wiley. ISBN 978-0471951650.
+François, Charles (1999). "Systemics and cybernetics in a historical perspective". In: Systems Research and Behavioral Science. Vol 16, pp. 203–219 (1999)
+George, F. H. (1971). Cybernetics. Teach Yourself Books. ISBN 978-0-340-05941-8.
+Gerovitch, Slava (2002). From newspeak to cyberspeak : a history of Soviet cybernetics. Cambridge, Massachusetts [u.a.]: MIT Press. ISBN 978-0262-07232-8.
+Hayles, N. Katherine (1999). How We Became Posthuman: Virtual Bodies in Cybernetics, Literature and Informatics, Chicago: The University of Chicago Press. ISBN 9780226321462
+Heims, Steve Joshua (1993). Constructing a social science for postwar America : the cybernetics group, 1946-1953 (1st ed.). Cambridge, Massachusetts u.a.: MIT Press. ISBN 9780262581233.
+Heylighen, Francis, and Cliff Joslyn (2002). "Cybernetics and Second Order Cybernetics", in: R.A. Meyers (ed.), Encyclopedia of Physical Science & Technology (3rd ed.), Vol. 4, (Academic Press, San Diego), p. 155-169.
+Ilgauds, Hans Joachim (1980), Norbert Wiener, Leipzig.
+Mariátegui, José-Carlos / Maulen, D. (eds.) Special issue on “Cybernetics in Latin America: Contexts Developments, Perceptions and Impacts”, AI & Society, 37, 2022.
+Medina, Eden (2011). Cybernetic revolutionaries : technology and politics in Allende's Chile. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-01649-0.
+Pangaro, Paul. "Cybernetics — A Definition".
+Pask, Gordon (1972). "Cybernetics". Encyclopædia Britannica. Archived from the original on 2011-09-28. Retrieved 2007-09-26.
+Pickering, Andrew (2010). The cybernetic brain : sketches of another future ([Online-Ausg.] ed.). Chicago: University of Chicago Press. ISBN 978-0226667898.
+von Foerster, Heinz, (1995), Ethics and Second-Order Cybernetics Archived 2014-01-28 at the Wayback Machine.
+Wiener, Norbert (1948). Hermann & Cie (ed.). Cybernetics; or, Control and communication in the animal and the machine. Paris: Technology Press. Retrieved 3 June 2012.
+Wiener, Norbert (1950). Cybernetics and Society: The Human Use of Human Beings. Houghton Mifflin.
+
+
+== External links ==
+
+General
+
+Norbert Wiener and Stefan Odobleja - A Comparative Analysis
+Reading List for Cybernetics 
+Principia Cybernetica Web
+Web Dictionary of Cybernetics and Systems
+Glossary Slideshow (136 slides) Archived 2015-07-05 at the Wayback Machine
+"Basics of Cybernetics". Archived from the original on 2010-08-11. Retrieved 2016-01-23.
+What is Cybernetics? Livas short introductory videos on YouTube
+Societies and journals
+
+American Society for Cybernetics
+IEEE Systems, Man, & Cybernetics Society
+International Society for Cybernetics and Systems Research
+The Cybernetics Society

@@ -1,0 +1,1044 @@
+John von Neumann ( von NOY-mən; Hungarian: Neumann János Lajos [ˈnɒjmɒn ˈjaːnoʃ ˈlɒjoʃ]; December 28, 1903 – February 8, 1957) was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest coverage of any mathematician of his time, integrating pure and applied sciences and making major contributions to many fields, including mathematics, physics, economics, computing, and statistics. He was a pioneer in building the mathematical framework of quantum physics, in the development of functional analysis, and in game theory, introducing or codifying concepts including cellular automata, the universal constructor and the digital computer. His analysis of the structure of self-replication preceded the discovery of the structure of DNA.
+During World War II, von Neumann worked on the Manhattan Project. He developed the mathematical models behind the explosive lenses used in the implosion-type nuclear weapon. Before and after the war, he consulted for many organizations including the Office of Scientific Research and Development, the Army's Ballistic Research Laboratory, the Armed Forces Special Weapons Project and the Oak Ridge National Laboratory. At the peak of his influence in the 1950s, he chaired a number of Defense Department committees including the Strategic Missile Evaluation Committee and the ICBM Scientific Advisory Committee. He was also a member of the influential Atomic Energy Commission in charge of all atomic energy development in the country. He played a key role alongside Bernard Schriever and Trevor Gardner in the design and development of the United States' first ICBM programs. At that time he was considered the nation's foremost expert on nuclear weaponry and the leading defense scientist at the U.S. Department of Defense.
+Von Neumann's contributions and intellectual ability drew praise from colleagues in physics, mathematics, and beyond. Accolades he received range from the Medal of Freedom to a crater on the Moon named in his honor.
+
+
+== Life and education ==
+
+
+=== Family background ===
+Von Neumann was born in Budapest, Kingdom of Hungary (then part of Austria-Hungary), on December 28, 1903, to a wealthy, non-observant Jewish family. His birth name was Neumann János Lajos. In Hungarian, the family name comes first, and his given names are equivalent to John Louis in English.
+He was the eldest of three brothers; his two younger siblings were Mihály (Michael) and Miklós (Nicholas). His father Neumann Miksa (Max von Neumann) was a banker and held a doctorate in law. He had moved to Budapest from Pécs at the end of the 1880s. Miksa's father and grandfather were born in Ond (now part of Szerencs), Zemplén County, northern Hungary. John's mother was Kann Margit (Margaret Kann); her parents were Kann Jákab and Meisels Katalin of the Meisels family. Three generations of the Kann family lived in spacious apartments above the Kann-Heller offices in Budapest; von Neumann's family occupied an 18-room apartment on the top floor.
+On February 20, 1913, Emperor Franz Joseph elevated John's father to the Hungarian nobility for his service to the Austro-Hungarian Empire. The Neumann family thus acquired the hereditary appellation Margittai, meaning "of Margitta" (today Marghita, Romania). The family had no connection with the town; the appellation was chosen in reference to Margaret, as was their chosen coat of arms depicting three marguerites. Neumann János became margittai Neumann János (John Neumann de Margitta), which he later changed to the German Johann von Neumann.
+
+
+=== Child prodigy ===
+Von Neumann was a child prodigy who at six years old could divide two eight-digit numbers in his head and converse in Ancient Greek. He, his brothers and his cousins were instructed by governesses. Von Neumann's father believed that knowledge of languages other than their native Hungarian was essential, so the children were tutored in English, French, German and Italian. By age eight, von Neumann was familiar with differential and integral calculus, and by twelve he had read Borel's La Théorie des Fonctions. He was also interested in history, reading Wilhelm Oncken's 46-volume world history series Allgemeine Geschichte in Einzeldarstellungen (General History in Monographs). One of the rooms in the apartment was converted into a library and reading room.
+Von Neumann entered the Lutheran Fasori Evangélikus Gimnázium in 1914. Eugene Wigner was a year ahead of von Neumann at the school and soon became his friend.
+Although von Neumann's father insisted that he attend school at the grade level appropriate to his age, he agreed to hire private tutors to give von Neumann advanced instruction. At 15, he began to study advanced calculus under the analyst Gábor Szegő. On their first meeting, Szegő was so astounded by von Neumann's mathematical talent and speed that, as recalled by his wife, he came back home with tears in his eyes. By 19, von Neumann had published two major mathematical papers, the second of which gave the modern definition of ordinal numbers, which superseded Georg Cantor's definition. At the conclusion of his education at the gymnasium, he applied for and won the Eötvös Prize, a national award for mathematics.
+
+
+=== University studies ===
+According to his friend Theodore von Kármán, von Neumann's father wanted John to follow him into industry, and asked von Kármán to persuade his son not to take mathematics. Von Neumann and his father decided that the best career path was chemical engineering. This was not something that von Neumann had much knowledge of, so it was arranged for him to take a two-year, non-degree course in chemistry at the University of Berlin, after which he sat for the entrance exam to ETH Zurich, which he passed in September 1923. Simultaneously von Neumann entered Pázmány Péter University, then known as the University of Budapest, as a Ph.D. candidate in mathematics. For his thesis, he produced an axiomatization of Cantor's set theory. In 1926, he graduated as a chemical engineer from ETH Zurich and simultaneously passed his final examinations summa cum laude for his Ph.D. in mathematics (with minors in experimental physics and chemistry) at the University of Budapest.
+He then went to the University of Göttingen on a grant from the Rockefeller Foundation to study mathematics under David Hilbert. Hermann Weyl remembers how in the winter of 1926–1927 von Neumann, Emmy Noether, and he would walk through "the cold, wet, rain-wet streets of Göttingen" after class discussing hypercomplex number systems and their representations.
+
+
+== Career and private life ==
+
+Von Neumann's habilitation was completed on December 13, 1927, and he began to give lectures as a Privatdozent at the University of Berlin in 1928. He was the youngest person elected Privatdozent in the university's history. He began writing nearly one major mathematics paper per month. In 1929, he briefly became a Privatdozent at the University of Hamburg, where the prospects of becoming a tenured professor were better, then in October of that year moved to Princeton University as a visiting lecturer in mathematical physics.
+Von Neumann was baptized a Catholic in 1930. Shortly afterward, he married Marietta Kövesi, who had studied economics at Budapest University. Von Neumann and Marietta had a daughter, Marina, born in 1935; she would become a professor. The couple divorced on November 2, 1937. On November 17, 1938, von Neumann married Klára Dán.
+In 1933 Von Neumann accepted a tenured professorship at the Institute for Advanced Study in New Jersey, when that institution's plan to appoint Hermann Weyl appeared to have failed. His mother, brothers and in-laws followed von Neumann to the United States in 1939. Von Neumann anglicized his name to John, keeping the German-aristocratic surname von Neumann. Von Neumann became a naturalized U.S. citizen in 1937, and immediately tried to become a lieutenant in the U.S. Army's Officers Reserve Corps. He passed the exams but was rejected because of his age.
+Klára and John von Neumann were socially active within the local academic community. His white clapboard house on Westcott Road was one of Princeton's largest private residences. He always wore formal suits. He enjoyed Yiddish and "off-color" humor. In Princeton, he received complaints for playing extremely loud German march music; Von Neumann did some of his best work in noisy, chaotic environments. According to Churchill Eisenhart, von Neumann could attend parties until the early hours of the morning and then deliver a lecture at 8:30.
+He was known for always being happy to provide others of all ability levels with scientific and mathematical advice. Wigner wrote that he perhaps supervised more work (in a casual sense) than any other modern mathematician. His daughter wrote that he was very concerned with his legacy in two aspects: his life and the durability of his intellectual contributions to the world.
+Many considered him an excellent chairman of committees, deferring rather easily on personal or organizational matters but pressing on technical ones. Herbert York described the many "Von Neumann Committees" that he participated in as "remarkable in style as well as output". The way the committees von Neumann chaired worked directly and intimately with the necessary military or corporate entities became a blueprint for all Air Force long-range missile programs. Many people who had known von Neumann were puzzled by his relationship to the military and to power structures in general. Stanisław Ulam suspected that he had a hidden admiration for people or organizations that could influence the thoughts and decision making of others.
+He also maintained his knowledge of languages learnt in his youth. He knew Hungarian, French, German and English fluently, and maintained a conversational level of Italian, Yiddish, Latin and Ancient Greek. His Spanish was less perfect. He had a passion for and encyclopedic knowledge of ancient history, and he enjoyed reading Ancient Greek historians in the original Greek. Ulam suspected they may have shaped his views on how future events could play out and how human nature and society worked in general.
+Von Neumann's closest friend in the United States was the mathematician Stanisław Ulam. Von Neumann believed that much of his mathematical thought occurred intuitively; he would often go to sleep with a problem unsolved and know the answer upon waking up. Ulam noted that von Neumann's way of thinking might not be visual, but more aural. Ulam recalled, "Quite independently of his liking for abstract wit, he had a strong appreciation (one might say almost a hunger) for the more earthy type of comedy and humor".
+
+
+=== Illness and death ===
+
+In 1955, a mass was found near von Neumann's collarbone, which turned out to be cancer originating in the skeleton, pancreas or prostate. (While there is general agreement that the tumor had metastasised, sources differ on the location of the primary cancer.) The malignancy may have been caused by exposure to radiation at Los Alamos National Laboratory. As death neared he asked for a priest, though the priest later recalled that von Neumann found little comfort in receiving the last rites – he remained terrified of death and unable to accept it. Of his religious views, Von Neumann reportedly said, "So long as there is the possibility of eternal damnation for nonbelievers it is more logical to be a believer at the end," referring to Pascal's wager. He confided to his mother, "There probably has to be a God. Many things are easier to explain if there is than if there isn't."
+He died Roman Catholic on February 8, 1957, aged 53, at Walter Reed Army Medical Hospital and was buried at Princeton Cemetery.
+
+
+== Mathematics ==
+
+
+=== Set theory ===
+
+At the beginning of the 20th century, efforts to base mathematics on naive set theory suffered a setback due to Russell's paradox (on the set of all sets that do not belong to themselves). The problem of an adequate axiomatization of set theory was resolved implicitly about twenty years later by Ernst Zermelo and Abraham Fraenkel. Zermelo–Fraenkel set theory provided a series of principles that allowed for the construction of the sets used in the everyday practice of mathematics, but did not explicitly exclude the possibility of the existence of a set that belongs to itself. In his 1925 doctoral thesis, von Neumann demonstrated two techniques to exclude such sets—the axiom of foundation and the notion of class.
+The axiom of foundation proposed that every set can be constructed from the bottom up in an ordered succession of steps by way of the Zermelo–Fraenkel principles. If one set belongs to another, then the first must necessarily come before the second in the succession. This excludes the possibility of a set belonging to itself. To demonstrate that the addition of this new axiom to the others did not produce contradictions, von Neumann introduced the method of inner models, which became an essential demonstration instrument in set theory.
+The second approach to the problem of sets belonging to themselves took as its base the notion of class, and defines a set as a class that belongs to other classes, while a proper class is defined as a class that does not belong to other classes. On the Zermelo–Fraenkel approach, the axioms impede the construction of a set of all sets that do not belong to themselves. In contrast, on von Neumann's approach, the class of all sets that do not belong to themselves can be constructed, but it is a proper class, not a set.
+Overall, von Neumann's major achievement in set theory was an "axiomatization of set theory and (connected with that) elegant theory of the ordinal and cardinal numbers as well as the first strict formulation of principles of definitions by the transfinite induction".
+
+
+==== Von Neumann paradox ====
+
+Building on the Hausdorff paradox of Felix Hausdorff (1914), Stefan Banach and Alfred Tarski in 1924 showed how to subdivide a three-dimensional ball into disjoint sets, then translate and rotate these sets to form two identical copies of the same ball; this is the Banach–Tarski paradox. They also proved that a two-dimensional disk has no such paradoxical decomposition. But in 1929, von Neumann subdivided the disk into finitely many pieces and rearranged them into two disks, using area-preserving affine transformations instead of translations and rotations. The result depended on finding free groups of affine transformations, an important technique extended later by von Neumann in his work on measure theory.
+
+
+=== Proof theory ===
+
+With the contributions of von Neumann to sets, the axiomatic system of the theory of sets avoided the contradictions of earlier systems and became usable as a foundation for mathematics, despite the lack of a proof of its consistency. The next question was whether it provided definitive answers to all mathematical questions that could be posed in it, or whether it might be improved by adding stronger axioms that could be used to prove a broader class of theorems.
+By 1927, von Neumann was involving himself in discussions in Göttingen on whether elementary arithmetic followed from Peano axioms. Building on the work of Ackermann, he began attempting to prove (using the finistic methods of Hilbert's school) the consistency of first-order arithmetic. He succeeded in proving the consistency of a fragment of arithmetic of natural numbers (through the use of restrictions on induction). He continued looking for a more general proof of the consistency of classical mathematics using methods from proof theory.
+A strongly negative answer to whether it was definitive arrived in September 1930 at the Second Conference on the Epistemology of the Exact Sciences, in which Kurt Gödel announced his first theorem of incompleteness: the usual axiomatic systems are incomplete, in the sense that they cannot prove every truth expressible in their language. Moreover, every consistent extension of these systems necessarily remains incomplete. At the conference, von Neumann suggested to Gödel that he should try to transform his results for undecidable propositions about integers.
+Less than a month later, von Neumann communicated to Gödel an interesting consequence of his theorem: the usual axiomatic systems are unable to demonstrate their own consistency. Gödel replied that he had already discovered this consequence, now known as his second incompleteness theorem, and that he would send a preprint of his article containing both results, which never appeared. Von Neumann acknowledged Gödel's priority in his next letter. However, von Neumann's method of proof differed from Gödel's, and he was also of the opinion that the second incompleteness theorem had dealt a much stronger blow to Hilbert's program than Gödel thought it did. With this discovery, which drastically changed his views on mathematical rigor, von Neumann ceased research in the foundations of mathematics and metamathematics and instead spent time on problems connected with applications.
+
+
+=== Ergodic theory ===
+In a series of papers published in 1932, von Neumann made foundational contributions to ergodic theory, a branch of mathematics that involves the states of dynamical systems with an invariant measure. Of the 1932 papers on ergodic theory, Paul Halmos wrote that even "if von Neumann had never done anything else, they would have been sufficient to guarantee him mathematical immortality". By then von Neumann had already written his articles on operator theory, and the application of this work was instrumental in his mean ergodic theorem.
+The theorem is about arbitrary one-parameter unitary groups 
+  
+    
+      
+        
+          
+            t
+          
+        
+        →
+        
+          
+            
+              V
+              
+                t
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {t}}\to {\mathit {V_{t}}}}
+  
+ and states that for every vector 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ in the Hilbert space, 
+  
+    
+      
+        
+          lim
+          
+            T
+            →
+            ∞
+          
+        
+        
+          
+            1
+            T
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            T
+          
+        
+        
+          V
+          
+            t
+          
+        
+        (
+        ϕ
+        )
+        
+        d
+        t
+      
+    
+    {\textstyle \lim _{T\to \infty }{\frac {1}{T}}\int _{0}^{T}V_{t}(\phi )\,dt}
+  
+ exists in the sense of the metric defined by the Hilbert norm and is a vector 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  
+ which is such that 
+  
+    
+      
+        
+          V
+          
+            t
+          
+        
+        (
+        ψ
+        )
+        =
+        ψ
+      
+    
+    {\displaystyle V_{t}(\psi )=\psi }
+  
+ for all 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+. This was proven in the first paper. In the second paper, von Neumann argued that his results here were sufficient for physical applications relating to Boltzmann's ergodic hypothesis. He also pointed out that ergodicity had not yet been achieved and isolated this for future work.
+Later in the year he published another influential paper that began the systematic study of ergodicity. He gave and proved a decomposition theorem showing that the ergodic measure preserving actions of the real line are the fundamental building blocks from which all measure preserving actions can be built. Several other key theorems are given and proven. The results in this paper and another in conjunction with Paul Halmos have significant applications in other areas of mathematics.
+
+
+=== Measure theory ===
+
+In measure theory, the "problem of measure" for an n-dimensional Euclidean space Rn may be stated as: "does there exist a positive, normalized, invariant, and additive set function on the class of all subsets of Rn?" The work of Felix Hausdorff and Stefan Banach had implied that the problem of measure has a positive solution if n = 1 or n = 2 and a negative solution (because of the Banach–Tarski paradox) in all other cases. Von Neumann's work argued that the "problem is essentially group-theoretic in character": the existence of a measure could be determined by looking at the properties of the transformation group of the given space. The positive solution for spaces of dimension at most two, and the negative solution for higher dimensions, comes from the fact that the Euclidean group is a solvable group for dimension at most two, and is not solvable for higher dimensions. "Thus, according to von Neumann, it is the change of group that makes a difference, not the change of space." Around 1942 he told Dorothy Maharam how to prove that every complete σ-finite measure space has a multiplicative lifting; he did not publish this proof and she later came up with a new one.
+In a number of von Neumann's papers, the methods of argument he employed are considered even more significant than the results. In anticipation of his later study of dimension theory in algebras of operators, von Neumann used results on equivalence by finite decomposition, and reformulated the problem of measure in terms of functions. A major contribution von Neumann made to measure theory was the result of a paper written to answer a question of Haar regarding whether there existed an algebra of all bounded functions on the real number line such that they form "a complete system of representatives of the classes of almost everywhere-equal measurable bounded functions". He proved this in the positive, and in later papers with Stone discussed various generalizations and algebraic aspects of this problem. He also proved by new methods the existence of disintegrations for various general types of measures. Von Neumann also gave a new proof on the uniqueness of Haar measures by using the mean values of functions, although this method only worked for compact groups. He had to create entirely new techniques to apply this to locally compact groups. He also gave a new, ingenious proof for the Radon–Nikodym theorem. His lecture notes on measure theory at the Institute for Advanced Study were an important source for knowledge on the topic in America at the time, and were later published.
+
+
+=== Topological groups ===
+Using his previous work on measure theory, von Neumann made several contributions to the theory of topological groups, beginning with a paper on almost periodic functions on groups, where von Neumann extended Bohr's theory of almost periodic functions to arbitrary groups. He continued this work with another paper in conjunction with Bochner that improved the theory of almost periodicity to include functions that took on elements of linear spaces as values rather than numbers. In 1938, he was awarded the Bôcher Memorial Prize for his work in analysis in relation to these papers.
+In a 1933 paper, he used the newly discovered Haar measure in the solution of Hilbert's fifth problem for the case of compact groups. The basic idea behind this was discovered several years earlier when von Neumann published a paper on the analytic properties of groups of linear transformations and found that closed subgroups of a general linear group are Lie groups. This was later extended by Cartan to arbitrary Lie groups in the form of the closed-subgroup theorem.
+
+
+=== Functional analysis ===
+
+Von Neumann was the first to axiomatically define an abstract Hilbert space. He defined it as a complex vector space with a Hermitian scalar product, with the corresponding norm being both separable and complete. In the same papers he also proved the general form of the Cauchy–Schwarz inequality that had previously been known only in specific examples. He continued with the development of the spectral theory of operators in Hilbert space in three seminal papers between 1929 and 1932. This work cumulated in his Mathematical Foundations of Quantum Mechanics which alongside two other books by Stone and Banach in the same year were the first monographs on Hilbert space theory. Previous work by others showed that a theory of weak topologies could not be obtained by using sequences. Von Neumann was the first to outline a program of how to overcome the difficulties, which resulted in him defining locally convex spaces and topological vector spaces for the first time. In addition several other topological properties he defined at the time (he was among the first mathematicians to apply new topological ideas from Hausdorff from Euclidean to Hilbert spaces) such as boundness and total boundness are still used today. For twenty years von Neumann was considered the 'undisputed master' of this area. These developments were primarily prompted by needs in quantum mechanics where von Neumann realized the need to extend the spectral theory of Hermitian operators from the bounded to the unbounded case. Other major achievements in these papers include a complete elucidation of spectral theory for normal operators, the first abstract presentation of the trace of a positive operator, a generalisation of Riesz's presentation of Hilbert's spectral theorems at the time, and the discovery of Hermitian operators in a Hilbert space, as distinct from self-adjoint operators, which enabled him to give a description of all Hermitian operators which extend a given Hermitian operator. He wrote a paper detailing how the usage of infinite matrices, common at the time in spectral theory, was inadequate as a representation for Hermitian operators. His work on operator theory lead to his most profound invention in pure mathematics, the study of von Neumann algebras and in general of operator algebras.
+His later work on rings of operators lead to him revisiting his work on spectral theory and providing a new way of working through the geometric content by the use of direct integrals of Hilbert spaces. Like in his work on measure theory he proved several theorems that he did not find time to publish. He told Nachman Aronszajn and K. T. Smith that in the early 1930s he proved the existence of proper invariant subspaces for completely continuous operators in a Hilbert space while working on the invariant subspace problem.
+With I. J. Schoenberg he wrote several items investigating translation invariant Hilbertian metrics on the real number line which resulted in their complete classification. Their motivation lie in various questions related to embedding metric spaces into Hilbert spaces.
+With Pascual Jordan he wrote a short paper giving the first derivation of a given norm from an inner product by means of the parallelogram identity. His trace inequality is a key result of matrix theory used in matrix approximation problems. He also first presented the idea that the dual of a pre-norm is a norm in the first major paper discussing the theory of unitarily invariant norms and symmetric gauge functions (now known as  symmetric absolute norms). This paper leads naturally to the study of symmetric operator ideals and is the beginning point for modern studies of symmetric operator spaces.
+Later with Robert Schatten he initiated the study of nuclear operators on Hilbert spaces, tensor products of Banach spaces, introduced and studied trace class operators, their ideals, and their duality with compact operators, and preduality with bounded operators. The generalization of this topic to the study of nuclear operators on Banach spaces was among the first achievements of Alexander Grothendieck. Previously in 1937 von Neumann published several results in this area, for example giving 1-parameter scale of different cross norms on 
+  
+    
+      
+        
+          
+            l
+          
+        
+        
+          
+          
+            2
+          
+          
+            n
+          
+        
+        ⊗
+        
+          
+            l
+          
+        
+        
+          
+          
+            2
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\textit {l}}\,_{2}^{n}\otimes {\textit {l}}\,_{2}^{n}}
+  
+ and proving several other results on what are now known as Schatten–von Neumann ideals.
+
+
+=== Operator algebras ===
+
+Von Neumann founded the study of rings of operators, through the von Neumann algebras (originally called W*-algebras). While his original ideas for rings of operators existed already in 1930, he did not begin studying them in depth until he met F. J. Murray several years later. A von Neumann algebra is a *-algebra of bounded operators on a Hilbert space that is closed in the weak operator topology and contains the identity operator. The von Neumann bicommutant theorem shows that the analytic definition is equivalent to a purely algebraic definition as being equal to the bicommutant. After elucidating the study of the commutative algebra case, von Neumann embarked in 1936, with the partial collaboration of Murray, on the noncommutative case, the general study of factors classification of von Neumann algebras. The six major papers in which he developed that theory between 1936 and 1940 "rank among the masterpieces of analysis in the twentieth century"; they collect many foundational results and started several programs in operator algebra theory that mathematicians worked on for decades afterwards. An example is the classification of factors. In addition in 1938 he proved that every von Neumann algebra on a separable Hilbert space is a direct integral of factors; he did not find time to publish this result until 1949. Von Neumann algebras relate closely to a theory of noncommutative integration, something that von Neumann hinted to in his work but did not explicitly write out. Another important result on polar decomposition was published in 1932.
+
+
+=== Lattice theory ===
+
+Between 1935 and 1937, von Neumann worked on lattice theory, the theory of partially ordered sets in which every two elements have a greatest lower bound and a least upper bound. As Garrett Birkhoff wrote, "John von Neumann's brilliant mind blazed over lattice theory like a meteor". Von Neumann combined traditional projective geometry with modern algebra (linear algebra, ring theory, lattice theory). Many previously geometric results could then be interpreted in the case of general modules over rings. His work laid the foundations for some of the modern work in projective geometry.
+His biggest contribution was founding the field of continuous geometry. It followed his path-breaking work on rings of operators. In mathematics, continuous geometry is a substitute of complex projective geometry, where instead of the dimension of a subspace being in a discrete set 
+  
+    
+      
+        0
+        ,
+        1
+        ,
+        .
+        .
+        .
+        ,
+        
+          
+            n
+          
+        
+      
+    
+    {\displaystyle 0,1,...,{\mathit {n}}}
+  
+ it can be an element of the unit interval 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+. Earlier, Menger and Birkhoff had axiomatized complex projective geometry in terms of the properties of its lattice of linear subspaces. Von Neumann, following his work on rings of operators, weakened those axioms to describe a broader class of lattices, the continuous geometries.
+While the dimensions of the subspaces of projective geometries are a discrete set (the non-negative integers), the dimensions of the elements of a continuous geometry can range continuously across the unit interval 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+. Von Neumann was motivated by his discovery of von Neumann algebras with a dimension function taking a continuous range of dimensions, and the first example of a continuous geometry other than projective space was the projections of the hyperfinite type II factor.
+
+In more pure lattice theoretical work, he solved the difficult problem of characterizing the class of 
+  
+    
+      
+        
+          
+            C
+            G
+            (
+            F
+            )
+          
+        
+      
+    
+    {\displaystyle {\mathit {CG(F)}}}
+  
+ (continuous-dimensional projective geometry over an arbitrary division ring 
+  
+    
+      
+        
+          
+            F
+          
+        
+        
+      
+    
+    {\displaystyle {\mathit {F}}\,}
+  
+) in abstract language of lattice theory. Von Neumann provided an abstract exploration of dimension in completed complemented modular topological lattices (properties that arise in the lattices of subspaces of inner product spaces): Dimension is determined, up to a positive linear transformation, by the following two properties. It is conserved by perspective mappings ("perspectivities") and ordered by inclusion. The deepest part of the proof concerns the equivalence of perspectivity with "projectivity by decomposition"—of which a corollary is the transitivity of perspectivity.
+For any integer 
+  
+    
+      
+        n
+        >
+        3
+      
+    
+    {\displaystyle n>3}
+  
+ every 
+  
+    
+      
+        
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathit {n}}}
+  
+-dimensional abstract projective geometry is isomorphic to the subspace-lattice of an 
+  
+    
+      
+        
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathit {n}}}
+  
+-dimensional vector space 
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        F
+        )
+      
+    
+    {\displaystyle V_{n}(F)}
+  
+ over a (unique) corresponding  division ring 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+. This is known as the Veblen–Young theorem. Von Neumann extended this fundamental result in projective geometry to the continuous dimensional case. This coordinatization theorem stimulated considerable work in abstract projective geometry and lattice theory, much of which continued using von Neumann's techniques. Birkhoff described this theorem as follows: Any complemented modular lattice L having a "basis" of n ≥ 4 pairwise perspective elements, is isomorphic with the lattice ℛ(R) of all principal right-ideals of a suitable regular ring R. This conclusion is the culmination of 140 pages of brilliant and incisive algebra involving entirely novel axioms. Anyone wishing to get an unforgettable impression of the razor edge of von Neumann's mind, need merely try to pursue this chain of exact reasoning for himself—realizing that often five pages of it were written down before breakfast, seated at a living room writing-table in a bathrobe.
+This work required the creation of regular rings. A von Neumann regular ring is a ring where for every 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+, an element 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ exists such that 
+  
+    
+      
+        a
+        x
+        a
+        =
+        a
+      
+    
+    {\displaystyle axa=a}
+  
+. These rings came from and have connections to his work on von Neumann algebras, as well as AW*-algebras and various kinds of C*-algebras.
+Many smaller technical results were proven during the creation and proof of the above theorems, particularly regarding distributivity (such as infinite distributivity), von Neumann developing them as needed. He also developed a theory of valuations in lattices, and shared in developing the general theory of metric lattices.
+Birkhoff noted in his posthumous article on von Neumann that most of these results were developed in an intense two-year period of work, and that while his interests continued in lattice theory after 1937, they became peripheral and mainly occurred in letters to other mathematicians. A final contribution in 1940 was for a joint seminar he conducted with Birkhoff at the Institute for Advanced Study on the subject where he developed a theory of σ-complete lattice ordered rings. He never wrote up the work for publication.
+
+
+=== Mathematical statistics ===
+Von Neumann made fundamental contributions to mathematical statistics. In 1941, he derived the exact distribution of the ratio of the mean square of successive differences to the sample variance for independent and identically normally distributed variables. This ratio was applied to the residuals from regression models and is commonly known as the Durbin–Watson statistic for testing the null hypothesis that the errors are serially independent against the alternative that they follow a stationary first order autoregression.
+Subsequently, Denis Sargan and Alok Bhargava extended the results for testing whether the errors on a regression model follow a Gaussian random walk (i.e., possess a unit root) against the alternative that they are a stationary first order autoregression.
+
+
+=== Other work ===
+In his early years, von Neumann published several papers related to set-theoretical real analysis and number theory. In a paper from 1925, he proved that for any dense sequence of points in 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+, there existed a rearrangement of those points that is uniformly distributed. In 1926 his sole publication was on Prüfer's theory of ideal algebraic numbers where he found a new way of constructing them, thus extending Prüfer's theory to the field of all algebraic numbers, and clarified their relation to p-adic numbers. 
+In 1928 he published two additional papers continuing with these themes. The first dealt with partitioning an interval into countably many congruent subsets. It solved a problem of Hugo Steinhaus asking whether an interval is 
+  
+    
+      
+        
+          ℵ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \aleph _{0}}
+  
+-divisible. Von Neumann proved that indeed that all intervals, half-open, open, or closed are 
+  
+    
+      
+        
+          ℵ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \aleph _{0}}
+  
+-divisible by translations (i.e. that these intervals can be decomposed into 
+  
+    
+      
+        
+          ℵ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \aleph _{0}}
+  
+ subsets that are congruent by translation). His next paper dealt with giving a constructive proof without the axiom of choice that 
+  
+    
+      
+        
+          2
+          
+            
+              ℵ
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle 2^{\aleph _{0}}}
+  
+ algebraically independent reals exist. He proved that 
+  
+    
+      
+        
+          A
+          
+            r
+          
+        
+        =
+        
+          
+            ∑
+            
+              n
+              =
+              0
+            
+            
+              ∞
+            
+          
+          
+            2
+            
+              
+                2
+                
+                  [
+                  n
+                  r
+                  ]
+                
+              
+            
+          
+          
+          
+            
+              /
+            
+          
+          
+          
+            2
+            
+              
+                2
+                
+                  
+                    n
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle A_{r}=\textstyle \sum _{n=0}^{\infty }2^{2^{[nr]}}\!{\big /}\,2^{2^{n^{2}}}}
+  
+ are algebraically independent for 
+  
+    
+      
+        r
+        >
+        0
+      
+    
+    {\displaystyle r>0}
+  
+. Consequently, there exists a perfect algebraically independent set of reals the size of the continuum. Other minor results from his early career include a proof of a maximum principle for the gradient of a minimizing function in the field of calculus of variations, and a small simplification of Hermann Minkowski's theorem for linear forms in geometric number theory.
+Later in his career together with Pascual Jordan and Eugene Wigner he wrote a foundational paper classifying all finite-dimensional formally real Jordan algebras and discovering the Albert algebras while attempting to look for a better mathematical formalism for quantum theory. In 1936 he attempted to further the program of replacing the axioms of his previous Hilbert space program with those of Jordan algebras in a paper investigating the infinite-dimensional case; he planned to write at least one further paper on the topic but never did. Nevertheless, these axioms formed the basis for further investigations of algebraic quantum mechanics started by Irving Segal.
+
+
+== Physics ==
+
+
+=== Quantum mechanics ===
+
+Von Neumann was the first to establish a rigorous mathematical framework for quantum mechanics, known as the Dirac–von Neumann axioms, in his influential 1932 work Mathematical Foundations of Quantum Mechanics. After having completed the axiomatization of set theory, he began to confront the axiomatization of quantum mechanics. He realized in 1926 that a state of a quantum system could be represented by a point in a (complex) Hilbert space that, in general, could be infinite-dimensional even for a single particle. In this formalism of quantum mechanics, observable quantities such as position or momentum are represented as linear operators acting on the Hilbert space associated with the quantum system.
+The physics of quantum mechanics was thereby reduced to the mathematics of Hilbert spaces and linear operators acting on them. For example, the uncertainty principle, according to which the determination of the position of a particle prevents the determination of its momentum and vice versa, is translated into the non-commutativity of the two corresponding operators. This new mathematical formulation included as special cases the formulations of both Heisenberg and Schrödinger.
+Von Neumann's abstract treatment permitted him to confront the foundational issue of determinism versus non-determinism, and in the book he presented a proof that the statistical results of quantum mechanics could not possibly be averages of an underlying set of determined "hidden variables", as in classical statistical mechanics. In 1935, Grete Hermann published a paper arguing that the proof contained a conceptual error and was therefore invalid. Hermann's work was largely ignored until after John S. Bell made essentially the same argument in 1966. In 2010, Jeffrey Bub argued that Bell had misconstrued von Neumann's proof, and pointed out that the proof, though not valid for all hidden variable theories, does rule out a well-defined and important subset. Bub also suggests that von Neumann was aware of this limitation and did not claim that his proof completely ruled out hidden variable theories. The validity of Bub's argument is, in turn, disputed. Gleason's theorem of 1957 provided an argument against hidden variables along the lines of von Neumann's, but founded on assumptions seen as better motivated and more physically meaningful.
+Von Neumann's proof inaugurated a line of research that ultimately led, through Bell's theorem and the experiments of Alain Aspect in 1982, to the demonstration that quantum physics either requires a notion of reality substantially different from that of classical physics, or must include nonlocality in apparent violation of special relativity.
+In a chapter of The Mathematical Foundations of Quantum Mechanics, von Neumann deeply analyzed the so-called measurement problem. He concluded that the entire physical universe could be made subject to the universal wave function. Since something "outside the calculation" was needed to collapse the wave function, von Neumann concluded that the collapse was caused by the consciousness of the experimenter. He argued that the mathematics of quantum mechanics allows the collapse of the wave function to be placed at any position in the causal chain from the measurement device to the "subjective consciousness" of the human observer. In other words, while the line between observer and observed could be drawn in different places, the theory only makes sense if an observer exists somewhere. Although the idea of consciousness causing collapse was accepted by Eugene Wigner, this interpretation never gained acceptance among the majority of physicists.
+Though theories of quantum mechanics continue to evolve, a basic framework for the mathematical formalism of problems in quantum mechanics underlying most approaches can be traced back to the mathematical formalisms and techniques first used by von Neumann. Discussions about interpretation of the theory, and extensions to it, are now mostly conducted on the basis of shared assumptions about the mathematical foundations.
+Viewing von Neumann's work on quantum mechanics as a part of the fulfilment of Hilbert's sixth problem, mathematical physicist Arthur Wightman said in 1974 his axiomization of quantum theory was perhaps the most important axiomization of a physical theory to date. With his 1932 book, quantum mechanics became a mature theory in the sense it had a precise mathematical form, which allowed for clear answers to conceptual problems. Nevertheless, von Neumann in his later years felt he had failed in this aspect of his scientific work as despite all the mathematics he developed, he did not find a satisfactory mathematical framework for quantum theory as a whole.
+
+
+==== Von Neumann entropy ====
+
+Von Neumann entropy is extensively used in different forms (conditional entropy, relative entropy, etc.) in the framework of quantum information theory. Entanglement measures are based upon some quantity directly related to the von Neumann entropy. Given a statistical ensemble of quantum mechanical systems with the density matrix 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+, it is given by 
+  
+    
+      
+        S
+        (
+        ρ
+        )
+        =
+        −
+        Tr
+        ⁡
+        (
+        ρ
+        ln
+        ⁡
+        ρ
+        )
+        .
+        
+      
+    
+    {\displaystyle S(\rho )=-\operatorname {Tr} (\rho \ln \rho ).\,}
+  
+ Many of the same entropy measures in classical information theory can also be generalized to the quantum case, such as Holevo entropy and conditional quantum entropy. Quantum information theory is largely concerned with the interpretation and uses of von Neumann entropy, a cornerstone in the former's development; the Shannon entropy applies to classical information theory.
+
+
+==== Density matrix ====
+
+The formalism of density operators and matrices was introduced by von Neumann in 1927 and independently, but less systematically by Lev Landau and Felix Bloch in 1927 and 1946 respectively. The density matrix allows the representation of probabilistic mixtures of quantum states (mixed states) in contrast to wavefunctions, which can only represent pure states.
+
+
+==== Von Neumann measurement scheme ====
+The von Neumann measurement scheme, the ancestor of quantum decoherence theory, represents measurements projectively by taking into account the measuring apparatus which is also treated as a quantum object. The 'projective measurement' scheme introduced by von Neumann led to the development of quantum decoherence theories.
+
+
+==== Quantum logic ====
+
+Von Neumann first proposed a quantum logic in his 1932 treatise Mathematical Foundations of Quantum Mechanics, where he noted that projections on a Hilbert space can be viewed as propositions about physical observables. The field of quantum logic was subsequently inaugurated in a 1936 paper by von Neumann and Garrett Birkhoff, the first to introduce quantum logics, wherein von Neumann and Birkhoff first proved that quantum mechanics requires a propositional calculus substantially different from all classical logics and rigorously isolated a new algebraic structure for quantum logics. The concept of creating a propositional calculus for quantum logic was first outlined in a short section in von Neumann's 1932 work, but in 1936, the need for the new propositional calculus was demonstrated through several proofs. For example, photons cannot pass through two successive filters that are polarized perpendicularly (e.g., horizontally and vertically), and therefore, a fortiori, it cannot pass if a third filter polarized diagonally is added to the other two, either before or after them in the succession, but if the third filter is added between the other two, the photons will indeed pass through. This experimental fact is translatable into logic as the non-commutativity of conjunction 
+  
+    
+      
+        (
+        A
+        ∧
+        B
+        )
+        ≠
+        (
+        B
+        ∧
+        A
+        )
+      
+    
+    {\displaystyle (A\land B)\neq (B\land A)}
+  
+. It was also demonstrated that the laws of distribution of classical logic, 
+  
+    
+      
+        P
+        ∨
+        (
+        Q
+        ∧
+        R
+        )
+        =
+        
+
+        
+      
+    
+    {\displaystyle P\lor (Q\land R)={}}
+  
+
+  
+    
+      
+        (
+        P
+        ∨
+        Q
+        )
+        ∧
+        (
+        P
+        ∨
+        R
+        )
+      
+    
+    {\displaystyle (P\lor Q)\land (P\lor R)}
+  
+ and 
+  
+    
+      
+        P
+        ∧
+        (
+        Q
+        ∨
+        R
+        )
+        =
+        
+
+        
+      
+    
+    {\displaystyle P\land (Q\lor R)={}}
+  
+
+  
+    
+      
+        (
+        P
+        ∧
+        Q
+        )
+        ∨
+        (
+        P
+        ∧
+        R
+        )
+      
+    
+    {\displaystyle (P\land Q)\lor (P\land R)}
+  
+, are not valid for quantum theory.
+The reason for this is that a quantum disjunction, unlike the case for classical disjunction, can be true even when both of the disjuncts are false and this is in turn attributable to the fact that it is frequently the case in quantum mechanics that a pair of alternatives are semantically determinate, while each of its members is necessarily indeterminate. Consequently, the distributive law of classical logic must be replaced with a weaker condition. Instead of a distributive lattice, propositions about a quantum system form an orthomodular lattice isomorphic to the lattice of subspaces of the Hilbert space associated with that system.
+Nevertheless, he was never satisfied with his work on quantum logic. He intended it to be a joint synthesis of formal logic and probability theory and when he attempted to write up a paper for the Henry Joseph Lecture he gave at the Washington Philosophical Society in 1945 he found that he could not, especially given that he was busy with war work at the time. During his address at the 1954 International Congress of Mathematicians he gave this issue as one of the unsolved problems that future mathematicians could work on.
+
+
+=== Fluid dynamics ===
+During WWII, Von Neumann made fundamental contributions in the field of fluid dynamics, including the classic flow solution to blast waves now called Taylor–von Neumann–Sedov blast wave after three scientists who devised it independently, and the co-discovery (independently by Yakov Borisovich Zel'dovich and Werner Döring) of the ZND detonation model of explosives. During the 1930s, von Neumann became an authority on the mathematics of shaped charges.
+Later with Robert D. Richtmyer, von Neumann developed an algorithm defining artificial viscosity that improved the understanding of shock waves. When computers solved hydrodynamic or aerodynamic problems, they put too many computational grid points at regions of sharp discontinuity (shock waves). The mathematics of artificial viscosity smoothed the shock transition without sacrificing basic physics.
+Von Neumann soon applied computer modelling to the field, developing software for his ballistics research. During World War II, he approached R. H. Kent, the director of the US Army's Ballistic Research Laboratory, with a computer program for calculating a one-dimensional model of 100 molecules to simulate a shock wave. Von Neumann gave a seminar on his program to an audience which included his friend Theodore von Kármán. After von Neumann had finished, von Kármán said "Of course you realize Lagrange also used digital models to simulate continuum mechanics." Von Neumann had been unaware of Lagrange's Mécanique analytique.
+
+
+=== Other work ===
+
+While not as prolific in physics as he was in mathematics, he nevertheless made several other notable contributions. His pioneering papers with Subrahmanyan Chandrasekhar on the statistics of a fluctuating gravitational field generated by randomly distributed stars were considered a tour de force. In this paper they developed a theory of two-body relaxation and used the Holtsmark distribution to model the dynamics of stellar systems. He wrote several other unpublished manuscripts on topics in stellar structure, some of which were included in Chandrasekhar's other works. In earlier work led by Oswald Veblen von Neumann helped develop basic ideas involving spinors that would lead to Roger Penrose's twistor theory. Much of this was done in seminars conducted at the IAS during the 1930s. From this work he wrote a paper with A. H. Taub and Veblen extending the Dirac equation to projective relativity, with a key focus on maintaining invariance with regards to coordinate, spin, and gauge transformations, as a part of early research into potential theories of quantum gravity in the 1930s. In the same time period he made several proposals to colleagues for dealing with the problems in the newly created quantum field theory and for quantizing spacetime; however, both his colleagues and he did not consider the ideas fruitful and did not pursue them. Nevertheless, he maintained at least some interest, in 1940 writing a manuscript on the Dirac equation in de Sitter space.
+
+
+== Economics ==
+
+
+=== Game theory ===
+Von Neumann founded the field of game theory as a mathematical discipline. He proved his minimax theorem in 1928. It establishes that in zero-sum games with perfect information (i.e., in which players know at each time all moves that have taken place so far), there exists a pair of strategies for both players that allows each to minimize their maximum losses. Such strategies are called optimal. Von Neumann showed that their minimaxes are equal (in absolute value) and contrary (in sign). He improved and extended the minimax theorem to include games involving imperfect information and games with more than two players, publishing this result in his 1944 Theory of Games and Economic Behavior, written with Oskar Morgenstern. The public interest in this work was such that The New York Times ran a front-page story. In this book, von Neumann declared that economic theory needed to use functional analysis, especially convex sets and the topological fixed-point theorem, rather than the traditional differential calculus, because the maximum-operator did not preserve differentiable functions.
+Von Neumann's functional-analytic techniques—the use of duality pairings of real vector spaces to represent prices and quantities, the use of supporting and separating hyperplanes and convex sets, and fixed-point theory—have been primary tools of mathematical economics ever since.
+
+
+=== Mathematical economics ===
+Von Neumann raised the mathematical level of economics in several influential publications. For his model of an expanding economy, he proved the existence and uniqueness of an equilibrium using his generalization of the Brouwer fixed-point theorem. Von Neumann's model of an expanding economy considered the matrix pencil  A − λB with nonnegative matrices A and B; von Neumann sought probability vectors p and q and a positive number λ that would solve the complementarity equation 
+  
+    
+      
+        
+          p
+          
+            T
+          
+        
+        (
+        A
+        −
+        λ
+        B
+        )
+        q
+        =
+        0
+      
+    
+    {\displaystyle p^{T}(A-\lambda B)q=0}
+  
+ along with two inequality systems expressing economic efficiency. In this model, the (transposed) probability vector p represents the prices of the goods while the probability vector q represents the "intensity" at which the production process would run. The unique solution λ represents the growth factor which is 1 plus the rate of growth of the economy; the rate of growth equals the interest rate.
+Von Neumann's results have been viewed as a special case of linear programming, where his model uses only nonnegative matrices. The study of his model of an expanding economy continues to interest mathematical economists. This paper has been called the greatest paper in mathematical economics by several authors, who recognized its introduction of fixed-point theorems, linear inequalities, complementary slackness, and saddlepoint duality. In the proceedings of a conference on von Neumann's growth model, Paul Samuelson said that many mathematicians had developed methods useful to economists, but that von Neumann was unique in having made significant contributions to economic theory itself. The lasting importance of the work on general equilibria and the methodology of fixed point theorems is underscored by the awarding of Nobel prizes in 1972 to Kenneth Arrow, in 1983 to Gérard Debreu, and in 1994 to John Nash who used fixed point theorems to establish equilibria for non-cooperative games and for bargaining problems in his Ph.D. thesis. Arrow and Debreu also used linear programming, as did Nobel laureates Tjalling Koopmans, Leonid Kantorovich, Wassily Leontief, Paul Samuelson, Robert Dorfman, Robert Solow, and Leonid Hurwicz.
+Von Neumann's interest in the topic began while he was lecturing at Berlin in 1928 and 1929. He spent his summers in Budapest, as did the economist Nicholas Kaldor; Kaldor recommended that von Neumann read a book by the mathematical economist Léon Walras. Von Neumann noticed that Walras's General Equilibrium Theory and Walras's law, which led to systems of simultaneous linear equations, could produce the absurd result that profit could be maximized by producing and selling a negative quantity of a product. He replaced the equations by inequalities, introduced dynamic equilibria, among other things, and eventually produced his paper.
+
+
+=== Linear programming ===
+Building on his results on matrix games and on his model of an expanding economy, von Neumann invented the theory of duality in linear programming when George Dantzig described his work in a few minutes, and an impatient von Neumann asked him to get to the point. Dantzig then listened dumbfounded while von Neumann provided an hourlong lecture on convex sets, fixed-point theory, and duality, conjecturing the equivalence between matrix games and linear programming.
+Later, von Neumann suggested a new method of linear programming, using the homogeneous linear system of Paul Gordan (1873), which was later popularized by Karmarkar's algorithm. Von Neumann's method used a pivoting algorithm between simplices, with the pivoting decision determined by a nonnegative least squares subproblem with a convexity constraint (projecting the zero-vector onto the convex hull of the active simplex). Von Neumann's algorithm was the first interior point method of linear programming.
+
+
+== Computer science ==
+Von Neumann was a founding figure in computing, with significant contributions to computing hardware design, to theoretical computer science, to scientific computing, and to the philosophy of computer science.
+
+
+=== Hardware ===
+
+Von Neumann consulted for the Army's Ballistic Research Laboratory, most notably on the ENIAC project, as a member of its Scientific Advisory Committee. Although the single-memory, stored-program architecture is commonly called von Neumann architecture, the architecture was based on the work of J. Presper Eckert and John Mauchly, inventors of ENIAC and its successor, EDVAC.
+While consulting for the EDVAC project at the University of Pennsylvania, von Neumann wrote an incomplete First Draft of a Report on the EDVAC. The paper, whose premature distribution nullified the patent claims of Eckert and Mauchly, described a computer that stored both its data and its program in the same address space, unlike the earliest computers which stored their programs separately on paper tape or plugboards. This architecture became the basis of most modern computer designs.
+Next, von Neumann designed the IAS machine at the Institute for Advanced Study in Princeton, New Jersey. He arranged its financing, and the components were designed and built at the RCA Research Laboratory nearby. Von Neumann recommended that the IBM 701, nicknamed the defense computer, include a magnetic drum. It was a faster version of the IAS machine and formed the basis for the commercially successful IBM 704.
+
+
+=== Algorithms ===
+
+Von Neumann was the inventor, in 1945, of the merge sort algorithm, in which the first and second halves of an array are each sorted recursively and then merged.
+As part of Von Neumann's hydrogen bomb work, he and Stanisław Ulam developed simulations for hydrodynamic computations. He also contributed to the development of the Monte Carlo method, which used random numbers to approximate the solutions to complicated problems.
+Von Neumann's algorithm for simulating a fair coin with a biased coin is used in the "software whitening" stage of some hardware random number generators. Because obtaining "truly" random numbers was impractical, von Neumann developed a form of pseudorandomness, using the middle-square method. He justified this crude method as faster than any other method at his disposal, writing that "Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin." He also noted that when this method went awry it did so obviously, unlike other methods which could be subtly incorrect.
+Stochastic computing was introduced by von Neumann in 1953, but could not be implemented until advances in computing of the 1960s. Around 1950 he was also among the first to talk about the time complexity of computations, which eventually evolved into the field of computational complexity theory.
+
+
+=== Cellular automata, DNA and the universal constructor ===
+
+Von Neumann's mathematical analysis of the structure of self-replication preceded the discovery of the structure of DNA. Ulam and von Neumann are also generally credited with creating the field of cellular automata, beginning in the 1940s, as a simplified mathematical model of biological systems.
+In lectures in 1948 and 1949, von Neumann proposed a kinematic self-reproducing automaton. By 1952, he was treating the problem more abstractly. He designed an elaborate 2D cellular automaton that would automatically make a copy of its initial configuration of cells.  The Von Neumann universal constructor based on the von Neumann cellular automaton was fleshed out in his posthumous Theory of Self Reproducing Automata.
+The von Neumann neighborhood, in which each cell in a two-dimensional grid has the four orthogonally adjacent grid cells as neighbors, continues to be used for other cellular automata.
+
+
+=== Scientific computing and numerical analysis ===
+Considered to be possibly "the most influential researcher in scientific computing of all time", von Neumann made several contributions to the field, both technically and administratively. He developed the Von Neumann stability analysis procedure, still commonly used to avoid errors from building up in numerical methods for linear partial differential equations. His paper with Herman Goldstine in 1947 was the first to describe backward error analysis, although implicitly. He was also one of the first to write about the Jacobi method. At Los Alamos, he wrote several classified reports on solving problems of gas dynamics numerically. However, he was frustrated by the lack of progress with analytic methods for these nonlinear problems. As a result, he turned towards computational methods. Under his influence Los Alamos became the leader in computational science during the 1950s and early 1960s.
+From this work von Neumann realized that computation was not just a tool to brute force the solution to a problem numerically, but could also provide insight for solving problems analytically, and that there was an enormous variety of scientific and engineering problems towards which computers would be useful, most significant of which were nonlinear problems. In June 1945 at the First Canadian Mathematical Congress he gave his first talk on general ideas of how to solve problems, particularly of fluid dynamics numerically. He also described how wind tunnels were actually analog computers, and how digital computers would replace them and bring a new era of fluid dynamics. Garrett Birkhoff described it as "an unforgettable sales pitch". He expanded this talk with Goldstine into the manuscript "On the Principles of Large Scale Computing Machines" and used it to promote the support of scientific computing. His papers also developed the concepts of inverting matrices, random matrices and automated relaxation methods for solving elliptic boundary value problems.
+
+
+=== Weather systems and global warming ===
+
+As part of his research into possible applications of computers, von Neumann became interested in weather prediction, noting similarities between the problems in the field and those he had worked on during the Manhattan Project. In 1946 von Neumann founded the "Meteorological Project" at the Institute for Advanced Study, securing funding for his project from the Weather Bureau, the US Air Force and US Navy weather services. With Carl-Gustaf Rossby, considered the leading theoretical meteorologist at the time, he gathered a group of twenty meteorologists to work on various problems in the field. However, given his other postwar work he was not able to devote enough time to proper leadership of the project and little was accomplished.
+This changed when a young Jule Gregory Charney took up co-leadership of the project from Rossby. By 1950 von Neumann and Charney wrote the world's first climate modelling software, and used it to perform the world's first numerical weather forecasts on the ENIAC computer that von Neumann had arranged to be used; von Neumann and his team published the results as Numerical Integration of the Barotropic Vorticity Equation. Together they played a leading role in efforts to integrate sea-air exchanges of energy and moisture into the study of climate. Though primitive, news of the ENIAC forecasts quickly spread around the world and a number of parallel projects in other locations were initiated.
+
+In 1955 von Neumann, Charney and their collaborators convinced their funders to open the Joint Numerical Weather Prediction Unit (JNWPU) in Suitland, Maryland, which began routine real-time weather forecasting. Next up, von Neumann proposed a research program for climate modeling: The approach is to first try short-range forecasts, then long-range forecasts of those properties of the circulation that can perpetuate themselves over arbitrarily long periods of time, and only finally to attempt forecast for medium-long time periods which are too long to treat by simple hydrodynamic theory and too short to treat by the general principle of equilibrium theory. Positive results of Norman A. Phillips in 1955 prompted immediate reaction and von Neumann organized a conference at Princeton on "Application of Numerical Integration Techniques to the Problem of the General Circulation". Once again he strategically organized the program as a predictive one to ensure continued support from the Weather Bureau and the military, leading to the creation of the General Circulation Research Section (now the Geophysical Fluid Dynamics Laboratory) next to the JNWPU. He continued work both on technical issues of modelling and in ensuring continuing funding for these projects.
+During the late 19th century, Svante Arrhenius suggested that human activity could cause global warming by adding carbon dioxide to the atmosphere. In 1955, von Neumann observed that this may already have begun: "Carbon dioxide released into the atmosphere by industry's burning of coal and oil – more than half of it during the last generation – may have changed the atmosphere's composition sufficiently to account for a general warming of the world by about one degree Fahrenheit." His research into weather systems and meteorological prediction led him to propose manipulating the environment by spreading colorants on the polar ice caps to enhance absorption of solar radiation (by reducing the albedo).  However, he urged caution in any program of atmosphere modification: What could be done, of course, is no index to what should be done... In fact, to evaluate the ultimate consequences of either a general cooling or a general heating would be a complex matter. Changes would affect the level of the seas, and hence the habitability of the continental coastal shelves; the evaporation of the seas, and hence general precipitation and glaciation levels; and so on... But there is little doubt that one could carry out the necessary analyses needed to predict the results, intervene on any desired scale, and ultimately achieve rather fantastic results. He also warned that weather and climate control could have military uses, telling Congress in 1956 that they could pose an even bigger risk than ICBMs.
+
+
+=== Technological singularity hypothesis ===
+
+The first use of the concept of a singularity in the technological context is attributed to von Neumann, who according to Ulam discussed the "ever accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue." This concept was later fleshed out in the 1970 book Future Shock by Alvin Toffler.
+
+
+== Defense work ==
+
+
+=== Manhattan Project ===
+Beginning in the late 1930s, von Neumann developed an expertise in explosions—phenomena that are difficult to model mathematically. During this period, he was the leading authority of the mathematics of shaped charges, leading him to a large number of military consultancies and consequently his involvement in the Manhattan Project. The involvement included frequent trips to the project's secret research facilities at the Los Alamos Laboratory in New Mexico.
+Von Neumann made his principal contribution to the atomic bomb in the concept and design of the explosive lenses that were needed to compress the plutonium core of the Fat Man weapon that was later dropped on Nagasaki. While von Neumann did not originate the "implosion" concept, he was one of its most persistent proponents, encouraging its continued development against the instincts of many of his colleagues, who felt such a design to be unworkable. He also eventually came up with the idea of using more powerful shaped charges and less fissionable material to greatly increase the speed of "assembly".
+When it turned out that there would not be enough uranium-235 to make more than one bomb, the implosive lens project was greatly expanded and von Neumann's idea was implemented. Implosion was the only method that could be used with the plutonium-239 that was available from the Hanford Site. He established the design of the explosive lenses required, but there remained concerns about "edge effects" and imperfections in the explosives. His calculations showed that implosion would work if it did not depart by more than 5% from spherical symmetry. After a series of failed attempts with models, this was achieved by George Kistiakowsky, and the construction of the Trinity bomb was completed in July 1945.
+In a visit to Los Alamos in September 1944, von Neumann showed that the pressure increase from explosion shock wave reflection from solid objects was greater than previously believed if the angle of incidence of the shock wave was between 90° and some limiting angle. As a result, it was determined that the effectiveness of an atomic bomb would be enhanced with detonation some kilometers above the target, rather than at ground level.
+
+Von Neumann was included in the target selection committee that was responsible for choosing the Japanese cities of Hiroshima and Nagasaki as the first targets of the atomic bomb. Von Neumann oversaw computations related to the expected size of the bomb blasts, estimated death tolls, and the distance above the ground at which the bombs should be detonated for optimum shock wave propagation. The cultural capital Kyoto was von Neumann's first choice, a selection seconded by Manhattan Project leader General Leslie Groves. However, this target was dismissed by Secretary of War Henry L. Stimson.
+On July 16, 1945, von Neumann and numerous other Manhattan Project personnel were eyewitnesses to the first test of an atomic bomb detonation, which was code-named Trinity. The event was conducted as a test of the implosion method device, at the Alamogordo Bombing Range in New Mexico. Based on his observation alone, von Neumann estimated the test had resulted in a blast equivalent to 5 kilotons of TNT (21 TJ) but Enrico Fermi produced a more accurate estimate of 10 kilotons by dropping scraps of torn-up paper as the shock wave passed his location and watching how far they scattered. The actual power of the explosion had been between 20 and 22 kilotons. It was in von Neumann's 1944 papers that the expression "kilotons" appeared for the first time.
+Von Neumann continued unperturbed in his work and became, along with Edward Teller, one of those who sustained the hydrogen bomb project. He collaborated with Klaus Fuchs on further development of the bomb, and in 1946 the two filed a secret patent outlining a scheme for using a fission bomb to compress fusion fuel to initiate nuclear fusion. The Fuchs–von Neumann patent used radiation implosion, but not in the same way as is used in what became the final hydrogen bomb design, the Teller–Ulam design. Their work was, however, incorporated into the "George" shot of Operation Greenhouse, which was instructive in testing out concepts that went into the final design. The Fuchs–von Neumann work was passed on to the Soviet Union by Fuchs as part of his nuclear espionage, but it was not used in the Soviets' own, independent development of the Teller–Ulam design. The historian Jeremy Bernstein has pointed out that ironically, "John von Neumann and Klaus Fuchs, produced a brilliant invention in 1946 that could have changed the whole course of the development of the hydrogen bomb, but was not fully understood until after the bomb had been successfully made."
+For his wartime services, von Neumann was awarded the Navy Distinguished Civilian Service Award in July 1946, and the Medal for Merit in October 1946.
+
+
+=== Post-war work ===
+In 1950, von Neumann became a consultant to the Weapons Systems Evaluation Group, whose function was to advise the Joint Chiefs of Staff and the United States Secretary of Defense on the development and use of new technologies. He also became an adviser to the Armed Forces Special Weapons Project, which was responsible for the military aspects on nuclear weapons. Over the following two years, he became a consultant across the US government. This included the Central Intelligence Agency (CIA), a member of the influential General Advisory Committee of the Atomic Energy Commission, a consultant to the newly established Lawrence Livermore National Laboratory, and a member of the Scientific Advisory Group of the United States Air Force During this time he became a "superstar" defense scientist at the Pentagon. His authority was considered infallible at the highest levels of the US government and military.
+During several meetings of the advisory board of the US Air Force, von Neumann and Edward Teller predicted that by 1960 the US would be able to build a hydrogen bomb light enough to fit on top of a rocket. In 1953 Bernard Schriever, who was present at the meeting, paid a personal visit to von Neumann at Princeton to confirm this possibility. Schriever enlisted Trevor Gardner, who in turn visited von Neumann several weeks later to fully understand the future possibilities before beginning his campaign for such a weapon in Washington. Now either chairing or serving on several boards dealing with strategic missiles and nuclear weaponry, von Neumann was able to inject several crucial arguments regarding potential Soviet advancements in both these areas and in strategic defenses against American bombers into government reports to argue for the creation of ICBMs. Gardner on several occasions brought von Neumann to meetings with the US Department of Defense to discuss with various senior officials his reports. Several design decisions in these reports such as inertial guidance mechanisms would form the basis for all ICBMs thereafter. By 1954, von Neumann was also regularly testifying to various Congressional military subcommittees to ensure continued support for the ICBM program.
+However, this was not enough. To have the ICBM program run at full throttle they needed direct action by the President of the United States. They convinced President Eisenhower in a direct meeting in July 1955, which resulted in a presidential directive on September 13, 1955. It stated that "there would be the gravest repercussions on the national security and on the cohesion of the free world" if the Soviet Union developed the ICBM before the US and therefore designated the ICBM project "a research and development program of the highest priority above all others." The Secretary of Defense was ordered to commence the project with "maximum urgency". Evidence would later show that the Soviets indeed were already testing their own intermediate-range ballistic missiles at the time. Von Neumann would continue to meet the President, including at his home in Gettysburg, Pennsylvania, and other high-level government officials as a key advisor on ICBMs until his death.
+
+
+=== Atomic Energy Commission ===
+In 1955, von Neumann became a commissioner of the Atomic Energy Commission (AEC), which at the time was the highest official position available to scientists in the government. (While his appointment formally required that he sever all his other consulting contracts, an exemption was made for von Neumann to continue working with several critical military committees after the Air Force and several key senators raised concerns.) He used this position to further the production of compact hydrogen bombs suitable for intercontinental ballistic missile (ICBM) delivery. He involved himself in correcting the severe shortage of tritium and lithium 6 needed for these weapons, and he argued against settling for the intermediate-range missiles that the Army wanted. He was adamant that H-bombs delivered deep into enemy territory by an ICBM would be the most effective weapon possible, and that the relative inaccuracy of the missile would not be a problem with an H-bomb. He said the Russians would probably be building a similar weapon system, which turned out to be the case. While Lewis Strauss was away in the second half of 1955 von Neumann took over as acting chairman of the commission.
+In his final years before his death from cancer, von Neumann headed the United States government's top-secret ICBM committee, which would sometimes meet in his home. Its purpose was to decide on the feasibility of building an ICBM large enough to carry a thermonuclear weapon. Von Neumann had long argued that while the technical obstacles were sizable, they could be overcome. The SM-65 Atlas passed its first fully functional test in 1959, two years after his death. The more advanced Titan rockets were deployed in 1962. Both had been proposed in the ICBM committees von Neumann chaired. The feasibility of the ICBMs owed as much to improved, smaller warheads that did not have guidance or heat resistance issues as it did to developments in rocketry, and his understanding of the former made his advice invaluable.
+Von Neumann entered government service primarily because he felt that, if freedom and civilization were to survive, it would have to be because the United States would triumph over totalitarianism from Nazism, Fascism and Soviet Communism. During a Senate committee hearing he described his political ideology as "violently anti-communist, and much more militaristic than the norm".
+
+
+== Personality ==
+
+
+=== Work habits ===
+Herman Goldstine commented on von Neumann's ability to intuit hidden errors and remember old material perfectly. When he had difficulties he would not labor on them; instead, he would go home and sleep on it and come back later with a solution. This style, 'taking the path of least resistance', sometimes meant that he could go off on tangents. It also meant that if the difficulty was great from the very beginning, he would simply switch to another problem, not trying to find weak spots from which he could break through. At times he could be ignorant of the standard mathematical literature, finding it easier to rederive basic information he needed rather than chase references.
+After World War II began, he became extremely busy with both academic and military commitments. His habit of not writing up talks or publishing results worsened. He did not find it easy to discuss a topic formally in writing unless it was already mature in his mind; if it was not, he would, in his own words, "develop the worst traits of pedantism and inefficiency".
+
+
+=== Mathematical range ===
+The mathematician Jean Dieudonné said that von Neumann "may have been the last representative of a once-flourishing and numerous group, the great mathematicians who were equally at home in pure and applied mathematics and who throughout their careers maintained a steady production in both directions". According to Dieudonné, his specific genius was in analysis and "combinatorics", with combinatorics being understood in a very wide sense that described his ability to organize and axiomize complex works that previously seemed to have little connection with mathematics. His style in analysis followed the German school, based on foundations in linear algebra and general topology. While von Neumann had an encyclopedic background, his range in pure mathematics was not as wide as Poincaré, Hilbert or even Weyl: von Neumann never did significant work in number theory, algebraic topology, algebraic geometry or differential geometry. However, in applied mathematics his work equalled that of Gauss, Cauchy or Poincaré.
+According to Wigner, "Nobody knows all science, not even von Neumann did. But as for mathematics, he contributed to every part of it except number theory and topology. That is, I think, something unique." Halmos noted that while von Neumann knew lots of mathematics, the most notable gaps were in algebraic topology and number theory; he recalled an incident where von Neumann failed to recognize the topological definition of a torus. Von Neumann admitted to Herman Goldstine that he had no facility at all in topology and he was never comfortable with it, with Goldstine later bringing this up when comparing him to Hermann Weyl, who he thought was deeper and broader.
+In his biography of von Neumann, Salomon Bochner wrote that much of von Neumann's works in pure mathematics involved finite and infinite dimensional vector spaces, which at the time, covered much of the total area of mathematics. However he pointed out this still did not cover an important part of the mathematical landscape, in particular, anything that involved geometry "in the global sense", topics such as topology, differential geometry and harmonic integrals, algebraic geometry and other such fields. Von Neumann rarely worked in these fields and, as Bochner saw it, had little affinity for them.
+In one of von Neumann's last articles, he lamented that pure mathematicians could no longer attain deep knowledge of even a fraction of the field. In the early 1940s, Ulam had concocted for him a doctoral-style examination to find weaknesses in his knowledge; von Neumann was unable to answer satisfactorily a question each in differential geometry, number theory, and algebra. They concluded that doctoral exams might have "little permanent meaning". However, when Weyl turned down an offer to write a history of mathematics of the 20th century, arguing that no one person could do it, Ulam thought von Neumann could have aspired to do so.
+
+
+=== Preferred problem-solving techniques ===
+Ulam remarked that most mathematicians could master one technique that they then used repeatedly, whereas von Neumann had mastered three:
+
+A facility with the symbolic manipulation of linear operators;
+An intuitive feeling for the logical structure of any new mathematical theory;
+An intuitive feeling for the combinatorial superstructure of new theories.
+Although he was commonly described as an analyst, he once classified himself an algebraist, and his style often displayed a mix of algebraic technique and set-theoretical intuition. He loved obsessive detail and had no issues with excess repetition or overly explicit notation. An example of this was a paper of his on rings of operators, where he extended the normal functional notation, 
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \phi (x)}
+  
+ to 
+  
+    
+      
+        ϕ
+        (
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle \phi ((x))}
+  
+. However, this process ended up being repeated several times, where the final result were equations such as 
+  
+    
+      
+        (
+        ψ
+        (
+        (
+        (
+        (
+        a
+        )
+        )
+        )
+        )
+        
+          )
+          
+            2
+          
+        
+        =
+        ϕ
+        (
+        (
+        (
+        (
+        a
+        )
+        )
+        )
+        )
+      
+    
+    {\displaystyle (\psi ((((a)))))^{2}=\phi ((((a))))}
+  
+. The 1936 paper became known to students as "von Neumann's onion" because the equations "needed to be peeled before they could be digested". Overall, although his writings were clear and powerful, they were not clean or elegant. Although powerful technically, his primary concern was more with the clear and viable formation of fundamental issues and questions of science rather than just the solution of mathematical puzzles.
+According to Ulam, von Neumann surprised physicists by doing dimensional estimates and algebraic computations in his head with fluency Ulam likened to blindfold chess. His impression was that von Neumann analyzed physical situations by abstract logical deduction rather than concrete visualization.
+
+
+=== Lecture style ===
+Goldstine compared his lectures to being on glass, smooth and lucid. By comparison, Goldstine thought his scientific articles were written in a much harsher manner, and with much less insight. Halmos described his lectures as "dazzling", with his speech clear, rapid, precise and all encompassing. Like Goldstine, he also described how everything seemed "so easy and natural" in lectures but puzzling on later reflection. He was a quick speaker: Banesh Hoffmann found it very difficult to take notes, even in shorthand, and Albert Tucker said that people often had to ask von Neumann questions to slow him down so they could think through the ideas he was presenting. Von Neumann knew about this and was grateful for his audience telling him when he was going too quickly. Although he did spend time preparing for lectures, he rarely used notes, instead jotting down points of what he would discuss and for how long.
+
+
+=== Eidetic memory ===
+Von Neumann was also noted for his eidetic memory, particularly of the symbolic kind. Herman Goldstine writes:
+
+One of his remarkable abilities was his power of absolute recall. As far as I could tell, von Neumann was able on once reading a book or article to quote it back verbatim; moreover, he could do it years later without hesitation. He could also translate it at no diminution in speed from its original language into English. On one occasion I tested his ability by asking him to tell me how A Tale of Two Cities started. Whereupon, without any pause, he immediately began to recite the first chapter and continued until asked to stop after about ten or fifteen minutes.
+Von Neumann was reportedly able to memorize the pages of telephone directories. He entertained friends by asking them to randomly call out page numbers; he then recited the names, addresses and numbers therein.  Stanisław Ulam believed that von Neumann's memory was auditory rather than visual.
+
+
+=== Mathematical quickness ===
+Von Neumann's mathematical fluency, calculation speed, and general problem-solving ability were widely noted by his peers. Paul Halmos called his speed "awe-inspiring." Lothar Wolfgang Nordheim described him as the "fastest mind I ever met". Enrico Fermi told physicist Herbert L. Anderson: "You know, Herb, Johnny can do calculations in his head ten times as fast as I can! And I can do them ten times as fast as you can, Herb, so you can see how impressive Johnny is!" Edward Teller admitted that he "never could keep up with him", and Israel Halperin described trying to keep up as like riding a "tricycle chasing a racing car."
+He had an unusual ability to solve novel problems quickly. George Pólya, whose lectures at ETH Zürich von Neumann attended as a student, said, "Johnny was the only student I was ever afraid of. If in the course of a lecture I stated an unsolved problem, the chances were he'd come to me at the end of the lecture with the complete solution scribbled on a slip of paper." When George Dantzig brought von Neumann an unsolved problem in linear programming "as I would to an ordinary mortal", on which there had been no published literature, he was astonished when von Neumann said "Oh, that!", before offhandedly giving a lecture of over an hour, explaining how to solve the problem using the hitherto unconceived theory of duality.
+A story about von Neumann's encounter with the famous fly puzzle has entered mathematical folklore. In this puzzle, two bicycles begin 20 miles apart, and each travels toward the other at 10 miles per hour until they collide; meanwhile, a fly travels continuously back and forth between the bicycles at 15 miles per hour until it is squashed in the collision. The questioner asks how far the fly traveled in total; the "trick" for a quick answer is to realize that the fly's individual transits do not matter, only that it has been traveling at 15 miles per hour for one hour. As Eugene Wigner tells it, Max Born posed the riddle to von Neumann. The other scientists to whom he had posed it had laboriously computed the distance, so when von Neumann was immediately ready with the correct answer of 15 miles, Born observed that he must have guessed the trick. "What trick?" von Neumann replied. "All I did was sum the geometric series."
+
+
+=== Self-doubts ===
+Rota wrote that von Neumann had "deep-seated and recurring self-doubts". John L. Kelley reminisced in 1989 that "Johnny von Neumann has said that he will be forgotten while Kurt Gödel is remembered with Pythagoras, but the rest of us viewed Johnny with awe." Ulam suggests that some of his self-doubts with regard for his own creativity may have come from the fact he had not discovered several important ideas that others had, even though he was more than capable of doing so, giving the incompleteness theorems and Birkhoff's pointwise ergodic theorem as examples. Von Neumann had a virtuosity in following complicated reasoning and had supreme insights, yet he perhaps felt he did not have the gift for seemingly irrational proofs and theorems or intuitive insights. Ulam describes how during one of his stays at Princeton while von Neumann was working on rings of operators, continuous geometries and quantum logic he felt that von Neumann was not convinced of the importance of his work, and only when finding some ingenious technical trick or new approach did he take some pleasure in it. However, according to Rota, von Neumann still had an "incomparably stronger technique" compared to his friend, despite describing Ulam as the more creative mathematician.
+
+
+== Legacy ==
+
+
+=== Accolades ===
+Nobel Laureate Hans Bethe said "I have sometimes wondered whether a brain like von Neumann's does not indicate a species superior to that of man". Edward Teller observed "von Neumann would carry on a conversation with my 3-year-old son, and the two of them would talk as equals, and I sometimes wondered if he used the same principle when he talked to the rest of us." Peter Lax wrote "Von Neumann was addicted to thinking, and in particular to thinking about mathematics". Eugene Wigner said, "He understood mathematical problems not only in their initial aspect, but in their full complexity." Claude Shannon called him "the smartest person I've ever met", a common opinion. Jacob Bronowski wrote "He was the cleverest man I ever knew, without exception. He was a genius." Due to his wide reaching influence and contributions to many fields, von Neumann is widely considered a polymath.
+Wigner noted the extraordinary mind that von Neumann had, and he described von Neumann as having a mind faster than anyone he knew, stating that:
+
+I have known a great many intelligent people in my life. I knew Max Planck, Max von Laue, and Werner Heisenberg. Paul Dirac was my brother-in-law; Leo Szilard and Edward Teller have been among my closest friends; and Albert Einstein was a good friend, too. And I have known many of the brightest younger scientists. But none of them had a mind as quick and acute as Jancsi von Neumann. I have often remarked this in the presence of those men, and no one ever disputed me."It seems fair to say that if the influence of a scientist is interpreted broadly enough to include impact on fields beyond science proper, then John von Neumann was probably the most influential mathematician who ever lived," wrote Miklós Rédei. Peter Lax commented that von Neumann would have won a Nobel Prize in Economics had he lived longer, and that "if there were Nobel Prizes in computer science and mathematics, he would have been honored by these, too." Rota writes that "he was the first to have a vision of the boundless possibilities of computing, and he had the resolve to gather the considerable intellectual and engineering resources that led to the construction of the first large computer" and consequently that "No other mathematician in this century has had as deep and lasting an influence on the course of civilization." He is widely regarded as one of the greatest and most influential mathematicians and scientists of the 20th century.
+Neurophysiologist Leon Harmon described him in a similar manner, calling him the only "true genius" he had ever met: "von Neumann's mind was all-encompassing. He could solve problems in any domain. ... And his mind was always working, always restless." While consulting for non-academic projects von Neumann's combination of outstanding scientific ability and practicality gave him a high credibility with military officers, engineers, and industrialists that no other scientist could match. In nuclear missilery he was considered "the clearly dominant advisory figure" according to Herbert York. Economist Nicholas Kaldor said he was "unquestionably the nearest thing to a genius I have ever encountered." Likewise, Paul Samuelson wrote, "We economists are grateful for von Neumann's genius. It is not for us to calculate whether he was a Gauss, or a Poincaré, or a Hilbert. He was the incomparable Johnny von Neumann. He darted briefly into our domain and it has never been the same since."
+
+
+=== Honors and awards ===
+
+Events and awards named in recognition of von Neumann include the annual John von Neumann Theory Prize of the Institute for Operations Research and the Management Sciences, IEEE John von Neumann Medal, and the John von Neumann Prize of the Society for Industrial and Applied Mathematics. Both the crater von Neumann on the Moon and the asteroid 22824 von Neumann are named in his honor.
+Von Neumann received awards including the Medal for Merit in 1947, the Medal of Freedom in 1956, and the Enrico Fermi Award also in 1956. He was elected a member of multiple honorary societies, including the American Academy of Arts and Sciences and the National Academy of Sciences, and he held eight honorary doctorates. On May 4, 2005, the United States Postal Service issued the American Scientists commemorative postage stamp series, designed by artist Victor Stabin. The scientists depicted were von Neumann, Barbara McClintock, Josiah Willard Gibbs, and Richard Feynman.
+John von Neumann University was established in Kecskemét, Hungary in 2016, as a successor to Kecskemét College.
+
+
+== Selected works ==
+
+Von Neumann's first published paper was On the position of zeroes of certain minimum polynomials, co-authored with Michael Fekete and published when von Neumann was 18. At 19, his solo paper On the introduction of transfinite numbers was published. He expanded his second solo paper, An axiomatization of set theory, to create his PhD thesis. His first book, Mathematical Foundations of Quantum Mechanics, was published in 1932. Following this, von Neumann switched from publishing in German to publishing in English, and his publications became more selective and expanded beyond pure mathematics. His 1942 Theory of Detonation Waves contributed to military research, his work on computing began with the unpublished 1946 On the principles of large scale computing machines, and his publications on weather prediction began with the 1950 Numerical integration of the barotropic vorticity equation. Alongside his later papers were informal essays targeted at colleagues and the general public, such as his 1947 The Mathematician, described as a "farewell to pure mathematics", and his 1955 Can we survive technology?, which considered a bleak future including nuclear warfare and deliberate climate change. His complete works have been compiled into a six-volume set.
+
+
+== See also ==
+List of pioneers in computer science
+Teapot Committee
+The MANIAC, 2023 book about von Neumann
+German: Abenteuer eines Mathematikers (English title: Adventures of a Mathematician), biopic about Stanislaw Ulam also features John von Neumann.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+
+A more or less complete bibliography of publications of John von Neumann by Nelson H. F. Beebe
+O'Connor, John J.; Robertson, Edmund F. "John von Neumann". MacTutor History of Mathematics Archive. University of St Andrews.
+von Neumann's profile at Google Scholar
+Oral History Project - The Princeton Mathematics Community in the 1930s, contains many interviews that describe contact and anecdotes of von Neumann and others at the Princeton University and Institute for Advanced Study community.
+Oral history interviews (from the Charles Babbage Institute, University of Minnesota) with: Alice R. Burks and Arthur W. Burks; Eugene P. Wigner; and Nicholas C. Metropolis.
+zbMATH profile
+Query for "von neumann" on the digital repository of the Institute for Advanced Study.
+Von Neumann vs. Dirac on Quantum Theory and Mathematical Rigor – from Stanford Encyclopedia of Philosophy
+Quantum Logic and Probability Theory - from Stanford Encyclopedia of Philosophy
+FBI files on John von Neumann released via FOI
+Biographical video by David Brailsford (John Dunford Professor Emeritus of computer science at the University of Nottingham)
+John von Neumann: Prophet of the 21st Century 2013 Arte documentary on John von Neumann and his influence in the modern world (in German and French with English subtitles).
+John von Neumann - A Documentary 1966 detailed documentary by the Mathematical Association of America containing remarks by several of his colleagues including Ulam, Wigner, Halmos, Morgenstern, Bethe, Goldstine, Strauss and Teller.

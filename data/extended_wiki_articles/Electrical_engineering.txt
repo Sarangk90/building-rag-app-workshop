@@ -1,0 +1,218 @@
+Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism. It emerged as an identifiable occupation in the latter half of the 19th century after the commercialization of the electric telegraph, the telephone, and electrical power generation, distribution, and use.
+Electrical engineering is divided into a wide range of different fields, including computer engineering, systems engineering, power engineering, telecommunications, radio-frequency engineering, signal processing, instrumentation, photovoltaic cells, electronics, and optics and photonics. Many of these disciplines overlap with other engineering branches, spanning a huge number of specializations including hardware engineering, power electronics, electromagnetics and waves, microwave engineering, nanotechnology, electrochemistry, renewable energies, mechatronics/control, and electrical materials science.
+Electrical engineers typically hold a degree in electrical engineering, electronic or electrical and electronic engineering. Practicing engineers may have professional certification and be members of a professional body or an international standards organization. These include the International Electrotechnical Commission (IEC), the National Society of Professional Engineers (NSPE), the Institute of Electrical and Electronics Engineers (IEEE) and the Institution of Engineering and Technology (IET, formerly the IEE).
+Electrical engineers work in a very wide range of industries and the skills required are likewise variable. These range from circuit theory to the management skills of a project manager. The tools and equipment that an individual engineer may need are similarly variable, ranging from a simple voltmeter to sophisticated design and manufacturing software.
+
+
+== History ==
+
+Electricity has been a subject of scientific interest since at least the early 17th century. William Gilbert was a prominent early electrical scientist, and was the first to draw a clear distinction between magnetism and static electricity. He is credited with establishing the term "electricity". He also designed the versorium: a device that detects the presence of statically charged objects. In 1762 Swedish professor Johan Wilcke invented a device later named electrophorus that produced a static electric charge. By 1800 Alessandro Volta had developed the voltaic pile, a forerunner of the electric battery.
+
+
+=== 19th century ===
+
+In the 19th century, research into the subject started to intensify. Notable developments in this century include the work of Hans Christian Ørsted, who discovered in 1820 that an electric current produces a magnetic field that will deflect a compass needle; of William Sturgeon, who in 1825 invented the electromagnet; of Joseph Henry and Edward Davy, who invented the electrical relay in 1835; of Georg Ohm, who in 1827 quantified the relationship between the electric current and potential difference in a conductor; of Michael Faraday, the discoverer of electromagnetic induction in 1831; and of James Clerk Maxwell, who in 1873 published a unified theory of electricity and magnetism in his treatise Electricity and Magnetism.
+In 1782, Georges-Louis Le Sage developed and presented in Berlin probably the world's first form of electric telegraphy, using 24 different wires, one for each letter of the alphabet. This telegraph connected two rooms. It was an electrostatic telegraph that moved gold leaf through electrical conduction.
+In 1795, Francisco Salva Campillo proposed an electrostatic telegraph system. Between 1803 and 1804, he worked on electrical telegraphy, and in 1804, he presented his report at the Royal Academy of Natural Sciences and Arts of Barcelona. Salva's electrolyte telegraph system was very innovative though it was greatly influenced by and based upon two discoveries made in Europe in 1800—Alessandro Volta's electric battery for generating an electric current and William Nicholson and Anthony Carlyle's electrolysis of water. Electrical telegraphy may be considered the first example of electrical engineering. Electrical engineering became a profession in the later 19th century.  Practitioners had created a global electric telegraph network, and the first professional electrical engineering institutions were founded in the UK and the US to support the new discipline. Francis Ronalds created an electric telegraph system in 1816 and documented his vision of how the world could be transformed by electricity. Over 50 years later, he joined the new Society of Telegraph Engineers (soon to be renamed the Institution of Electrical Engineers) where he was regarded by other members as the first of their cohort. By the end of the 19th century, the world had been forever changed by the rapid communication made possible by the engineering development of land-lines, submarine cables, and, from about 1890, wireless telegraphy.
+Practical applications and advances in such fields created an increasing need for standardized units of measure. They led to the international standardization of the units volt, ampere, coulomb, ohm, farad, and henry. This was achieved at an international conference in Chicago in 1893. The publication of these standards formed the basis of future advances in standardization in various industries, and in many countries, the definitions were immediately recognized in relevant legislation.
+During these years, the study of electricity was largely considered to be a subfield of physics since early electrical technology was considered electromechanical in nature. The Technische Universität Darmstadt founded the world's first department of electrical engineering in 1882 and introduced the first-degree course in electrical engineering in 1883. The first electrical engineering degree program in the United States was started at Massachusetts Institute of Technology (MIT) in the physics department under Professor Charles Cross, though it was Cornell University to produce the world's first electrical engineering graduates in 1885. The first course in electrical engineering was taught in 1883 in Cornell's Sibley College of Mechanical Engineering and Mechanic Arts.
+In about 1885, Cornell President Andrew Dickson White established the first Department of Electrical Engineering in the United States. In the same year, University College London founded the first chair of electrical engineering in Great Britain. Professor Mendell P. Weinbach at University of Missouri established the electrical engineering department in 1886. Afterwards, universities and institutes of technology gradually started to offer electrical engineering programs to their students all over the world.
+During these decades the use of electrical engineering increased dramatically. In 1882, Thomas Edison switched on the world's first large-scale electric power network that provided 110 volts—direct current (DC)—to 59 customers on Manhattan Island in New York City. In 1884, Sir Charles Parsons invented the steam turbine allowing for more efficient electric power generation. Alternating current, with its ability to transmit power more efficiently over long distances via the use of transformers, developed rapidly in the 1880s and 1890s with transformer designs by Károly Zipernowsky, Ottó Bláthy and Miksa Déri (later called ZBD transformers), Lucien Gaulard, John Dixon Gibbs and William Stanley Jr. Practical AC motor designs including induction motors were independently invented by Galileo Ferraris and Nikola Tesla and further developed into a practical three-phase form by Mikhail Dolivo-Dobrovolsky and Charles Eugene Lancelot Brown. Charles Steinmetz and Oliver Heaviside contributed to the theoretical basis of alternating current engineering. The spread in the use of AC set off in the United States what has been called the war of the currents between a George Westinghouse backed AC system and a Thomas Edison backed DC power system, with AC being adopted as the overall standard.
+
+
+=== Early 20th century ===
+
+During the development of radio, many scientists and inventors contributed to radio technology and electronics. The mathematical work of James Clerk Maxwell during the 1850s had shown the relationship of different forms of electromagnetic radiation including the possibility of invisible airborne waves (later called "radio waves"). In his classic physics experiments of 1888, Heinrich Hertz proved Maxwell's theory by transmitting radio waves with a spark-gap transmitter, and detected them by using simple electrical devices. Other physicists experimented with these new waves and in the process developed devices for transmitting and detecting them. In 1895, Guglielmo Marconi began work on a way to adapt the known methods of transmitting and detecting these "Hertzian waves" into a purpose-built commercial wireless telegraphic system. Early on, he sent wireless signals over a distance of one and a half miles. In December 1901, he sent wireless waves that were not affected by the curvature of the Earth. Marconi later transmitted the wireless signals across the Atlantic between Poldhu, Cornwall, and St. John's, Newfoundland, a distance of 2,100 miles (3,400 km).
+Millimetre wave communication was first investigated by Jagadish Chandra Bose during 1894–1896, when he reached an extremely high frequency of up to 60 GHz in his experiments. He also introduced the use of semiconductor junctions to detect radio waves, when he patented the radio crystal detector in 1901.
+In 1897, Karl Ferdinand Braun introduced the cathode-ray tube as part of an oscilloscope, a crucial enabling technology for electronic television. John Fleming invented the first radio tube, the diode, in 1904. Two years later, Robert von Lieben and Lee De Forest independently developed the amplifier tube, called the triode.
+In 1920, Albert Hull developed the magnetron which would eventually lead to the development of the microwave oven in 1946 by Percy Spencer. In 1934, the British military began to make strides toward radar (which also uses the magnetron) under the direction of Dr Wimperis, culminating in the operation of the first radar station at Bawdsey in August 1936.
+In 1941, Konrad Zuse presented the Z3, the world's first fully functional and programmable computer using electromechanical parts.  In 1943, Tommy Flowers designed and built the Colossus, the world's first fully functional, electronic, digital and programmable computer. In 1946, the ENIAC (Electronic Numerical Integrator and Computer) of John Presper Eckert and John Mauchly followed, beginning the computing era. The arithmetic performance of these machines allowed engineers to develop completely new technologies and achieve new objectives.
+In 1948, Claude Shannon published "A Mathematical Theory of Communication" which mathematically describes the passage of information with uncertainty (electrical noise).
+
+
+=== Solid-state electronics ===
+
+The first working transistor was a point-contact transistor invented by John Bardeen and Walter Houser Brattain while working under William Shockley at the Bell Telephone Laboratories (BTL) in 1947. They then invented the bipolar junction transistor in 1948. While early junction transistors were relatively bulky devices that were difficult to manufacture on a mass-production basis, they opened the door for more compact devices.
+The first integrated circuits were the hybrid integrated circuit invented by Jack Kilby at Texas Instruments in 1958 and the monolithic integrated circuit chip invented by Robert Noyce at Fairchild Semiconductor in 1959.
+The MOSFET (metal–oxide–semiconductor field-effect transistor, or MOS transistor) was invented by Mohamed Atalla and Dawon Kahng at BTL in 1959. It was the first truly compact transistor that could be miniaturised and mass-produced for a wide range of uses. It revolutionized the electronics industry, becoming the most widely used electronic device in the world.
+The MOSFET made it possible to build high-density integrated circuit chips. The earliest experimental MOS IC chip to be fabricated was built by Fred Heiman and Steven Hofstein at RCA Laboratories in 1962. MOS technology enabled Moore's law, the doubling of transistors on an IC chip every two years, predicted by Gordon Moore in 1965. Silicon-gate MOS technology was developed by Federico Faggin at Fairchild in 1968. Since then, the MOSFET has been the basic building block of modern electronics. The mass-production of silicon MOSFETs and MOS integrated circuit chips, along with continuous MOSFET scaling miniaturization at an exponential pace (as predicted by Moore's law), has since led to revolutionary changes in technology, economy, culture and thinking.
+The Apollo program which culminated in landing astronauts on the Moon with Apollo 11 in 1969 was enabled by NASA's adoption of advances in semiconductor electronic technology, including MOSFETs in the Interplanetary Monitoring Platform (IMP) and silicon integrated circuit chips in the Apollo Guidance Computer (AGC).
+The development of MOS integrated circuit technology in the 1960s led to the invention of the microprocessor in the early 1970s. The first single-chip microprocessor was the Intel 4004, released in 1971.  The Intel 4004 was designed and realized by Federico Faggin at Intel with his silicon-gate MOS technology, along with Intel's Marcian Hoff and Stanley Mazor and Busicom's Masatoshi Shima. The microprocessor led to the development of microcomputers and personal computers, and the microcomputer revolution.
+
+
+== Subfields ==
+One of the properties of electricity is that it is very useful for energy transmission as well as for information transmission. These were also the first areas in which electrical engineering was developed. Today, electrical engineering has many subdisciplines, the most common of which are listed below. Although there are electrical engineers who focus exclusively on one of these subdisciplines, many deal with a combination of them. Sometimes, certain fields, such as electronic engineering and computer engineering, are considered disciplines in their own right.
+
+
+=== Power and energy ===
+
+Power & Energy engineering deals with the generation, transmission, and distribution of electricity as well as the design of a range of related devices. These include transformers, electric generators, electric motors, high voltage engineering, and power electronics. In many regions of the world, governments maintain an electrical network called a power grid that connects a variety of generators together with users of their energy. Users purchase electrical energy from the grid, avoiding the costly exercise of having to generate their own. Power engineers may work on the design and maintenance of the power grid as well as the power systems that connect to it. Such systems are called on-grid power systems and may supply the grid with additional power, draw power from the grid, or do both. Power engineers may also work on systems that do not connect to the grid, called off-grid power systems, which in some cases are preferable to on-grid systems.
+
+
+=== Telecommunications ===
+
+Telecommunications engineering focuses on the transmission of information across a communication channel such as a coax cable, optical fiber or free space. Transmissions across free space require information to be encoded in a carrier signal to shift the information to a carrier frequency suitable for transmission; this is known as modulation. Popular analog modulation techniques include amplitude modulation and frequency modulation. The choice of modulation affects the cost and performance of a system and these two factors must be balanced carefully by the engineer.
+Once the transmission characteristics of a system are determined, telecommunication engineers design the transmitters and receivers needed for such systems. These two are sometimes combined to form a two-way communication device known as a transceiver. A key consideration in the design of transmitters is their power consumption as this is closely related to their signal strength. Typically, if the power of the transmitted signal is insufficient once the signal arrives at the receiver's antenna(s), the information contained in the signal will be corrupted by noise, specifically static.
+
+
+=== Control engineering ===
+
+Control engineering focuses on the modeling of a diverse range of dynamic systems and the design of controllers that will cause these systems to behave in the desired manner. To implement such controllers, electronics control engineers may use electronic circuits, digital signal processors, microcontrollers, and programmable logic controllers (PLCs). Control engineering has a wide range of applications from the flight and propulsion systems of commercial airliners to the cruise control present in many modern automobiles. It also plays an important role in industrial automation.
+Control engineers often use feedback when designing control systems. For example, in an automobile with cruise control the vehicle's speed is continuously monitored and fed back to the system which adjusts the motor's power output accordingly. Where there is regular feedback, control theory can be used to determine how the system responds to such feedback.
+Control engineers also work in robotics to design autonomous systems using control algorithms which interpret sensory feedback to control actuators that move robots such as autonomous vehicles, autonomous drones and others used in a variety of industries.
+
+
+=== Electronics ===
+
+Electronic engineering involves the design and testing of electronic circuits that use the properties of components such as resistors, capacitors, inductors, diodes, and transistors to achieve a particular functionality. The tuned circuit, which allows the user of a radio to filter out all but a single station, is just one example of such a circuit. Another example to research is a pneumatic signal conditioner.
+Prior to the Second World War, the subject was commonly known as radio engineering and basically was restricted to aspects of communications and radar, commercial radio, and early television. Later, in post-war years, as consumer devices began to be developed, the field grew to include modern television, audio systems, computers, and microprocessors. In the mid-to-late 1950s, the term radio engineering gradually gave way to the name electronic engineering.
+Before the invention of the integrated circuit in 1959, electronic circuits were constructed from discrete components that could be manipulated by humans. These discrete circuits consumed much space and power and were limited in speed, although they are still common in some applications. By contrast, integrated circuits packed a large number—often millions—of tiny electrical components, mainly transistors, into a small chip around the size of a coin. This allowed for the powerful computers and other electronic devices we see today.
+
+
+=== Microelectronics and nanoelectronics ===
+
+Microelectronics engineering deals with the design and microfabrication of very small electronic circuit components for use in an integrated circuit or sometimes for use on their own as a general electronic component. The most common microelectronic components are semiconductor transistors, although all main electronic components (resistors, capacitors etc.) can be created at a microscopic level.
+Nanoelectronics is the further scaling of devices down to nanometer levels. Modern devices are already in the nanometer regime, with below 100 nm processing having been standard since around 2002.
+Microelectronic components are created by chemically fabricating wafers of semiconductors such as silicon (at higher frequencies, compound semiconductors like gallium arsenide and indium phosphide) to obtain the desired transport of electronic charge and control of current. The field of microelectronics involves a significant amount of chemistry and material science and requires the electronic engineer working in the field to have a very good working knowledge of the effects of quantum mechanics.
+
+
+=== Signal processing ===
+
+Signal processing deals with the analysis and manipulation of signals. Signals can be either analog, in which case the signal varies continuously according to the information, or digital, in which case the signal varies according to a series of discrete values representing the information. For analog signals, signal processing may involve the amplification and filtering of audio signals for audio equipment or the modulation and demodulation of signals for telecommunications. For digital signals, signal processing may involve the compression, error detection and error correction of digitally sampled signals.
+Signal processing is a very mathematically oriented and intensive area forming the core of digital signal processing and it is rapidly expanding with new applications in every field of electrical engineering such as communications, control, radar, audio engineering, broadcast engineering, power electronics, and biomedical engineering as many already existing analog systems are replaced with their digital counterparts. Analog signal processing is still important in the design of many control systems.
+DSP processor ICs are found in many types of modern electronic devices, such as digital television sets, radios, hi-fi audio equipment, mobile phones, multimedia players, camcorders and digital cameras, automobile control systems, noise cancelling headphones, digital spectrum analyzers, missile guidance systems, radar systems, and telematics systems. In such products, DSP may be responsible for noise reduction, speech recognition or synthesis, encoding or decoding digital media, wirelessly transmitting or receiving data, triangulating positions using GPS, and other kinds of image processing, video processing, audio processing, and speech processing.
+
+
+=== Instrumentation ===
+
+Instrumentation engineering deals with the design of devices to measure physical quantities such as pressure, flow, and temperature. The design of such instruments requires a good understanding of physics that often extends beyond electromagnetic theory. For example, flight instruments measure variables such as wind speed and altitude to enable pilots the control of aircraft analytically. Similarly, thermocouples use the Peltier-Seebeck effect to measure the temperature difference between two points.
+Often instrumentation is not used by itself, but instead as the sensors of larger electrical systems. For example, a thermocouple might be used to help ensure a furnace's temperature remains constant. For this reason, instrumentation engineering is often viewed as the counterpart of control.
+
+
+=== Computers ===
+
+Computer engineering deals with the design of computers and computer systems. This may involve the design of new hardware. Computer engineers may also work on a system's software. However, the design of complex software systems is often the domain of software engineering, which is usually considered a separate discipline. Desktop computers represent a tiny fraction of the devices a computer engineer might work on, as computer-like architectures are now found in a range of embedded devices including video game consoles and DVD players. Computer engineers are involved in many hardware and software aspects of computing. Robots are one of the applications of computer engineering.
+
+
+=== Photonics and optics ===
+
+Photonics and optics deals with the generation, transmission, amplification, modulation, detection, and analysis of electromagnetic radiation. The application of optics deals with design of optical instruments such as lenses, microscopes, telescopes, and other equipment that uses the properties of electromagnetic radiation. Other prominent applications of optics include electro-optical sensors and measurement systems, lasers, fiber-optic communication systems, and optical disc systems (e.g. CD and DVD). Photonics builds heavily on optical technology, supplemented with modern developments such as optoelectronics (mostly involving semiconductors), laser systems, optical amplifiers and novel materials (e.g. metamaterials).
+
+
+== Related disciplines ==
+
+Mechatronics is an engineering discipline that deals with the convergence of electrical and mechanical systems. Such combined systems are known as electromechanical systems and have widespread adoption. Examples include automated manufacturing systems, heating, ventilation and air-conditioning systems, and various subsystems of aircraft and automobiles.
+Electronic systems design is the subject within electrical engineering that deals with the multi-disciplinary design issues of complex electrical and mechanical systems.
+The term mechatronics is typically used to refer to macroscopic systems but futurists have predicted the emergence of very small electromechanical devices. Already, such small devices, known as microelectromechanical systems (MEMS), are used in automobiles to tell airbags when to deploy, in digital projectors to create sharper images, and in inkjet printers to create nozzles for high definition printing. In the future it is hoped the devices will help build tiny implantable medical devices and improve optical communication.
+In aerospace engineering and robotics, an example is the most recent electric propulsion and ion propulsion.
+
+
+== Education ==
+
+Electrical engineers typically possess an academic degree with a major in electrical engineering, electronics engineering, electronics and computer engineering, electrical engineering technology, or electrical and electronic engineering. The same fundamental principles are taught in all programs, though emphasis may vary according to title. The length of study for such a degree is usually four or five years and the completed degree may be designated as a Bachelor of Science in Electrical/Electronics Engineering Technology, Bachelor of Engineering, Bachelor of Science, Bachelor of Technology, or Bachelor of Applied Science, depending on the university. The bachelor's degree generally includes units covering physics, mathematics, computer science, project management, and a variety of topics in electrical engineering. Initially such topics cover most, if not all, of the subdisciplines of electrical engineering. 
+
+At many schools, electronic engineering is included as part of an electrical award, sometimes explicitly, such as a Bachelor of Engineering (Electrical and Electronic), but in others, electrical and electronic engineering are both considered to be sufficiently broad and complex that separate degrees are offered.
+Some electrical engineers choose to study for a postgraduate degree such as a Master of Engineering/Master of Science (MEng/MSc), a Master of Engineering Management, a Doctor of Philosophy (PhD) in Engineering, an Engineering Doctorate (Eng.D.), or an Engineer's degree. The master's and engineer's degrees may consist of either research, coursework or a mixture of the two. The Doctor of Philosophy and Engineering Doctorate degrees consist of a significant research component and are often viewed as the entry point to academia. In the United Kingdom and some other European countries, Master of Engineering is often considered to be an undergraduate degree of slightly longer duration than the Bachelor of Engineering rather than a standalone postgraduate degree.
+
+
+== Professional practice ==
+
+In most countries, a bachelor's degree in engineering represents the first step towards professional certification and the degree program itself is certified by a professional body. After completing a certified degree program the engineer must satisfy a range of requirements (including work experience requirements) before being certified. Once certified the engineer is designated the title of Professional Engineer (in the United States, Canada and South Africa), Chartered engineer or Incorporated Engineer (in India, Pakistan, the United Kingdom, Ireland and Zimbabwe), Chartered Professional Engineer (in Australia and New Zealand) or European Engineer (in much of the European Union).
+
+The advantages of licensure vary depending upon location. For example, in the United States and Canada "only a licensed engineer may seal engineering work for public and private clients". This requirement is enforced by state and provincial legislation such as Quebec's Engineers Act. In other countries, no such legislation exists. Practically all certifying bodies maintain a code of ethics that they expect all members to abide by or risk expulsion. In this way these organizations play an important role in maintaining ethical standards for the profession. Even in jurisdictions where certification has little or no legal bearing on work, engineers are subject to contract law. In cases where an engineer's work fails he or she may be subject to the tort of negligence and, in extreme cases, the charge of criminal negligence. An engineer's work must also comply with numerous other rules and regulations, such as building codes and legislation pertaining to environmental law.
+Professional bodies of note for electrical engineers include the Institute of Electrical and Electronics Engineers (IEEE) and the Institution of Engineering and Technology (IET).  The IEEE claims to produce 30% of the world's literature in electrical engineering, has over 360,000 members worldwide and holds over 3,000 conferences annually. The IET publishes 21 journals, has a worldwide membership of over 150,000, and claims to be the largest professional engineering society in Europe. Obsolescence of technical skills is a serious concern for electrical engineers. Membership and participation in technical societies, regular reviews of periodicals in the field and a habit of continued learning are therefore essential to maintaining proficiency. An MIET(Member of the Institution of Engineering and Technology) is recognised in Europe as an Electrical and computer (technology) engineer.
+In Australia, Canada, and the United States, electrical engineers make up around 0.25% of the labor force.
+
+
+== Tools and work ==
+From the Global Positioning System to electric power generation, electrical engineers have contributed to the development of a wide range of technologies. They design, develop, test, and supervise the deployment of electrical systems and electronic devices. For example, they may work on the design of telecommunications systems, the operation of electric power stations, the lighting and wiring of buildings, the design of household appliances, or the electrical control of industrial machinery.
+
+Fundamental to the discipline are the sciences of physics and mathematics as these help to obtain both a qualitative and quantitative description of how such systems will work. Today most engineering work involves the use of computers and it is commonplace to use computer-aided design programs when designing electrical systems. Nevertheless, the ability to sketch ideas is still invaluable for quickly communicating with others.
+
+Although most electrical engineers will understand basic circuit theory (that is, the interactions of elements such as resistors, capacitors, diodes, transistors, and inductors in a circuit), the theories employed by engineers generally depend upon the work they do. For example, quantum mechanics and solid state physics might be relevant to an engineer working on VLSI (the design of integrated circuits), but are largely irrelevant to engineers working with macroscopic electrical systems. Even circuit theory may not be relevant to a person designing telecommunications systems that use off-the-shelf components. Perhaps the most important technical skills for electrical engineers are reflected in university programs, which emphasize strong numerical skills, computer literacy, and the ability to understand the technical language and concepts that relate to electrical engineering.
+
+A wide range of instrumentation is used by electrical engineers.  For simple control circuits and alarms, a basic multimeter measuring voltage, current, and resistance may suffice.  Where time-varying signals need to be studied, the oscilloscope is also an ubiquitous instrument.  In RF engineering and high-frequency telecommunications, spectrum analyzers and network analyzers are used.  In some disciplines, safety can be a particular concern with instrumentation.  For instance, medical electronics designers must take into account that much lower voltages than normal can be dangerous when electrodes are directly in contact with internal body fluids. Power transmission engineering also has great safety concerns due to the high voltages used; although voltmeters may in principle be similar to their low voltage equivalents, safety and calibration issues make them very different. Many disciplines of electrical engineering use tests specific to their discipline.  Audio electronics engineers use audio test sets consisting of a signal generator and a meter, principally to measure level but also other parameters such as harmonic distortion and noise.  Likewise, information technology have their own test sets, often specific to a particular data format, and the same is true of television broadcasting.
+
+For many engineers, technical work accounts for only a fraction of the work they do. A lot of time may also be spent on tasks such as discussing proposals with clients, preparing budgets and determining project schedules. Many senior engineers manage a team of technicians or other engineers and for this reason project management skills are important. Most engineering projects involve some form of documentation and strong written communication skills are therefore very important.
+The workplaces of engineers are just as varied as the types of work they do. Electrical engineers may be found in the pristine lab environment of a fabrication plant, on board a Naval ship, the offices of a consulting firm or on site at a mine. During their working life, electrical engineers may find themselves supervising a wide range of individuals including scientists, electricians, computer programmers, and other engineers.
+Electrical engineering has an intimate relationship with the physical sciences.  For instance, the physicist Lord Kelvin played a major role in the engineering of the first transatlantic telegraph cable. Conversely, the engineer Oliver Heaviside produced major work on the mathematics of transmission on telegraph cables. Electrical engineers are often required on major science projects.  For instance, large particle accelerators such as CERN need electrical engineers to deal with many aspects of the project including the power distribution, the instrumentation, and the manufacture and installation of the superconducting electromagnets.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+Bibliography
+Abramson, Albert (1955). Electronic Motion Pictures: A History of the Television Camera. University of California Press.
+Åström, K.J.; Murray, R.M. (2021). Feedback Systems: An Introduction for Scientists and Engineers, Second Edition. Princeton University Press. p. 108. ISBN 978-0-691-21347-7.
+Bayoumi, Magdy A.; Swartzlander, Earl E. Jr. (31 October 1994). VLSI Signal Processing Technology. Springer. ISBN 978-0-7923-9490-7.
+Bhushan, Bharat (1997). Micro/Nanotribology and Its Applications. Springer. ISBN 978-0-7923-4386-8.
+Bissell, Chris (25 July 1996). Control Engineering, 2nd Edition. CRC Press. ISBN 978-0-412-57710-9.
+Chandrasekhar, Thomas (1 December 2006). Analog Communication (Jntu). Tata McGraw-Hill Education. ISBN 978-0-07-064770-1.
+Chaturvedi, Pradeep (1997). Sustainable Energy Supply in Asia: Proceedings of the International Conference, Asia Energy Vision 2020, Organised by the Indian Member Committee, World Energy Council Under the Institution of Engineers (India), During November 15–17, 1996 at New Delhi. Concept Publishing Company. ISBN 978-81-7022-631-4.
+Dodds, Christopher; Kumar, Chandra; Veering, Bernadette (March 2014). Oxford Textbook of Anaesthesia for the Elderly Patient. Oxford University Press. ISBN 978-0-19-960499-9.
+Fairman, Frederick Walker (11 June 1998). Linear Control Theory: The State Space Approach. John Wiley & Sons. ISBN 978-0-471-97489-5.
+Fredlund, D. G.; Rahardjo, H.; Fredlund, M. D. (30 July 2012). Unsaturated Soil Mechanics in Engineering Practice. Wiley. ISBN 978-1-118-28050-8.
+Grant, Malcolm Alister; Bixley, Paul F (1 April 2011). Geothermal Reservoir Engineering. Academic Press. ISBN 978-0-12-383881-0.
+Grigsby, Leonard L. (16 May 2012). Electric Power Generation, Transmission, and Distribution, Third Edition. CRC Press. ISBN 978-1-4398-5628-4.
+Heertje, Arnold; Perlman, Mark (1990). Evolving technology and market structure: studies in Schumpeterian economics. University of Michigan Press. ISBN 978-0-472-10192-4.
+Huurdeman, Anton A. (31 July 2003). The Worldwide History of Telecommunications. John Wiley & Sons. ISBN 978-0-471-20505-0.
+Iga, Kenichi; Kokubun, Yasuo (12 December 2010). Encyclopedic Handbook of Integrated Optics. CRC Press. ISBN 978-1-4200-2781-5.
+Jalote, Pankaj (31 January 2006). An Integrated Approach to Software Engineering. Springer. ISBN 978-0-387-28132-2.
+Khanna, Vinod Kumar (1 January 2009). Digital Signal Processing. S. Chand. ISBN 978-81-219-3095-6.
+Lambourne, Robert J. A. (1 June 2010). Relativity, Gravitation and Cosmology. Cambridge University Press. ISBN 978-0-521-13138-4.
+Leitgeb, Norbert (6 May 2010). Safety of Electromedical Devices: Law – Risks – Opportunities. Springer. ISBN 978-3-211-99683-6.
+Leondes, Cornelius T. (8 August 2000). Energy and Power Systems. CRC Press. ISBN 978-90-5699-677-2.
+Mahalik, Nitaigour Premchand (2003). Mechatronics: Principles, Concepts and Applications. Tata McGraw-Hill Education. ISBN 978-0-07-048374-3.
+Maluf, Nadim; Williams, Kirt (1 January 2004). Introduction to Microelectromechanical Systems Engineering. Artech House. ISBN 978-1-58053-591-5.
+Manolakis, Dimitris G.; Ingle, Vinay K. (21 November 2011). Applied Digital Signal Processing: Theory and Practice. Cambridge University Press. ISBN 978-1-139-49573-8.
+Martini, L., "BSCCO-2233 multilayered conductors", in Superconducting Materials for High Energy Colliders, pp. 173–181, World Scientific, 2001 ISBN 981-02-4319-7.
+Martinsen, Orjan G.; Grimnes, Sverre (29 August 2011). Bioimpedance and Bioelectricity Basics. Academic Press. ISBN 978-0-08-056880-5.
+McDavid, Richard A.; Echaore-McDavid, Susan (1 January 2009). Career Opportunities in Engineering. Infobase Publishing. ISBN 978-1-4381-1070-7.
+Merhari, Lhadi (3 March 2009). Hybrid Nanocomposites for Nanotechnology: Electronic, Optical, Magnetic and Biomedical Applications. Springer. ISBN 978-0-387-30428-1.
+Mook, William Moyer (2008). The Mechanical Response of Common Nanoscale Contact Geometries. ISBN 978-0-549-46812-7.
+Naidu, S. M.; Kamaraju, V. (2009). High Voltage Engineering. Tata McGraw-Hill Education. ISBN 978-0-07-066928-4.
+Obaidat, Mohammad S.; Denko, Mieso; Woungang, Isaac (9 June 2011). Pervasive Computing and Networking. John Wiley & Sons. ISBN 978-1-119-97043-9.
+Rosenberg, Chaim M. (2008). America at the Fair: Chicago's 1893 World's Columbian Exposition. Arcadia Publishing. ISBN 978-0-7385-2521-1.
+Schmidt, Rüdiger, "The LHC accelerator and its challenges", in Kramer M.; Soler, F.J.P. (eds), Large Hadron Collider Phenomenology, pp. 217–250, CRC Press, 2004 ISBN 0-7503-0986-5.
+Severs, Jeffrey; Leise, Christopher (24 February 2011). Pynchon's Against the Day: A Corrupted Pilgrim's Guide. Lexington Books. ISBN 978-1-61149-065-7.
+Shetty, Devdas; Kolk, Richard (14 September 2010). Mechatronics System Design, SI Version. Cengage Learning. ISBN 978-1-133-16949-9.
+Smith, Brian W. (January 2007). Communication Structures. Thomas Telford. ISBN 978-0-7277-3400-6.
+Sullivan, Dennis M. (24 January 2012). Quantum Mechanics for Electrical Engineers. John Wiley & Sons. ISBN 978-0-470-87409-7.
+Taylor, Allan (2008). Energy Industry. Infobase Publishing. ISBN 978-1-4381-1069-1.
+Thompson, Marc (12 June 2006). Intuitive Analog Circuit Design. Newnes. ISBN 978-0-08-047875-3.
+Tobin, Paul (1 January 2007). PSpice for Digital Communications Engineering. Morgan & Claypool Publishers. ISBN 978-1-59829-162-9.
+Tunbridge, Paul (1992). Lord Kelvin, His Influence on Electrical Measurements and Units. IET. ISBN 978-0-86341-237-0.
+Tuzlukov, Vyacheslav (12 December 2010). Signal Processing Noise. CRC Press. ISBN 978-1-4200-4111-8.
+Walker, Denise (2007). Metals and Non-metals. Evans Brothers. ISBN 978-0-237-53003-7.
+Wildes, Karl L.; Lindgren, Nilo A. (1 January 1985). A Century of Electrical Engineering and Computer Science at MIT, 1882–1982. MIT Press. p. 19. ISBN 978-0-262-23119-0.
+Zhang, Yan; Hu, Honglin; Luo, Jijun (27 June 2007). Distributed Antenna Systems: Open Architecture for Future Wireless Communications. CRC Press. ISBN 978-1-4200-4289-4.
+
+
+== Further reading ==
+
+Adhami, Reza; Meenen, Peter M.; Hite, Denis (2007). Fundamental Concepts in Electrical and Computer Engineering with Practical Design Problems. Universal-Publishers. ISBN 978-1-58112-971-7.
+Bober, William; Stevens, Andrew (27 August 2012). Numerical and Analytical Methods with MATLAB for Electrical Engineers. CRC Press. ISBN 978-1-4398-5429-7.
+Bobrow, Leonard S. (1996). Fundamentals of Electrical Engineering. Oxford University Press. ISBN 978-0-19-510509-4.
+Chen, Wai Kai (16 November 2004). The Electrical Engineering Handbook. Academic Press. ISBN 978-0-08-047748-0.
+Ciuprina, G.; Ioan, D. (30 May 2007). Scientific Computing in Electrical Engineering. Springer. ISBN 978-3-540-71980-9.
+Faria, J. A. Brandao (15 September 2008). Electromagnetic Foundations of Electrical Engineering. John Wiley & Sons. ISBN 978-0-470-69748-1.
+Jones, Lincoln D. (July 2004). Electrical Engineering: Problems and Solutions. Dearborn Trade Publishing. ISBN 978-1-4195-2131-7.
+Karalis, Edward (18 September 2003). 350 Solved Electrical Engineering Problems. Dearborn Trade Publishing. ISBN 978-0-7931-8511-5.
+Krawczyk, Andrzej; Wiak, S. (1 January 2002). Electromagnetic Fields in Electrical Engineering. IOS Press. ISBN 978-1-58603-232-6.
+Laplante, Phillip A. (31 December 1999). Comprehensive Dictionary of Electrical Engineering. Springer. ISBN 978-3-540-64835-2.
+Leon-Garcia, Alberto (2008). Probability, Statistics, and Random Processes for Electrical Engineering. Prentice Hall. ISBN 978-0-13-147122-1.
+Malaric, Roman (2011). Instrumentation and Measurement in Electrical Engineering. Universal-Publishers. ISBN 978-1-61233-500-1.
+Sahay, Kuldeep; Pathak, Shivendra (1 January 2006). Basic Concepts of Electrical Engineering. New Age International. ISBN 978-81-224-1836-1.
+Srinivas, Kn (1 January 2007). Basic Electrical Engineering. I. K. International Pvt Ltd. ISBN 978-81-89866-34-1.
+
+
+== External links ==
+
+International Electrotechnical Commission (IEC)
+MIT OpenCourseWare Archived 26 January 2008 at the Wayback Machine in-depth look at Electrical Engineering – online courses with video lectures.
+IEEE Global History Network A wiki-based site with many resources about the history of IEEE, its members, their professions and electrical and informational technologies and sciences.

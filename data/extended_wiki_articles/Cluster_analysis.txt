@@ -1,0 +1,1567 @@
+Cluster analysis, or clustering, is a data analysis technique aimed at partitioning a set of objects into groups such that objects within the same group (called a cluster) exhibit greater similarity to one another (in some specific sense defined by the analyst) than to those in other groups (clusters). It is a main task of exploratory data analysis, and a common technique for statistical data analysis, used in many fields, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics and machine learning.
+Cluster analysis refers to a family of algorithms and tasks rather than one specific algorithm. It can be achieved by various algorithms that differ significantly in their understanding of what constitutes a cluster and how to efficiently find them. Popular notions of clusters include groups with small distances between cluster members, dense areas of the data space, intervals or particular statistical distributions. Clustering can therefore be formulated as a multi-objective optimization problem. The appropriate clustering algorithm and parameter settings (including parameters such as the distance function to use, a density threshold or the number of expected clusters) depend on the individual data set and intended use of the results. Cluster analysis as such is not an automatic task, but an iterative process of knowledge discovery or interactive multi-objective optimization that involves trial and failure. It is often necessary to modify data preprocessing and model parameters until the result achieves the desired properties.
+Besides the term clustering, there are a number of terms with similar meanings, including automatic classification, numerical taxonomy, botryology (from Greek: βότρυς 'grape'), typological analysis, and community detection. The subtle differences are often in the use of the results: while in data mining, the resulting groups are the matter of interest, in automatic classification the resulting discriminative power is of interest.
+Cluster analysis originated in anthropology by Driver and Kroeber in 1932 and introduced to psychology by Joseph Zubin in 1938 and Robert Tryon in 1939 and famously used by Cattell beginning in 1943 for trait theory classification in personality psychology.
+
+
+== Definition ==
+The notion of a "cluster" cannot be precisely defined, which is one of the reasons why there are so many clustering algorithms. There is a common denominator: a group of data objects. However, different researchers employ different cluster models, and for each of these cluster models again different algorithms can be given. The notion of a cluster, as found by different algorithms, varies significantly in its properties. Understanding these "cluster models" is key to understanding the differences between the various algorithms. Typical cluster models include:
+
+Connectivity models: for example, hierarchical clustering builds models based on distance connectivity.
+Centroid models: for example, the k-means algorithm represents each cluster by a single mean vector.
+Distribution models: clusters are modeled using statistical distributions, such as multivariate normal distributions used by the expectation-maximization algorithm.
+Density models: for example, DBSCAN and OPTICS defines clusters as connected dense regions in the data space.
+Subspace models: in biclustering (also known as co-clustering or two-mode-clustering), clusters are modeled with both cluster members and relevant attributes.
+Group models: some algorithms do not provide a refined model for their results and just provide the grouping information.
+Graph-based models: a clique, that is, a subset of nodes in a graph such that every two nodes in the subset are connected by an edge can be considered as a prototypical form of cluster. Relaxations of the complete connectivity requirement (a fraction of the edges can be missing) are known as quasi-cliques, as in the HCS clustering algorithm.
+Signed graph models: Every path in a signed graph has a sign from the product of the signs on the edges. Under the assumptions of balance theory, edges may change sign and result in a bifurcated graph. The weaker "clusterability axiom" (no cycle has exactly one negative edge) yields results with more than two clusters, or subgraphs with only positive edges.
+Neural models: the most well-known unsupervised neural network is the self-organizing map and these models can usually be characterized as similar to one or more of the above models, and including subspace models when neural networks implement a form of Principal Component Analysis or Independent Component Analysis.
+A "clustering" is essentially a set of such clusters, usually containing all objects in the data set. Additionally, it may specify the relationship of the clusters to each other, for example, a hierarchy of clusters embedded in each other. Clusterings can be roughly distinguished as:
+
+Hard clustering: each object belongs to a cluster or not
+Soft clustering (also: fuzzy clustering): each object belongs to each cluster to a certain degree (for example, a likelihood of belonging to the cluster)
+There are also finer distinctions possible, for example:
+
+Strict partitioning clustering: each object belongs to exactly one cluster
+Strict partitioning clustering with outliers: objects can also belong to no cluster; in which case they are considered outliers
+Overlapping clustering (also: alternative clustering, multi-view clustering): objects may belong to more than one cluster; usually involving hard clusters
+Hierarchical clustering: objects that belong to a child cluster also belong to the parent cluster
+Subspace clustering: while an overlapping clustering, within a uniquely defined subspace, clusters are not expected to overlap
+
+
+== Algorithms ==
+
+As listed above, clustering algorithms can be categorized based on their cluster model. The following overview will only list the most prominent examples of clustering algorithms, as there are possibly over 100 published clustering algorithms. Not all provide models for their clusters and can thus not easily be categorized. An overview of algorithms explained in Wikipedia can be found in the list of statistics algorithms.
+There is no objectively "correct" clustering algorithm, but as it was noted, "clustering is in the eye of the beholder." In fact, an axiomatic approach to clustering demonstrates that it is impossible for any clustering method to meet three fundamental properties simultaneously: scale invariance (results remain unchanged under proportional scaling of distances), richness (all possible partitions of the data can be achieved), and consistency between distances and the clustering structure. The most appropriate clustering algorithm for a particular problem often needs to be chosen experimentally, unless there is a mathematical reason to prefer one cluster model over another. An algorithm that is designed for one kind of model will generally fail on a data set that contains a radically different kind of model. For example, k-means cannot find non-convex clusters. Most traditional clustering methods assume the clusters exhibit a spherical, elliptical or convex shape. 
+
+
+=== Connectivity-based clustering (hierarchical clustering) ===
+
+Connectivity-based clustering, also known as hierarchical clustering, is based on the core idea of objects being more related to nearby objects than to objects farther away. These algorithms connect "objects" to form "clusters" based on their distance. A cluster can be described largely by the maximum distance needed to connect parts of the cluster. At different distances, different clusters will form, which can be represented using a dendrogram, which explains where the common name "hierarchical clustering" comes from: these algorithms do not provide a single partitioning of the data set, but instead provide an extensive hierarchy of clusters that merge with each other at certain distances. In a dendrogram, the y-axis marks the distance at which the clusters merge, while the objects are placed along the x-axis such that the clusters don't mix.
+Connectivity-based clustering is a whole family of methods that differ by the way distances are computed. Apart from the usual choice of distance functions, the user also needs to decide on the linkage criterion (since a cluster consists of multiple objects, there are multiple candidates to compute the distance) to use. Popular choices are known as single-linkage clustering (the minimum of object distances), complete linkage clustering (the maximum of object distances), and UPGMA or WPGMA ("Unweighted or Weighted Pair Group Method with Arithmetic Mean", also known as average linkage clustering). Furthermore, hierarchical clustering can be agglomerative (starting with single elements and aggregating them into clusters) or divisive (starting with the complete data set and dividing it into partitions).
+These methods will not produce a unique partitioning of the data set, but a hierarchy from which the user still needs to choose appropriate clusters. They are not very robust towards outliers, which will either show up as additional clusters or even cause other clusters to merge (known as "chaining phenomenon", in particular with single-linkage clustering). In the general case, the complexity is 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          n
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(n^{3})}
+  
+ for agglomerative clustering and 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          2
+          
+            n
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(2^{n-1})}
+  
+ for divisive clustering, which makes them too slow for large data sets. For some special cases, optimal efficient methods (of complexity 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(n^{2})}
+  
+) are known: SLINK for single-linkage and CLINK for complete-linkage clustering.
+
+	Linkage clustering examples
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+=== Centroid-based clustering ===
+
+In centroid-based clustering, each cluster is represented by a central vector, which is not necessarily a member of the data set. When the number of clusters is fixed to k, k-means clustering gives a formal definition as an optimization problem: find the k cluster centers and assign the objects to the nearest cluster center, such that the squared distances from the cluster are minimized.
+The optimization problem itself is known to be NP-hard, and thus the common approach is to search only for approximate solutions. A particularly well-known approximate method is Lloyd's algorithm, often just referred to as "k-means algorithm" (although another algorithm introduced this name). It does however only find a local optimum, and is commonly run multiple times with different random initializations. Variations of k-means often include such optimizations as choosing the best of multiple runs, but also restricting the centroids to members of the data set (k-medoids), choosing medians (k-medians clustering), choosing the initial centers less randomly (k-means++) or allowing a fuzzy cluster assignment (fuzzy c-means).
+Most k-means-type algorithms require the number of clusters – k – to be specified in advance, which is considered to be one of the biggest drawbacks of these algorithms. Furthermore, the algorithms prefer clusters of approximately similar size, as they will always assign an object to the nearest centroid; often yielding improperly cut borders of clusters. This happens primarily because the algorithm optimizes cluster centers, not cluster borders. Steps involved in the centroid-based clustering algorithm are:
+
+Choose, k distinct clusters at random. These are the initial centroids to be improved upon.
+Suppose a set of observations, (x1, x2, ..., xn). Assign each observation to the centroid to which it has the smallest squared Euclidean distance. This results in k distinct groups, each containing unique observations.
+Recalculate centroids (see k-means clustering).
+Exit iff the new centroids are equivalent to the previous iteration's centroids. Else, repeat the algorithm, the centroids have yet to converge.
+K-means has a number of interesting theoretical properties. First, it partitions the data space into a structure known as a Voronoi diagram. Second, it is conceptually close to nearest neighbor classification, and as such is popular in machine learning. Third, it can be seen as a variation of model-based clustering, and Lloyd's algorithm as a variation of the Expectation-maximization algorithm for this model discussed below.
+
+	k-means clustering examples
+		
+			
+			
+		
+		
+			
+			
+		
+
+Centroid-based clustering problems such as k-means and k-medoids are special cases of the uncapacitated, metric facility location problem, a canonical problem in the operations research and computational geometry communities. In a basic facility location problem (of which there are numerous variants that model more elaborate settings), the task is to find the best warehouse locations to optimally service a given set of consumers. One may view "warehouses" as cluster centroids and "consumer locations" as the data to be clustered. This makes it possible to apply the well-developed algorithmic solutions from the facility location literature to the presently considered centroid-based clustering problem.
+
+
+=== Model-based clustering ===
+The clustering framework most closely related to statistics is model-based clustering, which is based on distribution models. This approach models the data as arising from a mixture of probability distributions. It has the advantages of providing principled statistical answers to questions such as how many clusters there are, what clustering method or model to use, and how to detect and deal with outliers.
+While the theoretical foundation of these methods is excellent, they suffer from overfitting unless constraints are put on the model complexity. A more complex model will usually be able to explain the data better, which makes choosing the appropriate model complexity inherently difficult. Standard model-based clustering methods include more parsimonious models based on the eigenvalue decomposition of the covariance matrices, that provide a balance between overfitting and fidelity to the data.
+One prominent method is known as Gaussian mixture models (using the expectation-maximization algorithm). Here, the data set is usually modeled with a fixed (to avoid overfitting) number of Gaussian distributions that are initialized randomly and whose parameters are iteratively optimized to better fit the data set. This will converge to a local optimum, so multiple runs may produce different results. In order to obtain a hard clustering, objects are often then assigned to the Gaussian distribution they most likely belong to; for soft clusterings, this is not necessary.
+Distribution-based clustering produces complex models for clusters that can capture correlation and dependence between attributes. However, these algorithms put an extra burden on the user: for many real data sets, there may be no concisely defined mathematical model (e.g. assuming Gaussian distributions is a rather strong assumption on the data).
+
+	Gaussian mixture model clustering examples
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+=== Density-based clustering ===
+In density-based clustering, clusters are defined as areas of higher density than the remainder of the data set. Objects in sparse areas – that are required to separate clusters – are usually considered to be noise and border points.
+The most popular density-based clustering method is DBSCAN. In contrast to many newer methods, it features a well-defined cluster model called "density-reachability". Similar to linkage-based clustering, it is based on connecting points within certain distance thresholds. However, it only connects points that satisfy a density criterion, in the original variant defined as a minimum number of other objects within this radius. A cluster consists of all density-connected objects (which can form a cluster of an arbitrary shape, in contrast to many other methods) plus all objects that are within these objects' range. Another interesting property of DBSCAN is that its complexity is fairly low – it requires a linear number of range queries on the database – and that it will discover essentially the same results (it is deterministic for core and noise points, but not for border points) in each run, therefore there is no need to run it multiple times. OPTICS is a generalization of DBSCAN that removes the need to choose an appropriate value for the range parameter 
+  
+    
+      
+        ε
+      
+    
+    {\displaystyle \varepsilon }
+  
+, and produces a hierarchical result related to that of linkage clustering. DeLi-Clu, Density-Link-Clustering combines ideas from single-linkage clustering and OPTICS, eliminating the 
+  
+    
+      
+        ε
+      
+    
+    {\displaystyle \varepsilon }
+  
+ parameter entirely and offering performance improvements over OPTICS by using an R-tree index.
+The key drawback of DBSCAN and OPTICS is that they expect some kind of density drop to detect cluster borders. On data sets with, for example, overlapping Gaussian distributions – a common use case in artificial data – the cluster borders produced by these algorithms will often look arbitrary, because the cluster density decreases continuously. On a data set consisting of mixtures of Gaussians, these algorithms are nearly always outperformed by methods such as EM clustering that are able to precisely model this kind of data.
+Mean-shift is a clustering approach where each object is moved to the densest area in its vicinity, based on kernel density estimation. Eventually, objects converge to local maxima of density. Similar to k-means clustering, these "density attractors" can serve as representatives for the data set, but mean-shift can detect arbitrary-shaped clusters similar to DBSCAN. Due to the expensive iterative procedure and density estimation, mean-shift is usually slower than DBSCAN or k-Means. Besides that, the applicability of the mean-shift algorithm to multidimensional data is hindered by the unsmooth behaviour of the kernel density estimate, which results in over-fragmentation of cluster tails.
+
+	Density-based clustering examples
+		
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+=== Grid-based clustering ===
+The grid-based technique is used for a multi-dimensional data set. In this technique, we create a grid structure, and the comparison is performed on grids (also known as cells). The grid-based technique is fast and has low computational complexity. There are two types of grid-based clustering methods: STING and CLIQUE. Steps involved in the grid-based clustering algorithm are:
+
+Divide data space into a finite number of cells.
+Randomly select a cell ‘c’, where c should not be traversed beforehand.
+Calculate the density of ‘c’
+If the density of ‘c’ greater than threshold density
+Mark cell ‘c’ as a new cluster
+Calculate the density of all the neighbors of ‘c’
+If the density of a neighboring cell is greater than threshold density then, add the cell in the cluster and repeat steps 4.2 and 4.3 till there is no neighbor with a density greater than threshold density.
+Repeat steps 2,3 and 4 till all the cells are traversed.
+Stop.
+
+
+=== Recent developments ===
+In recent years, considerable effort has been put into improving the performance of existing algorithms. Among them are CLARANS, and BIRCH. With the recent need to process larger and larger data sets (also known as big data), the willingness to trade semantic meaning of the generated clusters for performance has been increasing. This led to the development of pre-clustering methods such as canopy clustering, which can process huge data sets efficiently, but the resulting "clusters" are merely a rough pre-partitioning of the data set to then analyze the partitions with existing slower methods such as k-means clustering.
+For high-dimensional data, many of the existing methods fail due to the curse of dimensionality, which renders particular distance functions problematic in high-dimensional spaces. This led to new clustering algorithms for high-dimensional data that focus on subspace clustering (where only some attributes are used, and cluster models include the relevant attributes for the cluster) and correlation clustering that also looks for arbitrary rotated ("correlated") subspace clusters that can be modeled by giving a correlation of their attributes. Examples for such clustering algorithms are CLIQUE and SUBCLU.
+Ideas from density-based clustering methods (in particular the DBSCAN/OPTICS family of algorithms) have been adapted to subspace clustering (HiSC, hierarchical subspace clustering and DiSH) and correlation clustering (HiCO, hierarchical correlation clustering, 4C using "correlation connectivity" and ERiC exploring hierarchical density-based correlation clusters).
+Several different clustering systems based on mutual information have been proposed. One is Marina Meilă's variation of information metric; another provides hierarchical clustering. Using genetic algorithms, a wide range of different fit-functions can be optimized, including mutual information. Also belief propagation, a recent development in computer science and statistical physics, has led to the creation of new types of clustering algorithms.
+
+
+== Evaluation and assessment ==
+Evaluation (or "validation") of clustering results is as difficult as the clustering itself. Popular approaches involve "internal" evaluation, where the clustering is summarized to a single quality score, "external" evaluation, where the clustering is compared to an existing "ground truth" classification, "manual" evaluation by a human expert, and "indirect" evaluation by evaluating the utility of the clustering in its intended application.
+Internal evaluation measures suffer from the problem that they represent functions that themselves can be seen as a clustering objective. For example, one could cluster the data set by the Silhouette coefficient; except that there is no known efficient algorithm for this. By using such an internal measure for evaluation, one rather compares the similarity of the optimization problems, and not necessarily how useful the clustering is.
+External evaluation has similar problems: if we have such "ground truth" labels, then we would not need to cluster; and in practical applications we usually do not have such labels. On the other hand, the labels only reflect one possible partitioning of the data set, which does not imply that there does not exist a different, and maybe even better, clustering.
+Neither of these approaches can therefore ultimately judge the actual quality of a clustering, but this needs human evaluation, which is highly subjective. Nevertheless, such statistics can be quite informative in identifying bad clusterings, but one should not dismiss subjective human evaluation.
+
+
+=== Internal evaluation ===
+
+When a clustering result is evaluated based on the data that was clustered itself, this is called internal evaluation. These methods usually assign the best score to the algorithm that produces clusters with high similarity within a cluster and low similarity between clusters. One drawback of using internal criteria in cluster evaluation is that high scores on an internal measure do not necessarily result in effective information retrieval applications. Additionally, this evaluation is biased towards algorithms that use the same cluster model. For example, k-means clustering naturally optimizes object distances, and a distance-based internal criterion will likely overrate the resulting clustering.
+Therefore, the internal evaluation measures are best suited to get some insight into situations where one algorithm performs better than another, but this shall not imply that one algorithm produces more valid results than another. Validity as measured by such an index depends on the claim that this kind of structure exists in the data set. An algorithm designed for some kind of models has no chance if the data set contains a radically different set of models, or if the evaluation measures a radically different criterion. For example, k-means clustering can only find convex clusters, and many evaluation indexes assume convex clusters. On a data set with non-convex clusters neither the use of k-means, nor of an evaluation criterion that assumes convexity, is sound.
+More than a dozen of internal evaluation measures exist, usually based on the intuition that items in the same cluster should be more similar than items in different clusters.: 115–121  For example, the following methods can be used to assess the quality of clustering algorithms based on internal criterion:
+
+
+==== Davies–Bouldin index ====
+The Davies–Bouldin index can be calculated by the following formula:
+
+  
+    
+      
+        D
+        B
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          max
+          
+            j
+            ≠
+            i
+          
+        
+        
+          (
+          
+            
+              
+                
+                  σ
+                  
+                    i
+                  
+                
+                +
+                
+                  σ
+                  
+                    j
+                  
+                
+              
+              
+                d
+                (
+                
+                  c
+                  
+                    i
+                  
+                
+                ,
+                
+                  c
+                  
+                    j
+                  
+                
+                )
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle DB={\frac {1}{n}}\sum _{i=1}^{n}\max _{j\neq i}\left({\frac {\sigma _{i}+\sigma _{j}}{d(c_{i},c_{j})}}\right)}
+  
+
+where n is the number of clusters, 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+  
+ is the centroid of cluster 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+, 
+  
+    
+      
+        
+          σ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sigma _{i}}
+  
+ is the average distance of all elements in cluster 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ to centroid 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+  
+, and 
+  
+    
+      
+        d
+        (
+        
+          c
+          
+            i
+          
+        
+        ,
+        
+          c
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle d(c_{i},c_{j})}
+  
+ is the distance between centroids 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+  
+ and 
+  
+    
+      
+        
+          c
+          
+            j
+          
+        
+      
+    
+    {\displaystyle c_{j}}
+  
+. Since algorithms that produce clusters with low intra-cluster distances (high intra-cluster similarity) and high inter-cluster distances (low inter-cluster similarity) will have a low Davies–Bouldin index, the clustering algorithm that produces a collection of clusters with the smallest Davies–Bouldin index is considered the best algorithm based on this criterion.
+
+
+==== Dunn index ====
+The Dunn index aims to identify dense and well-separated clusters. It is defined as the ratio between the minimal inter-cluster distance to maximal intra-cluster distance. For each cluster partition, the Dunn index can be calculated by the following formula:
+
+  
+    
+      
+        D
+        =
+        
+          
+            
+              
+                min
+                
+                  1
+                  ≤
+                  i
+                  <
+                  j
+                  ≤
+                  n
+                
+              
+              d
+              (
+              i
+              ,
+              j
+              )
+            
+            
+              
+                max
+                
+                  1
+                  ≤
+                  k
+                  ≤
+                  n
+                
+              
+              
+                d
+                
+                  ′
+                
+              
+              (
+              k
+              )
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle D={\frac {\min _{1\leq i<j\leq n}d(i,j)}{\max _{1\leq k\leq n}d^{\prime }(k)}}\,,}
+  
+
+where d(i,j) represents the distance between clusters i and j, and d '(k) measures the intra-cluster distance of cluster k. The inter-cluster distance d(i,j) between two clusters may be any number of distance measures, such as the distance between the centroids of the clusters. Similarly, the intra-cluster distance d '(k) may be measured in a variety of ways, such as the maximal distance between any pair of elements in cluster k. Since internal criterion seek clusters with high intra-cluster similarity and low inter-cluster similarity, algorithms that produce clusters with high Dunn index are more desirable.
+
+
+==== Silhouette coefficient ====
+The silhouette coefficient contrasts the average distance to elements in the same cluster with the average distance to elements in other clusters. Objects with a high silhouette value are considered well clustered, objects with a low value may be outliers. This index works well with k-means clustering, and is also used to determine the optimal number of clusters.
+
+
+=== External evaluation ===
+In external evaluation, clustering results are evaluated based on data that was not used for clustering, such as known class labels and external benchmarks. Such benchmarks consist of a set of pre-classified items, and these sets are often created by (expert) humans. Thus, the benchmark sets can be thought of as a gold standard for evaluation. These types of evaluation methods measure how close the clustering is to the predetermined benchmark classes. However, it has recently been discussed whether this is adequate for real data, or only on synthetic data sets with a factual ground truth, since classes can contain internal structure, the attributes present may not allow separation of clusters or the classes may contain anomalies. Additionally, from a knowledge discovery point of view, the reproduction of known knowledge may not necessarily be the intended result. In the special scenario of constrained clustering, where meta information (such as class labels) is used already in the clustering process, the hold-out of information for evaluation purposes is non-trivial.
+A number of measures are adapted from variants used to evaluate classification tasks. In place of counting the number of times a class was correctly assigned to a single data point (known as true positives), such pair counting metrics assess whether each pair of data points that is truly in the same cluster is predicted to be in the same cluster.
+As with internal evaluation, several external evaluation measures exist,: 125–129  for example:
+
+
+==== Purity ====
+Purity is a measure of the extent to which clusters contain a single class. Its calculation can be thought of as follows: For each cluster, count the number of data points from the most common class in said cluster. Now take the sum over all clusters and divide by the total number of data points. Formally, given some set of clusters 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ and some set of classes 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+  
+, both partitioning 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ data points, purity can be defined as:
+
+  
+    
+      
+        
+          
+            1
+            N
+          
+        
+        
+          ∑
+          
+            m
+            ∈
+            M
+          
+        
+        
+          max
+          
+            d
+            ∈
+            D
+          
+        
+        
+          
+            |
+          
+          m
+          ∩
+          d
+          
+            |
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{N}}\sum _{m\in M}\max _{d\in D}{|m\cap d|}}
+  
+
+This measure doesn't penalize having many clusters, and more clusters will make it easier to produce a high purity. A purity score of 1 is always possible by putting each data point in its own cluster. Also, purity doesn't work well for imbalanced data, where even poorly performing clustering algorithms will give a high purity value. For example, if a size 1000 dataset consists of two classes, one containing 999 points and the other containing 1 point, then every possible partition will have a purity of at least 99.9%. 
+
+
+==== Rand index ====
+The Rand index computes how similar the clusters (returned by the clustering algorithm) are to the benchmark classifications. It can be computed using the following formula:
+
+  
+    
+      
+        R
+        I
+        =
+        
+          
+            
+              T
+              P
+              +
+              T
+              N
+            
+            
+              T
+              P
+              +
+              F
+              P
+              +
+              F
+              N
+              +
+              T
+              N
+            
+          
+        
+      
+    
+    {\displaystyle RI={\frac {TP+TN}{TP+FP+FN+TN}}}
+  
+
+where  
+  
+    
+      
+        T
+        P
+      
+    
+    {\displaystyle TP}
+  
+ is the number of true positives, 
+  
+    
+      
+        T
+        N
+      
+    
+    {\displaystyle TN}
+  
+ is the number of true negatives, 
+  
+    
+      
+        F
+        P
+      
+    
+    {\displaystyle FP}
+  
+ is the number of false positives, and 
+  
+    
+      
+        F
+        N
+      
+    
+    {\displaystyle FN}
+  
+ is the number of false negatives. The instances being counted here are the number of correct pairwise assignments. That is, 
+  
+    
+      
+        T
+        P
+      
+    
+    {\displaystyle TP}
+  
+ is the number of pairs of points that are clustered together in the predicted partition and in the ground truth partition, 
+  
+    
+      
+        F
+        P
+      
+    
+    {\displaystyle FP}
+  
+ is the number of pairs of points that are clustered together in the predicted partition but not in the ground truth partition etc. If the dataset is of size N, then 
+  
+    
+      
+        T
+        P
+        +
+        T
+        N
+        +
+        F
+        P
+        +
+        F
+        N
+        =
+        
+          
+            
+              (
+            
+            
+              N
+              2
+            
+            
+              )
+            
+          
+        
+      
+    
+    {\displaystyle TP+TN+FP+FN={\binom {N}{2}}}
+  
+. 
+One issue with the Rand index is that false positives and false negatives are equally weighted. This may be an undesirable characteristic for some clustering applications. The F-measure addresses this concern, as does the chance-corrected adjusted Rand index.
+
+
+==== F-measure ====
+The F-measure can be used to balance the contribution of false negatives by weighting recall through a parameter 
+  
+    
+      
+        β
+        ≥
+        0
+      
+    
+    {\displaystyle \beta \geq 0}
+  
+. Let precision and recall (both external evaluation measures in themselves) be defined as follows:
+
+  
+    
+      
+        P
+        =
+        
+          
+            
+              T
+              P
+            
+            
+              T
+              P
+              +
+              F
+              P
+            
+          
+        
+      
+    
+    {\displaystyle P={\frac {TP}{TP+FP}}}
+  
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              T
+              P
+            
+            
+              T
+              P
+              +
+              F
+              N
+            
+          
+        
+      
+    
+    {\displaystyle R={\frac {TP}{TP+FN}}}
+  
+
+where 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+  
+ is the precision rate and 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ is the recall rate. We can calculate the F-measure by using the following formula:
+
+  
+    
+      
+        
+          F
+          
+            β
+          
+        
+        =
+        
+          
+            
+              (
+              
+                β
+                
+                  2
+                
+              
+              +
+              1
+              )
+              ⋅
+              P
+              ⋅
+              R
+            
+            
+              
+                β
+                
+                  2
+                
+              
+              ⋅
+              P
+              +
+              R
+            
+          
+        
+      
+    
+    {\displaystyle F_{\beta }={\frac {(\beta ^{2}+1)\cdot P\cdot R}{\beta ^{2}\cdot P+R}}}
+  
+
+When 
+  
+    
+      
+        β
+        =
+        0
+      
+    
+    {\displaystyle \beta =0}
+  
+, 
+  
+    
+      
+        
+          F
+          
+            0
+          
+        
+        =
+        P
+      
+    
+    {\displaystyle F_{0}=P}
+  
+. In other words, recall has no impact on the F-measure when 
+  
+    
+      
+        β
+        =
+        0
+      
+    
+    {\displaystyle \beta =0}
+  
+, and increasing 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ allocates an increasing amount of weight to recall in the final F-measure.
+Also 
+  
+    
+      
+        T
+        N
+      
+    
+    {\displaystyle TN}
+  
+ is not taken into account and can vary from 0 upward without bound.
+
+
+==== Jaccard index ====
+The Jaccard index is used to quantify the similarity between two datasets. The Jaccard index takes on a value between 0 and 1. An index of 1 means that the two dataset are identical, and an index of 0 indicates that the datasets have no common elements. The Jaccard index is defined by the following formula:
+
+  
+    
+      
+        J
+        (
+        A
+        ,
+        B
+        )
+        =
+        
+          
+            
+              
+                |
+              
+              A
+              ∩
+              B
+              
+                |
+              
+            
+            
+              
+                |
+              
+              A
+              ∪
+              B
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            
+              T
+              P
+            
+            
+              T
+              P
+              +
+              F
+              P
+              +
+              F
+              N
+            
+          
+        
+      
+    
+    {\displaystyle J(A,B)={\frac {|A\cap B|}{|A\cup B|}}={\frac {TP}{TP+FP+FN}}}
+  
+
+This is simply the number of unique elements common to both sets divided by the total number of unique elements in both sets.
+Note that 
+  
+    
+      
+        T
+        N
+      
+    
+    {\displaystyle TN}
+  
+ is not taken into account.
+
+
+==== Dice index ====
+The Dice symmetric measure doubles the weight on 
+  
+    
+      
+        T
+        P
+      
+    
+    {\displaystyle TP}
+  
+ while still ignoring 
+  
+    
+      
+        T
+        N
+      
+    
+    {\displaystyle TN}
+  
+:
+
+  
+    
+      
+        D
+        S
+        C
+        =
+        
+          
+            
+              2
+              T
+              P
+            
+            
+              2
+              T
+              P
+              +
+              F
+              P
+              +
+              F
+              N
+            
+          
+        
+      
+    
+    {\displaystyle DSC={\frac {2TP}{2TP+FP+FN}}}
+  
+
+
+==== Fowlkes–Mallows index ====
+The Fowlkes–Mallows index computes the similarity between the clusters returned by the clustering algorithm and the benchmark classifications. The higher the value of the Fowlkes–Mallows index the more similar the clusters and the benchmark classifications are. It can be computed using the following formula:
+
+  
+    
+      
+        F
+        M
+        =
+        
+          
+            
+              
+                
+                  T
+                  P
+                
+                
+                  T
+                  P
+                  +
+                  F
+                  P
+                
+              
+            
+            ⋅
+            
+              
+                
+                  T
+                  P
+                
+                
+                  T
+                  P
+                  +
+                  F
+                  N
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle FM={\sqrt {{\frac {TP}{TP+FP}}\cdot {\frac {TP}{TP+FN}}}}}
+  
+
+where  
+  
+    
+      
+        T
+        P
+      
+    
+    {\displaystyle TP}
+  
+ is the number of true positives, 
+  
+    
+      
+        F
+        P
+      
+    
+    {\displaystyle FP}
+  
+ is the number of false positives, and 
+  
+    
+      
+        F
+        N
+      
+    
+    {\displaystyle FN}
+  
+ is the number of false negatives. The 
+  
+    
+      
+        F
+        M
+      
+    
+    {\displaystyle FM}
+  
+ index is the geometric mean of the precision and recall 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+  
+ and 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+, and is thus also known as the G-measure, while the F-measure is their harmonic mean. Moreover, precision and recall are also known as Wallace's indices 
+  
+    
+      
+        
+          B
+          
+            I
+          
+        
+      
+    
+    {\displaystyle B^{I}}
+  
+ and 
+  
+    
+      
+        
+          B
+          
+            I
+            I
+          
+        
+      
+    
+    {\displaystyle B^{II}}
+  
+. Chance normalized versions of recall, precision and G-measure correspond to Informedness, Markedness and Matthews Correlation and relate strongly to Kappa.
+
+
+==== Chi Index ====
+The Chi index is an external validation index that measure the clustering results by applying the chi-squared statistic. This index scores positively the fact that the labels are as sparse as possible across the clusters, i.e., that each cluster has as few different labels as possible. The higher the value of the Chi Index the greater the relationship between the resulting clusters and the label used.
+
+
+==== Mutual Information ====
+The mutual information is an information theoretic measure of how much information is shared between a clustering and a ground-truth classification that can detect a non-linear similarity between two clustering. Normalized mutual information is a family of corrected-for-chance variants of this that has a reduced bias for varying cluster numbers.
+
+
+==== Confusion matrix ====
+A confusion matrix can be used to quickly visualize the results of a classification (or clustering) algorithm. It shows how different a cluster is from the gold standard cluster.
+
+
+==== Validity Measure ====
+The validity measure (short v-measure) is a combined metric for homogeneity and completeness of the clusters
+
+
+=== Cluster tendency ===
+
+To measure cluster tendency is to measure to what degree clusters exist in the data to be clustered, and may be performed as an initial test, before attempting clustering. One way to do this is to compare the data against random data. On average, random data should not have clusters .
+
+Hopkins statistic
+There are multiple formulations of the Hopkins statistic. A typical one is as follows. Let 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ be the set of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ data points in 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ dimensional space. Consider a random sample (without replacement) of 
+  
+    
+      
+        m
+        ≪
+        n
+      
+    
+    {\displaystyle m\ll n}
+  
+ data points with members 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+    {\displaystyle x_{i}}
+  
+. Also generate a set 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ of 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ uniformly randomly distributed data points. Now define two distance measures, 
+  
+    
+      
+        
+          u
+          
+            i
+          
+        
+      
+    
+    {\displaystyle u_{i}}
+  
+ to be the distance of 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+        ∈
+        Y
+      
+    
+    {\displaystyle y_{i}\in Y}
+  
+ from its nearest neighbor in X and 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+    {\displaystyle w_{i}}
+  
+ to be the distance of 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        ∈
+        X
+      
+    
+    {\displaystyle x_{i}\in X}
+  
+ from its nearest neighbor in X. We then define the Hopkins statistic as:
+
+  
+    
+      
+        H
+        =
+        
+          
+            
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  m
+                
+              
+              
+                
+                  u
+                  
+                    i
+                  
+                  
+                    d
+                  
+                
+              
+            
+            
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  m
+                
+              
+              
+                
+                  u
+                  
+                    i
+                  
+                  
+                    d
+                  
+                
+              
+              +
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  m
+                
+              
+              
+                
+                  w
+                  
+                    i
+                  
+                  
+                    d
+                  
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle H={\frac {\sum _{i=1}^{m}{u_{i}^{d}}}{\sum _{i=1}^{m}{u_{i}^{d}}+\sum _{i=1}^{m}{w_{i}^{d}}}}\,,}
+  
+
+With this definition, uniform random data should tend to have values near to 0.5, and clustered data should tend to have values nearer to 1.
+However, data containing just a single Gaussian will also score close to 1, as this statistic measures deviation from a uniform distribution, not multimodality, making this statistic largely useless in application (as real data never is remotely uniform).
+
+
+== Applications ==
+
+
+=== Biology, computational biology and bioinformatics ===
+
+Plant and animal ecology
+Cluster analysis is used to describe and to make spatial and temporal comparisons of communities (assemblages) of organisms in heterogeneous environments. It is also used in plant systematics to generate artificial phylogenies or clusters of organisms (individuals) at the species, genus or higher level that share a number of attributes.
+Transcriptomics
+Clustering is used to build groups of genes with related expression patterns (also known as coexpressed genes) as in HCS clustering algorithm. Often such groups contain functionally related proteins, such as enzymes for a specific pathway, or genes that are co-regulated. High throughput experiments using expressed sequence tags (ESTs) or DNA microarrays can be a powerful tool for genome annotation – a general aspect of genomics.
+Sequence analysis
+Sequence clustering is used to group homologous sequences into gene families. This is a very important concept in bioinformatics, and evolutionary biology in general. See evolution by gene duplication.
+High-throughput genotyping platforms
+Clustering algorithms are used to automatically assign genotypes.
+Human genetic clustering
+The similarity of genetic data is used in clustering to infer population structures.
+
+
+=== Medicine ===
+Medical imaging
+On PET scans, cluster analysis can be used to differentiate between different types of tissue in a three-dimensional image for many different purposes.
+Analysis of antimicrobial activity
+Cluster analysis can be used to analyse patterns of antibiotic resistance, to classify antimicrobial compounds according to their mechanism of action, to classify antibiotics according to their antibacterial activity.
+IMRT segmentation
+Clustering can be used to divide a fluence map into distinct regions for conversion into deliverable fields in MLC-based Radiation Therapy.
+
+
+=== Business and marketing ===
+Market research
+Cluster analysis is widely used in market research when working with multivariate data from surveys and test panels. Market researchers use cluster analysis to partition the general population of consumers into market segments and to better understand the relationships between different groups of consumers/potential customers, and for use in market segmentation, product positioning, new product development and selecting test markets.
+Grouping of shopping items
+Clustering can be used to group all the shopping items available on the web into a set of unique products. For example, all the items on eBay can be grouped into unique products (eBay does not have the concept of a SKU).
+
+
+=== World Wide Web ===
+Social network analysis
+In the study of social networks, clustering may be used to recognize communities within large groups of people.
+Search result grouping
+In the process of intelligent grouping of the files and websites, clustering may be used to create a more relevant set of search results compared to normal search engines like Google. There are currently a number of web-based clustering tools such as Clusty. It also may be used to return a more comprehensive set of results in cases where a search term could refer to vastly different things. Each distinct use of the term corresponds to a unique cluster of results, allowing a ranking algorithm to return comprehensive results by picking the top result from each cluster.
+Slippy map optimization
+Flickr's map of photos and other map sites use clustering to reduce the number of markers on a map. This makes it both faster and reduces the amount of visual clutter.
+
+
+=== Computer science ===
+Software evolution
+Clustering is useful in software evolution as it helps to reduce legacy properties in code by reforming functionality that has become dispersed. It is a form of restructuring and hence is a way of direct preventative maintenance.
+Image segmentation
+Image segmentation is the process of dividing a digital image into multiple meaningful regions or segments to simplify and/or change the representation of an image, making it easier to analyze. These segments may correspond to different objects, parts of objects, or background areas. The goal is to assign a label to every pixel in the image so that the pixels with similar attributes are grouped together.
+This process is used in fields like medical imaging, computer vision, satellite imaging, and in daily applications like face detection and photo editing.
+Clustering in Image Segmentation:
+Clustering plays a significant role in image segmentation. It groups pixels into clusters based on similarity without needing labeled data. These clusters then define segments within the image.
+
+Here are the most commonly used clustering algorithms for image segmentation:
+K-means Clustering: One of the most popular and straightforward methods. Pixels are treated as data points in a feature space (usually defined by color or intensity) and grouped into k clusters. Each pixel is assigned to the nearest cluster center, and the centers are updated iteratively.
+Mean Shift Clustering: A non-parametric method that does not require specifying the number of clusters in advance. It identifies clusters by locating dense areas of data points in the feature space.
+Fuzzy C-means: Unlike k-means, which assigns pixels to exactly one cluster, fuzzy c-means allows each pixel to belong to multiple clusters with varying degrees of membership.
+
+Evolutionary algorithms
+Clustering may be used to identify different niches within the population of an evolutionary algorithm so that reproductive opportunity can be distributed more evenly amongst the evolving species or subspecies.
+Recommender systems
+Recommender systems suggest items, products, or other users to an individual based on their past behavior and current preferences. These systems will occasionally use clustering algorithms to predict a user's unknown preferences by analyzing the preferences and activities of other users within the same cluster. Cluster analysis is not the only approach for recommendation systems, for example there are systems that leverage graph theory. Recommendation algorithms that utilize cluster analysis often fall into one of the three main categories: Collaborative filtering, Content-Based filtering, and a hybrid of the collaborative and content-based.
+
+Collaborative Filtering Recommendation Algorithm
+Collaborative filtering works by analyzing large amounts of data on user behavior, preferences, and activities to predict what a user might like based on similarities with others. It detects patterns in how users rate items and groups similar users or items into distinct “neighborhoods.” Recommendations are then generated by leveraging the ratings of content from others within the same neighborhood. The algorithm can focus on either user-based or item-based grouping depending on the context.
+
+Content-Based Filtering Recommendation Algorithm
+Content-based filtering uses item descriptions and a user's preference profile to recommend items with similar characteristics to those the user previously liked. It evaluates the distance between feature vectors of item clusters, or “neighborhoods.” The user's past interactions are represented as a weighted feature vector, which is compared to these clusters. Recommendations are generated by identifying the cluster evaluated be the closest in distance with the user's preferences.
+
+Hybrid Recommendation Algorithms
+Hybrid recommendation algorithms combine collaborative and content-based filtering to better meet the requirements of specific use cases. In certain cases this approach leads to more effective recommendations. Common strategies include: (1) running collaborative and content-based filtering separately and combining the results, (2) adding onto one approach with specific features of the other, and (3) integrating both hybrid methods into one model.
+Markov chain Monte Carlo methods
+Clustering is often utilized to locate and characterize extrema in the target distribution.
+Anomaly detection
+Anomalies/outliers are typically – be it explicitly or implicitly – defined with respect to clustering structure in data.
+Natural language processing
+Clustering can be used to resolve lexical ambiguity.
+DevOps
+Clustering has been used to analyse the effectiveness of DevOps teams.
+
+
+=== Social science ===
+Sequence analysis in social sciences
+Cluster analysis is used to identify patterns of family life trajectories, professional careers, and daily or weekly time use for example.
+Crime analysis
+Cluster analysis can be used to identify areas where there are greater incidences of particular types of crime. By identifying these distinct areas or "hot spots" where a similar crime has happened over a period of time, it is possible to manage law enforcement resources more effectively.
+Educational data mining
+Cluster analysis is for example used to identify groups of schools or students with similar properties.
+Typologies
+From poll data, projects such as those undertaken by the Pew Research Center use cluster analysis to discern typologies of opinions, habits, and demographics that may be useful in politics and marketing.
+
+
+=== Others ===
+Field robotics
+Clustering algorithms are used for robotic situational awareness to track objects and detect outliers in sensor data.
+Mathematical chemistry
+To find structural similarity, etc., for example, 3000 chemical compounds were clustered in the space of 90 topological indices.
+Climatology
+To find weather regimes or preferred sea level pressure atmospheric patterns.
+Finance
+Cluster analysis has been used to cluster stocks into sectors.
+Petroleum geology
+Cluster analysis is used to reconstruct missing bottom hole core data or missing log curves in order to evaluate reservoir properties.
+Geochemistry
+The clustering of chemical properties in different sample locations.
+
+
+== See also ==
+
+
+=== Specialized types of cluster analysis ===
+Automatic clustering algorithms
+Balanced clustering
+Clustering high-dimensional data
+Conceptual clustering
+Consensus clustering
+Constrained clustering
+Community detection
+Data stream clustering
+HCS clustering
+Sequence clustering
+Spectral clustering
+
+
+=== Techniques used in cluster analysis ===
+Artificial neural network (ANN)
+Nearest neighbor search
+Neighbourhood components analysis
+Latent class analysis
+Affinity propagation
+
+
+=== Data projection and preprocessing ===
+Dimension reduction
+Principal component analysis
+Multidimensional scaling
+
+
+=== Other ===
+Cluster-weighted modeling
+Curse of dimensionality
+Determining the number of clusters in a data set
+Parallel coordinates
+Structured data analysis
+Linear separability
+
+
+== References ==

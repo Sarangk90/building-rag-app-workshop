@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Who introduced the ReLU (rectified linear unit) activation function and in what year?",
+    "ground_truth": "Kunihiko Fukushima in 1969.",
+    "reference_context": "In 1969, Kunihiko Fukushima introduced the ReLU (rectified linear unit) activation function."
+  },
+  {
+    "question": "What was the first working deep learning algorithm and who published it?",
+    "ground_truth": "The Group method of data handling, published by Alexey Ivakhnenko and Lapa in 1965.",
+    "reference_context": "The first working deep learning algorithm was the Group method of data handling, a method to train arbitrarily deep neural networks, published by Alexey Ivakhnenko and Lapa in the Soviet Union (1965)."
+  },
+  {
+    "question": "Which CNN achieved superhuman performance in a visual pattern recognition contest for the first time in 2011?",
+    "ground_truth": "DanNet by Dan Ciresan, Ueli Meier, Jonathan Masci, Luca Maria Gambardella, and Jürgen Schmidhuber.",
+    "reference_context": "In 2011, a CNN named DanNet by Dan Ciresan, Ueli Meier, Jonathan Masci, Luca Maria Gambardella, and Jürgen Schmidhuber achieved for the first time superhuman performance in a visual pattern recognition contest, outperforming traditional methods by a factor of 3."
+  },
+  {
+    "question": "When was BERT introduced and by which organization?",
+    "ground_truth": "October 2018 by researchers at Google.",
+    "reference_context": "Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by researchers at Google."
+  },
+  {
+    "question": "What are the two model sizes BERT was originally implemented in?",
+    "ground_truth": "BERTBASE (110 million parameters) and BERTLARGE (340 million parameters).",
+    "reference_context": "BERT was originally implemented in the English language at two model sizes, BERTBASE (110 million parameters) and BERTLARGE (340 million parameters)."
+  },
+  {
+    "question": "What percentage of tokens are randomly selected for the masked-prediction task in BERT's masked language modeling?",
+    "ground_truth": "15% of tokens.",
+    "reference_context": "In masked language modeling, 15% of tokens would be randomly selected for masked-prediction task, and the training objective was to predict the masked token given its context."
+  },
+  {
+    "question": "Who introduced the term 'deep learning' to the machine learning community and when?",
+    "ground_truth": "Rina Dechter in 1986.",
+    "reference_context": "The term deep learning was introduced to the machine learning community by Rina Dechter in 1986, and to artificial neural networks by Igor Aizenberg and colleagues in 2000, in the context of Boolean threshold neurons."
+  },
+  {
+    "question": "Which three researchers were awarded the 2018 Turing Award for their work on deep neural networks?",
+    "ground_truth": "Yoshua Bengio, Geoffrey Hinton and Yann LeCun.",
+    "reference_context": "Yoshua Bengio, Geoffrey Hinton and Yann LeCun were awarded the 2018 Turing Award for \"conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing\"."
+  },
+  {
+    "question": "When was the first GPT introduced and by which organization?",
+    "ground_truth": "2018 by OpenAI.",
+    "reference_context": "The first GPT was introduced in 2018 by OpenAI."
+  },
+  {
+    "question": "What were the three parameter sizes of the first versions of GPT-3 released in July 2020?",
+    "ground_truth": "1B, 6.7B, and 175B parameters.",
+    "reference_context": "Regarding more recent GPT foundation models, OpenAI published its first versions of GPT-3 in July 2020. There were three models, with 1B, 6.7B, 175B parameters, respectively named babbage, curie, and davinci (giving initials B, C, and D)."
+  },
+  {
+    "question": "What is the 'one in ten rule' in regression analysis?",
+    "ground_truth": "The guideline of 10 observations per independent variable.",
+    "reference_context": "For logistic regression or Cox proportional hazards models, there are a variety of rules of thumb (e.g. 5–9, 10 and 10–15 — the guideline of 10 observations per independent variable is known as the \"one in ten rule\")."
+  },
+  {
+    "question": "What is the essence of overfitting according to the article?",
+    "ground_truth": "To have unknowingly extracted some of the residual variation (i.e., the noise) as if that variation represented underlying model structure.",
+    "reference_context": "The essence of overfitting is to have unknowingly extracted some of the residual variation (i.e., the noise) as if that variation represented underlying model structure."
+  },
+  {
+    "question": "In which year and paper was the modern version of the transformer proposed?",
+    "ground_truth": "2017 in the paper \"Attention Is All You Need\" by researchers at Google.",
+    "reference_context": "The modern version of the transformer was proposed in the 2017 paper \"Attention Is All You Need\" by researchers at Google."
+  },
+  {
+    "question": "What value did the original Transformer paper use for the parameter N in positional encoding?",
+    "ground_truth": "N = 10000.",
+    "reference_context": "The original paper uses N = 10000."
+  }
+]

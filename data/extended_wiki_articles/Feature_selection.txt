@@ -1,0 +1,2555 @@
+In machine learning, feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction. Feature selection techniques are used for several reasons:
+
+simplification of models to make them easier to interpret,
+shorter training times,
+to avoid the curse of dimensionality,
+improve the compatibility of the data with a certain learning model class,
+to encode inherent symmetries present in the input space.
+The central premise when using feature selection is that data sometimes contains features that are redundant or irrelevant, and can thus be removed without incurring much loss of information. Redundancy and irrelevance are two distinct notions, since one relevant feature may be redundant in the presence of another relevant feature with which it is strongly correlated.
+Feature extraction creates new features from functions of the original features, whereas feature selection finds a subset of the features. Feature selection techniques are often used in domains where there are many features and comparatively few samples (data points).
+
+
+== Introduction ==
+A feature selection algorithm can be seen as the combination of a search technique for proposing new feature subsets, along with an evaluation measure which scores the different feature subsets. The simplest algorithm is to test each possible subset of features finding the one which minimizes the error rate. This is an exhaustive search of the space, and is computationally intractable for all but the smallest of feature sets. The choice of evaluation metric heavily influences the algorithm, and it is these evaluation metrics which distinguish between the three main categories of feature selection algorithms: wrappers, filters and embedded methods.
+
+Wrapper methods use a predictive model to score feature subsets. Each new subset is used to train a model, which is tested on a hold-out set. Counting the number of mistakes made on that hold-out set (the error rate of the model) gives the score for that subset. As wrapper methods train a new model for each subset, they are very computationally intensive, but usually provide the best performing feature set for that particular type of model or typical problem.
+Filter methods use a proxy measure instead of the error rate to score a feature subset. This measure is chosen to be fast to compute, while still capturing the usefulness of the feature set. Common measures include the mutual information, the pointwise mutual information, Pearson product-moment correlation coefficient, Relief-based algorithms, and inter/intra class distance or the scores of significance tests for each class/feature combinations. Filters are usually less computationally intensive than wrappers, but they produce a feature set which is not tuned to a specific type of predictive model. This lack of tuning means a feature set from a filter is more general than the set from a wrapper, usually giving lower prediction performance than a wrapper. However the feature set doesn't contain the assumptions of a prediction model, and so is more useful for exposing the relationships between the features. Many filters provide a feature ranking rather than an explicit best feature subset, and the cut off point in the ranking is chosen via cross-validation. Filter methods have also been used as a preprocessing step for wrapper methods, allowing a wrapper to be used on larger problems. One other popular approach is the Recursive Feature Elimination algorithm, commonly used with Support Vector Machines to repeatedly construct a model and remove features with low weights.
+Embedded methods are a catch-all group of techniques which perform feature selection as part of the model construction process. The exemplar of this approach is the LASSO method for constructing a linear model, which penalizes the regression coefficients with an L1 penalty, shrinking many of them to zero. Any features which have non-zero regression coefficients are 'selected' by the LASSO algorithm. Improvements to the LASSO include Bolasso which bootstraps samples; Elastic net regularization, which combines the L1 penalty of LASSO with the L2 penalty of ridge regression; and FeaLect which scores all the features based on combinatorial analysis of regression coefficients. AEFS further extends LASSO to nonlinear scenario with autoencoders. These approaches tend to be between filters and wrappers in terms of computational complexity.
+In traditional regression analysis, the most popular form of feature selection is stepwise regression, which is a wrapper technique.  It is a greedy algorithm that adds the best feature (or deletes the worst feature) at each round.  The main control issue is deciding when to stop the algorithm.  In machine learning, this is typically done by cross-validation.  In statistics, some criteria are optimized.  This leads to the inherent problem of nesting. More robust methods have been explored, such as branch and bound and piecewise linear network.
+
+
+== Subset selection ==
+Subset selection evaluates a subset of features as a group for suitability. Subset selection algorithms can be broken up into wrappers, filters, and embedded methods. Wrappers use a search algorithm to search through the space of possible features and evaluate each subset by running a model on the subset. Wrappers can be computationally expensive and have a risk of over fitting to the model. Filters are similar to wrappers in the search approach, but instead of evaluating against a model, a simpler filter is evaluated. Embedded techniques are embedded in, and specific to, a model.
+Many popular search approaches use greedy hill climbing, which iteratively evaluates a candidate subset of features, then modifies the subset and evaluates if the new subset is an improvement over the old. Evaluation of the subsets requires a scoring metric that grades a subset of features.  Exhaustive search is generally impractical, so at some implementor (or operator) defined stopping point, the subset of features with the highest score discovered up to that point is selected as the satisfactory feature subset.  The stopping criterion varies by algorithm; possible criteria include: a subset score exceeds a threshold, a program's maximum allowed run time has been surpassed, etc.
+Alternative search-based techniques are based on targeted projection pursuit which finds low-dimensional projections of the data that score highly: the features that have the largest projections in the lower-dimensional space are then selected.
+Search approaches include:
+
+Exhaustive
+Best first
+Simulated annealing
+Genetic algorithm
+Greedy forward selection
+Greedy backward elimination
+Particle swarm optimization
+Targeted projection pursuit
+Scatter search
+Variable neighborhood search
+Two popular filter metrics for classification problems are correlation and mutual information, although neither are true metrics or 'distance measures' in the mathematical sense, since they fail to obey the triangle inequality and thus do not compute any actual 'distance' – they should rather be regarded as 'scores'.  These scores are computed between a candidate feature (or set of features) and the desired output category.  There are, however, true metrics that are a simple function of the mutual information; see here.
+Other available filter metrics include:
+
+Class separability
+Error probability
+Inter-class distance
+Probabilistic distance
+Entropy
+Consistency-based feature selection
+Correlation-based feature selection
+
+
+== Optimality criteria ==
+The choice of optimality criteria is difficult as there are multiple objectives in a feature selection task. Many common criteria incorporate a measure of accuracy, penalised by the number of features selected. Examples include Akaike information criterion (AIC) and Mallows's Cp, which have a penalty of 2 for each added feature. AIC is based on information theory, and is effectively derived via the maximum entropy principle.
+Other criteria are Bayesian information criterion (BIC), which uses a penalty of 
+  
+    
+      
+        
+          
+            log
+            ⁡
+            
+              n
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\log {n}}}}
+  
+ for each added feature, minimum description length (MDL) which asymptotically uses 
+  
+    
+      
+        
+          
+            log
+            ⁡
+            
+              n
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\log {n}}}}
+  
+, Bonferroni / RIC which use 
+  
+    
+      
+        
+          
+            2
+            log
+            ⁡
+            
+              p
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {2\log {p}}}}
+  
+, maximum dependency feature selection, and a variety of new criteria that are motivated by false discovery rate (FDR), which use something close to 
+  
+    
+      
+        
+          
+            2
+            log
+            ⁡
+            
+              
+                p
+                q
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {2\log {\frac {p}{q}}}}}
+  
+. A maximum entropy rate criterion may also be used to select the most relevant subset of features.
+
+
+== Structure learning ==
+Filter feature selection is a specific case of a more general paradigm called structure learning. Feature selection finds the relevant feature set for a specific target variable whereas structure learning finds the relationships between all the variables, usually by expressing these relationships as a graph. The most common structure learning algorithms assume the data is generated by a Bayesian Network, and so the structure is a directed graphical model. The optimal solution to the filter feature selection problem is the Markov blanket of the target node, and in a Bayesian Network, there is a unique Markov Blanket for each node.
+
+
+== Information Theory Based Feature Selection Mechanisms ==
+There are different Feature Selection mechanisms around that utilize mutual information for scoring the different features. They usually use all the same algorithm:
+
+Calculate the mutual information as score for between all features (
+  
+    
+      
+        
+          f
+          
+            i
+          
+        
+        ∈
+        F
+      
+    
+    {\displaystyle f_{i}\in F}
+  
+) and the target class (c)
+Select the feature with the largest score (e.g. 
+  
+    
+      
+        
+          
+            argmax
+            
+              
+                f
+                
+                  i
+                
+              
+              ∈
+              F
+            
+          
+        
+        (
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ,
+        c
+        )
+        )
+      
+    
+    {\displaystyle {\underset {f_{i}\in F}{\operatorname {argmax} }}(I(f_{i},c))}
+  
+) and add it to the set of selected features (S)
+Calculate the score which might be derived from the mutual information
+Select the feature with the largest score and add it to the set of select features (e.g. 
+  
+    
+      
+        
+          
+            argmax
+            
+              
+                f
+                
+                  i
+                
+              
+              ∈
+              F
+            
+          
+        
+        (
+        
+          I
+          
+            d
+            e
+            r
+            i
+            v
+            e
+            d
+          
+        
+        (
+        
+          f
+          
+            i
+          
+        
+        ,
+        c
+        )
+        )
+      
+    
+    {\displaystyle {\underset {f_{i}\in F}{\operatorname {argmax} }}(I_{derived}(f_{i},c))}
+  
+)
+Repeat 3. and 4. until a certain number of features is selected (e.g. 
+  
+    
+      
+        
+          |
+        
+        S
+        
+          |
+        
+        =
+        l
+      
+    
+    {\displaystyle |S|=l}
+  
+)
+The simplest approach uses the mutual information as the "derived" score.
+However, there are different approaches, that try to reduce the redundancy between features.
+
+
+=== Minimum-redundancy-maximum-relevance (mRMR) feature selection ===
+Peng et al. proposed a feature selection method that can use either mutual information, correlation, or distance/similarity scores to select features. The aim is to penalise a feature's relevancy by its redundancy in the presence of the other selected features. The relevance of a feature set S for the class c is defined by the average value of all mutual information values between the individual feature fi and the class c as follows:
+
+  
+    
+      
+        D
+        (
+        S
+        ,
+        c
+        )
+        =
+        
+          
+            1
+            
+              
+                |
+              
+              S
+              
+                |
+              
+            
+          
+        
+        
+          ∑
+          
+            
+              f
+              
+                i
+              
+            
+            ∈
+            S
+          
+        
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        c
+        )
+      
+    
+    {\displaystyle D(S,c)={\frac {1}{|S|}}\sum _{f_{i}\in S}I(f_{i};c)}
+  
+.
+The redundancy of all features in the set S is the average value of all mutual information values between the feature fi and the feature fj:
+
+  
+    
+      
+        R
+        (
+        S
+        )
+        =
+        
+          
+            1
+            
+              
+                |
+              
+              S
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          ∑
+          
+            
+              f
+              
+                i
+              
+            
+            ,
+            
+              f
+              
+                j
+              
+            
+            ∈
+            S
+          
+        
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        
+          f
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle R(S)={\frac {1}{|S|^{2}}}\sum _{f_{i},f_{j}\in S}I(f_{i};f_{j})}
+  
+
+The mRMR criterion is a combination of two measures given above and is defined as follows:
+
+  
+    
+      
+        
+          m
+          R
+          M
+          R
+        
+        =
+        
+          max
+          
+            S
+          
+        
+        
+          [
+          
+            
+              
+                1
+                
+                  
+                    |
+                  
+                  S
+                  
+                    |
+                  
+                
+              
+            
+            
+              ∑
+              
+                
+                  f
+                  
+                    i
+                  
+                
+                ∈
+                S
+              
+            
+            I
+            (
+            
+              f
+              
+                i
+              
+            
+            ;
+            c
+            )
+            −
+            
+              
+                1
+                
+                  
+                    |
+                  
+                  S
+                  
+                    
+                      |
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            
+              ∑
+              
+                
+                  f
+                  
+                    i
+                  
+                
+                ,
+                
+                  f
+                  
+                    j
+                  
+                
+                ∈
+                S
+              
+            
+            I
+            (
+            
+              f
+              
+                i
+              
+            
+            ;
+            
+              f
+              
+                j
+              
+            
+            )
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle \mathrm {mRMR} =\max _{S}\left[{\frac {1}{|S|}}\sum _{f_{i}\in S}I(f_{i};c)-{\frac {1}{|S|^{2}}}\sum _{f_{i},f_{j}\in S}I(f_{i};f_{j})\right].}
+  
+
+Suppose that there are n full-set features. Let xi be the set membership indicator function for feature fi, so that xi=1 indicates presence and xi=0 indicates absence of the feature fi in the globally optimal feature set. Let 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+        =
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        c
+        )
+      
+    
+    {\displaystyle c_{i}=I(f_{i};c)}
+  
+ and 
+  
+    
+      
+        
+          a
+          
+            i
+            j
+          
+        
+        =
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        
+          f
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle a_{ij}=I(f_{i};f_{j})}
+  
+. The above may then be written as an optimization problem:
+
+  
+    
+      
+        
+          m
+          R
+          M
+          R
+        
+        =
+        
+          max
+          
+            x
+            ∈
+            {
+            0
+            ,
+            1
+            
+              }
+              
+                n
+              
+            
+          
+        
+        
+          [
+          
+            
+              
+                
+                  
+                    ∑
+                    
+                      i
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    c
+                    
+                      i
+                    
+                  
+                  
+                    x
+                    
+                      i
+                    
+                  
+                
+                
+                  
+                    ∑
+                    
+                      i
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    x
+                    
+                      i
+                    
+                  
+                
+              
+            
+            −
+            
+              
+                
+                  
+                    ∑
+                    
+                      i
+                      ,
+                      j
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    a
+                    
+                      i
+                      j
+                    
+                  
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  
+                    x
+                    
+                      j
+                    
+                  
+                
+                
+                  (
+                  
+                    ∑
+                    
+                      i
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  
+                    )
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle \mathrm {mRMR} =\max _{x\in \{0,1\}^{n}}\left[{\frac {\sum _{i=1}^{n}c_{i}x_{i}}{\sum _{i=1}^{n}x_{i}}}-{\frac {\sum _{i,j=1}^{n}a_{ij}x_{i}x_{j}}{(\sum _{i=1}^{n}x_{i})^{2}}}\right].}
+  
+
+The mRMR algorithm is an approximation of the theoretically optimal maximum-dependency feature selection algorithm that maximizes the mutual information between the joint distribution of the selected features and the classification variable. As mRMR approximates the combinatorial estimation problem with a series of much smaller problems, each of which only involves two variables, it thus uses pairwise joint probabilities which are more robust. In certain situations the algorithm may underestimate the usefulness of features as it has no way to measure interactions between features which can increase relevancy. This can lead to poor performance when the features are individually useless, but are useful when combined (a pathological case is found when the class is a parity function of the features). Overall the algorithm is more efficient (in terms of the amount of data required) than the theoretically optimal max-dependency selection, yet produces a feature set with little pairwise redundancy.
+mRMR is an instance of a large class of filter methods which trade off between relevancy and redundancy in different ways.
+
+
+=== Quadratic programming feature selection ===
+mRMR is a typical example of an incremental greedy strategy for feature selection: once a feature has been selected, it cannot be deselected at a later stage. While mRMR could be optimized using floating search to reduce some features, it might also be reformulated as a global quadratic programming optimization problem as follows:
+
+  
+    
+      
+        
+          Q
+          P
+          F
+          S
+        
+        :
+        
+          min
+          
+            
+              x
+            
+          
+        
+        
+          {
+          
+            α
+            
+              
+                x
+              
+              
+                T
+              
+            
+            H
+            
+              x
+            
+            −
+            
+              
+                x
+              
+              
+                T
+              
+            
+            F
+          
+          }
+        
+        
+        
+          
+            s.t.
+          
+        
+         
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          x
+          
+            i
+          
+        
+        =
+        1
+        ,
+        
+          x
+          
+            i
+          
+        
+        ≥
+        0
+      
+    
+    {\displaystyle \mathrm {QPFS} :\min _{\mathbf {x} }\left\{\alpha \mathbf {x} ^{T}H\mathbf {x} -\mathbf {x} ^{T}F\right\}\quad {\mbox{s.t.}}\ \sum _{i=1}^{n}x_{i}=1,x_{i}\geq 0}
+  
+
+where 
+  
+    
+      
+        
+          F
+          
+            n
+            ×
+            1
+          
+        
+        =
+        [
+        I
+        (
+        
+          f
+          
+            1
+          
+        
+        ;
+        c
+        )
+        ,
+        …
+        ,
+        I
+        (
+        
+          f
+          
+            n
+          
+        
+        ;
+        c
+        )
+        
+          ]
+          
+            T
+          
+        
+      
+    
+    {\displaystyle F_{n\times 1}=[I(f_{1};c),\ldots ,I(f_{n};c)]^{T}}
+  
+ is the vector of feature relevancy assuming there are n features in total, 
+  
+    
+      
+        
+          H
+          
+            n
+            ×
+            n
+          
+        
+        =
+        [
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        
+          f
+          
+            j
+          
+        
+        )
+        
+          ]
+          
+            i
+            ,
+            j
+            =
+            1
+            …
+            n
+          
+        
+      
+    
+    {\displaystyle H_{n\times n}=[I(f_{i};f_{j})]_{i,j=1\ldots n}}
+  
+ is the matrix of feature pairwise redundancy, and 
+  
+    
+      
+        
+          
+            x
+          
+          
+            n
+            ×
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {x} _{n\times 1}}
+  
+ represents relative feature weights. QPFS is solved via quadratic programming. It is recently shown that QFPS is biased towards features with smaller entropy, due to its placement of the feature self redundancy term 
+  
+    
+      
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        
+          f
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle I(f_{i};f_{i})}
+  
+ on the diagonal of H.
+
+
+=== Conditional mutual information ===
+Another score derived for the mutual information is based on the conditional relevancy:
+
+  
+    
+      
+        
+          S
+          P
+          E
+          
+            C
+            
+              C
+              M
+              I
+            
+          
+        
+        :
+        
+          max
+          
+            
+              x
+            
+          
+        
+        
+          {
+          
+            
+              
+                x
+              
+              
+                T
+              
+            
+            Q
+            
+              x
+            
+          
+          }
+        
+        
+        
+          
+            s.t.
+          
+        
+         
+        ‖
+        
+          x
+        
+        ‖
+        =
+        1
+        ,
+        
+          x
+          
+            i
+          
+        
+        ≥
+        0
+      
+    
+    {\displaystyle \mathrm {SPEC_{CMI}} :\max _{\mathbf {x} }\left\{\mathbf {x} ^{T}Q\mathbf {x} \right\}\quad {\mbox{s.t.}}\ \|\mathbf {x} \|=1,x_{i}\geq 0}
+  
+
+where 
+  
+    
+      
+        
+          Q
+          
+            i
+            i
+          
+        
+        =
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        c
+        )
+      
+    
+    {\displaystyle Q_{ii}=I(f_{i};c)}
+  
+ and 
+  
+    
+      
+        
+          Q
+          
+            i
+            j
+          
+        
+        =
+        (
+        I
+        (
+        
+          f
+          
+            i
+          
+        
+        ;
+        c
+        
+          |
+        
+        
+          f
+          
+            j
+          
+        
+        )
+        +
+        I
+        (
+        
+          f
+          
+            j
+          
+        
+        ;
+        c
+        
+          |
+        
+        
+          f
+          
+            i
+          
+        
+        )
+        )
+        
+          /
+        
+        2
+        ,
+        i
+        ≠
+        j
+      
+    
+    {\displaystyle Q_{ij}=(I(f_{i};c|f_{j})+I(f_{j};c|f_{i}))/2,i\neq j}
+  
+.
+An advantage of SPECCMI is that it can be solved simply via finding the dominant eigenvector of Q, thus is very scalable. SPECCMI also handles second-order feature interaction.
+
+
+=== Joint mutual information ===
+In a study of different scores Brown et al.  recommended the joint mutual information as a good score for feature selection. The score tries to find the feature, that adds the most new information to the already selected features, in order to avoid redundancy. The score is formulated as follows:
+
+  
+    
+      
+        
+          
+            
+              
+                J
+                M
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    
+                      f
+                      
+                        j
+                      
+                    
+                    ∈
+                    S
+                  
+                
+                (
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                ;
+                c
+                )
+                +
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                ;
+                c
+                
+                  |
+                
+                
+                  f
+                  
+                    j
+                  
+                
+                )
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    
+                      f
+                      
+                        j
+                      
+                    
+                    ∈
+                    S
+                  
+                
+                
+                  
+                    [
+                  
+                
+                I
+                (
+                
+                  f
+                  
+                    j
+                  
+                
+                ;
+                c
+                )
+                +
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                ;
+                c
+                )
+                −
+                
+                  
+                    (
+                  
+                
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                ;
+                
+                  f
+                  
+                    j
+                  
+                
+                )
+                −
+                I
+                (
+                
+                  f
+                  
+                    i
+                  
+                
+                ;
+                
+                  f
+                  
+                    j
+                  
+                
+                
+                  |
+                
+                c
+                )
+                
+                  
+                    )
+                  
+                
+                
+                  
+                    ]
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}JMI(f_{i})&=\sum _{f_{j}\in S}(I(f_{i};c)+I(f_{i};c|f_{j}))\\&=\sum _{f_{j}\in S}{\bigl [}I(f_{j};c)+I(f_{i};c)-{\bigl (}I(f_{i};f_{j})-I(f_{i};f_{j}|c){\bigr )}{\bigr ]}\end{aligned}}}
+  
+
+The score uses the conditional mutual information and the mutual information to estimate the redundancy between the already selected features (
+  
+    
+      
+        
+          f
+          
+            j
+          
+        
+        ∈
+        S
+      
+    
+    {\displaystyle f_{j}\in S}
+  
+) and the feature under investigation (
+  
+    
+      
+        
+          f
+          
+            i
+          
+        
+      
+    
+    {\displaystyle f_{i}}
+  
+).
+
+
+== Hilbert-Schmidt Independence Criterion Lasso based feature selection ==
+For high-dimensional and small sample data (e.g., dimensionality > 105 and the number of samples < 103), the Hilbert-Schmidt Independence Criterion Lasso (HSIC Lasso) is useful. HSIC Lasso optimization problem is given as
+
+  
+    
+      
+        
+          H
+          S
+          I
+          
+            C
+            
+              L
+              a
+              s
+              s
+              o
+            
+          
+        
+        :
+        
+          min
+          
+            
+              x
+            
+          
+        
+        
+          
+            1
+            2
+          
+        
+        
+          ∑
+          
+            k
+            ,
+            l
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          x
+          
+            k
+          
+        
+        
+          x
+          
+            l
+          
+        
+        
+          
+            HSIC
+          
+        
+        (
+        
+          f
+          
+            k
+          
+        
+        ,
+        
+          f
+          
+            l
+          
+        
+        )
+        −
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          x
+          
+            k
+          
+        
+        
+          
+            HSIC
+          
+        
+        (
+        
+          f
+          
+            k
+          
+        
+        ,
+        c
+        )
+        +
+        λ
+        ‖
+        
+          x
+        
+        
+          ‖
+          
+            1
+          
+        
+        ,
+        
+        
+          
+            s.t.
+          
+        
+         
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        ≥
+        0
+        ,
+      
+    
+    {\displaystyle \mathrm {HSIC_{Lasso}} :\min _{\mathbf {x} }{\frac {1}{2}}\sum _{k,l=1}^{n}x_{k}x_{l}{\mbox{HSIC}}(f_{k},f_{l})-\sum _{k=1}^{n}x_{k}{\mbox{HSIC}}(f_{k},c)+\lambda \|\mathbf {x} \|_{1},\quad {\mbox{s.t.}}\ x_{1},\ldots ,x_{n}\geq 0,}
+  
+
+where 
+  
+    
+      
+        
+          
+            HSIC
+          
+        
+        (
+        
+          f
+          
+            k
+          
+        
+        ,
+        c
+        )
+        =
+        
+          
+            tr
+          
+        
+        (
+        
+          
+            
+              
+                
+                  K
+                
+                ¯
+              
+            
+          
+          
+            (
+            k
+            )
+          
+        
+        
+          
+            
+              
+                L
+              
+              ¯
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\mbox{HSIC}}(f_{k},c)={\mbox{tr}}({\bar {\mathbf {K} }}^{(k)}{\bar {\mathbf {L} }})}
+  
+ is a kernel-based independence measure called the (empirical) Hilbert-Schmidt independence criterion (HSIC), 
+  
+    
+      
+        
+          
+            tr
+          
+        
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle {\mbox{tr}}(\cdot )}
+  
+ denotes the trace, 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ is the regularization parameter, 
+  
+    
+      
+        
+          
+            
+              
+                
+                  K
+                
+                ¯
+              
+            
+          
+          
+            (
+            k
+            )
+          
+        
+        =
+        
+          Γ
+        
+        
+          
+            K
+          
+          
+            (
+            k
+            )
+          
+        
+        
+          Γ
+        
+      
+    
+    {\displaystyle {\bar {\mathbf {K} }}^{(k)}=\mathbf {\Gamma } \mathbf {K} ^{(k)}\mathbf {\Gamma } }
+  
+ and 
+  
+    
+      
+        
+          
+            
+              
+                L
+              
+              ¯
+            
+          
+        
+        =
+        
+          Γ
+        
+        
+          L
+        
+        
+          Γ
+        
+      
+    
+    {\displaystyle {\bar {\mathbf {L} }}=\mathbf {\Gamma } \mathbf {L} \mathbf {\Gamma } }
+  
+ are input and output centered Gram matrices, 
+  
+    
+      
+        
+          K
+          
+            i
+            ,
+            j
+          
+          
+            (
+            k
+            )
+          
+        
+        =
+        K
+        (
+        
+          u
+          
+            k
+            ,
+            i
+          
+        
+        ,
+        
+          u
+          
+            k
+            ,
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle K_{i,j}^{(k)}=K(u_{k,i},u_{k,j})}
+  
+ and 
+  
+    
+      
+        
+          L
+          
+            i
+            ,
+            j
+          
+        
+        =
+        L
+        (
+        
+          c
+          
+            i
+          
+        
+        ,
+        
+          c
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle L_{i,j}=L(c_{i},c_{j})}
+  
+ are Gram matrices, 
+  
+    
+      
+        K
+        (
+        u
+        ,
+        
+          u
+          ′
+        
+        )
+      
+    
+    {\displaystyle K(u,u')}
+  
+ and 
+  
+    
+      
+        L
+        (
+        c
+        ,
+        
+          c
+          ′
+        
+        )
+      
+    
+    {\displaystyle L(c,c')}
+  
+ are kernel functions, 
+  
+    
+      
+        
+          Γ
+        
+        =
+        
+          
+            I
+          
+          
+            m
+          
+        
+        −
+        
+          
+            1
+            m
+          
+        
+        
+          
+            1
+          
+          
+            m
+          
+        
+        
+          
+            1
+          
+          
+            m
+          
+          
+            T
+          
+        
+      
+    
+    {\displaystyle \mathbf {\Gamma } =\mathbf {I} _{m}-{\frac {1}{m}}\mathbf {1} _{m}\mathbf {1} _{m}^{T}}
+  
+ is the centering matrix, 
+  
+    
+      
+        
+          
+            I
+          
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \mathbf {I} _{m}}
+  
+ is the m-dimensional identity matrix (m: the number of samples), 
+  
+    
+      
+        
+          
+            1
+          
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \mathbf {1} _{m}}
+  
+ is the m-dimensional vector with all ones, and  
+  
+    
+      
+        ‖
+        ⋅
+        
+          ‖
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \|\cdot \|_{1}}
+  
+ is the 
+  
+    
+      
+        
+          ℓ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \ell _{1}}
+  
+-norm.  HSIC always takes a non-negative value, and is zero if and only if two random variables are statistically independent when a universal reproducing kernel such as the Gaussian kernel is used.
+The HSIC Lasso can be written as
+
+  
+    
+      
+        
+          H
+          S
+          I
+          
+            C
+            
+              L
+              a
+              s
+              s
+              o
+            
+          
+        
+        :
+        
+          min
+          
+            
+              x
+            
+          
+        
+        
+          
+            1
+            2
+          
+        
+        
+          
+            ‖
+            
+              
+                
+                  
+                    
+                      L
+                    
+                    ¯
+                  
+                
+              
+              −
+              
+                ∑
+                
+                  k
+                  =
+                  1
+                
+                
+                  n
+                
+              
+              
+                x
+                
+                  k
+                
+              
+              
+                
+                  
+                    
+                      
+                        K
+                      
+                      ¯
+                    
+                  
+                
+                
+                  (
+                  k
+                  )
+                
+              
+            
+            ‖
+          
+          
+            F
+          
+          
+            2
+          
+        
+        +
+        λ
+        ‖
+        
+          x
+        
+        
+          ‖
+          
+            1
+          
+        
+        ,
+        
+        
+          
+            s.t.
+          
+        
+         
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        ≥
+        0
+        ,
+      
+    
+    {\displaystyle \mathrm {HSIC_{Lasso}} :\min _{\mathbf {x} }{\frac {1}{2}}\left\|{\bar {\mathbf {L} }}-\sum _{k=1}^{n}x_{k}{\bar {\mathbf {K} }}^{(k)}\right\|_{F}^{2}+\lambda \|\mathbf {x} \|_{1},\quad {\mbox{s.t.}}\ x_{1},\ldots ,x_{n}\geq 0,}
+  
+
+where 
+  
+    
+      
+        ‖
+        ⋅
+        
+          ‖
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \|\cdot \|_{F}}
+  
+ is the Frobenius norm. The optimization problem is a Lasso problem, and thus it can be efficiently solved with a state-of-the-art Lasso solver such as the dual augmented Lagrangian method.
+
+
+== Correlation feature selection ==
+The correlation feature selection (CFS) measure evaluates subsets of features on the basis of the following hypothesis: "Good feature subsets contain features highly correlated with the classification, yet uncorrelated to each other". The following equation gives the merit of a feature subset S consisting of k features:
+
+  
+    
+      
+        
+          
+            M
+            e
+            r
+            i
+            t
+          
+          
+            
+              S
+              
+                k
+              
+            
+          
+        
+        =
+        
+          
+            
+              k
+              
+                
+                  
+                    r
+                    
+                      c
+                      f
+                    
+                  
+                  ¯
+                
+              
+            
+            
+              k
+              +
+              k
+              (
+              k
+              −
+              1
+              )
+              
+                
+                  
+                    r
+                    
+                      f
+                      f
+                    
+                  
+                  ¯
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \mathrm {Merit} _{S_{k}}={\frac {k{\overline {r_{cf}}}}{\sqrt {k+k(k-1){\overline {r_{ff}}}}}}.}
+  
+
+Here, 
+  
+    
+      
+        
+          
+            
+              r
+              
+                c
+                f
+              
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {r_{cf}}}}
+  
+ is the average value of all feature-classification correlations, and 
+  
+    
+      
+        
+          
+            
+              r
+              
+                f
+                f
+              
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {r_{ff}}}}
+  
+ is the average value of all feature-feature correlations. The CFS criterion is defined as follows:
+
+  
+    
+      
+        
+          C
+          F
+          S
+        
+        =
+        
+          max
+          
+            
+              S
+              
+                k
+              
+            
+          
+        
+        
+          [
+          
+            
+              
+                
+                  r
+                  
+                    c
+                    
+                      f
+                      
+                        1
+                      
+                    
+                  
+                
+                +
+                
+                  r
+                  
+                    c
+                    
+                      f
+                      
+                        2
+                      
+                    
+                  
+                
+                +
+                ⋯
+                +
+                
+                  r
+                  
+                    c
+                    
+                      f
+                      
+                        k
+                      
+                    
+                  
+                
+              
+              
+                k
+                +
+                2
+                (
+                
+                  r
+                  
+                    
+                      f
+                      
+                        1
+                      
+                    
+                    
+                      f
+                      
+                        2
+                      
+                    
+                  
+                
+                +
+                ⋯
+                +
+                
+                  r
+                  
+                    
+                      f
+                      
+                        i
+                      
+                    
+                    
+                      f
+                      
+                        j
+                      
+                    
+                  
+                
+                +
+                ⋯
+                +
+                
+                  r
+                  
+                    
+                      f
+                      
+                        k
+                      
+                    
+                    
+                      f
+                      
+                        k
+                        −
+                        1
+                      
+                    
+                  
+                
+                )
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle \mathrm {CFS} =\max _{S_{k}}\left[{\frac {r_{cf_{1}}+r_{cf_{2}}+\cdots +r_{cf_{k}}}{\sqrt {k+2(r_{f_{1}f_{2}}+\cdots +r_{f_{i}f_{j}}+\cdots +r_{f_{k}f_{k-1}})}}}\right].}
+  
+
+The 
+  
+    
+      
+        
+          r
+          
+            c
+            
+              f
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle r_{cf_{i}}}
+  
+ and 
+  
+    
+      
+        
+          r
+          
+            
+              f
+              
+                i
+              
+            
+            
+              f
+              
+                j
+              
+            
+          
+        
+      
+    
+    {\displaystyle r_{f_{i}f_{j}}}
+  
+ variables are referred to as correlations, but are not necessarily Pearson's correlation coefficient or Spearman's ρ. Hall's dissertation uses neither of these, but uses three different measures of relatedness, minimum description length (MDL), symmetrical uncertainty, and relief.
+Let xi be the set membership indicator function for feature fi; then the above can be rewritten as an optimization problem:
+
+  
+    
+      
+        
+          C
+          F
+          S
+        
+        =
+        
+          max
+          
+            x
+            ∈
+            {
+            0
+            ,
+            1
+            
+              }
+              
+                n
+              
+            
+          
+        
+        
+          [
+          
+            
+              
+                (
+                
+                  ∑
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                
+                  a
+                  
+                    i
+                  
+                
+                
+                  x
+                  
+                    i
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              
+                
+                  ∑
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                
+                  x
+                  
+                    i
+                  
+                
+                +
+                
+                  ∑
+                  
+                    i
+                    ≠
+                    j
+                  
+                
+                2
+                
+                  b
+                  
+                    i
+                    j
+                  
+                
+                
+                  x
+                  
+                    i
+                  
+                
+                
+                  x
+                  
+                    j
+                  
+                
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle \mathrm {CFS} =\max _{x\in \{0,1\}^{n}}\left[{\frac {(\sum _{i=1}^{n}a_{i}x_{i})^{2}}{\sum _{i=1}^{n}x_{i}+\sum _{i\neq j}2b_{ij}x_{i}x_{j}}}\right].}
+  
+
+The combinatorial problems above are, in fact, mixed 0–1 linear programming problems that can be solved by using branch-and-bound algorithms.
+
+
+== Regularized trees ==
+The features from a decision tree or a tree ensemble are shown to be redundant. A recent method called regularized tree can be used for feature subset selection. Regularized trees penalize using a variable similar to the variables selected at previous tree nodes for splitting the current node. Regularized trees only need build one tree model (or one tree ensemble model) and thus are computationally efficient.
+Regularized trees naturally handle numerical and categorical features, interactions and nonlinearities. They are invariant to attribute scales (units) and insensitive to outliers, and thus, require little data preprocessing such as normalization. Regularized random forest (RRF) is one type of regularized trees. The guided RRF is an enhanced RRF which is guided by the importance scores from an ordinary random forest.
+
+
+== Overview on metaheuristics methods ==
+A metaheuristic is a general description of an algorithm dedicated to solve difficult (typically NP-hard problem) optimization problems for which there is no classical solving methods. Generally, a metaheuristic is a stochastic algorithm tending to reach a global optimum. There are many metaheuristics, from a simple local search to a complex global search algorithm.
+
+
+=== Main principles ===
+The feature selection methods are typically presented in three classes based on how they combine the selection algorithm and the model building.
+
+
+==== Filter method ====
+
+Filter type methods select variables regardless of the model. They are based only on general features like the correlation with the variable to predict. Filter methods suppress the least interesting variables. The other variables will be part of a classification or a regression model used to classify or to predict data. These methods are particularly effective in computation time and robust to overfitting.
+Filter methods tend to select redundant variables when they do not consider the relationships between variables. However, more elaborate features try to minimize this problem by removing variables highly correlated to each other, such as the Fast Correlation Based Filter (FCBF) algorithm.
+
+
+==== Wrapper method ====
+
+Wrapper methods evaluate subsets of variables which allows, unlike filter approaches, to detect the possible interactions amongst variables. The two main disadvantages of these methods are: 
+
+The increasing overfitting risk when the number of observations is insufficient.
+The significant computation time when the number of variables is large.
+
+
+==== Embedded method ====
+
+Embedded methods have been recently proposed that try to combine the advantages of both previous methods. A learning algorithm takes advantage of its own variable selection process and performs feature selection and classification simultaneously, such as the FRMT algorithm.
+
+
+=== Application of feature selection metaheuristics ===
+This is a survey of the application of feature selection metaheuristics lately used in the literature. This survey was realized by J. Hammon in her 2013 thesis.
+
+
+== Feature selection embedded in learning algorithms ==
+Some learning algorithms perform feature selection as part of their overall operation. These include:
+
+⁠
+  
+    
+      
+        
+          l
+          
+            1
+          
+        
+      
+    
+    {\displaystyle l_{1}}
+  
+⁠-regularization techniques, such as sparse regression, LASSO, and ⁠
+  
+    
+      
+        
+          l
+          
+            1
+          
+        
+      
+    
+    {\displaystyle l_{1}}
+  
+⁠-SVM
+Regularized trees, e.g. regularized random forest implemented in the RRF package
+Decision tree
+Memetic algorithm
+Random multinomial logit (RMNL)
+Auto-encoding networks with a bottleneck-layer
+Submodular feature selection
+Local learning based feature selection. Compared with traditional methods, it does not involve any heuristic search, can easily handle multi-class problems, and works for both linear and nonlinear problems. It is also supported by a strong theoretical foundation. Numeric experiments showed that the method can achieve a close-to-optimal solution even when data contains >1M irrelevant features.
+Recommender system based on feature selection. The feature selection methods are introduced into recommender system research.
+
+
+== See also ==
+Cluster analysis
+Data mining
+Dimensionality reduction
+Feature extraction
+Hyperparameter optimization
+Model selection
+Relief (feature selection)
+
+
+== References ==
+
+
+== Further reading ==
+Guyon, Isabelle; Elisseeff, Andre (2003). "An Introduction to Variable and Feature Selection". Journal of Machine Learning Research. 3: 1157–1182.
+Harrell, F. (2001). Regression Modeling Strategies. Springer. ISBN 0-387-95232-2.
+Liu, Huan; Motoda, Hiroshi (1998). Feature Selection for Knowledge Discovery and Data Mining. Springer. ISBN 0-7923-8198-X.
+Liu, Huan; Yu, Lei (2005). "Toward Integrating Feature Selection Algorithms for Classification and Clustering". IEEE Transactions on Knowledge and Data Engineering. 17 (4): 491–502. doi:10.1109/TKDE.2005.66. S2CID 1607600.
+
+
+== External links ==
+Feature Selection Package, Arizona State University (Matlab Code)
+NIPS challenge 2003 (see also NIPS)
+Naive Bayes implementation with feature selection in Visual Basic Archived 2009-02-14 at the Wayback Machine (includes executable and source code)
+Minimum-redundancy-maximum-relevance (mRMR) feature selection program
+FEAST (Open source Feature Selection algorithms in C and MATLAB)

@@ -1,0 +1,562 @@
+Fuzzy logic is a form of many-valued logic in which the truth value of variables may be any real number between 0 and 1. It is employed to handle the concept of partial truth, where the truth value may range between completely true and completely false. By contrast, in Boolean logic, the truth values of variables may only be the integer values 0 or 1.
+The term fuzzy logic was introduced with the 1965 proposal of fuzzy set theory by mathematician Lotfi Zadeh. Fuzzy logic had, however, been studied since the 1920s, as infinite-valued logic—notably by Łukasiewicz and Tarski.
+Fuzzy logic is based on the observation that people make decisions based on imprecise and non-numerical information. Fuzzy models or fuzzy sets are mathematical means of representing vagueness and imprecise information (hence the term fuzzy). These models have the capability of recognising, representing, manipulating, interpreting, and using data and information that are vague and lack certainty.
+Fuzzy logic has been applied to many fields, from control theory to artificial intelligence.
+
+
+== Overview ==
+Classical logic only permits conclusions that are either true or false. However, there are also propositions with variable answers, which one might find when asking a group of people to identify a color. In such instances, the truth appears as the result of reasoning from inexact or partial knowledge in which the sampled answers are mapped on a spectrum.
+Both degrees of truth and probabilities range between 0 and 1 and hence may seem identical at first, but fuzzy logic uses degrees of truth as a mathematical model of vagueness, while probability is a mathematical model of ignorance.
+
+
+=== Applying truth values ===
+A basic application might characterize various sub-ranges of a continuous variable. For instance, a temperature measurement for anti-lock brakes might have several separate membership functions defining particular temperature ranges needed to control the brakes properly. Each function maps the same temperature value to a truth value in the 0 to 1 range. These truth values can then be used to determine how the brakes should be controlled. Fuzzy set theory provides a means for representing uncertainty.
+
+
+=== Linguistic variables ===
+In fuzzy logic applications, non-numeric values are often used to facilitate the expression of rules and facts.
+A linguistic variable such as age may accept values such as young and its antonym old. Because natural languages do not always contain enough value terms to express a fuzzy value scale, it is common practice to modify linguistic values with adjectives or adverbs. For example, we can use the hedges rather and somewhat to construct the additional values rather old or somewhat young.
+
+
+== Fuzzy systems ==
+
+
+=== Mamdani ===
+The most well-known system is the Mamdani rule-based one. It uses the following rules:
+
+Fuzzify all input values into fuzzy membership functions.
+Execute all applicable rules in the rulebase to compute the fuzzy output functions.
+De-fuzzify the fuzzy output functions to get "crisp" output values.
+
+
+==== Fuzzification ====
+Fuzzification is the process of assigning the numerical input of a system to fuzzy sets with some degree of membership. This degree of membership may be anywhere within the interval [0,1]. If it is 0 then the value does not belong to the given fuzzy set, and if it is 1 then the value completely belongs within the fuzzy set. Any value between 0 and 1 represents the degree of uncertainty that the value belongs in the set. These fuzzy sets are typically described by words, and so by assigning the system input to fuzzy sets, we can reason with it in a linguistically natural manner.
+For example, in the image below, the meanings of the expressions cold, warm, and hot are represented by functions mapping a temperature scale. A point on that scale has three "truth values"—one for each of the three functions. The vertical line in the image represents a particular temperature that the three arrows (truth values) gauge. Since the red arrow points to zero, this temperature may be interpreted as "not hot"; i.e. this temperature has zero membership in the fuzzy set "hot". The orange arrow (pointing at 0.2) may describe it as "slightly warm" and the blue arrow (pointing at 0.8) "fairly cold". Therefore, this temperature has 0.2 membership in the fuzzy set "warm" and 0.8 membership in the fuzzy set "cold". The degree of membership assigned for each fuzzy set is the result of fuzzification.
+
+Fuzzy sets are often defined as triangle or trapezoid-shaped curves, as each value will have a slope where the value is increasing, a peak where the value is equal to 1 (which can have a length of 0 or greater) and a slope where the value is decreasing. They can also be defined using a sigmoid function. One common case is the standard logistic function defined as
+
+  
+    
+      
+        S
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                e
+                
+                  −
+                  x
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle S(x)={\frac {1}{1+e^{-x}}}}
+  
+,
+which has the following symmetry property
+
+  
+    
+      
+        S
+        (
+        x
+        )
+        +
+        S
+        (
+        −
+        x
+        )
+        =
+        1.
+      
+    
+    {\displaystyle S(x)+S(-x)=1.}
+  
+
+From this it follows that
+
+  
+    
+      
+        (
+        S
+        (
+        x
+        )
+        +
+        S
+        (
+        −
+        x
+        )
+        )
+        ⋅
+        (
+        S
+        (
+        y
+        )
+        +
+        S
+        (
+        −
+        y
+        )
+        )
+        ⋅
+        (
+        S
+        (
+        z
+        )
+        +
+        S
+        (
+        −
+        z
+        )
+        )
+        =
+        1
+      
+    
+    {\displaystyle (S(x)+S(-x))\cdot (S(y)+S(-y))\cdot (S(z)+S(-z))=1}
+  
+
+
+==== Fuzzy logic operators ====
+Fuzzy logic works with membership values in a way that mimics Boolean logic. To this end, replacements for basic operators ("gates") AND, OR, NOT must be available. There are several ways to accomplish this. A common replacement is called the Zadeh operators:
+
+For TRUE/1 and FALSE/0, the fuzzy expressions produce the same result as the Boolean expressions.
+There are also other operators, more linguistic in nature, called hedges that can be applied. These are generally adverbs such as very, or somewhat, which modify the meaning of a set using a mathematical formula.
+However, an arbitrary choice table does not always define a fuzzy logic function. In the paper (Zaitsev, et al), a criterion has been formulated to recognize whether a given choice table defines a fuzzy logic function and a simple algorithm of fuzzy logic function synthesis has been proposed based on introduced concepts of constituents of minimum and maximum. A fuzzy logic function represents a disjunction of constituents of minimum, where a constituent of minimum is a conjunction of variables of the current area greater than or equal to the function value in this area (to the right of the function value in the inequality, including the function value).
+Another set of AND/OR operators is based on multiplication, where
+
+Given any two of AND/OR/NOT, it is possible to derive the third. The generalization of AND is an instance of a t-norm.
+
+
+==== IF-THEN rules ====
+
+IF-THEN rules map input or computed truth values to desired output truth values. Example:
+
+Given a certain temperature, the fuzzy variable hot has a certain truth value, which is copied to the high variable.
+Should an output variable occur in several THEN parts, then the values from the respective IF parts are combined using the OR operator.
+
+
+==== Defuzzification ====
+
+The goal is to get a continuous variable from fuzzy truth values.
+This would be easy if the output truth values were exactly those obtained from fuzzification of a given number.
+Since, however, all output truth values are computed independently, in most cases they do not represent such a set of numbers.
+One has then to decide for a number that matches best the "intention" encoded in the truth value.
+For example, for several truth values of fan_speed, an actual speed must be found that best fits the computed truth values of the variables 'slow', 'moderate' and so on.
+There is no single algorithm for this purpose.
+A common algorithm is
+
+For each truth value, cut the membership function at this value
+Combine the resulting curves using the OR operator
+Find the center-of-weight of the area under the curve
+The x position of this center is then the final output.
+
+
+=== Takagi–Sugeno–Kang (TSK) ===
+The TSK system is similar to Mamdani, but the defuzzification process is included in the execution of the fuzzy rules. These are also adapted, so that instead the consequent of the rule is represented through a polynomial function (usually constant or linear). An example of a rule with a constant output would be:In this case, the output will be equal to the constant of the consequent (e.g. 2). In most scenarios we would have an entire rule base, with 2 or more rules. If this is the case, the output of the entire rule base will be the average of the consequent of each rule i (Yi), weighted according to the membership value of its antecedent (hi):
+
+  
+    
+      
+        
+          
+            
+              
+                ∑
+                
+                  i
+                
+              
+              (
+              
+                h
+                
+                  i
+                
+              
+              ⋅
+              
+                Y
+                
+                  i
+                
+              
+              )
+            
+            
+              
+                ∑
+                
+                  i
+                
+              
+              
+                h
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\sum _{i}(h_{i}\cdot Y_{i})}{\sum _{i}h_{i}}}}
+  
+
+An example of a rule with a linear output would be instead:In this case, the output of the rule will be the result of function in the consequent. The variables within the function represent the membership values after fuzzification, not the crisp values. Same as before, in case we have an entire rule base with 2 or more rules, the total output will be the weighted average between the output of each rule.
+The main advantage of using TSK over Mamdani is that it is computationally efficient and works well within other algorithms, such as PID control and with optimization algorithms. It can also guarantee the continuity of the output surface. However, Mamdani is more intuitive and easier to work with by people. Hence, TSK is usually used within other complex methods, such as in adaptive neuro fuzzy inference systems.
+
+
+== Forming a consensus of inputs and fuzzy rules ==
+Since the fuzzy system output is a consensus of all of the inputs and all of the rules, fuzzy logic systems can be well behaved when input values are not available or are not trustworthy. Weightings can be optionally added to each rule in the rulebase and weightings can be used to regulate the degree to which a rule affects the output values. These rule weightings can be based upon the priority, reliability or consistency of each rule. These rule weightings may be static or can be changed dynamically, even based upon the output from other rules.
+
+
+== Applications ==
+Fuzzy logic is used in control systems to allow experts to contribute vague rules such as "if you are close to the destination station and moving fast, increase the train's brake pressure"; these vague rules can then be numerically refined within the system.
+Many of the early successful applications of fuzzy logic were implemented in Japan. A first notable application was on the Sendai Subway 1000 series, in which fuzzy logic was able to improve the economy, comfort, and precision of the ride. It has also been used for handwriting recognition in Sony pocket computers, helicopter flight aids, subway system controls, improving automobile fuel efficiency, single-button washing machine controls, automatic power controls in vacuum cleaners, and early recognition of earthquakes through the Institute of Seismology Bureau of Meteorology, Japan.
+
+
+=== Artificial intelligence ===
+
+Neural networks based artificial intelligence and fuzzy logic are, when analyzed, the same thing—the underlying logic of neural networks is fuzzy. A neural network will take a variety of valued inputs, give them different weights in relation to each other, combine intermediate values a certain number of times, and arrive at a decision with a certain value. Nowhere in that process is there anything like the sequences of either-or decisions which characterize non-fuzzy mathematics, computer programming, and digital electronics. In the 1980s, researchers were divided about the most effective approach to machine learning: decision tree learning or neural networks. The former approach uses binary logic, matching the hardware on which it runs, but despite great efforts it did not result in intelligent systems. Neural networks, by contrast, did result in accurate models of complex situations and soon found their way onto a multitude of electronic devices. They can also now be implemented directly on analog microchips, as opposed to the previous pseudo-analog implementations on digital chips. The greater efficiency of these compensates for the intrinsic lesser accuracy of analog in various use cases.
+
+
+=== Medical decision making ===
+Fuzzy logic is an important concept in medical decision making. Since medical and healthcare data can be subjective or fuzzy, applications in this domain have a great potential to benefit a lot by using fuzzy-logic-based approaches.
+Fuzzy logic can be used in many different aspects within the medical decision making framework. Such aspects include in medical image analysis, biomedical signal analysis, segmentation of images or signals, and feature extraction / selection of images or signals.
+
+The biggest question in this application area is how much useful information can be derived when using fuzzy logic. A major challenge is how to derive the required fuzzy data. This is even more challenging when one has to elicit such data from humans (usually, patients). As has been said "The envelope of what can be achieved and what cannot be achieved in medical diagnosis, ironically, is itself a fuzzy one" How to elicit fuzzy data, and how to validate the accuracy of the data is still an ongoing effort, strongly related to the application of fuzzy logic. The problem of assessing the quality of fuzzy data is a difficult one. This is why fuzzy logic is a highly promising possibility within the medical decision making application area but still requires more research to achieve its full potential. 
+
+
+==== Image-based computer-aided diagnosis ====
+One of the common application areas of fuzzy logic is image-based computer-aided diagnosis in medicine. Computer-aided diagnosis is a computerized set of inter-related tools that can be used to aid physicians in their diagnostic decision-making.
+
+
+=== Fuzzy databases ===
+Once fuzzy relations are defined, it is possible to develop fuzzy relational databases. The first fuzzy relational database, FRDB, appeared in Maria Zemankova's dissertation (1983). Later, some other models arose like the Buckles-Petry model, the Prade-Testemale Model, the Umano-Fukami model or the GEFRED model by J. M. Medina, M. A. Vila et al.
+Fuzzy querying languages have been defined, such as the SQLf by P. Bosc et al. and the FSQL by J. Galindo et al. These languages define some structures in order to include fuzzy aspects in the SQL statements, like fuzzy conditions, fuzzy comparators, fuzzy constants, fuzzy constraints, fuzzy thresholds, linguistic labels etc.
+
+
+== Logical analysis ==
+In mathematical logic, there are several formal systems of "fuzzy logic", most of which are in the family of t-norm fuzzy logics.
+
+
+=== Propositional fuzzy logics ===
+The most important propositional fuzzy logics are:
+
+Monoidal t-norm-based propositional fuzzy logic MTL is an axiomatization of logic where conjunction is defined by a left continuous t-norm and implication is defined as the residuum of the t-norm. Its models correspond to MTL-algebras that are pre-linear commutative bounded integral residuated lattices.
+Basic propositional fuzzy logic BL is an extension of MTL logic where conjunction is defined by a continuous t-norm, and implication is also defined as the residuum of the t-norm. Its models correspond to BL-algebras.
+Łukasiewicz fuzzy logic is the extension of basic fuzzy logic BL where standard conjunction is the Łukasiewicz t-norm. It has the axioms of basic fuzzy logic plus an axiom of double negation, and its models correspond to MV-algebras.
+Gödel fuzzy logic is the extension of basic fuzzy logic BL where conjunction is the Gödel t-norm (that is, minimum). It has the axioms of BL plus an axiom of idempotence of conjunction, and its models are called G-algebras.
+Product fuzzy logic is the extension of basic fuzzy logic BL where conjunction is the product t-norm. It has the axioms of BL plus another axiom for cancellativity of conjunction, and its models are called product algebras.
+Fuzzy logic with evaluated syntax (sometimes also called Pavelka's logic), denoted by EVŁ, is a further generalization of mathematical fuzzy logic. While the above kinds of fuzzy logic have traditional syntax and many-valued semantics, in EVŁ syntax is also evaluated. This means that each formula has an evaluation. Axiomatization of EVŁ stems from Łukasziewicz fuzzy logic. A generalization of the classical Gödel completeness theorem is provable in EVŁ.
+
+
+=== Predicate fuzzy logics ===
+Similar to the way predicate logic is created from propositional logic, predicate fuzzy logics extend fuzzy systems by universal and existential quantifiers. The semantics of the universal quantifier in t-norm fuzzy logics is the infimum of the truth degrees of the instances of the quantified subformula, while the semantics of the existential quantifier is the supremum of the same.
+
+
+=== Decidability Issues ===
+The notions of a "decidable subset" and "recursively enumerable subset" are basic ones for classical mathematics and classical logic. Thus the question of a suitable extension of them to fuzzy set theory is a crucial one. The first proposal in such a direction was made by E. S. Santos by the notions of fuzzy Turing machine, Markov normal fuzzy algorithm and fuzzy program (see Santos 1970). Successively, L. Biacino and G. Gerla argued that the proposed definitions are rather questionable. For example, in  one shows that the fuzzy Turing machines are not adequate for fuzzy language theory since there are natural fuzzy languages intuitively computable that cannot be recognized by a fuzzy Turing Machine. Then they proposed the following definitions. Denote by Ü the set of rational numbers in [0,1]. Then a fuzzy subset s : S 
+  
+    
+      
+        →
+      
+    
+    {\displaystyle \rightarrow }
+  
+ [0,1] of a set S is recursively enumerable if a recursive map h : S×N 
+  
+    
+      
+        →
+      
+    
+    {\displaystyle \rightarrow }
+  
+Ü exists such that, for every x in S, the function h(x,n) is increasing with respect to n and s(x) = lim h(x,n).
+We say that s is decidable if both s and its complement –s are recursively enumerable. An extension of such a theory to the general case of the L-subsets is possible (see Gerla 2006).
+The proposed definitions are well related to fuzzy logic. Indeed, the following theorem holds true (provided that the deduction apparatus of the considered fuzzy logic satisfies some obvious effectiveness property).
+Any "axiomatizable" fuzzy theory is recursively enumerable. In particular, the fuzzy set of logically true formulas is recursively enumerable in spite of the fact that the crisp set of valid formulas is not recursively enumerable, in general. Moreover, any axiomatizable and complete theory is decidable.
+It is an open question to give support for a "Church thesis" for fuzzy mathematics, the proposed notion of recursive enumerability for fuzzy subsets is the adequate one. In order to solve this, an extension of the notions of fuzzy grammar and fuzzy Turing machine are necessary. Another open question is to start from this notion to find an extension of Gödel's theorems to fuzzy logic.
+
+
+== Compared to other logics ==
+
+
+=== Probability ===
+Fuzzy logic and probability address different forms of uncertainty. While both fuzzy logic and probability theory can represent degrees of certain kinds of subjective belief, fuzzy set theory uses the concept of fuzzy set membership, i.e., how much an observation is within a vaguely defined set, and probability theory uses the concept of subjective probability, i.e., frequency of occurrence or likelihood of some event or condition . The concept of fuzzy sets was developed in the mid-twentieth century at Berkeley as a response to the lack of a probability theory for jointly modelling uncertainty and vagueness.
+Bart Kosko claims in Fuzziness vs. Probability that probability theory is a subtheory of fuzzy logic, as questions of degrees of belief in mutually-exclusive set membership in probability theory can be represented as certain cases of non-mutually-exclusive graded membership in fuzzy theory. In that context, he also derives Bayes' theorem from the concept of fuzzy subsethood. Lotfi A. Zadeh argues that fuzzy logic is different in character from probability, and is not a replacement for it. He fuzzified probability to fuzzy probability and also generalized it to possibility theory.
+More generally, fuzzy logic is one of many different extensions to classical logic intended to deal with issues of uncertainty outside of the scope of classical logic, the inapplicability of probability theory in many domains, and the paradoxes of Dempster–Shafer theory.
+
+
+=== Ecorithms ===
+Computational theorist Leslie Valiant uses the term ecorithms to describe how many less exact systems and techniques like fuzzy logic (and "less robust" logic) can be applied to learning algorithms. Valiant essentially redefines machine learning as evolutionary. In general use, ecorithms are algorithms that learn from their more complex environments (hence eco-) to generalize, approximate and simplify solution logic. Like fuzzy logic, they are methods used to overcome continuous variables or systems too complex to completely enumerate or understand discretely or exactly. Ecorithms and fuzzy logic also have the common property of dealing with possibilities more than probabilities, although feedback and feed forward, basically stochastic weights, are a feature of both when dealing with, for example, dynamical systems.
+
+
+=== Gödel G∞ logic ===
+
+Another logical system where truth values are real numbers between 0 and 1 and where AND & OR operators are replaced with MIN and MAX is Gödel's G∞ logic. This logic has many similarities with fuzzy logic but defines negation differently and has an internal implication. Negation 
+  
+    
+      
+        
+          ¬
+          
+            G
+          
+        
+      
+    
+    {\displaystyle \neg _{G}}
+  
+ and implication 
+  
+    
+      
+        
+          
+            →
+            
+              
+                G
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\xrightarrow[{G}]{}}}
+  
+ are defined as follows:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ¬
+                  
+                    G
+                  
+                
+                u
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          1
+                          ,
+                        
+                        
+                          
+                            if 
+                          
+                          u
+                          =
+                          0
+                        
+                      
+                      
+                        
+                          0
+                          ,
+                        
+                        
+                          
+                            if 
+                          
+                          u
+                          >
+                          0
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+            
+              
+                u
+                
+                  
+                    →
+                    
+                      
+                        G
+                      
+                    
+                    
+                  
+                
+                v
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          1
+                          ,
+                        
+                        
+                          
+                            if 
+                          
+                          u
+                          ≤
+                          v
+                        
+                      
+                      
+                        
+                          v
+                          ,
+                        
+                        
+                          
+                            if 
+                          
+                          u
+                          >
+                          v
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\neg _{G}u&={\begin{cases}1,&{\text{if }}u=0\\0,&{\text{if }}u>0\end{cases}}\\[3pt]u\mathrel {\xrightarrow[{G}]{}} v&={\begin{cases}1,&{\text{if }}u\leq v\\v,&{\text{if }}u>v\end{cases}}\end{aligned}}}
+  
+
+which turns the resulting logical system into a model for intuitionistic logic, making it particularly well-behaved among all possible choices of logical systems with real numbers between 0 and 1 as truth values. In this case, implication may be interpreted as "x is less true than y" and negation as "x is less true than 0" or "x is strictly false", and for any 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  
+, we have that 
+  
+    
+      
+        A
+        N
+        D
+        (
+        x
+        ,
+        x
+        
+          
+            →
+            
+              
+                G
+              
+            
+            
+          
+        
+        y
+        )
+        =
+        A
+        N
+        D
+        (
+        x
+        ,
+        y
+        )
+      
+    
+    {\displaystyle AND(x,x\mathrel {\xrightarrow[{G}]{}} y)=AND(x,y)}
+  
+. In particular, in Gödel logic negation is no longer an involution and double negation maps any nonzero value to 1.
+
+
+== Compensatory fuzzy logic ==
+Compensatory fuzzy logic (CFL) is a branch of fuzzy logic with modified rules for conjunction and disjunction. When the truth value of one component of a conjunction or disjunction is increased or decreased, the other component is decreased or increased to compensate. This increase or decrease in truth value may be offset by the increase or decrease in another component. An offset may be blocked when certain thresholds are met. Proponents claim that CFL allows for better computational semantic behaviors and mimic natural language.
+According to Jesús Cejas Montero (2011) The Compensatory fuzzy logic consists of four continuous operators: conjunction (c); disjunction (d); fuzzy strict order (or); and negation (n). The conjunction is the geometric mean and its dual as conjunctive and disjunctive operators.
+
+
+== Markup language standardization ==
+The IEEE 1855, the IEEE STANDARD 1855–2016, is about a specification language named Fuzzy Markup Language (FML) developed by the IEEE Standards Association. FML allows modelling a fuzzy logic system in a human-readable and hardware independent way. FML is based on eXtensible Markup Language (XML). The designers of fuzzy systems with FML have a unified and high-level methodology for describing interoperable fuzzy systems. IEEE STANDARD 1855–2016 uses the W3C XML Schema definition language to define the syntax and semantics of the FML programs.
+Prior to the introduction of FML, fuzzy logic practitioners could exchange information about their fuzzy algorithms by adding to their software functions the ability to read, correctly parse, and store the result of their work in a form compatible with the Fuzzy Control Language (FCL) described and specified by Part 7 of IEC 61131.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+
+
+== External links ==
+IEC 1131-7 CD1 Archived 2021-03-04 at the Wayback Machine IEC 1131-7 CD1 PDF
+Fuzzy Logic – article at Scholarpedia
+Modeling With Words – article at Scholarpedia
+Fuzzy logic – article at Stanford Encyclopedia of Philosophy
+Fuzzy Math – Beginner level introduction to Fuzzy Logic
+Fuzziness and exactness – Fuzziness in everyday life, science, religion, ethics, politics, etc.
+Fuzzylite – A cross-platform, free open-source Fuzzy Logic Control Library written in C++. Also has a very useful graphic user interface in QT4.
+More Flexible Machine Learning – MIT describes one application.
+Semantic Similarity Archived 2015-10-04 at the Wayback Machine MIT provides details about fuzzy semantic similarity.

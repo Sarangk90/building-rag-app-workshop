@@ -1,0 +1,23 @@
+In biological classification, class (Latin: classis) is  a taxonomic rank, as well as a taxonomic unit, a taxon, in that rank. It is a group of related taxonomic orders. Other well-known ranks in descending order of size are domain, kingdom, phylum, order, family, genus, and species, with class ranking between phylum and order.
+
+
+== History ==
+The class as a distinct rank of biological classification having its own distinctive name – and not just called a top-level genus (genus summum) – was first introduced by French botanist Joseph Pitton de Tournefort in the classification of plants that appeared in his Eléments de botanique of 1694.
+Insofar as a general definition of a class is available, it has historically been conceived as embracing taxa that combine a distinct grade of organization—i.e. a 'level of complexity', measured in terms of how differentiated their organ systems are into distinct regions or sub-organs—with a distinct type of construction, which is to say a particular layout of organ systems. This said, the composition of each class is ultimately determined by the subjective judgment of taxonomists.
+In the first edition of his Systema Naturae (1735), Carl Linnaeus divided all three of his kingdoms of nature (minerals, plants, and animals) into classes. Only in the animal kingdom are Linnaeus's classes similar to the classes used today; his classes and orders of plants were never intended to represent natural groups, but rather to provide a convenient "artificial key" according to his Systema Sexuale, largely based on the arrangement of flowers. In botany, classes are now rarely discussed. Since the first publication of the APG system in 1998, which proposed a taxonomy of the flowering plants up to the level of orders, many sources have preferred to treat ranks higher than orders as informal clades. Where formal ranks have been assigned, the ranks have been reduced to a very much lower level, e.g. class Equisitopsida for the land plants, with the major divisions within the class assigned to subclasses and superorders.
+The class was considered the highest level of the taxonomic hierarchy until George Cuvier's embranchements, first called Phyla by Ernst Haeckel, were introduced in the early nineteenth century.
+
+
+== See also ==
+
+Cladistics
+List of animal classes
+Phylogenetics
+Systematics
+Taxonomy
+
+
+== Explanatory notes ==
+
+
+== References ==

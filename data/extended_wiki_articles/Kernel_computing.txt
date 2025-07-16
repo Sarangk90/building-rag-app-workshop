@@ -1,0 +1,25 @@
+In computing, a compute kernel is a routine compiled for high throughput accelerators (such as graphics processing units (GPUs), digital signal processors (DSPs) or field-programmable gate arrays (FPGAs)), separate from but used by a main program (typically running on a central processing unit). They are sometimes called compute shaders, sharing execution units with vertex shaders and pixel shaders on GPUs, but are not limited to execution on one class of device, or graphics APIs.
+
+
+== Description ==
+Compute kernels roughly correspond to inner loops when implementing algorithms in traditional languages (except there is no implied sequential operation), or to code passed to internal iterators.
+They may be specified by a separate programming language such as "OpenCL C" (managed by the OpenCL API), as "compute shaders" written in a shading language (managed by a graphics API such as OpenGL), or embedded directly in application code written in a high level language, as in the case of C++AMP. Microsoft support this as DirectCompute.
+
+
+== Vector processing ==
+This programming paradigm maps well to vector processors: there is an assumption that each invocation of a kernel within a batch is independent, allowing for data parallel execution. However, atomic operations may sometimes be used for synchronization between elements (for interdependent work), in some scenarios. Individual invocations are given indices (in 1 or more dimensions) from which arbitrary addressing of buffer data may be performed (including scatter gather operations), so long as the non-overlapping assumption is respected.
+
+
+== Vulkan API ==
+The Vulkan API provides the intermediate SPIR-V representation to describe both Graphical Shaders, and Compute Kernels, in a language independent and machine independent manner. The intention is to facilitate language evolution and provide a more natural ability to leverage GPU compute capabilities, in line with hardware developments such as Unified Memory Architecture and Heterogeneous System Architecture.  This allows closer cooperation between a CPU and GPU.
+
+
+== LLM Kernel Generation ==
+Much work has been done in the field of Kernel generation through LLMs as a means of optimizing code. KernelBench, created by the Scaling Intelligence Lab at Stanford, provides a framework to evaluate the ability of LLMs to generate efficient GPU kernels.
+Cognition has created Kevin 32-B  to create efficient CUDA kernels which is currently the highest performing model on KernelBench. 
+
+
+== See also ==
+
+
+== References ==

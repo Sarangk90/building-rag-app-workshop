@@ -1,0 +1,2289 @@
+Information theory is the mathematical study of the quantification, storage, and communication of information. The field was established and formalized by Claude Shannon in the 1940s, though early contributions were made in the 1920s through the works of Harry Nyquist and Ralph Hartley. It is at the intersection of electronic engineering, mathematics, statistics, computer science, neurobiology, physics, and electrical engineering.
+A key measure in information theory is entropy. Entropy quantifies the amount of uncertainty involved in the value of a random variable or the outcome of a random process. For example, identifying the outcome of a fair coin flip (which has two equally likely outcomes) provides less information (lower entropy, less uncertainty) than identifying the outcome from a roll of a die (which has six equally likely outcomes). Some other important measures in information theory are mutual information, channel capacity, error exponents, and relative entropy. Important sub-fields of information theory include source coding, algorithmic complexity theory, algorithmic information theory and information-theoretic security.
+Applications of fundamental topics of information theory include source coding/data compression (e.g. for ZIP files), and channel coding/error detection and correction (e.g. for DSL). Its impact has been crucial to the success of the Voyager missions to deep space, the invention of the compact disc, the feasibility of mobile phones and the development of the Internet and artificial intelligence. The theory has also found applications in other areas, including statistical inference, cryptography, neurobiology, perception, signal processing, linguistics, the evolution and function of molecular codes (bioinformatics), thermal physics, molecular dynamics, black holes, quantum computing, information retrieval, intelligence gathering, plagiarism detection, pattern recognition, anomaly detection, the analysis of music, art creation, imaging system design, study of outer space, the dimensionality of space, and epistemology.
+
+
+== Overview ==
+Information theory studies the transmission, processing, extraction, and utilization of information. Abstractly, information can be thought of as the resolution of uncertainty. In the case of communication of information over a noisy channel, this abstract concept was formalized in 1948 by Claude Shannon in a paper entitled A Mathematical Theory of Communication, in which information is thought of as a set of possible messages, and the goal is to send these messages over a noisy channel, and to have the receiver reconstruct the message with low probability of error, in spite of the channel noise. Shannon's main result, the noisy-channel coding theorem, showed that, in the limit of many channel uses, the rate of information that is asymptotically achievable is equal to the channel capacity, a quantity dependent merely on the statistics of the channel over which the messages are sent.
+Coding theory is concerned with finding explicit methods, called codes, for increasing the efficiency and reducing the error rate of data communication over noisy channels to near the channel capacity. These codes can be roughly subdivided into data compression (source coding) and error-correction (channel coding) techniques. In the latter case, it took many years to find the methods Shannon's work proved were possible.
+A third class of information theory codes are cryptographic algorithms (both codes and ciphers). Concepts, methods and results from coding theory and information theory are widely used in cryptography and cryptanalysis, such as the unit ban.
+
+
+== Historical background ==
+
+The landmark event establishing the discipline of information theory and bringing it to immediate worldwide attention was the publication of Claude E. Shannon's classic paper "A Mathematical Theory of Communication" in the Bell System Technical Journal in July and October 1948. Historian James Gleick rated the paper as the most important development of 1948, noting that the paper was "even more profound and more fundamental" than the transistor. He came to be known as the "father of information theory". Shannon outlined some of his initial ideas of information theory as early as 1939 in a letter to Vannevar Bush.
+Prior to this paper, limited information-theoretic ideas had been developed at Bell Labs, all implicitly assuming events of equal probability. Harry Nyquist's 1924 paper, Certain Factors Affecting Telegraph Speed, contains a theoretical section quantifying "intelligence" and the "line speed" at which it can be transmitted by a communication system, giving the relation W = K log m (recalling the Boltzmann constant), where W is the speed of transmission of intelligence, m is the number of different voltage levels to choose from at each time step, and K is a constant. Ralph Hartley's 1928 paper, Transmission of Information, uses the word information as a measurable quantity, reflecting the receiver's ability to distinguish one sequence of symbols from any other, thus quantifying information as H = log Sn = n log S, where S was the number of possible symbols, and n the number of symbols in a transmission. The unit of information was therefore the decimal digit, which since has sometimes been called the hartley in his honor as a unit or scale or measure of information. Alan Turing in 1940 used similar ideas as part of the statistical analysis of the breaking of the German second world war Enigma ciphers.
+Much of the mathematics behind information theory with events of different probabilities were developed for the field of thermodynamics by Ludwig Boltzmann and J. Willard Gibbs. Connections between information-theoretic entropy and thermodynamic entropy, including the important contributions by Rolf Landauer in the 1960s, are explored in Entropy in thermodynamics and information theory.
+In Shannon's revolutionary and groundbreaking paper, the work for which had been substantially completed at Bell Labs by the end of 1944, Shannon for the first time introduced the qualitative and quantitative model of communication as a statistical process underlying information theory, opening with the assertion: 
+
+"The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point."
+With it came the ideas of: 
+
+The information entropy and redundancy of a source, and its relevance through the source coding theorem;
+The mutual information, and the channel capacity of a noisy channel, including the promise of perfect loss-free communication given by the noisy-channel coding theorem;
+The practical result of the Shannon–Hartley law for the channel capacity of a Gaussian channel; as well as
+The bit—a new way of seeing the most fundamental unit of information.
+
+
+== Quantities of information ==
+
+Information theory is based on probability theory and statistics, where quantified information is usually described in terms of bits. Information theory often concerns itself with measures of information of the distributions associated with random variables. One of the most important measures is called entropy, which forms the building block of many other measures. Entropy allows quantification of measure of information in a single random variable. 
+Another useful concept is mutual information defined on two random variables, which describes the measure of information in common between those variables, which can be used to describe their correlation. The former quantity is a property of the probability distribution of a random variable and gives a limit on the rate at which data generated by independent samples with the given distribution can be reliably compressed. The latter is a property of the joint distribution of two random variables, and is the maximum rate of reliable communication across a noisy channel in the limit of long block lengths, when the channel statistics are determined by the joint distribution.
+The choice of logarithmic base in the following formulae determines the unit of information entropy that is used. A common unit of information is the bit or shannon, based on the binary logarithm. Other units include the nat, which is based on the natural logarithm, and the decimal digit, which is based on the common logarithm.
+In what follows, an expression of the form p log p is considered by convention to be equal to zero whenever p = 0. This is justified because 
+  
+    
+      
+        
+          lim
+          
+            p
+            →
+            
+              0
+              
+                +
+              
+            
+          
+        
+        p
+        log
+        ⁡
+        p
+        =
+        0
+      
+    
+    {\displaystyle \lim _{p\rightarrow 0^{+}}p\log p=0}
+  
+ for any logarithmic base.
+
+
+=== Entropy of an information source ===
+Based on the probability mass function of a source, the Shannon entropy H, in units of bits per symbol, is defined as the expected value of the information content of the symbols.
+The amount of information conveyed by an individual source symbol 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+    {\displaystyle x_{i}}
+  
+ with probability 
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+      
+    
+    {\displaystyle p_{i}}
+  
+ is known as its self-information or surprisal, 
+  
+    
+      
+        I
+        (
+        
+          p
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle I(p_{i})}
+  
+. This quantity is defined as:
+
+  
+    
+      
+        I
+        (
+        
+          p
+          
+            i
+          
+        
+        )
+        =
+        −
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          p
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle I(p_{i})=-\log _{2}(p_{i})}
+  
+
+A less probable symbol has a larger surprisal, meaning its occurrence provides more information. The entropy 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is the weighted average of the surprisal of all possible symbols from the source's probability distribution:
+
+  
+    
+      
+        H
+        (
+        X
+        )
+         
+        =
+         
+        
+          
+            E
+          
+          
+            X
+          
+        
+        [
+        I
+        (
+        x
+        )
+        ]
+         
+        =
+         
+        
+          ∑
+          
+            i
+          
+        
+        
+          p
+          
+            i
+          
+        
+        I
+        (
+        
+          p
+          
+            i
+          
+        
+        )
+         
+        =
+         
+        −
+        
+          ∑
+          
+            i
+          
+        
+        
+          p
+          
+            i
+          
+        
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          p
+          
+            i
+          
+        
+        )
+      
+    
+    {\displaystyle H(X)\ =\ \mathbb {E} _{X}[I(x)]\ =\ \sum _{i}p_{i}I(p_{i})\ =\ -\sum _{i}p_{i}\log _{2}(p_{i})}
+  
+
+Intuitively, the entropy 
+  
+    
+      
+        H
+        (
+        X
+        )
+      
+    
+    {\displaystyle H(X)}
+  
+ of a discrete random variable X is a measure of the amount of uncertainty associated with the value of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ when only its distribution is known. A high entropy indicates the outcomes are more evenly distributed, making the result harder to predict.
+For example, if one transmits 1000 bits (0s and 1s), and the value of each of these bits is known to the receiver (has a specific value with certainty) ahead of transmission, no information is transmitted. If, however, each bit is independently and equally likely to be 0 or 1, 1000 shannons of information (more often called bits) have been transmitted.
+
+
+==== Properties ====
+A key property of entropy is that it is maximized when all the messages in the message space are equiprobable. For a source with n possible symbols, where 
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+      
+    
+    {\textstyle p_{i}={\frac {1}{n}}}
+  
+ for all 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+, the entropy is given by:
+
+  
+    
+      
+        H
+        (
+        X
+        )
+        =
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        n
+        )
+      
+    
+    {\displaystyle H(X)=\log _{2}(n)}
+  
+
+This maximum value represents the most unpredictable state.
+For a source that emits a sequence of 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ symbols that are independent and identically distributed (i.i.d.), the total entropy of the message is 
+  
+    
+      
+        N
+        ⋅
+        H
+      
+    
+    {\displaystyle N\cdot H}
+  
+ bits. If the source data symbols are identically distributed but not independent, the entropy of a message of length 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ will be less than 
+  
+    
+      
+        N
+        ⋅
+        H
+      
+    
+    {\displaystyle N\cdot H}
+  
+.
+
+
+==== Units ====
+The choice of the logarithmic base in the entropy formula determines the unit of entropy used:
+
+A base-2 logarithm (as shown in the main formula) measures entropy in bits per symbol. This unit is also sometimes called the shannon in honor of Claude Shannon.
+A Natural logarithm (base e) measures entropy in nats per symbol. This is often used in theoretical analysis as it avoids the need for scaling constants (like ln 2) in derivations.
+Other bases are also possible. A base-10 logarithm measures entropy in decimal digits, or hartleys, per symbol. A base-256 logarithm measures entropy in bytes per symbol, since 28 = 256.
+
+
+==== Binary Entropy Function ====
+The special case of information entropy for a random variable with two outcomes (a Bernoulli trial) is the binary entropy function. This is typically calculated using a base-2 logarithm, and its unit is the shannon. If one outcome has probability p, the other has probability 1 − p. The entropy is given by:
+
+  
+    
+      
+        
+          H
+          
+            
+              b
+            
+          
+        
+        (
+        p
+        )
+        =
+        −
+        p
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        p
+        −
+        (
+        1
+        −
+        p
+        )
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        1
+        −
+        p
+        )
+      
+    
+    {\displaystyle H_{\mathrm {b} }(p)=-p\log _{2}p-(1-p)\log _{2}(1-p)}
+  
+
+This function is depicted in the plot shown above, reaching its maximum of 1 bit when p = 0.5, corresponding to the highest uncertainty.
+
+
+=== Joint entropy ===
+The joint entropy of two discrete random variables X and Y is merely the entropy of their pairing: (X, Y). This implies that if X and Y are independent, then their joint entropy is the sum of their individual entropies.
+For example, if (X, Y) represents the position of a chess piece—X the row and Y the column, then the joint entropy of the row of the piece and the column of the piece will be the entropy of the position of the piece.
+
+  
+    
+      
+        H
+        (
+        X
+        ,
+        Y
+        )
+        =
+        
+          
+            E
+          
+          
+            X
+            ,
+            Y
+          
+        
+        [
+        −
+        log
+        ⁡
+        p
+        (
+        x
+        ,
+        y
+        )
+        ]
+        =
+        −
+        
+          ∑
+          
+            x
+            ,
+            y
+          
+        
+        p
+        (
+        x
+        ,
+        y
+        )
+        log
+        ⁡
+        p
+        (
+        x
+        ,
+        y
+        )
+        
+      
+    
+    {\displaystyle H(X,Y)=\mathbb {E} _{X,Y}[-\log p(x,y)]=-\sum _{x,y}p(x,y)\log p(x,y)\,}
+  
+
+Despite similar notation, joint entropy should not be confused with cross-entropy.
+
+
+=== Conditional entropy (equivocation) ===
+The conditional entropy or conditional uncertainty of X given random variable Y (also called the equivocation of X about Y) is the average conditional entropy over Y:
+
+  
+    
+      
+        H
+        (
+        X
+        
+          |
+        
+        Y
+        )
+        =
+        
+          
+            E
+          
+          
+            Y
+          
+        
+        [
+        H
+        (
+        X
+        
+          |
+        
+        y
+        )
+        ]
+        =
+        −
+        
+          ∑
+          
+            y
+            ∈
+            Y
+          
+        
+        p
+        (
+        y
+        )
+        
+          ∑
+          
+            x
+            ∈
+            X
+          
+        
+        p
+        (
+        x
+        
+          |
+        
+        y
+        )
+        log
+        ⁡
+        p
+        (
+        x
+        
+          |
+        
+        y
+        )
+        =
+        −
+        
+          ∑
+          
+            x
+            ,
+            y
+          
+        
+        p
+        (
+        x
+        ,
+        y
+        )
+        log
+        ⁡
+        p
+        (
+        x
+        
+          |
+        
+        y
+        )
+        .
+      
+    
+    {\displaystyle H(X|Y)=\mathbb {E} _{Y}[H(X|y)]=-\sum _{y\in Y}p(y)\sum _{x\in X}p(x|y)\log p(x|y)=-\sum _{x,y}p(x,y)\log p(x|y).}
+  
+
+Because entropy can be conditioned on a random variable or on that random variable being a certain value, care should be taken not to confuse these two definitions of conditional entropy, the former of which is in more common use. A basic property of this form of conditional entropy is that:
+
+  
+    
+      
+        H
+        (
+        X
+        
+          |
+        
+        Y
+        )
+        =
+        H
+        (
+        X
+        ,
+        Y
+        )
+        −
+        H
+        (
+        Y
+        )
+        .
+        
+      
+    
+    {\displaystyle H(X|Y)=H(X,Y)-H(Y).\,}
+  
+
+
+=== Mutual information (transinformation) ===
+Mutual information measures the amount of information that can be obtained about one random variable by observing another. It is important in communication where it can be used to maximize the amount of information shared between sent and received signals. The mutual information of X relative to Y is given by:
+
+  
+    
+      
+        I
+        (
+        X
+        ;
+        Y
+        )
+        =
+        
+          
+            E
+          
+          
+            X
+            ,
+            Y
+          
+        
+        [
+        S
+        I
+        (
+        x
+        ,
+        y
+        )
+        ]
+        =
+        
+          ∑
+          
+            x
+            ,
+            y
+          
+        
+        p
+        (
+        x
+        ,
+        y
+        )
+        log
+        ⁡
+        
+          
+            
+              p
+              (
+              x
+              ,
+              y
+              )
+            
+            
+              p
+              (
+              x
+              )
+              
+              p
+              (
+              y
+              )
+            
+          
+        
+      
+    
+    {\displaystyle I(X;Y)=\mathbb {E} _{X,Y}[SI(x,y)]=\sum _{x,y}p(x,y)\log {\frac {p(x,y)}{p(x)\,p(y)}}}
+  
+
+where SI (Specific mutual Information) is the pointwise mutual information.
+A basic property of the mutual information is that:
+
+  
+    
+      
+        I
+        (
+        X
+        ;
+        Y
+        )
+        =
+        H
+        (
+        X
+        )
+        −
+        H
+        (
+        X
+        
+          |
+        
+        Y
+        )
+        .
+        
+      
+    
+    {\displaystyle I(X;Y)=H(X)-H(X|Y).\,}
+  
+
+That is, knowing 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+, we can save an average of I(X; Y) bits in encoding 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ compared to not knowing 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+.
+Mutual information is symmetric:
+
+  
+    
+      
+        I
+        (
+        X
+        ;
+        Y
+        )
+        =
+        I
+        (
+        Y
+        ;
+        X
+        )
+        =
+        H
+        (
+        X
+        )
+        +
+        H
+        (
+        Y
+        )
+        −
+        H
+        (
+        X
+        ,
+        Y
+        )
+        .
+        
+      
+    
+    {\displaystyle I(X;Y)=I(Y;X)=H(X)+H(Y)-H(X,Y).\,}
+  
+
+Mutual information can be expressed as the average Kullback–Leibler divergence (information gain) between the posterior probability distribution of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ given the value of 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+ and the prior distribution on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+:
+
+  
+    
+      
+        I
+        (
+        X
+        ;
+        Y
+        )
+        =
+        
+          
+            E
+          
+          
+            p
+            (
+            y
+            )
+          
+        
+        [
+        
+          D
+          
+            
+              K
+              L
+            
+          
+        
+        (
+        p
+        (
+        X
+        
+          |
+        
+        Y
+        =
+        y
+        )
+        ‖
+        p
+        (
+        X
+        )
+        )
+        ]
+        .
+      
+    
+    {\displaystyle I(X;Y)=\mathbb {E} _{p(y)}[D_{\mathrm {KL} }(p(X|Y=y)\|p(X))].}
+  
+
+In other words, this is a measure of how much, on the average, the probability distribution on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ will change if we are given the value of 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+. This is often recalculated as the divergence from the product of the marginal distributions to the actual joint distribution:
+
+  
+    
+      
+        I
+        (
+        X
+        ;
+        Y
+        )
+        =
+        
+          D
+          
+            
+              K
+              L
+            
+          
+        
+        (
+        p
+        (
+        X
+        ,
+        Y
+        )
+        ‖
+        p
+        (
+        X
+        )
+        p
+        (
+        Y
+        )
+        )
+        .
+      
+    
+    {\displaystyle I(X;Y)=D_{\mathrm {KL} }(p(X,Y)\|p(X)p(Y)).}
+  
+
+Mutual information is closely related to the log-likelihood ratio test in the context of contingency tables and the multinomial distribution and to Pearson's χ2 test: mutual information can be considered a statistic for assessing independence between a pair of variables, and has a well-specified asymptotic distribution.
+
+
+=== Kullback–Leibler divergence (information gain) ===
+The Kullback–Leibler divergence (or information divergence, information gain, or relative entropy) is a way of comparing two distributions: a "true" probability distribution ⁠
+  
+    
+      
+        p
+        (
+        X
+        )
+      
+    
+    {\displaystyle p(X)}
+  
+⁠, and an arbitrary probability distribution ⁠
+  
+    
+      
+        q
+        (
+        X
+        )
+      
+    
+    {\displaystyle q(X)}
+  
+⁠. If we compress data in a manner that assumes ⁠
+  
+    
+      
+        q
+        (
+        X
+        )
+      
+    
+    {\displaystyle q(X)}
+  
+⁠ is the distribution underlying some data, when, in reality, ⁠
+  
+    
+      
+        p
+        (
+        X
+        )
+      
+    
+    {\displaystyle p(X)}
+  
+⁠ is the correct distribution, the Kullback–Leibler divergence is the number of average additional bits per datum necessary for compression. It is thus defined
+
+  
+    
+      
+        
+          D
+          
+            
+              K
+              L
+            
+          
+        
+        (
+        p
+        (
+        X
+        )
+        ‖
+        q
+        (
+        X
+        )
+        )
+        =
+        
+          ∑
+          
+            x
+            ∈
+            X
+          
+        
+        −
+        p
+        (
+        x
+        )
+        log
+        ⁡
+        
+          q
+          (
+          x
+          )
+        
+        
+        −
+        
+        
+          ∑
+          
+            x
+            ∈
+            X
+          
+        
+        −
+        p
+        (
+        x
+        )
+        log
+        ⁡
+        
+          p
+          (
+          x
+          )
+        
+        =
+        
+          ∑
+          
+            x
+            ∈
+            X
+          
+        
+        p
+        (
+        x
+        )
+        log
+        ⁡
+        
+          
+            
+              p
+              (
+              x
+              )
+            
+            
+              q
+              (
+              x
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle D_{\mathrm {KL} }(p(X)\|q(X))=\sum _{x\in X}-p(x)\log {q(x)}\,-\,\sum _{x\in X}-p(x)\log {p(x)}=\sum _{x\in X}p(x)\log {\frac {p(x)}{q(x)}}.}
+  
+
+Although it is sometimes used as a 'distance metric', KL divergence is not a true metric since it is not symmetric and does not satisfy the triangle inequality (making it a semi-quasimetric).
+Another interpretation of the KL divergence is the "unnecessary surprise" introduced by a prior from the truth: suppose a number 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is about to be drawn randomly from a discrete set with probability distribution ⁠
+  
+    
+      
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(x)}
+  
+⁠. If Alice knows the true distribution ⁠
+  
+    
+      
+        p
+        (
+        x
+        )
+      
+    
+    {\displaystyle p(x)}
+  
+⁠, while Bob believes (has a prior) that the distribution is ⁠
+  
+    
+      
+        q
+        (
+        x
+        )
+      
+    
+    {\displaystyle q(x)}
+  
+⁠, then Bob will be more surprised than Alice, on average, upon seeing the value of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+. The KL divergence is the (objective) expected value of Bob's (subjective) surprisal minus Alice's surprisal, measured in bits if the log is in base 2. In this way, the extent to which Bob's prior is "wrong" can be quantified in terms of how "unnecessarily surprised" it is expected to make him.
+
+
+=== Directed Information ===
+Directed information, 
+  
+    
+      
+        I
+        (
+        
+          X
+          
+            n
+          
+        
+        →
+        
+          Y
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle I(X^{n}\to Y^{n})}
+  
+, is an information theory measure that quantifies the information flow from the random process 
+  
+    
+      
+        
+          X
+          
+            n
+          
+        
+        =
+        {
+        
+          X
+          
+            1
+          
+        
+        ,
+        
+          X
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle X^{n}=\{X_{1},X_{2},\dots ,X_{n}\}}
+  
+ to the random process 
+  
+    
+      
+        
+          Y
+          
+            n
+          
+        
+        =
+        {
+        
+          Y
+          
+            1
+          
+        
+        ,
+        
+          Y
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          Y
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle Y^{n}=\{Y_{1},Y_{2},\dots ,Y_{n}\}}
+  
+. The term directed information was coined by James Massey and is defined as:
+
+  
+    
+      
+        I
+        (
+        
+          X
+          
+            n
+          
+        
+        →
+        
+          Y
+          
+            n
+          
+        
+        )
+         
+        ≜
+         
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        I
+        (
+        
+          X
+          
+            i
+          
+        
+        ;
+        
+          Y
+          
+            i
+          
+        
+        
+          |
+        
+        
+          Y
+          
+            i
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle I(X^{n}\to Y^{n})\ \triangleq \ \sum _{i=1}^{n}I(X^{i};Y_{i}|Y^{i-1})}
+  
+,
+where 
+  
+    
+      
+        I
+        (
+        
+          X
+          
+            i
+          
+        
+        ;
+        
+          Y
+          
+            i
+          
+        
+        
+          |
+        
+        
+          Y
+          
+            i
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle I(X^{i};Y_{i}|Y^{i-1})}
+  
+ is the conditional mutual information 
+  
+    
+      
+        I
+        (
+        
+          X
+          
+            1
+          
+        
+        ,
+        
+          X
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          X
+          
+            i
+          
+        
+        ;
+        
+          Y
+          
+            i
+          
+        
+        
+          |
+        
+        
+          Y
+          
+            1
+          
+        
+        ,
+        
+          Y
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          Y
+          
+            i
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle I(X_{1},X_{2},...,X_{i};Y_{i}|Y_{1},Y_{2},...,Y_{i-1})}
+  
+.
+In contrast to mutual information, directed information is not symmetric. The 
+  
+    
+      
+        I
+        (
+        
+          X
+          
+            n
+          
+        
+        →
+        
+          Y
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle I(X^{n}\to Y^{n})}
+  
+ measures the information bits that are transmitted causally from 
+  
+    
+      
+        
+          X
+          
+            n
+          
+        
+      
+    
+    {\displaystyle X^{n}}
+  
+ to 
+  
+    
+      
+        
+          Y
+          
+            n
+          
+        
+      
+    
+    {\displaystyle Y^{n}}
+  
+. The Directed information has many applications in problems where causality plays an important role such as capacity of channel with feedback, capacity of discrete memoryless networks with feedback, gambling with causal side information, compression with causal side information,
+real-time control communication settings, and in statistical physics.
+
+
+=== Other quantities ===
+Other important information theoretic quantities include the Rényi entropy and the Tsallis entropy (generalizations of the concept of entropy), differential entropy (a generalization of quantities of information to continuous distributions), and the conditional mutual information. Also, pragmatic information has been proposed as a measure of how much information has been used in making a decision.
+
+
+== Coding theory ==
+
+Coding theory is one of the most important and direct applications of information theory. It can be subdivided into source coding theory and channel coding theory. Using a statistical description for data, information theory quantifies the number of bits needed to describe the data, which is the information entropy of the source.
+
+Data compression (source coding): There are two formulations for the compression problem:
+Lossless data compression: the data must be reconstructed exactly;
+Lossy data compression: allocates bits needed to reconstruct the data, within a specified fidelity level measured by a distortion function. This subset of information theory is called rate–distortion theory.
+Error-correcting codes (channel coding): While data compression removes as much redundancy as possible, an error-correcting code adds just the right kind of redundancy (i.e., error correction) needed to transmit the data efficiently and faithfully across a noisy channel.
+This division of coding theory into compression and transmission is justified by the information transmission theorems, or source–channel separation theorems that justify the use of bits as the universal currency for information in many contexts. However, these theorems only hold in the situation where one transmitting user wishes to communicate to one receiving user. In scenarios with more than one transmitter (the multiple-access channel), more than one receiver (the broadcast channel) or intermediary "helpers" (the relay channel), or more general networks, compression followed by transmission may no longer be optimal.
+
+
+=== Source theory ===
+Any process that generates successive messages can be considered a source of information. A memoryless source is one in which each message is an independent identically distributed random variable, whereas the properties of ergodicity and stationarity impose less restrictive constraints. All such sources are stochastic. These terms are well studied in their own right outside information theory.
+
+
+==== Rate ====
+Information rate is the average entropy per symbol. For memoryless sources, this is merely the entropy of each symbol, while, in the case of a stationary stochastic process, it is:
+
+  
+    
+      
+        r
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        H
+        (
+        
+          X
+          
+            n
+          
+        
+        
+          |
+        
+        
+          X
+          
+            n
+            −
+            1
+          
+        
+        ,
+        
+          X
+          
+            n
+            −
+            2
+          
+        
+        ,
+        
+          X
+          
+            n
+            −
+            3
+          
+        
+        ,
+        …
+        )
+        ;
+      
+    
+    {\displaystyle r=\lim _{n\to \infty }H(X_{n}|X_{n-1},X_{n-2},X_{n-3},\ldots );}
+  
+
+that is, the conditional entropy of a symbol given all the previous symbols generated. For the more general case of a process that is not necessarily stationary, the average rate is:
+
+  
+    
+      
+        r
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            1
+            n
+          
+        
+        H
+        (
+        
+          X
+          
+            1
+          
+        
+        ,
+        
+          X
+          
+            2
+          
+        
+        ,
+        …
+        
+          X
+          
+            n
+          
+        
+        )
+        ;
+      
+    
+    {\displaystyle r=\lim _{n\to \infty }{\frac {1}{n}}H(X_{1},X_{2},\dots X_{n});}
+  
+
+that is, the limit of the joint entropy per symbol. For stationary sources, these two expressions give the same result.
+The information rate is defined as:  
+
+  
+    
+      
+        r
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            1
+            n
+          
+        
+        I
+        (
+        
+          X
+          
+            1
+          
+        
+        ,
+        
+          X
+          
+            2
+          
+        
+        ,
+        …
+        
+          X
+          
+            n
+          
+        
+        ;
+        
+          Y
+          
+            1
+          
+        
+        ,
+        
+          Y
+          
+            2
+          
+        
+        ,
+        …
+        
+          Y
+          
+            n
+          
+        
+        )
+        ;
+      
+    
+    {\displaystyle r=\lim _{n\to \infty }{\frac {1}{n}}I(X_{1},X_{2},\dots X_{n};Y_{1},Y_{2},\dots Y_{n});}
+  
+
+It is common in information theory to speak of the "rate" or "entropy" of a language. This is appropriate, for example, when the source of information is English prose. The rate of a source of information is related to its redundancy and how well it can be compressed, the subject of source coding.
+
+
+=== Channel capacity ===
+
+Communications over a channel is the primary motivation of information theory. However, channels often fail to produce exact reconstruction of a signal; noise, periods of silence, and other forms of signal corruption often degrade quality.
+Consider the communications process over a discrete channel. A simple model of the process is shown below:
+
+  
+    
+      
+        
+          
+            →
+            
+              
+                Message
+              
+            
+            
+              W
+            
+          
+        
+        
+          
+            
+              
+                
+                  Encoder
+                
+              
+            
+            
+              
+                
+                  f
+                  
+                    n
+                  
+                
+              
+            
+          
+        
+        
+          
+            →
+            
+              
+                
+                  
+                    
+                      E
+                      n
+                      c
+                      o
+                      d
+                      e
+                      d
+                    
+                    
+                      s
+                      e
+                      q
+                      u
+                      e
+                      n
+                      c
+                      e
+                    
+                  
+                
+              
+            
+            
+              
+                X
+                
+                  n
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                  Channel
+                
+              
+            
+            
+              
+                p
+                (
+                y
+                
+                  |
+                
+                x
+                )
+              
+            
+          
+        
+        
+          
+            →
+            
+              
+                
+                  
+                    
+                      R
+                      e
+                      c
+                      e
+                      i
+                      v
+                      e
+                      d
+                    
+                    
+                      s
+                      e
+                      q
+                      u
+                      e
+                      n
+                      c
+                      e
+                    
+                  
+                
+              
+            
+            
+              
+                Y
+                
+                  n
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                  Decoder
+                
+              
+            
+            
+              
+                
+                  g
+                  
+                    n
+                  
+                
+              
+            
+          
+        
+        
+          
+            →
+            
+              
+                
+                  
+                    
+                      E
+                      s
+                      t
+                      i
+                      m
+                      a
+                      t
+                      e
+                      d
+                    
+                    
+                      m
+                      e
+                      s
+                      s
+                      a
+                      g
+                      e
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  W
+                  ^
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\xrightarrow[{\text{Message}}]{W}}{\begin{array}{|c| }\hline {\text{Encoder}}\\f_{n}\\\hline \end{array}}{\xrightarrow[{\mathrm {Encoded \atop sequence} }]{X^{n}}}{\begin{array}{|c| }\hline {\text{Channel}}\\p(y|x)\\\hline \end{array}}{\xrightarrow[{\mathrm {Received \atop sequence} }]{Y^{n}}}{\begin{array}{|c| }\hline {\text{Decoder}}\\g_{n}\\\hline \end{array}}{\xrightarrow[{\mathrm {Estimated \atop message} }]{\hat {W}}}}
+  
+
+Here 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ represents the space of messages transmitted, and 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+ the space of messages received during a unit time over our channel. Let p(y|x) be the conditional probability distribution function of 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+ given 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+. We will consider p(y|x) to be an inherent fixed property of our communications channel (representing the nature of the noise of our channel). Then the joint distribution of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\textstyle Y}
+  
+ is completely determined by our channel and by our choice of f(x), the marginal distribution of messages we choose to send over the channel. Under these constraints, we would like to maximize the rate of information, or the signal, we can communicate over the channel. The appropriate measure for this is the mutual information, and this maximum mutual information is called the channel capacity and is given by:
+
+  
+    
+      
+        C
+        =
+        
+          max
+          
+            f
+          
+        
+        I
+        (
+        X
+        ;
+        Y
+        )
+        .
+        
+      
+    
+    {\displaystyle C=\max _{f}I(X;Y).\!}
+  
+
+This capacity has the following property related to communicating at information rate R (where R is usually bits per symbol). For any information rate R < C and coding error ε > 0, for large enough N, there exists a code of length N and rate ≥ R and a decoding algorithm, such that the maximal probability of block error is ≤ ε; that is, it is always possible to transmit with arbitrarily small block error. In addition, for any rate R > C, it is impossible to transmit with arbitrarily small block error.
+Channel coding is concerned with finding such nearly optimal codes that can be used to transmit data over a noisy channel with a small coding error at a rate near the channel capacity.
+
+
+==== Capacity of particular channel models ====
+A continuous-time analog communications channel subject to Gaussian noise—see Shannon–Hartley theorem.
+A binary symmetric channel (BSC) with crossover probability p is a binary input, binary output channel that flips the input bit with probability p. The BSC has a capacity of 1 − Hb(p) bits per channel use, where Hb is the binary entropy function to the base-2 logarithm:
+
+A binary erasure channel (BEC) with erasure probability p is a binary input, ternary output channel. The possible channel outputs are 0, 1, and a third symbol 'e' called an erasure. The erasure represents complete loss of information about an input bit. The capacity of the BEC is 1 − p bits per channel use.
+
+
+==== Channels with memory and directed information ====
+In practice many channels have memory. Namely, at time 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ the channel is given by the conditional probability
+  
+    
+      
+        P
+        (
+        
+          y
+          
+            i
+          
+        
+        
+          |
+        
+        
+          x
+          
+            i
+          
+        
+        ,
+        
+          x
+          
+            i
+            −
+            1
+          
+        
+        ,
+        
+          x
+          
+            i
+            −
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            i
+            −
+            1
+          
+        
+        ,
+        
+          y
+          
+            i
+            −
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          y
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle P(y_{i}|x_{i},x_{i-1},x_{i-2},...,x_{1},y_{i-1},y_{i-2},...,y_{1})}
+  
+.
+It is often more comfortable to use the notation 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        =
+        (
+        
+          x
+          
+            i
+          
+        
+        ,
+        
+          x
+          
+            i
+            −
+            1
+          
+        
+        ,
+        
+          x
+          
+            i
+            −
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          x
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle x^{i}=(x_{i},x_{i-1},x_{i-2},...,x_{1})}
+  
+ and the channel become 
+  
+    
+      
+        P
+        (
+        
+          y
+          
+            i
+          
+        
+        
+          |
+        
+        
+          x
+          
+            i
+          
+        
+        ,
+        
+          y
+          
+            i
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle P(y_{i}|x^{i},y^{i-1})}
+  
+.
+In such a case the capacity is given by the mutual information rate when there is no feedback available and the Directed information rate in the case that either there is feedback or not (if there is no feedback the directed information equals the mutual information).
+
+
+=== Fungible information ===
+Fungible information is the information for which the means of encoding is not important. Classical information theorists and computer scientists are mainly concerned with information of this sort. It is sometimes referred as speakable information.
+
+
+== Applications to other fields ==
+
+
+=== Intelligence uses and secrecy applications ===
+
+Information theoretic concepts apply to cryptography and cryptanalysis. Turing's information unit, the ban, was used in the Ultra project, breaking the German Enigma machine code and hastening the end of World War II in Europe. Shannon himself defined an important concept now called the unicity distance. Based on the redundancy of the plaintext, it attempts to give a minimum amount of ciphertext necessary to ensure unique decipherability.
+Information theory leads us to believe it is much more difficult to keep secrets than it might first appear. A brute force attack can break systems based on asymmetric key algorithms or on most commonly used methods of symmetric key algorithms (sometimes called secret key algorithms), such as block ciphers. The security of all such methods comes from the assumption that no known attack can break them in a practical amount of time.
+Information theoretic security refers to methods such as the one-time pad that are not vulnerable to such brute force attacks. In such cases, the positive conditional mutual information between the plaintext and ciphertext (conditioned on the key) can ensure proper transmission, while the unconditional mutual information between the plaintext and ciphertext remains zero, resulting in absolutely secure communications. In other words, an eavesdropper would not be able to improve his or her guess of the plaintext by gaining knowledge of the ciphertext but not of the key. However, as in any other cryptographic system, care must be used to correctly apply even information-theoretically secure methods; the Venona project was able to crack the one-time pads of the Soviet Union due to their improper reuse of key material.
+
+
+=== Pseudorandom number generation ===
+
+Pseudorandom number generators are widely available in computer language libraries and application programs. They are, almost universally, unsuited to cryptographic use as they do not evade the deterministic nature of modern computer equipment and software. A class of improved random number generators is termed cryptographically secure pseudorandom number generators, but even they require random seeds external to the software to work as intended. These can be obtained via extractors, if done carefully. The measure of sufficient randomness in extractors is min-entropy, a value related to Shannon entropy through Rényi entropy; Rényi entropy is also used in evaluating randomness in cryptographic systems. Although related, the distinctions among these measures mean that a random variable with high Shannon entropy is not necessarily satisfactory for use in an extractor and so for cryptography uses.
+
+
+=== Seismic exploration ===
+One early commercial application of information theory was in the field of seismic oil exploration. Work in this field made it possible to strip off and separate the unwanted noise from the desired seismic signal. Information theory and digital signal processing offer a major improvement of resolution and image clarity over previous analog methods.
+
+
+=== Semiotics ===
+Semioticians Doede Nauta and Winfried Nöth both considered Charles Sanders Peirce as having created a theory of information in his works on semiotics.: 171 : 137  Nauta defined semiotic information theory as the study of "the internal processes of coding, filtering, and information processing.": 91 
+Concepts from information theory such as redundancy and code control have been used by semioticians such as Umberto Eco and Ferruccio Rossi-Landi to explain ideology as a form of message transmission whereby a dominant social class emits its message by using signs that exhibit a high degree of redundancy such that only one message is decoded among a selection of competing ones.
+
+
+=== Integrated process organization of neural information ===
+Quantitative information theoretic methods have been applied in cognitive science to analyze the integrated process organization of neural information in the context of the binding problem in cognitive neuroscience. In this context, either an information-theoretical measure, such as functional clusters (Gerald Edelman and Giulio Tononi's functional clustering model and dynamic core hypothesis (DCH)) or effective information (Tononi's integrated information theory (IIT) of consciousness), is defined (on the basis of a reentrant process organization, i.e. the synchronization of neurophysiological activity between groups of neuronal populations), or the measure of the minimization of free energy on the basis of statistical methods (Karl J. Friston's free energy principle (FEP), an information-theoretical measure which states that every adaptive change in a self-organized system leads to a minimization of free energy, and the Bayesian brain hypothesis).
+
+
+=== Miscellaneous applications ===
+Information theory also has applications in the search for extraterrestrial intelligence, black holes, bioinformatics, and gambling.
+
+
+== See also ==
+
+
+=== Applications ===
+
+
+=== History ===
+Hartley, R.V.L.
+History of information theory
+Shannon, C.E.
+Timeline of information theory
+Yockey, H.P.
+Andrey Kolmogorov
+
+
+=== Theory ===
+
+
+=== Concepts ===
+
+
+== References ==
+
+
+== Further reading ==
+
+
+=== The classic work ===
+
+
+=== Other journal articles ===
+
+
+=== Textbooks on information theory ===
+
+
+=== Other books ===
+
+
+== External links ==
+
+"Information", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+Lambert F. L. (1999), "Shuffled Cards, Messy Desks, and Disorderly Dorm Rooms - Examples of Entropy Increase? Nonsense!", Journal of Chemical Education
+IEEE Information Theory Society and ITSOC Monographs, Surveys, and Reviews Archived 2018-06-12 at the Wayback Machine

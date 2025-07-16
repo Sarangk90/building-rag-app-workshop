@@ -1,0 +1,138 @@
+Neuroscience is the scientific study of the nervous system (the brain, spinal cord, and peripheral nervous system), its functions, and its disorders. It is a multidisciplinary science that combines physiology, anatomy, molecular biology, developmental biology, cytology, psychology, physics, computer science, chemistry, medicine, statistics, and mathematical modeling to understand the fundamental and emergent properties of neurons, glia and neural circuits. The understanding of the biological basis of learning, memory, behavior, perception, and consciousness has been described by Eric Kandel as the "epic challenge" of the biological sciences.
+The scope of neuroscience has broadened over time to include different approaches used to study the nervous system at different scales. The techniques used by neuroscientists have expanded enormously, from molecular and cellular studies of individual neurons to imaging of sensory, motor and cognitive tasks in the brain.
+
+
+== History ==
+
+The earliest study of the nervous system dates to ancient Egypt. Trepanation, the surgical practice of either drilling or scraping a hole into the skull for the purpose of curing head injuries or mental disorders, or relieving cranial pressure, was first recorded during the Neolithic period. Manuscripts dating to 1700 BC indicate that the Egyptians had some knowledge about symptoms of brain damage.
+Early views on the function of the brain regarded it to be a "cranial stuffing" of sorts. In Egypt, from the late Middle Kingdom onwards, the brain was regularly removed in preparation for mummification. It was believed at the time that the heart was the seat of intelligence. According to Herodotus, the first step of mummification was to "take a crooked piece of iron, and with it draw out the brain through the nostrils, thus getting rid of a portion, while the skull is cleared of the rest by rinsing with drugs."
+The view that the heart was the source of consciousness was not challenged until the time of the Greek physician Hippocrates. He believed that the brain was not only involved with sensation—since most specialized organs (e.g., eyes, ears, tongue) are located in the head near the brain—but was also the seat of intelligence. Plato also speculated that the brain was the seat of the rational part of the soul. Aristotle, however, believed the heart was the center of intelligence and that the brain regulated the amount of heat from the heart. This view was generally accepted until the Roman physician Galen, a follower of Hippocrates and physician to Roman gladiators, observed that his patients lost their mental faculties when they had sustained damage to their brains.
+Abulcasis, Averroes, Avicenna, Avenzoar, and Maimonides, active in the Medieval Muslim world, described a number of medical problems related to the brain. In Renaissance Europe, Vesalius (1514–1564), René Descartes (1596–1650), Thomas Willis (1621–1675) and Jan Swammerdam (1637–1680) also made several contributions to neuroscience.
+
+Luigi Galvani's pioneering work in the late 1700s set the stage for studying the electrical excitability of muscles and neurons. In 1843 Emil du Bois-Reymond demonstrated the electrical nature of the nerve signal, whose speed Hermann von Helmholtz proceeded to measure, and in 1875 Richard Caton found electrical phenomena in the cerebral hemispheres of rabbits and monkeys. Adolf Beck published in 1890 similar observations of spontaneous electrical activity of the brain of rabbits and dogs. Studies of the brain became more sophisticated after the invention of the microscope and the development of a staining procedure by Camillo Golgi during the late 1890s. The procedure used a silver chromate salt to reveal the intricate structures of individual neurons. His technique was used by Santiago Ramón y Cajal and led to the formation of the neuron doctrine, the hypothesis that the functional unit of the brain is the neuron. Golgi and Ramón y Cajal shared the Nobel Prize in Physiology or Medicine in 1906 for their extensive observations, descriptions, and categorizations of neurons throughout the brain.
+In parallel with this research, in 1815 Jean Pierre Flourens induced localized lesions of the brain in living animals to observe their effects on motricity, sensibility and behavior. Work with brain-damaged patients by Marc Dax in 1836 and Paul Broca in 1865 suggested that certain regions of the brain were responsible for certain functions. At the time, these findings were seen as a confirmation of Franz Joseph Gall's theory that language was localized and that certain psychological functions were localized in specific areas of the cerebral cortex. The localization of function hypothesis was supported by observations of epileptic patients conducted by John Hughlings Jackson, who correctly inferred the organization of the motor cortex by watching the progression of seizures through the body. Carl Wernicke further developed the theory of the specialization of specific brain structures in language comprehension and production. Modern research through neuroimaging techniques, still uses the Brodmann cerebral cytoarchitectonic map (referring to the study of cell structure) anatomical definitions from this era in continuing to show that distinct areas of the cortex are activated in the execution of specific tasks.
+During the 20th century, neuroscience began to be recognized as a distinct academic discipline in its own right, rather than as studies of the nervous system within other disciplines. Eric Kandel and collaborators have cited David Rioch, Francis O. Schmitt, and Stephen Kuffler as having played critical roles in establishing the field. Rioch originated the integration of basic anatomical and physiological research with clinical psychiatry at the Walter Reed Army Institute of Research, starting in the 1950s. During the same period, Schmitt established a neuroscience research program within the Biology Department at the Massachusetts Institute of Technology, bringing together biology, chemistry, physics, and mathematics. The first freestanding neuroscience department (then called Psychobiology) was founded in 1964 at the University of California, Irvine by James L. McGaugh. This was followed by the Department of Neurobiology at Harvard Medical School, which was founded in 1966 by Stephen Kuffler.
+
+In the process of treating epilepsy, Wilder Penfield produced maps of the location of various functions (motor, sensory, memory, vision) in the brain. He summarized his findings in a 1950 book called The Cerebral Cortex of Man. Wilder Penfield and his co-investigators Edwin Boldrey and Theodore Rasmussen are considered to be the originators of the cortical homunculus.
+The understanding of neurons and of nervous system function became increasingly precise and molecular during the 20th century. For example, in 1952, Alan Lloyd Hodgkin and Andrew Huxley presented a mathematical model for the transmission of electrical signals in neurons of the giant axon of a squid, which they called "action potentials", and how they are initiated and propagated, known as the Hodgkin–Huxley model. In 1961–1962, Richard FitzHugh and J. Nagumo simplified Hodgkin–Huxley, in what is called the FitzHugh–Nagumo model. In 1962, Bernard Katz modeled neurotransmission across the space between neurons known as synapses. Beginning in 1966, Eric Kandel and collaborators examined biochemical changes in neurons associated with learning and memory storage in Aplysia. In 1981 Catherine Morris and Harold Lecar combined these models in the Morris–Lecar model. Such increasingly quantitative work gave rise to numerous biological neuron models and models of neural computation.
+As a result of the increasing interest about the nervous system, several prominent neuroscience organizations have been formed to provide a forum to all neuroscientists during the 20th century. For example, the International Brain Research Organization was founded in 1961, the International Society for Neurochemistry in 1963, the European Brain and Behaviour Society in 1968, and the Society for Neuroscience in 1969. Recently, the application of neuroscience research results has also given rise to applied disciplines as neuroeconomics, neuroeducation, neuroethics, and neurolaw.
+Over time, brain research has gone through philosophical, experimental, and theoretical phases, with work on neural implants and brain simulation predicted to be important in the future.
+
+
+== Modern neuroscience ==
+
+The scientific study of the nervous system increased significantly during the second half of the twentieth century, principally due to advances in molecular biology, electrophysiology, and computational neuroscience. This has allowed neuroscientists to study the nervous system in all its aspects: how it is structured, how it works, how it develops, how it malfunctions, and how it can be changed.
+For example, it has become possible to understand, in much detail, the complex processes occurring within a single neuron. Neurons are cells specialized for communication. They are able to communicate with neurons and other cell types through specialized junctions called synapses, at which electrical or electrochemical signals can be transmitted from one cell to another. Many neurons extrude a long thin filament of axoplasm called an axon, which may extend to distant parts of the body and are capable of rapidly carrying electrical signals, influencing the activity of other neurons, muscles, or glands at their termination points. A nervous system emerges from the assemblage of neurons that are connected to each other in neural circuits, and networks.
+The vertebrate nervous system can be split into two parts: the central nervous system (defined as the brain and spinal cord), and the peripheral nervous system. In many species—including all vertebrates—the nervous system is the most complex organ system in the body, with most of the complexity residing in the brain. The human brain alone contains around one hundred billion neurons and one hundred trillion synapses; it consists of thousands of distinguishable substructures, connected to each other in synaptic networks whose intricacies have only begun to be unraveled. At least one out of three of the approximately 20,000 genes belonging to the human genome is expressed mainly in the brain.
+Due to the high degree of plasticity of the human brain, the structure of its synapses and their resulting functions change throughout life.
+Making sense of the nervous system's dynamic complexity is a formidable research challenge. Ultimately, neuroscientists would like to understand every aspect of the nervous system, including how it works, how it develops, how it malfunctions, and how it can be altered or repaired. Analysis of the nervous system is therefore performed at multiple levels, ranging from the molecular and cellular levels to the systems and cognitive levels. The specific topics that form the main focus of research change over time, driven by an ever-expanding base of knowledge and the availability of increasingly sophisticated technical methods. Improvements in technology have been the primary drivers of progress. Developments in electron microscopy, computer science, electronics, functional neuroimaging, and genetics and genomics have all been major drivers of progress.
+Advances in the classification of brain cells have been enabled by electrophysiological recording, single-cell genetic sequencing, and high-quality microscopy, which have combined into a single method pipeline called patch-sequencing in which all three methods are simultaneously applied using miniature tools. The efficiency of this method and the large amounts of data that is generated has allowed researchers to make some general conclusions about cell types; for example that the human and mouse brain have different versions of fundamentally the same cell types.
+
+
+=== Molecular and cellular neuroscience ===
+
+Basic questions addressed in molecular neuroscience include the mechanisms by which neurons express and respond to molecular signals and how axons form complex connectivity patterns. At this level, tools from molecular biology and genetics are used to understand how neurons develop and how genetic changes affect biological functions. The morphology, molecular identity, and physiological characteristics of neurons and how they relate to different types of behavior are also of considerable interest.
+Questions addressed in cellular neuroscience include the mechanisms of how neurons process signals physiologically and electrochemically. These questions include how signals are processed by neurites and somas and how neurotransmitters and electrical signals are used to process information in a neuron. Neurites are thin extensions from a neuronal cell body, consisting of dendrites (specialized to receive synaptic inputs from other neurons) and axons (specialized to conduct nerve impulses called action potentials). Somas are the cell bodies of the neurons and contain the nucleus.
+Another major area of cellular neuroscience is the investigation of the development of the nervous system. Questions include the patterning and regionalization of the nervous system, axonal and dendritic development, trophic interactions, synapse formation and the implication of fractones in neural stem cells, differentiation of neurons and glia (neurogenesis and gliogenesis), and neuronal migration.
+Computational neurogenetic modeling is concerned with the development of dynamic neuronal models for modeling brain functions with respect to genes and dynamic interactions between genes, on the cellular level (Computational Neurogenetic Modeling (CNGM) can also be used to model neural systems).
+
+
+=== Neural circuits and systems ===
+
+Systems neuroscience research centers on the structural and functional architecture of the developing human brain, and the functions of large-scale brain networks, or functionally-connected systems within the brain. Alongside brain development, systems neuroscience also focuses on how the structure and function of the brain enables or restricts the processing of sensory information, using learned mental models of the world, to motivate behavior.
+Questions in systems neuroscience include how neural circuits are formed and used anatomically and physiologically to produce functions such as reflexes, multisensory integration, motor coordination, circadian rhythms, emotional responses, learning, and memory. In other words, this area of research studies how connections are made and morphed in the brain, and the effect it has on human sensation, movement, attention, inhibitory control, decision-making, reasoning, memory formation, reward, and emotion regulation.
+Specific areas of interest for the field include observations of how the structure of neural circuits effect skill acquisition, how specialized regions of the brain develop and change (neuroplasticity), and the development of brain atlases, or wiring diagrams of individual developing brains.
+The related fields of neuroethology and neuropsychology address the question of how neural substrates underlie specific animal and human behaviors. Neuroendocrinology and psychoneuroimmunology examine interactions between the nervous system and the endocrine and immune systems, respectively. Despite many advancements, the way that networks of neurons perform complex cognitive processes and behaviors is still poorly understood.
+
+
+=== Cognitive and behavioral neuroscience ===
+
+Cognitive neuroscience addresses the questions of how psychological functions are produced by neural circuitry. The emergence of powerful new measurement techniques such as neuroimaging (e.g., fMRI, PET, SPECT), EEG, MEG, electrophysiology, optogenetics and human genetic analysis combined with sophisticated experimental techniques from cognitive psychology allows neuroscientists and psychologists to address abstract questions such as how cognition and emotion are mapped to specific neural substrates. Although many studies hold a reductionist stance looking for the neurobiological basis of cognitive phenomena, recent research shows that there is an interplay between neuroscientific findings and conceptual research, soliciting and integrating both perspectives. For example, neuroscience research on empathy solicited an interdisciplinary debate involving philosophy, psychology and psychopathology. Moreover, the neuroscientific identification of multiple memory systems related to different brain areas has challenged the idea of memory as a literal reproduction of the past, supporting a view of memory as a generative, constructive and dynamic process.
+Neuroscience is also allied with the social and behavioral sciences, as well as with nascent interdisciplinary fields. Examples of such alliances include neuroeconomics, decision theory, social neuroscience, and neuromarketing to address complex questions about interactions of the brain with its environment. A study into consumer responses for example uses EEG to investigate neural correlates associated with narrative transportation into stories about energy efficiency.
+
+
+=== Computational neuroscience ===
+
+Questions in computational neuroscience can span a wide range of levels of traditional analysis, such as development, structure, and cognitive functions of the brain. Research in this field utilizes mathematical models, theoretical analysis, and computer simulation to describe and verify biologically plausible neurons and nervous systems. For example, biological neuron models are mathematical descriptions of spiking neurons which can be used to describe both the behavior of single neurons as well as the dynamics of neural networks. Computational neuroscience is often referred to as theoretical neuroscience.
+
+
+=== Neuroscience and medicine ===
+
+
+==== Clinical neuroscience ====
+
+Neurology, psychiatry, neurosurgery, psychosurgery, anesthesiology and pain medicine, neuropathology, neuroradiology, ophthalmology, otolaryngology, clinical neurophysiology, addiction medicine, and sleep medicine are some medical specialties that specifically address the diseases of the nervous system. These terms also refer to clinical disciplines involving diagnosis and treatment of these diseases.
+Neurology works with diseases of the central and peripheral nervous systems, such as amyotrophic lateral sclerosis (ALS) and stroke, and their medical treatment. Psychiatry focuses on affective, behavioral, cognitive, and perceptual disorders. Anesthesiology focuses on perception of pain, and pharmacologic alteration of consciousness. Neuropathology focuses upon the classification and underlying pathogenic mechanisms of central and peripheral nervous system and muscle diseases, with an emphasis on morphologic, microscopic, and chemically observable alterations. Neurosurgery and psychosurgery work primarily with surgical treatment of diseases of the central and peripheral nervous systems.
+Neuroscience underlies the development of various neurotherapy methods to treat diseases of the nervous system.
+
+
+==== Translational research ====
+
+Recently, the boundaries between various specialties have blurred, as they are all influenced by basic research in neuroscience. For example, brain imaging enables objective biological insight into mental illnesses, which can lead to faster diagnosis, more accurate prognosis, and improved monitoring of patient progress over time.
+Integrative neuroscience describes the effort to combine models and information from multiple levels of research to develop a coherent model of the nervous system. For example, brain imaging coupled with physiological numerical models and theories of fundamental mechanisms may shed light on psychiatric disorders.
+Another important area of translational research is brain–computer interfaces (BCIs), or machines that are able to communicate and influence the brain. They are currently being researched for their potential to repair neural systems and restore certain cognitive functions. However, some ethical considerations have to be dealt with before they are accepted.
+
+
+== Major branches ==
+Modern neuroscience education and research activities can be very roughly categorized into the following major branches, based on the subject and scale of the system in examination as well as distinct experimental or curricular approaches. Individual neuroscientists, however, often work on questions that span several distinct subfields.
+
+
+== Careers in neuroscience ==
+Source:
+
+
+=== Bachelor's Level ===
+
+
+=== Master's Level ===
+
+
+=== Advanced Degree ===
+
+
+== Neuroscience organizations ==
+
+The largest professional neuroscience organization is the Society for Neuroscience (SFN), which is based in the United States but includes many members from other countries. Since its founding in 1969 the SFN has grown steadily: as of 2010 it recorded 40,290 members from 83 countries. Annual meetings, held each year in a different American city, draw attendance from researchers, postdoctoral fellows, graduate students, and undergraduates, as well as educational institutions, funding agencies, publishers, and hundreds of businesses that supply products used in research.
+Other major organizations devoted to neuroscience include the International Brain Research Organization (IBRO), which holds its meetings in a country from a different part of the world each year, and the Federation of European Neuroscience Societies (FENS), which holds a meeting in a different European city every two years. FENS comprises a set of 32 national-level organizations, including the British Neuroscience Association, the German Neuroscience Society (Neurowissenschaftliche Gesellschaft), and the French Société des Neurosciences. The first National Honor Society in Neuroscience, Nu Rho Psi, was founded in 2006. Numerous youth neuroscience societies which support undergraduates, graduates and early career researchers also exist, such as Simply Neuroscience and Project Encephalon.
+In 2013, the BRAIN Initiative was announced in the US. The International Brain Initiative was created in 2017, currently integrated by more than seven national-level brain research initiatives (US, Europe, Allen Institute, Japan, China, Australia, Canada, Korea, and Israel) spanning four continents.
+
+
+=== Public education and outreach ===
+In addition to conducting traditional research in laboratory settings, neuroscientists have also been involved in the promotion of awareness and knowledge about the nervous system among the general public and government officials. Such promotions have been done by both individual neuroscientists and large organizations. For example, individual neuroscientists have promoted neuroscience education among young students by organizing the International Brain Bee, which is an academic competition for high school or secondary school students worldwide. In the United States, large organizations such as the Society for Neuroscience have promoted neuroscience education by developing a primer called Brain Facts, collaborating with public school teachers to develop Neuroscience Core Concepts for K-12 teachers and students, and cosponsoring a campaign with the Dana Foundation called Brain Awareness Week to increase public awareness about the progress and benefits of brain research. In Canada, the Canadian Institutes of Health Research's (CIHR) Canadian National Brain Bee is held annually at McMaster University.
+Neuroscience educators formed a Faculty for Undergraduate Neuroscience (FUN) in 1992 to share best practices and provide travel awards for undergraduates presenting at Society for Neuroscience meetings.
+Neuroscientists have also collaborated with other education experts to study and refine educational techniques to optimize learning among students, an emerging field called educational neuroscience. Federal agencies in the United States, such as the National Institute of Health (NIH) and National Science Foundation (NSF), have also funded research that pertains to best practices in teaching and learning of neuroscience concepts.
+
+
+== Engineering applications of neuroscience ==
+
+
+=== Neuromorphic computer chips ===
+Neuromorphic engineering is a branch of neuroscience that deals with creating functional physical models of neurons for the purposes of useful computation. The emergent computational properties of neuromorphic computers are fundamentally different from conventional computers in the sense that they are complex systems, and that the computational components are interrelated with no central processor.
+One example of such a computer is the SpiNNaker supercomputer.
+Sensors can also be made smart with neuromorphic technology. An example of this is the Event Camera's BrainScaleS (brain-inspired Multiscale Computation in Neuromorphic Hybrid Systems), a hybrid analog neuromorphic supercomputer located at Heidelberg University in Germany. It was developed as part of the Human Brain Project's neuromorphic computing platform and is the complement to the SpiNNaker supercomputer, which is based on digital technology. The architecture used in BrainScaleS mimics biological neurons and their connections on a physical level; additionally, since the components are made of silicon, these model neurons operate on average 864 times (24 hours of real time is 100 seconds in the machine simulation) that of their biological counterparts.
+Recent advances in neuromorphic microchip technology have led a group of scientists to create an artificial neuron that can replace real neurons in diseases.
+
+
+== Nobel prizes related to neuroscience ==
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+
+Neuroscience on In Our Time at the BBC
+Neuroscience Information Framework (NIF)
+American Society for Neurochemistry
+British Neuroscience Association (BNA)
+Federation of European Neuroscience Societies
+Neuroscience Online (electronic neuroscience textbook)
+HHMI Neuroscience lecture series - Making Your Mind: Molecules, Motion, and Memory Archived 2013-06-24 at the Wayback Machine
+Société des Neurosciences
+Neuroscience For Kids

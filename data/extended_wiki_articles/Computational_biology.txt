@@ -1,0 +1,190 @@
+Computational biology refers to the use of techniques in computer science, data analysis, mathematical modeling and computational simulations to understand biological systems and relationships. An intersection of computer science, biology, and data science, the field also has foundations in applied mathematics, molecular biology, cell biology, chemistry, and genetics.
+
+
+== History ==
+Bioinformatics, the analysis of informatics processes in biological systems, began in the early 1970s. At this time, research in artificial intelligence was using network models of the human brain in order to generate new algorithms. This use of biological data pushed biological researchers to use computers to evaluate and compare large data sets in their own field.  
+By 1982, researchers shared information via punch cards. The amount of data grew exponentially by the end of the 1980s, requiring new computational methods for quickly interpreting relevant information.
+Perhaps the best-known example of computational biology, the Human Genome Project, officially began in 1990. By 2003, the project had mapped around 85% of the human genome, satisfying its initial goals. Work continued, however, and by 2021 level "a complete genome" was reached with only 0.3% remaining bases covered by potential issues. The missing Y chromosome was added in January 2022.
+Since the late 1990s, computational biology has become an important part of biology, leading to numerous subfields. Today, the International Society for Computational Biology recognizes 21 different 'Communities of Special Interest', each representing a slice of the larger field. In addition to helping sequence the human genome, computational biology has helped create accurate models of the human brain, map the 3D structure of genomes, and model biological systems.
+
+
+== Global contributions ==
+
+
+=== Colombia ===
+In 2000, despite a lack of initial expertise in programming and data management, Colombia began applying computational biology from an industrial perspective, focusing on plant diseases. This research has contributed to understanding how to counteract diseases in crops like potatoes and studying the genetic diversity of coffee plants. By 2007, concerns about alternative energy sources and global climate change prompted biologists to collaborate with systems and computer engineers. Together, they developed a robust computational network and database to address these challenges. In 2009, in partnership with the University of Los Angeles, Colombia also created a Virtual Learning Environment (VLE) to improve the integration of computational biology and bioinformatics.
+
+
+=== Poland ===
+In Poland, computational biology is closely linked to mathematics and computational science, serving as a foundation for bioinformatics and biological physics. The field is divided into two main areas: one focusing on physics and simulation and the other on biological sequences. The application of statistical models in Poland has advanced techniques for studying proteins and RNA, contributing to global scientific progress. Polish scientists have also been instrumental in evaluating protein prediction methods, significantly enhancing the field of computational biology. Over time, they have expanded their research to cover topics such as protein-coding analysis and hybrid structures, further solidifying Poland's influence on the development of bioinformatics worldwide.
+
+
+== Applications ==
+
+
+=== Anatomy ===
+
+Computational anatomy is the study of anatomical shape and form at the visible or gross anatomical 
+  
+    
+      
+        50
+        −
+        100
+        μ
+      
+    
+    {\displaystyle 50-100\mu }
+  
+ scale of morphology. It involves the development of computational mathematical and data-analytical methods for modeling and simulating biological structures. It focuses on the anatomical structures being imaged, rather than the medical imaging devices. Due to the availability of dense 3D measurements via technologies such as magnetic resonance imaging, computational anatomy has emerged as a subfield of medical imaging and bioengineering for extracting anatomical coordinate systems at the morpheme scale in 3D.
+The original formulation of computational anatomy is as a generative model of shape and form from exemplars acted upon via transformations. The diffeomorphism group is used to study different coordinate systems via coordinate transformations as generated via the Lagrangian and Eulerian velocities of flow from one anatomical configuration in 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle {\mathbb {R} }^{3}}
+  
+ to another. It relates with shape statistics and morphometrics, with the distinction that diffeomorphisms are used to map coordinate systems, whose study is known as diffeomorphometry.
+
+
+=== Data and modeling ===
+
+Mathematical biology is the use of mathematical models of living organisms to examine the systems that govern structure, development, and behavior in biological systems. This entails a more theoretical approach to problems, rather than its more empirically-minded counterpart of experimental biology. Mathematical biology draws on discrete mathematics, topology (also useful for computational modeling), Bayesian statistics, linear algebra and Boolean algebra.
+These mathematical approaches have enabled the creation of databases and other methods for storing, retrieving, and analyzing biological data, a field known as bioinformatics. Usually, this process involves genetics and analyzing genes.
+Gathering and analyzing large datasets have made room for growing research fields such as data mining, and computational biomodeling, which refers to building computer models and visual simulations of biological systems. This allows researchers to predict how such systems will react to different environments, which is useful for determining if a system can "maintain their state and functions against external and internal perturbations". While current techniques focus on small biological systems, researchers are working on approaches that will allow for larger networks to be analyzed and modeled. A majority of researchers believe this will be essential in developing modern medical approaches to creating new drugs and gene therapy. A useful modeling approach is to use Petri nets via tools such as esyN.
+Along similar lines, until recent decades theoretical ecology has largely dealt with analytic models that were detached from the statistical models used by empirical ecologists. However, computational methods have aided in developing ecological theory via simulation of ecological systems, in addition to increasing application of methods from computational statistics in ecological analyses.
+
+
+=== Systems biology ===
+
+Systems biology consists of computing the interactions between various biological systems ranging from the cellular level to entire populations with the goal of discovering emergent properties. This process usually involves networking cell signaling and metabolic pathways. Systems biology often uses computational techniques from biological modeling and graph theory to study these complex interactions at cellular levels.
+
+
+=== Evolutionary biology ===
+
+Computational biology has assisted evolutionary biology by:
+
+Using DNA data to reconstruct the tree of life with computational phylogenetics
+Fitting population genetics models (either forward time or backward time) to DNA data to make inferences about demographic or selective history
+Building population genetics models of evolutionary systems from first principles in order to predict what is likely to evolve
+
+
+=== Genomics ===
+
+Computational genomics is the study of the genomes of cells and organisms. The Human Genome Project is one example of computational genomics. This project looks to sequence the entire human genome into a set of data. Once fully implemented, this could allow for doctors to analyze the genome of an individual patient.  This opens the possibility of personalized medicine, prescribing treatments based on an individual's pre-existing genetic patterns. Researchers are looking to sequence the genomes of animals, plants, bacteria, and all other types of life.
+One of the main ways that genomes are compared is by sequence homology. Homology is the study of biological structures and nucleotide sequences in different organisms that come from a common ancestor. Research suggests that between 80 and 90% of genes in newly sequenced prokaryotic genomes can be identified this way.
+Sequence alignment is another process for comparing and detecting similarities between biological sequences or genes. Sequence alignment is useful in a number of bioinformatics applications, such as computing the longest common subsequence of two genes or comparing variants of certain diseases.
+An untouched project in computational genomics is the analysis of intergenic regions, which comprise roughly 97% of the human genome. Researchers are working to understand the functions of non-coding regions of the human genome through the development of computational and statistical methods and via large consortia projects such as ENCODE and the Roadmap Epigenomics Project.
+Understanding how individual genes contribute to the biology of an organism at the molecular, cellular, and organism levels is known as gene ontology. The Gene Ontology Consortium's mission is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular, and organism-level systems. The Gene Ontology resource provides a computational representation of current scientific knowledge about the functions of genes (or, more properly, the protein and non-coding RNA molecules produced by genes) from many different organisms, from humans to bacteria.
+3D genomics is a subsection in computational biology that focuses on the organization and interaction of genes within a eukaryotic cell. One method used to gather 3D genomic data is through Genome Architecture Mapping (GAM). GAM measures 3D distances of chromatin and DNA in the genome by combining cryosectioning, the process of cutting a strip from the nucleus to examine the DNA, with laser microdissection. A nuclear profile is simply this strip or slice that is taken from the nucleus. Each nuclear profile contains genomic windows, which are certain sequences of nucleotides - the base unit of DNA. GAM captures a genome network of complex, multi enhancer chromatin contacts throughout a cell.
+
+
+=== Biomarker Discovery ===
+Computational biology also plays a pivotal role in identifying biomarkers for diseases such as cardiovascular conditions. By integrating various 'Omic' data - such as genomics, proteomics, and metabolomics - researchers can uncover potential biomarkers that aid in disease diagnosis, prognosis, and treatment strategies. For instance, metabolomic analyses have identified specific metabolites capable of distinguishing between coronary artery disease and myocardial infarction, thereby enhancing diagnostic precision. 
+
+
+=== Neuroscience ===
+
+Computational neuroscience is the study of brain function in terms of the information processing properties of the nervous system. A subset of neuroscience, it looks to model the brain to examine specific aspects of the neurological system. Models of the brain include:
+
+Realistic Brain Models: These models look to represent every aspect of the brain, including as much detail at the cellular level as possible. Realistic models provide the most information about the brain, but also have the largest margin for error. More variables in a brain model create the possibility for more error to occur. These models do not account for parts of the cellular structure that scientists do not know about. Realistic brain models are the most computationally heavy and the most expensive to implement.
+Simplifying Brain Models:  These models look to limit the scope of a model in order to assess a specific physical property of the neurological system. This allows for the intensive computational problems to be solved, and reduces the amount of potential error from a realistic brain model.
+It is the work of computational neuroscientists to improve the algorithms and data structures currently used to increase the speed of such calculations.
+Computational neuropsychiatry is an emerging field that uses mathematical and computer-assisted modeling of brain mechanisms involved in mental disorders. Several initiatives have demonstrated that computational modeling is an important contribution to understand neuronal circuits that could generate mental functions and dysfunctions.
+
+
+=== Pharmacology ===
+
+Computational pharmacology is "the study of the effects of genomic data to find links between specific genotypes and diseases and then screening drug data". The pharmaceutical industry requires a shift in methods to analyze drug data. Pharmacologists were able to use Microsoft Excel to compare chemical and genomic data related to the effectiveness of drugs. However, the industry has reached what is referred to as the Excel barricade. This arises from the limited number of cells accessible on a spreadsheet. This development led to the need for computational pharmacology. Scientists and researchers develop computational methods to analyze these massive data sets. This allows for an efficient comparison between the notable data points and allows for more accurate drugs to be developed.
+Analysts project that if major medications fail due to patents, that computational biology will be necessary to replace current drugs on the market. Doctoral students in computational biology are being encouraged to pursue careers in industry rather than take Post-Doctoral positions. This is a direct result of major pharmaceutical companies needing more qualified analysts of the large data sets required for producing new drugs.
+
+
+=== Oncology ===
+
+Computational biology plays a crucial role in discovering signs of new, previously unknown living creatures and in cancer research. This field involves large-scale measurements of cellular processes, including RNA, DNA, and proteins, which pose significant computational challenges. To overcome these, biologists rely on computational tools to accurately measure and analyze biological data. In cancer research, computational biology aids in the complex analysis of tumor samples, helping researchers develop new ways to characterize tumors and understand various cellular properties. The use of high-throughput measurements, involving millions of data points from DNA, RNA, and other biological structures, helps in diagnosing cancer at early stages and in understanding the key factors that contribute to cancer development. Areas of focus include analyzing molecules that are deterministic in causing cancer and understanding how the human genome relates to tumor causation.
+
+
+=== Toxicology ===
+
+Computational toxicology is a multidisciplinary area of study, which is employed in the early stages of drug discovery and development to predict the safety and potential toxicity of drug candidates.
+
+
+=== Drug Discovery ===
+Computational biology has become instrumental in revolutionizing drug discovery processes. By integrating computational systems biology approaches, researchers can model complex biological systems, facilitating the identification of novel drug targets and the prediction of drug responses. These methodologies enable the simulation of intracellular and intercellular signaling events using data from genomic, proteomic, or metabolomic experiments, thereby streamlining the drug development pipeline and reducing associated costs.
+Moreover, the convergence of computational biology with artificial intelligence (AI) has further accelerated drug design. AI-driven models can analyze vast datasets to predict molecular behavior, optimize lead compounds, and anticipate potential side effects, thereby enhancing the efficiency and effectiveness of drug discovery.
+
+
+== Techniques ==
+Computational biologists use a wide range of software and algorithms to carry out their research.
+
+
+=== Unsupervised Learning ===
+Unsupervised learning is a type of algorithm that finds patterns in unlabeled data. One example is k-means clustering, which aims to partition n data points into k clusters, in which each data point belongs to the cluster with the nearest mean. Another version is the k-medoids algorithm, which, when selecting a cluster center or cluster centroid, will pick one of its data points in the set, and not just an average of the cluster.
+
+The algorithm follows these steps:
+
+Randomly select k distinct data points. These are the initial clusters.
+Measure the distance between each point and each of the 'k' clusters. (This is the distance of the points from each point k).
+Assign each point to the nearest cluster.
+Find the center of each cluster (medoid).
+Repeat until the clusters no longer change.
+Assess the quality of the clustering by adding up the variation within each cluster.
+Repeat the processes with different values of k.
+Pick the best value for 'k' by finding the "elbow" in the plot of which k value has the lowest variance.
+One example of this in biology is used in the 3D mapping of a genome. Information of a mouse's HIST1 region of chromosome 13 is gathered from Gene Expression Omnibus. This information contains data on which nuclear profiles show up in certain genomic regions. With this information, the Jaccard distance can be used to find a normalized distance between all the loci.
+
+
+=== Graph Analytics ===
+Graph analytics, or network analysis, is the study of graphs that represent connections between different objects. Graphs can represent all kinds of networks in biology such as protein-protein interaction networks, regulatory networks, Metabolic and biochemical networks and much more. There are many ways to analyze these networks. One of which is looking at centrality in graphs. Finding centrality in graphs assigns nodes rankings to their popularity or centrality in the graph. This can be useful in finding which nodes are most important. For example, given data on the activity of genes over a time period, degree centrality can be used to see what genes are most active throughout the network, or what genes interact with others the most throughout the network. This contributes to the understanding of the roles certain genes play in the network.
+There are many ways to calculate centrality in graphs all of which can give different kinds of information on centrality. Finding centralities in biology can be applied in many different circumstances, some of which are gene regulatory, protein interaction and metabolic networks.
+
+
+=== Supervised Learning ===
+Supervised learning is a type of algorithm that learns from labeled data and learns how to assign labels to future data that is unlabeled. In biology supervised learning can be helpful when we have data that we know how to categorize and we would like to categorize more data into those categories.
+
+A common supervised learning algorithm is the random forest, which uses numerous decision trees to train a model to classify a dataset. Forming the basis of the random forest, a decision tree is a structure which aims to classify, or label, some set of data using certain known features of that data. A practical biological example of this would be taking an individual's genetic data and predicting whether or not that individual is predisposed to develop a certain disease or cancer. At each internal node the algorithm checks the dataset for exactly one feature, a specific gene in the previous example, and then branches left or right based on the result. Then at each leaf node, the decision tree assigns a class label to the dataset. So in practice, the algorithm walks a specific root-to-leaf path based on the input dataset through the decision tree, which results in the classification of that dataset. Commonly, decision trees have target variables that take on discrete values, like yes/no, in which case it is referred to as a classification tree, but if the target variable is continuous then it is called a regression tree. To construct a decision tree, it must first be trained using a training set to identify which features are the best predictors of the target variable.
+
+
+=== Open source software ===
+Open source software provides a platform for computational biology where everyone can access and benefit from software developed in research. PLOS cites four main reasons for the use of open source software:
+
+Reproducibility: This allows for researchers to use the exact methods used to calculate the relations between biological data.
+Faster development: developers and researchers do not have to reinvent existing code for minor tasks. Instead they can use pre-existing programs to save time on the development and implementation of larger projects.
+Increased quality: Having input from multiple researchers studying the same topic provides a layer of assurance that errors will not be in the code.
+Long-term availability: Open source programs are not tied to any businesses or patents. This allows for them to be posted to multiple web pages and ensure that they are available in the future.
+
+
+== Research ==
+There are several large conferences that are concerned with computational biology. Some notable examples are Intelligent Systems for Molecular Biology, European Conference on Computational Biology and Research in Computational Molecular Biology.
+There are also numerous journals dedicated to computational biology. Some notable examples include Journal of Computational Biology and PLOS Computational Biology, a peer-reviewed open access journal that has many notable research projects in the field of computational biology. They provide reviews on software, tutorials for open source software, and display information on upcoming computational biology conferences. Other journals relevant to this field include Bioinformatics, Computers in Biology and Medicine, BMC Bioinformatics, Nature Methods, Nature Communications, Scientific Reports, PLOS One, etc.
+
+
+== Related fields ==
+Computational biology, bioinformatics and mathematical biology are all interdisciplinary approaches to the life sciences that draw from quantitative disciplines such as mathematics and information science. The NIH describes computational/mathematical biology as the use of computational/mathematical approaches to address theoretical and experimental questions in biology and, by contrast, bioinformatics as the application of information science to understand complex life-sciences data.
+Specifically, the NIH defines
+
+Computational biology: The development and application of data-analytical and theoretical methods, mathematical modeling and computational simulation techniques to the study of biological, behavioral, and social systems.
+Bioinformatics: Research, development, or application of computational tools and approaches for expanding the use of biological, medical, behavioral or health data, including those to acquire, store, organize, archive, analyze, or visualize such data.
+While each field is distinct, there may be significant overlap at their interface, so much so that to many, bioinformatics and computational biology are terms that are used interchangeably.
+The terms computational biology and evolutionary computation have a similar name, but are not to be confused. Unlike computational biology, evolutionary computation is not concerned with modeling and analyzing biological data. It instead creates algorithms based on the ideas of evolution across species. Sometimes referred to as genetic algorithms, the research of this field can be applied to computational biology. While evolutionary computation is not inherently a part of computational biology, computational evolutionary biology is a subfield of it.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+bioinformatics.org

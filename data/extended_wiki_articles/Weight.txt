@@ -1,0 +1,55 @@
+Height is  measure of vertical distance, either vertical extent (how "tall" something or someone is) or vertical position (how "high" a point is). For an example of vertical extent, "This basketball player is 7 foot 1 inches in height." For an example of vertical position, "The height of an airplane in-flight is about 10,000 meters."
+When the term is used to describe vertical position (of, e.g., an airplane) from sea level, height is more often called altitude.
+Furthermore, if the point is attached to the Earth (e.g., a mountain peak), then altitude (height above sea level) is called elevation.
+In a two-dimensional Cartesian space, height is measured along the vertical axis (y) between a specific point and another that does not have the same y-value. If both points happen to have the same y-value, then their relative height is zero. In the case of three-dimensional space, height is measured along the vertical z axis, describing a distance from (or "above") the x-y plane.
+
+
+== Etymology ==
+The English-language word high is derived from Old English hēah, ultimately from Proto-Germanic *xauxa-z, from a PIE base *keuk-. The derived noun height, also the obsolete forms heighth and highth, is from Old English híehþo, later héahþu, as it were from Proto-Germanic *xaux-iþa.
+
+
+== In mathematics ==
+In elementary models of space, height may indicate the third dimension, the other two being length and width.  Height is normal to the plane formed by the length and width.
+Height is also used as a name for some more abstract definitions. These include:
+
+The height or altitude of a triangle, which is the length from a vertex of a triangle to the line formed by the opposite side;
+The height of a pyramid, which is the smallest distance from the apex to the base;
+A measurement in a circular segment of the distance from the midpoint of the arc of the circular segment to the midpoint of the line joining the endpoints of the arc (see diagram in circular segment);
+In a rooted tree, the height of a vertex is the length of the longest downward path to a leaf from that vertex;
+In algebraic number theory, a "height function" is a measurement related to the minimal polynomial of an algebraic number; among other uses in commutative algebra and representation theory;
+In ring theory, the height of a prime ideal is the supremum of the lengths of all chains of prime ideals contained in it.
+
+
+== In geosciences ==
+
+Although height is normally relative to a plane of reference, most measurements of height in the physical world are based upon a zero surface, known as sea level. Both altitude and elevation, two synonyms for height, are usually defined as the position of a point above the mean sea level.  One can extend the sea-level surface under the continents: naively, one can imagine a lot of narrow canals through the continents.  In practice, the sea level under a continent has to be computed from gravity measurements, and slightly different computational methods exist; see Geodesy, heights.
+In addition to vertical position, the vertical extent of geographic landmarks can be defined in terms of topographic prominence. For example, the highest mountain (by elevation in reference to sea level) belongs to Mount Everest, located on the border of Nepal and Tibet, China; however the tallest mountain, by measurement of apex to base, is Mauna Kea in Hawaii, United States.
+
+
+=== In geodesy ===
+
+Geodesists formalize mean sea level (MSL) by means of the geoid, the equipotential surface that best fits MSL. Then various types of height (normal, dynamic, orthometric, etc.) can be defined, based on the assumption of density of topographic masses necessary in the continuation of MSL under the continents.
+A purely geometric quantity is the ellipsoidal height, reckoned from the surface of a reference ellipsoid, see Geodetic system, vertical datum.
+
+
+== In aviation ==
+
+In aviation terminology, the terms height, altitude, and elevation are not synonyms.  Usually, the altitude of an aircraft is measured from sea level, while its height is measured from ground level. Elevation is also measured from sea level, but is most often regarded as a property of the ground. Thus, elevation plus height can equal altitude, but the term altitude has several meanings in aviation.
+
+
+== In human culture ==
+Human height is one of the areas of study within anthropometry. While environmental factors have some effect on variations in human height, these influences are insufficient to account for all differences between populations, suggesting that genetic factors are important for explaining variations between human populations.
+The United Nations uses height (among other statistics) to monitor changes in the nutrition of developing nations. In human populations, average height can distill down complex data about the group's birth, upbringing, social class, diet, and health care system.
+In their research, Baten, Stegl and van der Eng came to the conclusion that a change in the average height is a sign for a change in the economic development. With broad data of Indonesia, the researchers state that several incidents in the history of the country has led not only to a change in the economy but also to a change in the population's average height.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+ Media related to Height at Wikimedia Commons
+ The dictionary definition of height at Wiktionary
+ The dictionary definition of high at Wiktionary

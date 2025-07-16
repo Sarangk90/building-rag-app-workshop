@@ -1,0 +1,247 @@
+Human–computer interaction (HCI) is the process through which people operate and engage with computer systems. Research in HCI covers the design and the use of computer technology, which focuses on the interfaces between people (users) and computers. HCI researchers observe the ways humans interact with computers and design technologies that allow humans to interact with computers in novel ways. These include visual, auditory, and tactile (haptic) feedback systems, which serve as channels for interaction in both traditional interfaces and mobile computing contexts.
+A device that allows interaction between human being and a computer is known as a "human–computer interface".
+As a field of research, human–computer interaction is situated at the intersection of computer science, behavioral sciences, design, media studies, and several other fields of study. The term was popularized by Stuart K. Card, Allen Newell, and Thomas P. Moran in their 1983 book, The Psychology of Human–Computer Interaction. The first known use was in 1975 by Carlisle. The term is intended to convey that, unlike other tools with specific and limited uses, computers have many uses which often involve an open-ended dialogue between the user and the computer. The notion of dialogue likens human–computer interaction to human-to-human interaction: an analogy that is crucial to theoretical considerations in the field.
+
+
+== Introduction ==
+Humans interact with computers in many ways, and the interface between the two is crucial to facilitating this interaction. HCI is also sometimes termed human–machine interaction (HMI), man-machine interaction (MMI) or computer-human interaction (CHI). Desktop applications, web browsers, handheld computers, and computer kiosks make use of the prevalent graphical user interfaces (GUI) of today. Voice user interfaces (VUIs) are used for speech recognition and synthesizing systems, and the emerging multi-modal and Graphical user interfaces (GUI) allow humans to engage with embodied character agents in a way that cannot be achieved with other interface paradigms.
+The Association for Computing Machinery (ACM) defines human–computer interaction as "a discipline that is concerned with the design, evaluation, and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them". A key aspect of HCI is user satisfaction, also referred to as End-User Computing Satisfaction. It goes on to say:
+"Because human–computer interaction studies a human and a machine in communication, it draws from supporting knowledge on both the machine and the human side. On the machine side, techniques in computer graphics, operating systems, programming languages, and development environments are relevant. On the human side, communication theory, graphic and industrial design disciplines, linguistics, social sciences, cognitive psychology, social psychology, and human factors such as computer user satisfaction are relevant. And, of course, engineering and design methods are relevant." HCI ensures that humans can safely and efficiently interact with complex technologies in fields like aviation and healthcare.
+Due to the multidisciplinary nature of HCI, people with different backgrounds contribute to its success.
+Poorly designed human-machine interfaces can lead to many unexpected problems. A classic example is the Three Mile Island accident, a nuclear meltdown accident, where investigations concluded that the design of the human-machine interface was at least partly responsible for the disaster. Similarly, some accidents in aviation have resulted from manufacturers' decisions to use non-standard flight instruments or throttle quadrant layouts: even though the new designs were proposed to be superior in basic human-machine interaction, pilots had already ingrained the "standard" layout. Thus, the conceptually good idea had unintended results.
+
+
+== Human–computer interface ==
+
+A human–computer interface can be described as the interface of communication between a human user and a computer. The flow of information between the human and computer is defined as the loop of interaction. The loop of interaction has several aspects to it, including:
+
+Visual based: The visual-based human–computer interaction is probably the most widespread human–computer interaction (HCI) research area.
+Audio-based: The audio-based interaction between a computer and a human is another important area of HCI systems. This area deals with information acquired by different audio signals.
+Feedback: Loops through the interface that evaluate, moderate, and confirm processes as they pass from the human through the interface to the computer and back.
+Fit: This matches the computer design, the user, and the task to optimize the human resources needed to accomplish the task.
+Visual-based HCI – 
+Facial expression analysis: This area focuses on visually recognizing and analyzing emotions through facial expressions.
+Body movement tracking (large-scale): Researchers in this area concentrate on tracking and analyzing large-scale body movements.
+Gesture recognition: Gesture recognition involves identifying and interpreting gestures made by users, often used for direct interaction with computers in command and action scenarios.
+Gaze detection (eye-movement tracking): Gaze detection involves tracking the movement of a user's eyes and is primarily used to better understand the user's attention, intent, or focus in context-sensitive situations.  While the specific goals of each area vary based on applications, they collectively contribute to enhancing human-computer interaction. Notably, visual approaches have been explored as alternatives or aids to other types of interactions, such as audio- and sensor-based methods. For example, lip reading or lip movement tracking has proven influential in correcting speech recognition errors.
+Audio-based HCI –  Audio-based interaction in human-computer interaction (HCI) is a crucial field focused on processing information acquired through various audio signals. While the nature of audio signals may be less diverse compared to visual signals, the information they provide can be highly reliable, valuable, and sometimes uniquely informative. The research areas within this domain include:
+Speech recognition: This area centers on the recognition and interpretation of spoken language.
+Speaker recognition: Researchers in this area concentrate on identifying and distinguishing different speakers.
+Auditory emotion analysis: Efforts have been made to incorporate human emotions into intelligent human-computer interaction by analyzing emotional cues in audio signals.
+Human-made noise/sign detections: This involves recognizing typical human auditory signs like sighs, gasps, laughs, cries, etc., which contribute to emotion analysis and the design of more intelligent HCI systems.
+Musical interaction: A relatively new area in HCI, it involves generating and interacting with music, with applications in the art industry. This field is studied in both audio- and visual-based HCI systems.
+Sensor-based HCI – This section encompasses a diverse range of areas with broad applications, all of which involve the use of physical sensors to facilitate interaction between users and machines. These sensors can range from basic to highly sophisticated. The specific areas include:
+Pen-based interaction: Particularly relevant in mobile devices, focusing on pen gestures and handwriting recognition.
+Mouse & keyboard: Well-established input devices discussed in Section 3.1, commonly used in computing.
+Joysticks: Another established input device for interactive control, commonly used in gaming and simulations.
+Motion-tracking sensors and digitizers: Cutting-edge technology that has revolutionized industries like film, animation, art, and gaming. These sensors, in forms like wearable cloth or joint sensors, enable more immersive interactions between computers and reality.
+Haptic sensors: Particularly significant in applications related to robotics and virtual reality, providing feedback based on touch. They play a crucial role in enhancing sensitivity and awareness in humanoid robots, as well as in medical surgery applications.
+Pressure sensors: Also important in robotics, virtual reality, and medical applications, providing information based on pressure exerted on a surface.
+Taste/smell sensors: Although less popular compared to other areas, research has been conducted in the field of sensors for taste and smell.  These sensors vary in their level of maturity, with some being well-established and others representing cutting-edge technologies.
+
+
+== Goals for computers ==
+Human–computer interaction involves the ways in which humans make—or do not make—use of computational artifacts, systems, and infrastructures. Much of the research in this field seeks to improve the human–computer interaction by improving the usability of computer interfaces. How usability is to be precisely understood, how it relates to other social and cultural values, and when it is, and when it may not be a desirable property of computer interfaces is increasingly debated.
+Much of the research in the field of human–computer interaction takes an interest in:
+
+Methods for designing new computer interfaces, thereby optimizing a design for a desired property such as learnability, findability, the efficiency of use.
+Methods for implementing interfaces, e.g., by means of software libraries.
+Methods for evaluating and comparing interfaces with respect to their usability and other desirable properties.
+Methods for studying human–computer use and its sociocultural implications more broadly.
+Methods for determining whether or not the user is human or computer.
+Models and theories of human–computer use as well as conceptual frameworks for the design of computer interfaces, such as cognitivist user models, Activity Theory, or ethnomethodological accounts of human–computer use.
+Perspectives that critically reflect upon the values that underlie computational design, computer use, and HCI research practice.
+Visions of what researchers in the field seek to achieve might vary. When pursuing a cognitivist perspective, researchers of HCI may seek to align computer interfaces with the mental model that humans have of their activities. When pursuing a post-cognitivist perspective, researchers of HCI may seek to align computer interfaces with existing social practices or existing sociocultural values.
+Researchers in HCI are interested in developing design methodologies, experimenting with devices, prototyping software, and hardware systems, exploring interaction paradigms, and developing models and theories of interaction.
+
+
+== Design ==
+
+
+=== Principles ===
+
+The following experimental design principles are considered, when evaluating a current user interface, or designing a new user interface:
+
+Early focus is placed on the user(s) and task(s): How many users are needed to perform the task(s) is established and who the appropriate users should be is determined (someone who has never used the interface, and will not use the interface in the future, is most likely not a valid user). In addition, the task(s) the users will be performing and how often the task(s) need to be performed is defined.
+Empirical measurement: the interface is tested with real users who come in contact with the interface daily. The results can vary with the performance level of the user and the typical human–computer interaction may not always be represented. Quantitative usability specifics, such as the number of users performing the task(s), the time to complete the task(s), and the number of errors made during the task(s) are determined.
+Iterative design: After determining what users, tasks, and empirical measurements to include, the following iterative design steps are performed:
+Design the user interface
+Test
+Analyze results
+Repeat
+The iterative design process is repeated until a sensible, user-friendly interface is created.
+
+
+=== Methodologies ===
+Various strategies delineating methods for human–PC interaction design have developed since the conception of the field during the 1980s. Most plan philosophies come from a model for how clients, originators, and specialized frameworks interface. Early techniques treated clients' psychological procedures as unsurprising and quantifiable and urged plan specialists to look at subjective science to establish zones, (for example, memory and consideration) when structuring UIs. Present-day models, in general, center around a steady input and discussion between clients, creators, and specialists and push for specialized frameworks to be folded with the sorts of encounters clients need to have, as opposed to wrapping user experience around a finished framework.
+
+Activity theory: utilized in HCI to characterize and consider the setting where human cooperations with PCs occur. Action hypothesis gives a structure for reasoning about activities in these specific circumstances and illuminates the design of interactions from an action-driven perspective.
+User-centered design (UCD): a cutting-edge, broadly-rehearsed plan theory established on the possibility that clients must become the overwhelming focus in the plan of any PC framework. Clients, architects, and specialized experts cooperate to determine the requirements and restrictions of the client and make a framework to support these components. Frequently, client-focused plans are informed by ethnographic investigations of situations in which clients will associate with the framework. This training is like participatory design, which underscores the likelihood for end-clients to contribute effectively through shared plan sessions and workshops.
+Principles of UI design: these standards may be considered during the design of a client interface: resistance, effortlessness, permeability, affordance, consistency, structure, and feedback.
+Value sensitive design (VSD): a technique for building innovation that accounts for the individuals who utilize the design straightforwardly, and just as well for those who the design influences, either directly or indirectly. VSD utilizes an iterative planning process that includes three kinds of examinations: theoretical, exact, and specialized. Applied examinations target the understanding and articulation of the different parts of the design, and its qualities or any clashes that may emerge for the users of the design. Exact examinations are subjective or quantitative plans to explore things used to advise the creators' understanding regarding the clients' qualities, needs, and practices. Specialized examinations can include either investigation of how individuals use related advances or the framework plans.
+
+
+== Current research ==
+Topics in human–computer interaction include the following:
+
+
+=== Human–AI Interaction ===
+Human-AI Interaction explores how users engage with artificial intelligence systems, particularly focusing on usability, trust, and interpretability. The research mainly aims to design AI-driven interfaces that are transparent, explainable, and ethically responsible. Studies highlight the importance of explainable AI (XAI) and human-in-the-loop decision-making, ensuring that AI outputs are understandable and trustworthy. Researchers also develop design guidelines for human-AI interaction, improving the collaboration between users and AI systems.
+
+
+=== Augmented reality (AR) ===
+
+Augmented reality (AR) integrates digital content with the real world. It enhances human perception and interaction with physical environments. AR research mainly focuses on adaptive user interfaces, multimodal input techniques, and real-world object interaction. Advances in wearable AR technology improve usability, enabling more natural interaction with AR applications.
+
+
+=== Virtual reality (VR) ===
+
+Virtual reality (VR) creates a fully immersive digital environment, allowing users to interact with computer-generated worlds through sensory input devices. Research focuses on user presence, interaction techniques, and cognitive effects of immersion. A key area of study is the impact of VR on cognitive load and user adaptability, influencing how users process information in virtual spaces.
+
+
+=== Mixed reality (MR) ===
+
+Mixed reality (MR) blends elements of both augmented reality (AR) and virtual reality (VR). It enables real-time interaction with both physical and digital objects. HCI research in MR concentrates on spatial computing, real-world object interaction, and context-aware adaptive interfaces. MR technologies are increasingly applied in education, training simulations, and healthcare, enhancing learning outcomes and user engagement.
+
+
+=== Extended reality (XR) ===
+
+Extended reality (XR) is an umbrella term encompassing AR, VR, and MR, offering a continuum between real and virtual environments. Research investigates user adaptability, interaction paradigms, and ethical implications of immersive technologies. Recent studies highlight how AI-driven personalization and adaptive interfaces improve the usability of XR applications.
+
+
+=== Accessibility ===
+
+Accessibility in human–computer interaction (HCI) focuses on designing inclusive digital experiences, ensuring usability for people with diverse abilities. Research in this area is related to assistive technologies, adaptive interfaces, and universal design principles. Studies indicate that accessible design benefits not only people with disabilities but also enhances usability for all users.
+
+
+=== Social computing ===
+
+Social computing is an interactive and collaborative behavior considered between technology and people. In recent years, there has been an explosion of social science research focusing on interactions as the unit of analysis, as there are a lot of social computing technologies that include blogs, emails,  social networking, quick messaging, and various others. Much of this research draws from psychology, social psychology, and sociology. For example, one study found out that people expected a computer with a man's name to cost more than a machine with a woman's name. Other research finds that individuals perceive their interactions with computers more negatively than humans, despite behaving the same way towards these machines.
+
+
+=== Knowledge-driven human–computer interaction ===
+In human and computer interactions, a semantic gap usually exists between human and computer's understandings towards mutual behaviors. Ontology, as a formal representation of domain-specific knowledge, can be used to address this problem by solving the semantic ambiguities between the two parties.
+
+
+=== Emotions and human–computer interaction ===
+
+In the interaction of humans and computers, research has studied how computers can detect, process, and react to human emotions to develop emotionally intelligent information systems. Researchers have suggested several 'affect-detection channels'. The potential of telling human emotions in an automated and digital fashion lies in improvements to the effectiveness of human–computer interaction. The influence of emotions in human–computer interaction has been studied in fields such as financial decision-making using ECG and organizational knowledge sharing using eye-tracking and face readers as affect-detection channels. In these fields, it has been shown that affect-detection channels have the potential to detect human emotions and those information systems can incorporate the data obtained from affect-detection channels to improve decision models.
+
+
+=== Brain–computer interfaces ===
+
+A brain–computer interface (BCI), is a direct communication pathway between an enhanced or wired brain and an external device. BCI differs from neuromodulation in that it allows for bidirectional information flow. BCIs are often directed at researching, mapping, assisting, augmenting, or repairing human cognitive or sensory-motor functions.
+
+
+=== Security interactions ===
+Security interactions are the study of interaction between humans and computers specifically as it pertains to information security.  Its aim, in plain terms, is to improve the usability of security features in end user applications.
+Unlike HCI, which has roots in the early days of Xerox PARC during the 1970s, HCISec is a nascent field of study by comparison. Interest in this topic tracks with that of Internet security, which has become an area of broad public concern only in very recent years.
+When security features exhibit poor usability, the following are common reasons:
+
+they were added in casual afterthought
+they were hastily patched in to address newly discovered security bugs
+they address very complex use cases without the benefit of a software wizard
+their interface designers lacked understanding of related security concepts
+their interface designers were not usability experts (often meaning they were the application developers themselves)
+
+
+=== Feminist HCI ===
+
+Feminist HCI is a subfield of Human-Computer Interaction (HCI) that examines the interaction between people and technology through the lens of feminist and critical theories. This particular research topic consists of many sub-disciplines that examine the role of power, privilege, and other systems of oppression in the design and interaction of technology. 
+
+
+== Factors of change ==
+Traditionally, computer use was modeled as a human–computer dyad in which the two were connected by a narrow explicit communication channel, such as text-based terminals. Much work has been done to make the interaction between a computing system and a human more reflective of the multidimensional nature of everyday communication. Because of potential issues, human–computer interaction shifted focus beyond the interface to respond to observations as articulated by Douglas Engelbart: "If ease of use were the only valid criterion, people would stick to tricycles and never try bicycles."
+How humans interact with computers continues to evolve rapidly. Human–computer interaction is affected by developments in computing. These forces include:
+
+Decreasing hardware costs leading to larger memory and faster systems
+Miniaturization of hardware leading to portability
+Reduction in power requirements leading to portability
+New display technologies leading to the packaging of computational devices in new forms
+Specialized hardware leading to new functions
+Increased development of network communication and distributed computing
+Increasingly widespread use of computers, especially by people who are outside of the computing profession
+Increasing innovation in input techniques (e.g., voice, gesture, pen), combined with lowering cost, leading to rapid computerization by people formerly left out of the computer revolution.
+Wider social concerns leading to improved access to computers by currently disadvantaged groups
+As of 2010 the future for HCI is expected to include the following characteristics:
+
+Ubiquitous computing and communication. Computers are expected to communicate through high-speed local networks, nationally over wide-area networks, and portably via infrared, ultrasonic, cellular, and other technologies. Data and computational services will be portably accessible from many if not most locations to which a user travels.
+High-functionality systems. Systems can have large numbers of functions associated with them. There are so many systems that most users, technical or non-technical, do not have time to learn about traditionally (e.g., through thick user manuals).
+The mass availability of computer graphics. Computer graphics capabilities such as image processing, graphics transformations, rendering, and interactive animation become widespread as inexpensive chips become available for inclusion in general workstations and mobile devices.
+Mixed media. Commercial systems can handle images, voice, sounds, video, text, formatted data. These are exchangeable over communication links among users. The separate consumer electronics fields (e.g., stereo sets, DVD players, televisions) and computers are beginning to merge. Computer and print fields are expected to cross-assimilate.
+High-bandwidth interaction. The rate at which humans and machines interact is expected to increase substantially due to the changes in speed, computer graphics, new media, and new input/output devices. This can lead to qualitatively different interfaces, such as virtual reality or computational video.
+Large and thin displays. New display technologies are maturing, enabling huge displays and displays that are thin, lightweight, and low in power use. This has large effects on portability and will likely enable developing paper-like, pen-based computer interaction systems very different in feel from present desktop workstations.
+Information utilities. Public information utilities (such as home banking and shopping) and specialized industry services (e.g., weather for pilots) are expected to proliferate. The proliferation rate can accelerate with the introduction of high-bandwidth interaction and the improvement in the quality of interfaces.
+
+
+== Scientific conferences ==
+One of the main conferences for new research in human–computer interaction is the annually held Association for Computing Machinery's (ACM) Conference on Human Factors in Computing Systems, usually referred to by its short name CHI (pronounced kai, or Khai). CHI is organized by ACM Special Interest Group on Computer-Human Interaction (SIGCHI). CHI is a large conference, with thousands of attendants, and is quite broad in scope. It is attended by academics, practitioners, and industry people, with company sponsors such as Google, Microsoft, and PayPal.
+There are also dozens of other smaller, regional, or specialized HCI-related conferences held around the world each year, including:
+
+
+== See also ==
+CAPTCHA
+Digital Live Art
+Text-based user interface
+HCI Bibliography, a web-based project to provide a bibliography of Human Computer Interaction literature
+Information architecture
+Information design
+Intelligence amplification
+Mindfulness and technology
+Outline of human–computer interaction
+Turing test
+User experience design
+Human City Interaction
+
+
+== Footnotes ==
+
+
+== Further reading ==
+Academic overviews of the field
+Julie A. Jacko (Ed.). (2012). Human–Computer Interaction Handbook (3rd Edition). CRC Press. ISBN 1-4398-2943-8
+Andrew Sears and Julie A. Jacko (Eds.). (2007). Human–Computer Interaction Handbook (2nd Edition). CRC Press. ISBN 0-8058-5870-9
+Julie A. Jacko and Andrew Sears (Eds.). (2003). Human–Computer Interaction Handbook. Mahwah: Lawrence Erlbaum & Associates. ISBN 0-8058-4468-6
+Dix, A. (2004). Human–computer interaction (3rd ed.). Pearson Education. ISBN 0-1304-6109-1
+Historically important classic
+Stuart K. Card, Thomas P. Moran, Allen Newell (1983): The Psychology of Human–Computer Interaction. Erlbaum, Hillsdale 1983 ISBN 0-89859-243-7
+Overviews of history of the field
+Jonathan Grudin: A moving target: The evolution of human–computer interaction. In Andrew Sears and Julie A. Jacko (Eds.). (2007). Human–Computer Interaction Handbook (2nd Edition). CRC Press. ISBN 0-8058-5870-9
+Myers, Brad (1998). "A brief history of human–computer interaction technology". Interactions. 5 (2): 44–54. CiteSeerX 10.1.1.23.2422. doi:10.1145/274430.274436. S2CID 8278771.
+John M. Carroll: Human–Computer Interaction: History and Status. Encyclopedia Entry at Interaction-Design.org
+Carroll, John M. (2010). "Conceptualizing a possible discipline of human–computer interaction". Interacting with Computers. 22 (1): 3–12. doi:10.1016/j.intcom.2009.11.008.
+Sara Candeias, S. and A. Veiga The dialogue between man and machine: the role of language theory and technology, Sandra M. Aluísio & Stella E. O. Tagnin, New Language Technologies, and Linguistic Research, A Two-Way Road: cap. 11. Cambridge Scholars Publishing. (ISBN 978-1-4438-5377-4)
+Social science and HCI
+Nass, Clifford; Fogg, B. J.; Moon, Youngme (1996). "Can computers be teammates?". International Journal of Human-Computer Studies. 45 (6): 669–678. doi:10.1006/ijhc.1996.0073.
+Nass, Clifford; Moon, Youngme (2000). "Machines and mindlessness: Social responses to computers". Journal of Social Issues. 56 (1): 81–103. doi:10.1111/0022-4537.00153. S2CID 15851410.
+Posard, Marek N (2014). "Status processes in human–computer interactions: Does gender matter?". Computers in Human Behavior. 37: 189–195. doi:10.1016/j.chb.2014.04.025.
+Posard, Marek N.; Rinderknecht, R. Gordon (2015). "Do people like working with computers more than human beings?". Computers in Human Behavior. 51: 232–238. doi:10.1016/j.chb.2015.04.057.
+Academic journals
+ACM Transactions on Computer-Human Interaction
+Behaviour & Information Technology [1]
+Interacting with Computers
+International Journal of Human-Computer Interaction
+International Journal of Human-Computer Studies
+Human–Computer Interaction [2] [3]
+Collection of papers
+Ronald M. Baecker, Jonathan Grudin, William A. S. Buxton, Saul Greenberg (Eds.) (1995): Readings in human–computer interaction. Toward the Year 2000. 2. ed. Morgan Kaufmann, San Francisco 1995 ISBN 1-55860-246-1
+Mithun Ahamed, Developing a Message Interface Architecture for Android Operating Systems, (2015). [4]
+Treatments by one or few authors, often aimed at a more general audience
+Jakob Nielsen: Usability Engineering. Academic Press, Boston 1993 ISBN 0-12-518405-0
+Donald A. Norman: The Psychology of Everyday Things. Basic Books, New York 1988 ISBN 0-465-06709-3
+Jef Raskin: The Humane Interface. New directions for designing interactive systems. Addison-Wesley, Boston 2000 ISBN 0-201-37937-6
+Bruce Tognazzini: Tog on Interface. Addison-Wesley, Reading 1991 ISBN 0-201-60842-1
+Textbooks
+Alan Dix, Janet Finlay, Gregory Abowd, and Russell Beale (2003): Human–Computer Interaction. 3rd Edition. Prentice Hall, 2003. http://hcibook.com/e3/ ISBN 0-13-046109-1
+Yvonne Rogers, Helen Sharp & Jenny Preece: Interaction Design: Beyond Human–Computer Interaction, 3rd ed. John Wiley & Sons Ltd., 2011 ISBN 0-470-66576-9
+Helen Sharp, Yvonne Rogers & Jenny Preece: Interaction Design: Beyond Human–Computer Interaction, 2nd ed. John Wiley & Sons Ltd., 2007 ISBN 0-470-01866-6
+Matt Jones (interaction designer) and Gary Marsden (2006). Mobile Interaction Design, John Wiley and Sons Ltd.
+
+
+== External links ==
+
+Bad Human Factors Designs
+The HCI Wiki Bibliography with over 100,000 publications.
+The HCI Bibliography Over 100,000 publications about HCI.
+Human-Centered Computing Education Digital Library
+HCI Webliography

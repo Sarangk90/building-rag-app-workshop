@@ -1,0 +1,35 @@
+Rise: The Vieneo Province (abbreviated to Rise) is an MMO space simulator. The game is centered around an exomoon called Vieneo about 225 LY from Earth.
+While Rise is sometimes referred to as a game, in general it does not have points, scores, winners or losers, levels, an end-strategy, or most of the other characteristics of a typical game.  Players, often called "citizens", can visit this virtual world almost as if it were a real place.  They explore, meet other citizens, socialize, participate in individual and alliance activities, and buy and produce goods (virtual property) and services from one another.  As they spend more time in the world, they learn new skills and mature socially, learning the culture and manners of a virtual environment.
+The game contains player-driven economics, a dynamic weather system, and a detailed terrain engine. Vieneo, the fictitious moon the game is based on, has all the typical attributes of a planet or moon and was made using StarGen.
+The aerodynamic and astrodynamic physics are of the highest fidelity and therefore closely mimic reality.  One of the goals of many players is to fly up into orbit and look down at the large gaming arena.
+
+
+== History ==
+
+Unistellar Industries was founded in the State of Missouri in August, 2002.
+The company originally developed software for a full-scale cockpit enclosure.
+The one and only prototype (called Audrey) was stolen and litigation followed.
+Due to budgetary restrictions, liability, and assembly space required, the firm has focused on the larger audience of online gaming.
+The initial alpha test version, code-named Planetfall, was made available in 2003 to players with initial release of the proprietary terrain engine.  An alpha version of the game called Rise: The Vieneo Province was made publicly available in 2006.
+Monthly subscriptions offered starting April, 2006 for users wanting to extend beyond the 14-day free trial period.
+The Rise economy was initialized in August, 2006 and has been entirely user-driven since.
+Ongoing development and updates ceased on Rise in October, 2010.
+The company started production of a new full-scale cockpit enclosure in July, 2011 with estimated completion in July, 2014.
+A limited liability company was formed in December, 2012 (State of Kansas).
+The game went "Free-to-Play" on March 1, 2013.
+The game is back in development as of February 1, 2017.
+The game was listed as an upcoming title on Steam on July 1, 2019.
+The game was released as Early Access on Steam on August 1, 2019, and subsequently released February 4, 2020.
+An unrestricted demo version was posted on Steam on February 29, 2020, during the COVID-19 pandemic.
+
+
+== See also ==
+
+List of space flight simulation games
+
+
+== References ==
+
+
+== External links ==
+Official website

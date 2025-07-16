@@ -1,0 +1,190 @@
+Engineering is the practice of using natural science, mathematics, and the engineering design process to solve problems within technology, increase efficiency and productivity, and improve systems. Modern engineering comprises many subfields which include designing and improving infrastructure, machinery, vehicles, electronics, materials, and energy systems.
+The discipline of engineering encompasses a broad range of more specialized fields of engineering, each with a more specific emphasis for applications of mathematics and science. See glossary of engineering.
+The word engineering is derived from the Latin ingenium.
+
+
+== Definition ==
+The American Engineers' Council for Professional Development (the predecessor of the Accreditation Board for Engineering and Technology aka ABET) has defined "engineering" as:
+
+The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property.
+
+
+== History ==
+
+Engineering has existed since ancient times, when humans devised inventions such as the wedge, lever, wheel and pulley, etc.
+The term engineering is derived from the word engineer, which itself dates back to the 14th century when an engine'er (literally, one who builds or operates a siege engine) referred to "a constructor of military engines". In this context, now obsolete, an "engine" referred to a military machine, i.e., a mechanical contraption used in war (for example, a catapult). Notable examples of the obsolete usage which have survived to the present day are military engineering corps, e.g., the U.S. Army Corps of Engineers.
+The word "engine" itself is of even older origin, ultimately deriving from the Latin ingenium (c. 1250), meaning "innate quality, especially mental power, hence a clever invention."
+Later, as the design of civilian structures, such as bridges and buildings, matured as a technical discipline, the term civil engineering entered the lexicon as a way to distinguish between those specializing in the construction of such non-military projects and those involved in the discipline of military engineering.
+
+
+=== Ancient era ===
+
+The pyramids in ancient Egypt, ziggurats of Mesopotamia, the Acropolis and Parthenon in Greece, the Roman aqueducts, Via Appia and Colosseum, Teotihuacán, and the Brihadeeswarar Temple of Thanjavur, among many others, stand as a testament to the ingenuity and skill of ancient civil and military engineers. Other monuments, no longer standing, such as the Hanging Gardens of Babylon and the Pharos of Alexandria, were important engineering achievements of their time and were considered among the Seven Wonders of the Ancient World.
+The six classic simple machines were known in the ancient Near East. The wedge and the inclined plane (ramp) were known since prehistoric times. The wheel, along with the wheel and axle mechanism, was invented in Mesopotamia (modern Iraq) during the 5th millennium BC. The lever mechanism first appeared around 5,000 years ago in the Near East, where it was used in a simple balance scale, and to move large objects in ancient Egyptian technology. The lever was also used in the shadoof water-lifting device, the first crane machine, which appeared in Mesopotamia c. 3000 BC, and then in ancient Egyptian technology c. 2000 BC. The earliest evidence of pulleys date back to Mesopotamia in the early 2nd millennium BC, and ancient Egypt during the Twelfth Dynasty (1991–1802 BC). The screw, the last of the simple machines to be invented, first appeared in Mesopotamia during the Neo-Assyrian period (911–609) BC. The Egyptian pyramids were built using three of the six simple machines, the inclined plane, the wedge, and the lever, to create structures like the Great Pyramid of Giza.
+The earliest civil engineer known by name is Imhotep. As one of the officials of the Pharaoh, Djosèr, he probably designed and supervised the construction of the Pyramid of Djoser (the Step Pyramid) at Saqqara in Egypt around 2630–2611 BC. The earliest practical water-powered machines, the water wheel and watermill, first appeared in the Persian Empire, in what are now Iraq and Iran, by the early 4th century BC.
+Kush developed the Sakia during the 4th century BC, which relied on animal power instead of human energy. Hafirs were developed as a type of reservoir in Kush to store and contain water as well as boost irrigation. Sappers were employed to build causeways during military campaigns. Kushite ancestors built speos during the Bronze Age between 3700 and 3250 BC. Bloomeries and blast furnaces were also created during the 7th centuries BC in Kush.
+Ancient Greece developed machines in both civilian and military domains. The Antikythera mechanism, an early known mechanical analog computer, and the mechanical inventions of Archimedes, are examples of Greek mechanical engineering. Some of Archimedes' inventions, as well as the Antikythera mechanism, required sophisticated knowledge of differential gearing or epicyclic gearing, two key principles in machine theory that helped design the gear trains of the Industrial Revolution, and are widely used in fields such as robotics and automotive engineering.
+Ancient Chinese, Greek, Roman and Hunnic armies employed military machines and inventions such as artillery which was developed by the Greeks around the 4th century BC, the trireme, the ballista and the catapult, the trebuchet by Chinese circa 6th-5th century BCE.
+
+
+=== Middle Ages ===
+The earliest practical wind-powered machines, the windmill and wind pump, first appeared in the Muslim world during the Islamic Golden Age, in what are now Iran, Afghanistan, and Pakistan, by the 9th century AD. The earliest practical steam-powered machine was a steam jack driven by a steam turbine, described in 1551 by Taqi al-Din Muhammad ibn Ma'ruf in Ottoman Egypt.
+The cotton gin was invented in India by the 6th century AD, and the spinning wheel was invented in the Islamic world by the early 11th century, both of which were fundamental to the growth of the cotton industry. The spinning wheel was also a precursor to the spinning jenny, which was a key development during the early Industrial Revolution in the 18th century.
+The earliest programmable machines were developed in the Muslim world. A music sequencer, a programmable musical instrument, was the earliest type of programmable machine. The first music sequencer was an automated flute player invented by the Banu Musa brothers, described in their Book of Ingenious Devices, in the 9th century. In 1206, Al-Jazari invented programmable automata/robots. He described four automaton musicians, including drummers operated by a programmable drum machine, where they could be made to play different rhythms and different drum patterns.
+
+Before the development of modern engineering, mathematics was used by artisans and craftsmen, such as millwrights, clockmakers, instrument makers and surveyors. Aside from these professions, universities were not believed to have had much practical significance to technology.: 32 
+A standard reference for the state of mechanical arts during the Renaissance is given in the mining engineering treatise De re metallica (1556), which also contains sections on geology, mining, and chemistry. De re metallica was the standard chemistry reference for the next 180 years.
+
+
+=== Modern era ===
+
+The science of classical mechanics, sometimes called Newtonian mechanics, formed the scientific basis of much of modern engineering. With the rise of engineering as a profession in the 18th century, the term became more narrowly applied to fields in which mathematics and science were applied to these ends. Similarly, in addition to military and civil engineering, the fields then known as the mechanic arts became incorporated into engineering.
+Canal building was an important engineering work during the early phases of the Industrial Revolution.
+John Smeaton was the first self-proclaimed civil engineer and is often regarded as the "father" of civil engineering. He was an English civil engineer responsible for the design of bridges, canals, harbors, and lighthouses. He was also a capable mechanical engineer and an eminent physicist. Using a model water wheel, Smeaton conducted experiments for seven years, determining ways to increase efficiency.: 127    Smeaton introduced iron axles and gears to water wheels.: 69  Smeaton also made mechanical improvements to the Newcomen steam engine. Smeaton designed the third Eddystone Lighthouse (1755–59) where he pioneered the use of 'hydraulic lime' (a form of mortar which will set under water) and developed a technique involving dovetailed blocks of granite in the building of the lighthouse. He is important in the history, rediscovery of, and development of modern cement, because he identified the compositional requirements needed to obtain "hydraulicity" in lime; work which led ultimately to the invention of Portland cement.
+Applied science led to the development of the steam engine. The sequence of events began with the invention of the barometer and the measurement of atmospheric pressure by Evangelista Torricelli in 1643, demonstration of the force of atmospheric pressure by Otto von Guericke using the Magdeburg hemispheres in 1656, laboratory experiments by Denis Papin, who built experimental model steam engines and demonstrated the use of a piston, which he published in 1707. Edward Somerset, 2nd Marquess of Worcester published a book of 100 inventions containing a method for raising waters similar to a coffee percolator. Samuel Morland, a mathematician and inventor who worked on pumps, left notes at the Vauxhall Ordinance Office on a steam pump design that Thomas Savery read. In 1698 Savery built a steam pump called "The Miner's Friend". It employed both vacuum and pressure. Iron merchant Thomas Newcomen, who built the first commercial piston steam engine in 1712, was not known to have any scientific training.: 32 
+
+The application of steam-powered cast iron blowing cylinders for providing pressurized air for blast furnaces lead to a large increase in iron production in the late 18th century. The higher furnace temperatures made possible with steam-powered blast allowed for the use of more lime in blast furnaces, which enabled the transition from charcoal to coke. These innovations lowered the cost of iron, making horse railways and iron bridges practical. The puddling process, patented by Henry Cort in 1784 produced large scale quantities of wrought iron. Hot blast, patented by James Beaumont Neilson in 1828, greatly lowered the amount of fuel needed to smelt iron. With the development of the high pressure steam engine, the power to weight ratio of steam engines made practical steamboats and locomotives possible. New steel making processes, such as the Bessemer process and the open hearth furnace, ushered in an area of heavy engineering in the late 19th century.
+One of the most famous engineers of the mid-19th century was Isambard Kingdom Brunel, who built railroads, dockyards and steamships.
+
+The Industrial Revolution created a demand for machinery with metal parts, which led to the development of several machine tools. Boring cast iron cylinders with precision was not possible until John Wilkinson invented his boring machine, which is considered the first machine tool. Other machine tools included the screw cutting lathe, milling machine, turret lathe and the metal planer. Precision machining techniques were developed in the first half of the 19th century. These included the use of gigs to guide the machining tool over the work and fixtures to hold the work in the proper position. Machine tools and machining techniques capable of producing interchangeable parts lead to large scale factory production by the late 19th century.
+The United States Census of 1850 listed the occupation of "engineer" for the first time with a count of 2,000. There were fewer than 50 engineering graduates in the U.S. before 1865. The first PhD in engineering (technically, applied science and engineering) awarded in the United States went to Josiah Willard Gibbs at Yale University in 1863; it was also the second PhD awarded in science in the U.S. In 1870 there were a dozen U.S. mechanical engineering graduates, with that number increasing to 43 per year in 1875. In 1890, there were 6,000 engineers in civil, mining, mechanical and electrical. There was no chair of applied mechanism and applied mechanics at Cambridge until 1875, and no chair of engineering at Oxford until 1907. Germany established technical universities earlier.
+The foundations of electrical engineering in the 1800s included the experiments of Alessandro Volta, Michael Faraday, Georg Ohm and others and the invention of the electric telegraph in 1816 and the electric motor in 1872. The theoretical work of James Maxwell (see: Maxwell's equations) and Heinrich Hertz in the late 19th century gave rise to the field of electronics. The later inventions of the vacuum tube and the transistor further accelerated the development of electronics to such an extent that electrical and electronics engineers currently outnumber their colleagues of any other engineering specialty.
+Chemical engineering developed in the late nineteenth century. Industrial scale manufacturing demanded new materials and new processes and by 1880 the need for large scale production of chemicals was such that a new industry was created, dedicated to the development and large scale manufacturing of chemicals in new industrial plants. The role of the chemical engineer was the design of these chemical plants and processes. Originally deriving from the manufacture of ceramics and its putative derivative metallurgy, materials science is one of the oldest forms of engineering. Modern materials science evolved directly from metallurgy, which itself evolved from the use of fire. Important elements of modern materials science were products of the Space Race; the understanding and engineering of the metallic alloys, and silica and carbon materials, used in building space vehicles enabling the exploration of space. Materials science has driven, and been driven by, the development of revolutionary technologies such as rubbers, plastics, semiconductors, and biomaterials.
+
+Aeronautical engineering deals with aircraft design process design while aerospace engineering is a more modern term that expands the reach of the discipline by including spacecraft design. Its origins can be traced back to the aviation pioneers around the start of the 20th century although the work of Sir George Cayley has recently been dated as being from the last decade of the 18th century. Early knowledge of aeronautical engineering was largely empirical with some concepts and skills imported from other branches of engineering. Only a decade after the successful flights by the Wright brothers, there was extensive development of aeronautical engineering through development of military aircraft that were used in World War I. Meanwhile, research to provide fundamental background science continued by combining theoretical physics with experiments.
+
+
+== Branches of engineering ==
+
+Engineering is a broad discipline that is often broken down into several sub-disciplines. Although most engineers will usually be trained in a specific discipline, some engineers become multi-disciplined through experience. Engineering is often characterized as having five main branches: chemical engineering, civil engineering, electrical engineering, materials science and engineering, and mechanical engineering.
+Below is a list of recognized branches of engineering. There are additional sub-disciplines as well.
+
+
+== Interdisciplinary engineering ==
+
+Interdisciplinary engineering draws from more than one of the principle branches of the practice. Historically, naval engineering and mining engineering were major branches. Other engineering fields are manufacturing engineering, acoustical engineering, corrosion engineering, instrumentation and control, automotive, information engineering, petroleum, systems, audio, software, architectural, biosystems, and textile engineering. These and other branches of engineering are represented in the 36 licensed member institutions of the UK Engineering Council.
+New specialties sometimes combine with the traditional fields and form new branches – for example, Earth systems engineering and management involves a wide range of subject areas including engineering studies, environmental science, engineering ethics and philosophy of engineering.
+
+
+== Practice ==
+
+One who practices engineering is called an engineer, and those licensed to do so may have more formal designations such as Professional Engineer, Chartered Engineer, Incorporated Engineer, Ingenieur, European Engineer. There can also be what is called by the FAA a Designated Engineering Representative.
+
+
+== Methodology ==
+
+In the engineering design process, engineers apply mathematics and sciences such as physics to find novel solutions to problems or to improve existing solutions. Engineers need proficient knowledge of relevant sciences for their design projects. As a result, many engineers continue to learn new material throughout their careers.
+If multiple solutions exist, engineers weigh each design choice based on their merit and choose the solution that best matches the requirements. The task of the engineer is to identify, understand, and interpret the constraints on a design in order to yield a successful result. It is generally insufficient to build a technically successful product, rather, it must also meet further requirements.
+Constraints may include available resources, physical, imaginative or technical limitations, flexibility for future modifications and additions, and other factors, such as requirements for cost, safety, marketability, productivity, and serviceability. By understanding the constraints, engineers derive specifications for the limits within which a viable object or system may be produced and operated.
+
+
+=== Problem solving ===
+
+Engineers use their knowledge of science, mathematics, logic, economics, and appropriate experience or tacit knowledge to find suitable solutions to a particular problem. Creating an appropriate mathematical model of a problem often allows them to analyze it (sometimes definitively), and to test potential solutions.
+More than one solution to a design problem usually exists so the different design choices have to be evaluated on their merits before the one judged most suitable is chosen. Genrich Altshuller, after gathering statistics on a large number of patents, suggested that compromises are at the heart of "low-level" engineering designs, while at a higher level the best design is one which eliminates the core contradiction causing the problem.
+Engineers typically attempt to predict how well their designs will perform to their specifications prior to full-scale production. They use, among other things: prototypes, scale models, simulations, destructive tests, nondestructive tests, and stress tests. Testing ensures that products will perform as expected but only in so far as the testing has been representative of use in service. For products, such as aircraft, that are used differently by different users failures and unexpected shortcomings (and necessary design changes) can be expected throughout the operational life of the product.
+Engineers take on the responsibility of producing designs that will perform as well as expected and, except those employed in specific areas of the arms industry, will not harm people. Engineers typically include a factor of safety in their designs to reduce the risk of unexpected failure.
+The study of failed products is known as forensic engineering. It attempts to identify the cause of failure to allow a redesign of the product and so prevent a re-occurrence. Careful analysis is needed to establish the cause of failure of a product. The consequences of a failure may vary in severity from the minor cost of a machine breakdown to large loss of life in the case of accidents involving aircraft and large stationary structures like buildings and dams.
+
+
+=== Computer use ===
+
+As with all modern scientific and technological endeavors, computers and software play an increasingly important role. As well as the typical business application software there are a number of computer aided applications (computer-aided technologies) specifically for engineering. Computers can be used to generate models of fundamental physical processes, which can be solved using numerical methods.
+
+One of the most widely used design tools in the profession is computer-aided design (CAD) software. It enables engineers to create 3D models, 2D drawings, and schematics of their designs. CAD together with digital mockup (DMU) and CAE software such as finite element method analysis or analytic element method allows engineers to create models of designs that can be analyzed without having to make expensive and time-consuming physical prototypes.
+These allow products and components to be checked for flaws; assess fit and assembly; study ergonomics; and to analyze static and dynamic characteristics of systems such as stresses, temperatures, electromagnetic emissions, electrical currents and voltages, digital logic levels, fluid flows, and kinematics. Access and distribution of all this information is generally organized with the use of product data management software.
+There are also many tools to support specific engineering tasks such as computer-aided manufacturing (CAM) software to generate CNC machining instructions; manufacturing process management software for production engineering; EDA for printed circuit board (PCB) and circuit schematics for electronic engineers; MRO applications for maintenance management; and Architecture, engineering and construction (AEC) software for civil engineering.
+In recent years the use of computer software to aid the development of goods has collectively come to be known as product lifecycle management (PLM).
+
+
+== Social context ==
+
+The engineering profession engages in a range of activities, from collaboration at the societal level, and smaller individual projects. Almost all engineering projects are obligated to a funding source: a company, a set of investors, or a government. The types of engineering that are less constrained by such a funding source, are pro bono, and open-design engineering.
+Engineering has interconnections with society, culture and human behavior. Most products and constructions used by modern society, are influenced by engineering. Engineering activities have an impact on the environment, society, economies, and public safety.
+Engineering projects can be controversial. Examples from different engineering disciplines include: the development of nuclear weapons, the Three Gorges Dam, the design and use of sport utility vehicles and the extraction of oil. In response, some engineering companies have enacted serious corporate and social responsibility policies.
+The attainment of many of the Millennium Development Goals requires the achievement of sufficient engineering capacity to develop infrastructure and sustainable technological development.
+
+Overseas development and relief NGOs make considerable use of engineers, to apply solutions in disaster and development scenarios. Some charitable organizations use engineering directly for development:
+
+Engineers Without Borders
+Engineers Against Poverty
+Registered Engineers for Disaster Relief
+Engineers for a Sustainable World
+Engineering for Change
+Engineering Ministries International
+Engineering companies in more developed economies face challenges with regard to the number of engineers being trained, compared with those retiring. This problem is prominent in the UK where engineering has a poor image and low status. There are negative economic and political issues that this can cause, as well as ethical issues. It is agreed the engineering profession faces an "image crisis". The UK holds the most engineering companies compared to other European countries, together with the United States.
+
+
+=== Code of ethics ===
+
+Many engineering societies have established codes of practice and codes of ethics to guide members and inform the public at large. The National Society of Professional Engineers code of ethics states:
+
+ Engineering is an important and learned profession. As members of this profession, engineers are expected to exhibit the highest standards of honesty and integrity. Engineering has a direct and vital impact on the quality of life for all people. Accordingly, the services provided by engineers require honesty, impartiality, fairness, and equity, and must be dedicated to the protection of the public health, safety, and welfare. Engineers must perform under a standard of professional behavior that requires adherence to the highest principles of ethical conduct.
+In Canada, engineers wear the Iron Ring as a symbol and reminder of the obligations and ethics associated with their profession.
+
+
+== Relationships with other disciplines ==
+
+
+=== Science ===
+Scientists study the world as it is; engineers create the world that has never been.
+
+There exists an overlap between the sciences and engineering practice; in engineering, one applies science. Both areas of endeavor rely on accurate observation of materials and phenomena. Both use mathematics and classification criteria to analyze and communicate observations.
+Scientists may also have to complete engineering tasks, such as designing experimental apparatus or building prototypes. Conversely, in the process of developing technology, engineers sometimes find themselves exploring new phenomena, thus becoming, for the moment, scientists or more precisely "engineering scientists".
+
+In the book What Engineers Know and How They Know It, Walter Vincenti asserts that engineering research has a character different from that of scientific research. First, it often deals with areas in which the basic physics or chemistry are well understood, but the problems themselves are too complex to solve in an exact manner.
+There is a "real and important" difference between engineering and physics as similar to any science field has to do with technology. Physics is an exploratory science that seeks knowledge of principles while engineering uses knowledge for practical applications of principles. The former equates an understanding into a mathematical principle while the latter measures variables involved and creates technology. For technology, physics is an auxiliary and in a way technology is considered as applied physics. Though physics and engineering are interrelated, it does not mean that a physicist is trained to do an engineer's job. A physicist would typically require additional and relevant training. Physicists and engineers engage in different lines of work. But PhD physicists who specialize in sectors of engineering physics and applied physics are titled as Technology officer, R&D Engineers and System Engineers.
+An example of this is the use of numerical approximations to the Navier–Stokes equations to describe aerodynamic flow over an aircraft, or the use of the finite element method to calculate the stresses in complex components. Second, engineering research employs many semi-empirical methods that are foreign to pure scientific research, one example being the method of parameter variation.
+As stated by Fung et al. in the revision to the classic engineering text Foundations of Solid Mechanics:
+
+Engineering is quite different from science. Scientists try to understand nature. Engineers try to make things that do not exist in nature. Engineers stress innovation and invention. To embody an invention the engineer must put his idea in concrete terms, and design something that people can use. That something can be a complex system, device, a gadget, a material, a method, a computing program, an innovative experiment, a new solution to a problem, or an improvement on what already exists. Since a design has to be realistic and functional, it must have its geometry, dimensions, and characteristics data defined. In the past engineers working on new designs found that they did not have all the required information to make design decisions. Most often, they were limited by insufficient scientific knowledge. Thus they studied mathematics, physics, chemistry, biology and mechanics. Often they had to add to the sciences relevant to their profession. Thus engineering sciences were born.
+Although engineering solutions make use of scientific principles, engineers must also take into account safety, efficiency, economy, reliability, and constructability or ease of fabrication as well as the environment, ethical and legal considerations such as patent infringement or liability in the case of failure of the solution.
+
+
+=== Medicine and biology ===
+
+The study of the human body, albeit from different directions and for different purposes, is an important common link between medicine and some engineering disciplines. Medicine aims to sustain, repair, enhance and even replace functions of the human body, if necessary, through the use of technology.
+
+Modern medicine can replace several of the body's functions through the use of artificial organs and can significantly alter the function of the human body through artificial devices such as, for example, brain implants and pacemakers. The fields of bionics and medical bionics are dedicated to the study of synthetic implants pertaining to natural systems.
+Conversely, some engineering disciplines view the human body as a biological machine worth studying and are dedicated to emulating many of its functions by replacing biology with technology. This has led to fields such as artificial intelligence, neural networks, fuzzy logic, and robotics. There are also substantial interdisciplinary interactions between engineering and medicine.
+Both fields provide solutions to real world problems. This often requires moving forward before phenomena are completely understood in a more rigorous scientific sense and therefore experimentation and empirical knowledge is an integral part of both.
+Medicine, in part, studies the function of the human body. The human body, as a biological machine, has many functions that can be modeled using engineering methods.
+The heart for example functions much like a pump, the skeleton is like a linked structure with levers, the brain produces electrical signals etc. These similarities as well as the increasing importance and application of engineering principles in medicine, led to the development of the field of biomedical engineering that uses concepts developed in both disciplines.
+Newly emerging branches of science, such as systems biology, are adapting analytical tools traditionally used for engineering, such as systems modeling and computational analysis, to the description of biological systems.
+
+
+=== Art ===
+
+There are connections between engineering and art, for example, architecture, landscape architecture and industrial design (even to the extent that these disciplines may sometimes be included in a university's Faculty of Engineering).
+The Art Institute of Chicago, for instance, held an exhibition about the art of NASA's aerospace design. Robert Maillart's bridge design is perceived by some to have been deliberately artistic. At the University of South Florida, an engineering professor, through a grant with the National Science Foundation, has developed a course that connects art and engineering.
+Among famous historical figures, Leonardo da Vinci is a well-known Renaissance artist and engineer, and a prime example of the nexus between art and engineering.
+
+
+=== Business ===
+Business engineering deals with the relationship between professional engineering, IT systems, business administration and change management. Engineering management or "Management engineering" is a specialized field of management concerned with engineering practice or the engineering industry sector. The demand for management-focused engineers (or from the opposite perspective, managers with an understanding of engineering), has resulted in the development of specialized engineering management degrees that develop the knowledge and skills needed for these roles. During an engineering management course, students will develop industrial engineering skills, knowledge, and expertise, alongside knowledge of business administration, management techniques, and strategic thinking. Engineers specializing in change management must have in-depth knowledge of the application of industrial and organizational psychology principles and methods. Professional engineers often train as certified management consultants in the very specialized field of management consulting applied to engineering practice or the engineering sector. This work often deals with large scale complex business transformation or business process management initiatives in aerospace and defence, automotive, oil and gas, machinery, pharmaceutical, food and beverage, electrical and electronics, power distribution and generation, utilities and transportation systems. This combination of technical engineering practice, management consulting practice, industry sector knowledge, and change management expertise enables professional engineers who are also qualified as management consultants to lead major business transformation initiatives. These initiatives are typically sponsored by C-level executives.
+
+
+=== Other fields ===
+In political science, the term engineering has been borrowed for the study of the subjects of social engineering and political engineering, which deal with forming political and social structures using engineering methodology coupled with political science principles. Marketing engineering and financial engineering have similarly borrowed the term.
+
+
+== See also ==
+
+Lists
+
+Glossaries
+
+Related subjects
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ The dictionary definition of engineering at Wiktionary
+ Learning materials related to Engineering at Wikiversity
+ Quotations related to Engineering at Wikiquote
+ Works related to Engineering at Wikisource

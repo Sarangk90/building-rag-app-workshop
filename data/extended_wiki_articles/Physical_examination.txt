@@ -1,0 +1,97 @@
+In a physical examination, medical examination, clinical examination, or medical checkup, a medical practitioner examines a patient for any possible medical signs or symptoms of a medical condition. It generally consists of a series of questions about the patient's medical history followed by an examination based on the reported symptoms. Together, the medical history and the physical examination help to determine a diagnosis and devise the treatment plan. These data then become part of the medical record.
+
+
+== Types ==
+
+
+=== Routine ===
+The routine physical, also known as general medical examination, periodic health evaluation, annual physical, comprehensive medical exam, general health check, preventive health examination, medical check-up, or simply medical, is a physical examination performed on an asymptomatic patient for medical screening purposes.  These are normally performed by a pediatrician, family practice physician, a physical therapist, physician assistant, a certified nurse practitioner or other primary care provider. This routine physical exam usually includes the HEENT evaluation. Nursing professionals such as Registered Nurse, Licensed Practical Nurses can develop a baseline assessment to identify normal versus abnormal findings. These are reported to the primary care provider. If necessary, the patient may be sent to a medical specialist for further, more detailed examinations.
+The term is generally not meant to include visits for the purpose of newborn checks, Pap smears for cervical cancer, or regular visits for people with certain chronic medical disorders (for example, diabetes). The general medical examination generally involves a medical history, a (brief or complete) physical examination and sometimes laboratory tests. Some more advanced tests include ultrasound and mammography.
+If done for a group of people the routine physical is a form of screening, as the aim of the examination is to detect early signs of diseases to prevent them.
+
+
+==== Evidence ====
+Although annual medical examinations are a routine practice in several countries, examinations performed on an asymptomatic patient are poorly supported by scientific evidence in the majority of the population. A Cochrane Collaboration meta-study found that routine annual physicals did not measurably reduce the risk of illness or death, and conversely, could lead to overdiagnosis and over-treatment; however, this article does not conclude that being in regular communication with a doctor is not important, simply that an actual physical examination may not be necessary.
+Some notable general health organisations recommend against annual examinations, and propose a frequency adapted to age and previous examination results (risk factors). The specialist American Cancer Society recommends a cancer-related health check-up annually in men and women older than 40, and every three years for those older than 20.
+A systematic review of studies until September 2006 concluded that the examination does result in better delivery of some other screening interventions (such as Pap smears, cholesterol screening, and faecal occult blood tests) and less patient worry. Evidence supports several of these individual screening interventions. The effects of annual check-ups on overall costs, patient disability and mortality, disease detection, and intermediate end points such a blood pressure or cholesterol, are inconclusive. A recent study found that the examination is associated with increased participation in cancer screening.
+Some employers  require a mandatory health checkup before hiring a candidate, even though it is now well known that some of the components of the prophylactic annual visit may actually cause harm. For example, lab tests and exams that are performed on healthy patients (as opposed to people with symptoms or known illnesses) are statistically more likely to be "false positives"—that is, when test results suggest a problem that does not exist. Disadvantages cited include the time and money that could be saved by targeted screening (health economics argument), increased anxiety over health risks (medicalisation), overdiagnosis, wrong diagnosis (for example athletic heart syndrome misdiagnosed as hypertrophic cardiomyopathy) and harm, or even death, resulting from unnecessary testing to detect or confirm, often non-existent, medical problems or while performing routine procedures as a followup after screening.
+
+The lack of good evidence contrasts with population surveys showing that the general public is fond of these examinations, especially when they are free of charge. Despite guidelines recommending against routine annual examinations, many family physicians perform them. A fee-for-service healthcare system has been suggested to promote this practice. An alternative would be to tailor the screening interval to the age, sex, medical conditions and risk factors of each patient. This means choosing between a wide variety of tests.
+
+
+==== Prevalence ====
+The routine physical is commonly performed in the United States and Japan, whereas the practice varies among South East Asia and mainland European countries. In Japan it is required by law for regular working employees to have a health check once a year.
+
+
+==== History ====
+The roots of the periodic medical examination are not entirely clear. They have been referenced as early as 1671. They have also been advocated for since the 1920s. Some authors point to pleads from the 19th and early 20th century for the early detection of diseases like tuberculosis, and periodic school health examinations. The advent of medical insurance and related commercial influences seems to have promoted the examination, whereas this practice has been subject to controversy in the age of evidence-based medicine. Several studies have been performed before current evidence-based recommendation for screening were formulated, limiting the applicability of these studies to current-day practice.
+
+
+=== Comprehensive ===
+Comprehensive physical exams, also known as executive physicals, typically include laboratory tests, chest x-rays, pulmonary function testing, audiograms, full body CAT scanning, EKGs, heart stress tests, vascular age tests, urinalysis, and mammograms or prostate exams depending on gender.
+
+
+=== Pre-employment ===
+Pre-employment examinations are screening tests which judge the suitability of a worker for hire based on the results of their physical examination.  This is also called pre-employment medical clearance. Some employers believe that by only hiring workers whose physical examination results pass certain exclusionary criteria, their employees collectively will have fewer absences due to sickness, fewer workplace injuries, and less occupational disease. A small amount of low-quality evidence in medical research supports this idea. Furthermore, the cost of staff health insurance will be lower. However, certain exams or tests that are requested by employers, such as a baseline low back x-ray, should not be performed, according to the American College of Occupational and Environmental Medicine. Reasons for this include the legality and medical necessity of the test as well as the inability of such testing to predict future problems, the radiation exposure to the worker, and the cost of the exam.
+
+
+=== Insurance ===
+A physical examination may be provided under health insurance cover, required of new insurance customers. This is a part of insurance medicine. In the United States, physicals are also marketed to patients as a one-stop health review, avoiding the inconvenience of attending multiple appointments with different healthcare providers.
+
+
+== Uses ==
+
+
+=== Diagnosis ===
+Physical examinations are performed in most healthcare encounters.  For example, a physical examination is performed when a patient visits complaining of flu-like symptoms. These diagnostic examinations usually focus on the patient's chief complaint.
+
+
+=== Screening ===
+General health checks, including physical examinations performed when the patient reported no health concerns, often include medical screening for common conditions, such as high blood pressure. A Cochrane review found that general health checks did not reduce the risk of death from cancer, heart disease, or any other cause, and could not be proved to affect the patient's likelihood of being admitted to the hospital, becoming disabled, missing work, or needing additional office visits. The study found no effect on the risk of illness, but did find evidence suggesting that patients subject to routine physicals were diagnosed with hypertension and other chronic conditions at a higher rate than those who were not. Its authors noted that studies often failed to consider or report possible harmful outcomes (such as unwarranted anxiety or unnecessary follow-up procedures), and concluded that routine health checks were "unlikely to be beneficial" in regards to lowering cardiovascular and cancer morbidity and mortality.
+
+
+=== Doctor-patient relations ===
+
+Physical examination has been described as a ritual that plays a significant role in the doctor-patient relationship that will provide benefits in other medical encounters. When a physical exam is expected by the patient but is not performed by the provider, patients may express concern for the lack of depth of investigation into their illness, the validity of treatment plans and exclusions, and the doctor-patient relationship.
+
+
+=== Other uses ===
+By extension, the term "health check" is also used for routing checks on the working of equipment  or business operations or solvency.
+
+
+== Format and interpretation ==
+
+A physical examination may include checking vital signs, including temperature examination, blood pressure, pulse, and respiratory rate. The healthcare provider uses the senses of sight, hearing, touch, and sometimes smell (e.g., in infection, uremia, diabetic ketoacidosis). Taste has been made redundant by the availability of modern lab tests. Four actions are taught as the basis of physical examination: inspection, palpation (feel), percussion (tap to determine resonance characteristics), and auscultation (listen).
+
+
+=== Scope ===
+Although providers have varying approaches as to the sequence of body parts, a systematic examination generally starts at the head and finishes at the extremities and includes evaluation of general patient appearance and specific organ systems. After the main organ systems have been investigated by inspection, palpation, percussion, and auscultation, specific tests may follow (such as a neurological investigation, orthopedic examination) or specific tests when a particular disease is suspected (e.g. eliciting Trousseau's sign in hypocalcemia).
+While the format of examination as listed below is largely as taught and expected of students, a specialist will focus on their particular field and the nature of the problem described by the patient. Hence a cardiologist will not in routine practice undertake neurological parts of the examination other than noting that the patient is able to use all four limbs on entering the consultation room and during the consultation become aware of their hearing, eyesight, and speech. Likewise an orthopaedic surgeon will examine the affected joint, but may only briefly check the heart sounds and chest to ensure that there is not likely to be any contraindication to surgery raised by the anaesthetist. A primary care physician will also generally examine the male genitals but may leave the examination of the female genitalia to a gynecologist.
+With the clues obtained during the history and physical examination the healthcare provider can now formulate a differential diagnosis, a list of potential causes of the symptoms.  Specific diagnostic tests (or occasionally empirical therapy) generally confirm the cause, or shed light on other, previously overlooked, causes. The physical exam is then recorded in the medical record in a standard layout which facilitates billing and other providers later reading the notes.
+
+While elective physical exams have become more elaborate, in routine use physical exams have become less complete. This has led to editorials in medical journals about the importance of an adequate physical examination. Physicians at Stanford University medical school have introduced a set of 25 key physical examination skills that were felt to be useful.
+
+
+=== Recording ===
+
+Depending upon the chief complaint, additional sections may be included. For example, hearing may be evaluated with a specific Weber test and Rinne test, or it may be more briefly addressed in a cranial nerve exam. To give another example, a neurological related complaint might be evaluated with a specific test, such as the Romberg maneuver.
+
+
+== History ==
+The Old Testament makes provision for persons in the Israelite community with leprosy to be examined by a priest: if the presenting sore was white and appeared to go beyond the depth of the skin, it was to be treated as a ritually defiling condition. A further examination was to take place seven days later.
+The medical history and physical examination were supremely important to diagnosis before advanced health technology was developed, and even today, despite advances in medical imaging and molecular medical tests, the history and physical remain indispensable steps in evaluating any patient. Before the 19th century, the history and physical examination were nearly the only diagnostic tools the physician had, which explains why tactile skill and ingenious appreciation in the exam were so highly valued in the definition of what made for a good physician. Even as late as 1890, the world had no radiography or fluoroscopy, only early and limited forms of electrophysiologic testing, and no molecular biology as we know it today. Ever since this peak of the importance of the physical examination, reviewers have warned that clinical practice and medical education need to remain vigilant in appreciating the continuing need for physical examination and effectively teaching the skills to perform it; this call is ongoing, as the 21st-century literature shows.
+
+
+== Society and culture ==
+People may request modesty in medical settings when the health care provider examines them.
+In many Western societies, a physical exam is required to participate in extracurricular sporting activities. During the physical examination, the doctor will examine the genitals, including the penis and testicles. The doctor may ask the teenager to cough while examining the scrotum. Although this can be embarrassing for an adolescent male, it is necessary to help evaluate the presence of inguinal hernias or tumors.
+
+
+== See also ==
+
+Heart sounds – Noise generated by the heart
+Medical record – Medical term
+Mental status examination – Way of observing and describing a patient's current state of mind
+
+
+== References ==

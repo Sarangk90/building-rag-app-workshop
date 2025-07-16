@@ -1,0 +1,73 @@
+A generative pre-trained transformer (GPT) is a type of large language model (LLM) and a prominent framework for generative artificial intelligence. It is an artificial neural network that is used in natural language processing. It is based on the transformer deep learning architecture, pre-trained on large data sets of unlabeled text, and able to generate novel human-like content. As of 2023, most LLMs had these characteristics and are sometimes referred to broadly as GPTs.
+The first GPT was introduced in 2018 by OpenAI. OpenAI has released significant GPT foundation models that have been sequentially numbered, to comprise its "GPT-n" series. Each of these was significantly more capable than the previous, due to increased size (number of trainable parameters) and training. The most recent of these, GPT-4o, was released in May 2024. Such models have been the basis for their more task-specific GPT systems, including models fine-tuned for instruction following—which in turn power the ChatGPT chatbot service.
+The term "GPT" is also used in the names and descriptions of such models developed by others. For example, other GPT foundation models include a series of models created by EleutherAI, and seven models created by Cerebras in 2023. Companies in different industries have developed task-specific GPTs in their respective fields, such as Salesforce's "EinsteinGPT" (for CRM) and Bloomberg's "BloombergGPT" (for finance).
+
+ History 
+
+ Initial developments 
+Generative pretraining (GP) was a long-established concept in machine learning applications. It was originally used as a form of semi-supervised learning, as the model is trained first on an unlabeled dataset (pretraining step) by learning to generate datapoints in the dataset, and then it is trained to classify a labeled dataset. 
+There were three main types of early GP. The hidden Markov models learn a generative model of sequences for downstream applications. For example, in speech recognition, a trained HMM infers the most likely hidden sequence for a speech signal, and the hidden sequence is taken as the phonemes of the speech signal. These were developed in the 1970s and became widely applied in speech recognition in the 1980s.
+The compressors learn to compress data such as images and textual sequences, and the compressed data serves as a good representation for downstream applications such as facial recognition. The autoencoders similarly learn a latent representation of data for later downstream applications such as speech recognition. The connection between autoencoders and algorithmic compressors was noted in 1993.
+
+During the 2010s, the problem of machine translation was solved by recurrent neural networks, with attention mechanism added. This was optimized into the transformer architecture, published by Google researchers in Attention Is All You Need (2017). That development led to the emergence of large language models such as BERT (2018) which was a pre-trained transformer (PT) but not designed to be generative (BERT was an "encoder-only" model). Also in 2018, OpenAI published Improving Language Understanding by Generative Pre-Training, which introduced GPT-1, the first in its GPT series.
+Previously in 2017, some of the authors who would later work on GPT-1 worked on generative pre-training of language with LSTM, which resulted in a model that could represent text with vectors that could easily be fine-tuned for downstream applications.
+Prior to transformer-based architectures, the best-performing neural NLP (natural language processing) models commonly employed supervised learning from large amounts of manually-labeled data. The reliance on supervised learning limited their use on datasets that were not well-annotated, and also made it prohibitively expensive and time-consuming to train extremely large language models.
+The semi-supervised approach OpenAI employed to make a large-scale generative system—and was first to do with a transformer model—involved two stages: an unsupervised generative "pretraining" stage to set initial parameters using a language modeling objective, and a supervised discriminative "fine-tuning" stage to adapt these parameters to a target task.
+
+ Later developments 
+Regarding more recent GPT foundation models, OpenAI published its first versions of GPT-3 in July 2020. There were three models, with 1B, 6.7B, 175B parameters, respectively named babbage, curie, and davinci (giving initials B, C, and D).
+In July 2021, OpenAI published Codex, a task-specific GPT model targeted for programming applications. This was developed by fine-tuning a 12B parameter version of GPT-3 (different from previous GPT-3 models) using code from GitHub.
+In March 2022, OpenAI published two versions of GPT-3 that were fine-tuned for instruction-following (instruction-tuned), named davinci-instruct-beta (175B) and text-davinci-001, and then started beta testing code-davinci-002. text-davinci-002 was instruction-tuned from code-davinci-002. Both text-davinci-003 and ChatGPT were released in November 2022, with both building upon text-davinci-002 via reinforcement learning from human feedback (RLHF). text-davinci-003 is trained for following instructions (like its predecessors), whereas ChatGPT is further trained for conversational interaction with a human user.
+OpenAI's most recent GPT foundation model, GPT-4, was released on March 14, 2023. It can be accessed directly by users via a premium version of ChatGPT, and is available to developers for incorporation into other products and services via OpenAI's API. Other producers of GPT foundation models include EleutherAI (with a series of models starting in March 2021) and Cerebras (with seven models released in March 2023).
+
+ Foundation models 
+A foundation model is an AI model trained on broad data at scale such that it can be adapted to a wide range of downstream tasks.
+Thus far, the most notable GPT foundation models have been from OpenAI's GPT-n series. The most recent from that is GPT-4, for which OpenAI declined to publish the size or training details (citing "the competitive landscape and the safety implications of large-scale models").
+
+Other such models include Google's PaLM, a broad foundation model that has been compared to GPT-3 and has been made available to developers via an API, and Together's GPT-JT, which has been reported as the closest-performing open-source alternative to GPT-3 (and is derived from earlier open-source GPTs). Meta AI (formerly Facebook) also has a generative transformer-based foundational large language model, known as LLaMA.
+Foundational GPTs can also employ modalities other than text, for input and/or output. GPT-4 is a multi-modal LLM that is capable of processing text and image input (though its output is limited to text). Regarding multimodal output, some generative transformer-based models are used for text-to-image technologies such as diffusion and parallel decoding. Such kinds of models can serve as visual foundation models (VFMs) for developing downstream systems that can work with images.
+
+ Task-specific models 
+A foundational GPT model can be further adapted to produce more targeted systems directed to specific tasks and/or subject-matter domains. Methods for such adaptation can include additional fine-tuning (beyond that done for the foundation model) as well as certain forms of prompt engineering.
+An important example of this is fine-tuning models to follow instructions, which is of course a fairly broad task but more targeted than a foundation model. In January 2022, OpenAI introduced "InstructGPT"—a series of models which were fine-tuned to follow instructions using a combination of supervised training and reinforcement learning from human feedback (RLHF) on base GPT-3 language models. Advantages this had over the bare foundational models included higher accuracy, less negative/toxic sentiment, and generally better alignment with user needs. Hence, OpenAI began using this as the basis for its API service offerings. Other instruction-tuned models have been released by others, including a fully open version.
+Another (related) kind of task-specific models are chatbots, which engage in human-like conversation. In November 2022, OpenAI launched ChatGPT—an online chat interface powered by an instruction-tuned language model trained in a similar fashion to InstructGPT. They trained this model using RLHF, with human AI trainers providing conversations in which they played both the user and the AI, and mixed this new dialogue dataset with the InstructGPT dataset for a conversational format suitable for a chatbot. Other major chatbots currently include Microsoft's Bing Chat, which uses OpenAI's GPT-4 (as part of a broader close collaboration between OpenAI and Microsoft), and Google's competing chatbot Gemini (initially based on their LaMDA family of conversation-trained language models, with plans to switch to PaLM).
+Yet another kind of task that a GPT can be used for is the meta-task of generating its own instructions, like developing a series of prompts for 'itself' to be able to effectuate a more general goal given by a human user. This is known as an AI agent, and more specifically a recursive one because it uses results from its previous self-instructions to help it form its subsequent prompts; the first major example of this was Auto-GPT (which uses OpenAI's GPT models), and others have since been developed as well.
+
+ Multimodality 
+
+Generative transformer-based systems can also be targeted for tasks involving modalities beyond text. For example, Microsoft's "Visual ChatGPT" combines ChatGPT with visual foundation models (VFMs) to enable input or output comprising images as well as text. Also, advances in text-to-speech technology offer tools for audio content creation when used in conjunction with foundational GPT language models.
+
+ Domain-specificity 
+GPT systems can be directed toward particular fields or domains. Some reported examples of such models and apps are as follows:
+
+EinsteinGPT – for sales and marketing domains, to aid with customer relationship management (uses GPT-3.5)
+BloombergGPT – for the financial domain, to aid with financial news and information (uses "freely available" AI methods, combined with their proprietary data)
+Khanmigo – described as a GPT version for tutoring, in the education domain, it aids students using Khan Academy by guiding them through their studies without directly providing answers (powered by GPT-4)
+SlackGPT – for the Slack instant-messaging service, to aid with navigating and summarizing discussions on it (uses OpenAI's API)
+BioGPT – for the biomedical domain, to aid with biomedical literature text generation and mining (uses GPT-2)
+Sometimes domain-specificity is accomplished via software plug-ins or add-ons. For example, several different companies have developed particular plugins that interact directly with OpenAI's ChatGPT interface, and Google Workspace has available add-ons such as "GPT for Sheets and Docs"—which is reported to aid use of spreadsheet functionality in Google Sheets.
+
+ Brand issues 
+OpenAI, which created the first generative pre-trained transformer (GPT) in 2018, asserted in 2023 that "GPT" should be regarded as a brand of OpenAI. In April 2023, OpenAI revised the brand guidelines in its terms of service to indicate that other businesses using its API to run their artificial intelligence (AI) services would no longer be able to include "GPT" in such names or branding. In May 2023, OpenAI engaged a brand management service to notify its API customers of this policy, although these notifications stopped short of making overt legal claims (such as allegations of trademark infringement or demands to cease and desist). As of November 2023, OpenAI still prohibits its API licensees from naming their own products with "GPT", but it has begun enabling its ChatGPT Plus subscribers to make "custom versions of ChatGPT" that are being called GPTs on the OpenAI site. OpenAI's terms of service says that its subscribers may use "GPT" in the names of these, although it's "discouraged".
+Relatedly, OpenAI has applied to the United States Patent and Trademark Office (USPTO) to seek domestic trademark registration for the term "GPT" in the field of AI. OpenAI sought to expedite handling of its application, but the USPTO declined that request in April 2023. In May 2023, the USPTO responded to the application with a determination that "GPT" was both descriptive and generic. As of November 2023, OpenAI continues to pursue its argument through the available processes. Regardless, failure to obtain a registered U.S. trademark does not preclude some level of common-law trademark rights in the U.S., and/or trademark rights in other countries.
+For any given type or scope of trademark protection in the U.S., OpenAI would need to establish that the term is actually "distinctive" to their specific offerings in addition to being a broader technical term for the kind of technology. Some media reports suggested that OpenAI may be able to obtain trademark registration based indirectly on the fame of its GPT-based chatbot product, ChatGPT, for which OpenAI has separately sought protection (and which it has sought to enforce more strongly). Other reports have indicated that registration for the bare term "GPT" seems unlikely to be granted, as it is used frequently as a common term to refer simply to AI systems that involve generative pre-trained transformers. In any event, to whatever extent exclusive rights in the term may occur the U.S., others would need to avoid using it for similar products or services in ways likely to cause confusion. If such rights ever became broad enough to implicate other well-established uses in the field, the trademark doctrine of descriptive fair use could still continue non-brand-related usage.
+
+ Selected bibliography 
+This section lists the main official publications from OpenAI and Microsoft on their GPT models.
+
+GPT-1: report, GitHub release.
+GPT-2: blog announcement, report on its decision of "staged release", GitHub release.
+GPT-3: report. No GitHub or any other form of code release thenceforth.
+WebGPT: blog announcement, report,
+InstructGPT: blog announcement, report.
+ChatGPT: blog announcement (no report).
+GPT-4: blog announcement, reports, model card.
+GPT-4o: blog announcement.
+GPT-4.5: blog announcement.
+GPT-4.1: blog announcement.
+
+ See also 
+Cyc
+Gemini
+
+ References

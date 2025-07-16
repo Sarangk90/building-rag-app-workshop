@@ -1,0 +1,200 @@
+A lawyer is a person who is qualified to offer advice about the law, draft legal documents, or represent individuals in legal matters.
+The exact nature of a lawyer's work varies depending on the legal jurisdiction and the legal system, as well as the lawyer's area of practice. In many jurisdictions, the legal profession is divided into various branches — including barristers, solicitors, conveyancers, notaries, canon lawyer — who perform different tasks related to the law.
+Historically, the role of lawyers can be traced back to ancient civilizations such as Greece and Rome. In modern times, the practice of law includes activities such as representing clients in criminal or civil court, advising on business transactions, protecting intellectual property, and ensuring compliance with laws and regulations. 
+Depending on the country, the education required to become a lawyer can range from completing an undergraduate law degree to undergoing postgraduate education and professional training. In many jurisdictions, passing a bar examination is also necessary before one can practice law.
+Working as a lawyer generally involves the practical application of abstract legal theories and knowledge to solve specific problems. Some lawyers also work primarily in upholding the rule of law, human rights, and the interests of the legal profession.
+
+
+== Terminology ==
+Some jurisdictions have multiple types of lawyers, while others only have two or one. 
+England, the mother of the common law jurisdictions, emerged from the Middle Ages with a complexity in its legal professions similar to that of civil law jurisdictions, but then evolved by the 19th century to a single division between barristers and solicitors.  
+Several countries that originally had two or more legal professions have since fused or united their professions into a single type of lawyer. Most countries in this category are common law countries, though France, a civil law country, merged its jurists in 1990 and 1991 in response to Anglo-American competition. In countries with fused professions, a lawyer is usually permitted to carry out all or nearly all the responsibilities listed below. 
+In some jurisdictions descended from the English common law tradition, including England and Wales, there are often two kinds of lawyers. A barrister (also known as an advocate or counselor) is a lawyer who typically specializes in arguing before courts, particularly in higher courts. A solicitor (or attorney) is a lawyer who prepares cases and gives advice on legal subjects. In some jurisdictions, solicitors also represent people in court. Fused professions, where lawyers have rights of both barristers and solicitors, have emerged in other former English common law jurisdictions, such as the United States, India, and Pakistan.
+Civil law jurisdictions do not have "lawyers" in the American sense, insofar as that term is used in American English to refer to a single unified type of general-purpose legal services provider. Rather, their legal professions consist of a large number of different kinds of legally-trained persons, known as jurists, some of whom are advocates who are licensed to practice in the courts. In some civil law countries, a similar distinction to the common law tradition exists between advocates and procurators.
+Because each country has traditionally had its own method of dividing up legal work among its legal professionals, it has been difficult to formulate accurate generalizations that cover all the countries with multiple legal professions. Other kinds of legal practitioners include:
+
+Patent attorneys
+Trademark attorneys
+Conveyancers
+Notaries
+Scriveners
+Legal executives
+While some jurisdictions regulate the use of the title "lawyer", others do not.
+
+
+=== Titles ===
+
+Historically, lawyers in most European countries were addressed with the title of doctor. The first university degrees, starting with the law school of the University of Bologna in the 11th century, were all law degrees and doctorates. Therefore, in many southern European countries, including Portugal, Italy and Malta, lawyers have traditionally been addressed as "doctor", a practice which was transferred to many countries in South America and Macau. In some jurisdictions, the term "doctor" has since fallen into disuse, but it is still in use in many countries within and outside of Europe.
+The title of doctor has traditionally not been used to address lawyers in England or other common law countries. Until 1846, lawyers in England were trained by apprenticeship or in the Inns of Court, with no undergraduate degree being required. Although the most common law degree in the United States is the Juris Doctor, most J.D. holders in the United States do not use the title "doctor". It is, however, common for lawyers in the United States to use the honorific suffix "Esq." (for "Esquire").
+In French (France, Quebec, Belgium, Luxembourg, French-speaking area of Switzerland) and Dutch-speaking countries (Netherlands, Belgium), legal professionals are addressed as Maître ..., abbreviated to Me ... (in French) or Meester ..., abbreviated to mr. ... (in Dutch). In Poland, the title Mecenas is used to refer to advocates and attorneys at law, although as an informal title its status is not protected by law.
+In South Africa and India, lawyers who have been admitted to the bar may use the title "Advocate", abbreviated to "Adv" in written correspondence. Lawyers who have completed two years of clerkship with a principal Attorney and passed all four board exams may be admitted as an "Attorney". Likewise, Italian law graduates who have qualified for the bar use the title "Avvocato", abbreviated in "Avv."
+
+
+== Responsibilities ==
+
+
+=== Oral arguments in a courtroom ===
+
+Some lawyers, particularly barristers and advocates, argue the legal cases of clients case before a judge or jury in a court of law. 
+In some jurisdictions, there are specialist lawyers who have exclusive rights of audience before a court. In others, particularly fused legal jurisdictions, there are lawyers who specialize in courtroom advocacy but who do not have a legal monopoly over the profession.
+In some countries, litigants have the option of arguing on their own behalf. In other countries, like Venezuela, no one may appear before a judge unless represented by a lawyer. The advantage of the latter regime is that lawyers are familiar with the court's customs and procedures, making the legal system more efficient for all involved. Unrepresented parties often damage their own credibility or slow the court down as a result of their inexperience.
+
+
+=== Research and drafting of court papers ===
+Often, lawyers brief a court in writing on the issues in a case before the issues can be orally argued. They may have to perform extensive research into relevant facts. Also, they draft legal papers and prepare for an oral argument.
+In split common law jurisdictions, the usual division of labor is that a solicitor will obtain the facts of the case from the client and then brief a barrister, usually in writing. The barrister then researches and drafts the necessary court pleadings, which will be filed and served by the solicitor, and orally argues the case.
+In Spanish civil law, the procurator merely signs and presents the papers to the court, but it is the advocate who drafts the papers and argues the case. In other civil law jurisdictions, like Japan, a scrivener or clerk may fill out court forms and draft simple papers for laypersons who cannot afford or do not need attorneys, and advise them on how to manage and argue their own cases.
+
+
+=== Advocacy in administrative hearings ===
+In most developed countries, the legislature has granted original jurisdiction over highly technical matters to executive branch administrative agencies which oversee such things. As a result, some lawyers have become specialists in administrative law. In a few countries, there is a special category of jurists with a monopoly over this form of advocacy; for example, France formerly had conseils juridiques (who were merged into the main legal profession in 1991). In other countries, like the United States, lawyers have been effectively barred by statute from certain types of administrative hearings in order to preserve their informality.
+
+
+=== Client intake and counseling ===
+In some fused common law jurisdictions, the client-lawyer relationship begins with an intake interview where the lawyer gets to know the client personally, following which the lawyer discovers the facts of the client's case, clarifies what the client wants to accomplish, and shapes the client's expectations as to what actually can be accomplished. The second to last step begins to develop various claims or defenses for the client. Lastly, the lawyer explains her or his fees to the client.
+In England, only solicitors were traditionally in direct contact with the client, but barristers nowadays may apply for rights to liaise with clients directly. The solicitor retained a barrister if one was necessary and acted as an intermediary between the barrister and the client. In most cases barristers were obliged, under what is known as the "cab rank rule", to accept instructions for a case in an area in which they held themselves out as practicing, at a court at which they normally appeared and at their usual rates.
+
+
+=== Legal advice ===
+
+Legal advice is the application of abstract principles of law to the concrete facts of the client's case to advise the client about what they should do next. In some jurisdictions, only a properly licensed lawyer may provide legal advice to clients for good consideration, even if no lawsuit is contemplated or is in progress. In these jurisdictions, even conveyancers and corporate in-house counsel must first get a license to practice, though they may actually spend very little of their careers in court. Some jurisdictions have made the violation of such a rule the crime of unauthorized practice of law.
+In other countries, jurists who hold law degrees are allowed to provide legal advice to individuals or to corporations, and it is irrelevant if they lack a license and cannot appear in court. Some countries go further; in England and Wales, there is no general prohibition on the giving of legal advice. Singapore does not have any admission requirements for in-house counsel.  Sometimes civil law notaries are allowed to give legal advice, as in Belgium.
+In many countries, non-jurist accountants may provide what is technically legal advice in tax and accounting matters.
+
+
+=== Protecting intellectual property ===
+In virtually all countries, patents, trademarks, industrial designs and other forms of intellectual property must be formally registered with a government agency in order to receive maximum protection under the law. The division of such work among lawyers, licensed non-lawyer jurists/agents, and ordinary clerks or scriveners varies greatly from one country to the next.
+
+
+=== Negotiating and drafting contracts ===
+In some countries, the negotiating and drafting of contracts is considered to be similar to the provision of legal advice, so that it is subject to the licensing requirement explained above. In others, jurists or notaries may negotiate or draft contracts.
+
+
+=== Conveyancing ===
+Conveyancing is the drafting of the documents necessary for the transfer of real property, such as deeds and mortgages. In some jurisdictions, all real estate transactions must be carried out by a lawyer. Historically, conveyancing accounted for about half of English solicitors' income, though this has since changed, and a 1978 study showed that conveyancing "accounts for as much as 80 percent of solicitor-client contact in New South Wales." In most common law jurisdictions outside of the United States, this monopoly arose from an 1804 law that was introduced by William Pitt the Younger as a quid pro quo for the raising of fees on the certification of legal professionals such as barristers, solicitors, attorneys, and notaries.
+In others, the use of a lawyer is optional and banks, title companies, or realtors may be used instead. In some civil law jurisdictions, real estate transactions are handled by civil law notaries. In England and Wales, a special class of legal professionals–the licensed conveyancer–is also allowed to carry out conveyancing services for reward.
+
+
+=== Carrying out the intent of the deceased ===
+In many countries, only lawyers have the legal authority to draft wills, trusts, and any other documents that ensure the efficient disposition of a person's property after death. In some civil law countries, this responsibility is handled by civil law notaries.
+
+
+=== Prosecution and defense of criminal suspects ===
+In many civil law countries, prosecutors are trained and employed as part of the judiciary. They are law-trained jurists, but may not necessarily be lawyers in the sense that the word is used in the common law world. In common law countries, prosecutors are usually lawyers holding regular licenses who work for the government office that files criminal charges against suspects. Criminal defense lawyers specialize in the defense of those charged with any crimes.
+
+
+== Education and training ==
+
+The educational prerequisites for becoming a lawyer vary greatly across countries. In some countries, law is an undergraduate degree culminating in a bachelors or master's degree in law. In some of these jurisdictions, it is common or even required for students to earn another bachelor's degree at the same time. Where law is taught as an undergraduate degree, legal training after law school may comprise advanced examinations, apprenticeships, and additional coursework at special government institutes. For example, in many English common law jurisdictions, individuals with a law degree have to undergo further education and professional training before qualifying as a lawyer, such as the Bar Professional Training Course. 
+In other jurisdictions, particularly the United States and Canada, law is taught at the graduate level following the completion of an unrelated bachelor's degree. In America, the Americans Bar Association decides which law schools to approve for the purposes of admission to the bar. Law schools in the United States and Canada award graduating students a J.D. (Juris Doctor) as a professional law degree. In a handful of U.S. states, one may become an attorney (a so-called country lawyer) by simply "reading law" and passing the bar examination, without having to attend law school first, although very few people actually become lawyers that way.
+The methods and quality of legal education vary widely. Some countries require extensive clinical training in the form of apprenticeships or special clinical courses. Others, like Venezuela, do not. A few countries prefer to teach through assigned readings of judicial opinions (the casebook method) followed by intense in-class cross-examination by the professor (the Socratic method). Many others focus on theoretical aspects of law, leaving the professional and practical training of lawyers to apprenticeship and employment contexts.
+Some countries, particularly industrialized ones, have a traditional preference for full-time law programs, while in developing countries, students often work full- or part-time to pay the tuition and fees of their part-time law programs. Law schools in developing countries share several common problems, such as an over reliance on practicing judges and lawyers who treat teaching as a part-time commitment, a concomitant scarcity of full-time law professors), incompetent faculty with underqualified credentials, and textbooks that lag behind the current state of the law.
+
+
+=== Earning the right to practice law ===
+
+Some jurisdictions grant a "diploma privilege" to certain institutions, so that merely earning a degree or credential from those institutions is the primary qualification for practicing law. Mexico allows anyone with a law degree to practice law. However, in a large number of countries, a law student must pass a bar examination (or a series of such examinations) before receiving a license to practice.
+Some countries require a formal apprenticeship with an experienced practitioner, while others do not. A few jurisdictions still allow an apprenticeship in place of any kind of formal legal education, though the number of persons who actually become lawyers that way is increasingly rare.
+
+
+== Career structure ==
+
+The career structure of lawyers varies widely from one country to the next.
+
+
+=== Common and civil law ===
+In most common law countries, especially those with fused professions, lawyers have many options over the course of their careers. Besides private practice, they can become a prosecutor, government counsel, corporate in-house counsel, administrative law judge, judge, arbitrator, or law professor. There are also many non-legal jobs for which legal training is good preparation, such as politician, corporate executive, government administrator, investment banker, entrepreneur, or journalist. In developing countries like India, a large majority of law students never actually practice, but simply use their law degree as a foundation for careers in other fields.
+In most civil law countries, lawyers generally structure their legal education around their chosen specialty; the boundaries between different types of lawyers are carefully defined and hard to cross. After one earns a law degree, career mobility may be severely constrained. For example, unlike their Anglo-American counterparts, it is difficult for German judges to leave the bench and become advocates in private practice. Another interesting example is France, where for much of the 20th century, all judiciary officials were graduates of an elite professional school for judges.
+In a few civil law countries, such as Sweden, the legal profession is not rigorously bifurcated and everyone within it can easily change roles and arenas.
+
+
+=== Specialization ===
+In many countries, lawyers are general practitioners who represent clients in a broad field of legal matters. In others, there has been a tendency since the start of the 20th century for lawyers to specialize early in their careers. In countries where specialization is prevalent, many lawyers specialize in representing one side in one particular area of the law; thus, it is common in the United States to hear of plaintiffs' personal injury attorneys. 
+
+
+=== Organizations ===
+
+Lawyers in private practice generally work in specialized businesses known as law firms, with the exception of English barristers. The vast majority of law firms worldwide are small businesses that range in size from 1 to 10 lawyers. The United States, United Kingdom and Australia are exceptions, home to several firms with more than 1,000 lawyers after a wave of mergers in the late 1990s.
+Notably, barristers in England, Wales, Ireland, Northern Ireland and some states in Australia do not work in law firms. Those who offer their services to members of the general public—as opposed to those working in-house — are generally self-employed. Most work in groupings known as "sets" or "chambers", where some administrative and marketing costs are shared. An important effect of this different organizational structure is that there is no conflict of interest where barristers in the same chambers work for opposing sides in a case, and in some specialized chambers this is commonplace. 
+Some large businesses employ their own legal staff in a legal department. Other organizations buy in legal services from outside companies.
+
+
+== Professional associations ==
+
+
+=== Mandatory licensing and membership in professional organizations ===
+In some jurisdictions, either the judiciary or the Ministry of Justice directly supervises the admission, licensing, and regulation of lawyers.
+Other jurisdictions, by statute, tradition, or court order, have granted such powers to a professional association which all lawyers must belong to. In the U.S., such associations are known as mandatory, integrated, or unified bar associations. In the Commonwealth of Nations, similar organizations are known as Inns of Court, bar councils or law societies. In civil law countries, comparable organizations are known as Orders of Advocates, Chambers of Advocates, Colleges of Advocates, Faculties of Advocates, or similar names. Generally, a nonmember caught practicing law may be liable for the crime of unauthorized practice of law.
+In common law countries with divided legal professions, barristers traditionally belong to the bar council (or an Inn of Court) and solicitors belong to the law society. In the English-speaking world, the largest mandatory professional association of lawyers is the State Bar of California, with 230,000 members.
+Some countries admit and regulate lawyers at the national level, so that a lawyer, once licensed, can argue cases in any court in the land. This can be seen in countries including New Zealand, Japan, and Belgium. Others, especially those with federal governments, tend to regulate lawyers at the state or provincial level; this is the case in the United States, Canada, Australia, and Switzerland, to name a few. Brazil is the most well-known federal government that regulates lawyers at the national level.
+Some countries, like Italy, regulate lawyers at the regional level, and a few, like Belgium, even regulate them at the local level (that is, they are licensed and regulated by the local equivalent of bar associations but can advocate in courts nationwide). In Germany, lawyers are admitted to regional bars and may appear for clients before all courts nationwide with the exception of the Federal Court of Justice of Germany (Bundesgerichtshof or BGH.
+Generally, geographic limitations can be troublesome for a lawyer who discovers that his client's cause requires him to litigate in a court beyond the normal geographic scope of his license. Although most courts have special pro hac vice rules for such occasions, the lawyer will still have to deal with a different set of professional responsibility rules, as well as the possibility of other differences in substantive and procedural law.
+Some countries grant licenses to non-resident lawyers, who may then appear regularly on behalf of foreign clients. Others require all lawyers to live in the jurisdiction or to even hold national citizenship as a prerequisite for receiving a license to practice. But the trend in industrialized countries since the 1970s has been to abolish citizenship and residency restrictions. For example, the Supreme Court of Canada struck down a citizenship requirement on equality rights grounds in 1989, and similarly, American citizenship and residency requirements were struck down as unconstitutional by the U.S. Supreme Court in 1973 and 1985, respectively. The European Court of Justice made similar decisions in 1974 and 1977 striking down citizenship restrictions in Belgium and France.
+
+
+=== Voluntary associations ===
+Voluntary lawyer associations may exist at all geographic levels from the provincial to the global. Some associations are termed voluntary bar associations. In some countries, lawyers have also formed trade unions.
+
+
+== Regulation of lawyers ==
+
+A key difference among countries is whether lawyers should be regulated solely by an independent judiciary and its subordinate institutions (a self-regulating legal profession), or whether lawyers should be subject to supervision by the Ministry of Justice in the executive branch.
+In most civil law countries, the government has traditionally exercised tight control over the legal profession in order to ensure a steady supply of loyal judges and bureaucrats. That is, lawyers were expected first and foremost to serve the state, and the availability of counsel for private litigants was an afterthought. Even in civil law countries like Norway which have partially self-regulating professions, the Ministry of Justice is the sole issuer of licenses, and makes its own independent re-evaluation of a lawyer's fitness to practice after a lawyer has been expelled from the Advocates' Association. Brazil is an unusual exception in that its national Order of Advocates has become a fully self-regulating institution with direct control over licensing and has successfully resisted government attempts to place it under the control of the Ministry of Labor.
+Of all the civil law countries, communist countries historically went the farthest towards total state control, with all communist lawyers forced to practice in collectives by the mid-1950s. China is a prime example: technically, the People's Republic of China did not have lawyers, and instead had only poorly trained, state-employed "legal workers" prior to the enactment of a comprehensive reform package in 1996 by the Standing Committee of the National People's Congress.
+In contrast, common law lawyers have traditionally regulated themselves through institutions where the influence of non-lawyers, if any, was weak and indirect, despite nominal state control. Such institutions have been traditionally dominated by private practitioners who opposed strong state control of the profession on the grounds that it would endanger the ability of lawyers to zealously and competently advocate their clients' causes in the adversarial system of justice. However, the concept of the self-regulating profession has been criticized as a sham which serves to legitimize the professional monopoly while protecting the profession from public scrutiny. In some jurisdictions, mechanisms have been astonishingly ineffective, and penalties have been light or nonexistent.
+
+
+== Cultural perception ==
+
+Hostility towards the legal profession is a widespread phenomenon. For example, William Shakespeare famously wrote, "The first thing we do, let's kill all the lawyers" in Henry VI, Part 2, Act IV, Scene 2. The legal profession was abolished in Prussia in 1780 and in France in 1789, though both countries eventually realized that their judicial systems could not function efficiently without lawyers. Complaints about too many lawyers were common in both England and the United States in the 1840s, Germany in the 1910s, and in Australia, Canada, the United States, and Scotland in the 1980s.
+Public distrust of lawyers reached record heights in the United States after the Watergate scandal. In the aftermath of Watergate, legal self-help books became popular among those who wished to solve their legal problems without having to deal with lawyers. Lawyer jokes also soared in popularity in English-speaking North America as a result of Watergate. 
+In Adventures in Law and Justice, legal researcher Bryan Horrigan dedicated a chapter to "Myths, Fictions, and Realities" about law and illustrated the perennial criticism of lawyers as "amoral [...] guns for hire" with a quote from Ambrose Bierce's satirical The Devil's Dictionary that summarized the noun as: "LAWYER, n. One skilled in circumvention of the law."
+More generally, in Legal Ethics: A Comparative Study, law professor Geoffrey C. Hazard, Jr. with Angelo Dondi briefly examined the "regulations attempting to suppress lawyer misconduct" and noted that their similarity around the world was paralleled by a "remarkable consistency" in certain "persistent grievances" about lawyers that transcends both time and locale, from the Bible to medieval England to dynastic China. The authors then generalized these common complaints about lawyers as being classified into five "general categories" as follows:
+
+abuse of litigation in various ways, including using dilatory tactics and false evidence and making frivolous arguments to the courts
+preparation of false documentation, such as false deeds, contracts, or wills
+deceiving clients and other persons and misappropriating property
+procrastination in dealings with clients
+charging excessive fees.
+Some studies have shown that suicide rates among lawyers in certain jurisdictions may be as much as six times higher than the average population, and commentators suggest that the low opinion the public has of lawyers, combined with their own high ideals of justice, which in practice they may see denied, increase the depression rates of those in this profession. Additionally, lawyers are twice as likely to suffer from addiction to alcohol and other drugs.
+
+
+== Compensation ==
+
+In the United States, lawyers typically earn between $100,000 and $220,000 per year, although earnings vary by age, experience, and practice setting.
+Lawyers are paid for their work in a variety of ways. In private practice, they may work for an hourly fee according to a billable hour structure, a contingency fee, or a lump sum payment. Normally, most lawyers negotiate a written fee agreement up front and may require a non-refundable retainer in advance. Recent studies suggest that when lawyers charge a fixed fee rather than billing by the hour, they work less hard on behalf of clients, and clients get worse outcomes.  In many countries there are fee-shifting arrangements by which the loser must pay the winner's fees and costs; the United States is the major exception, although in turn, its legislators have carved out many exceptions to the so-called "American Rule" of no fee shifting.
+Lawyers working directly on the payroll of governments, nonprofits, and corporations usually earn a regular annual salary. In many countries, lawyers can also volunteer their labor in the service of worthy causes through an arrangement called pro bono (short for pro bono publico, "for the common good"). Traditionally such work was performed on behalf of the poor, but in some countries it has now expanded to many other causes such as environmental law.
+In some countries, there are legal aid lawyers who specialize in providing legal services to the indigent. France and Spain even have formal fee structures by which lawyers are compensated by the government for legal aid cases on a per-case basis. A similar system, though not as extensive or generous, operates in Australia, Canada, and South Africa.
+In other countries, legal aid specialists are practically nonexistent. This may be because non-lawyers are allowed to provide such services; in both Italy and Belgium, trade unions and political parties provide what can be characterized as legal aid services. Some legal aid in Belgium is also provided by young lawyer apprentices subsidized by local bar associations (known as the pro deo system), as well as consumer protection nonprofit organizations and Public Assistance Agencies subsidized by local governments. In Germany, mandatory fee structures have enabled widespread implementation of affordable legal expense insurance.
+
+
+== History ==
+
+
+=== Ancient Greece ===
+The earliest people who could be described as "lawyers" were probably the orators of ancient Athens. However, Athenian orators faced serious structural obstacles. First, there was a rule that individuals were supposed to plead their own cases, which was soon bypassed by the increasing tendency of individuals to ask a "friend" for assistance. However, around the middle of the fourth century, the Athenians disposed of the perfunctory request for a friend. Second, a more serious obstacle, which the Athenian orators never completely overcame, was the rule that no one could take a fee to plead the cause of another. This law was widely disregarded in practice, but was never abolished, which meant that orators could never present themselves as legal professionals or experts. They had to uphold the legal fiction that they were merely an ordinary citizen generously helping out a friend for free, and thus they could never organize into a real profession. If one narrows the definition of lawyers to people who could practice the legal profession openly and legally, then the first lawyers would be the orators of ancient Rome.
+
+
+=== Ancient Rome ===
+A law enacted in 204 BC barred Roman advocates from taking fees, but the law was widely ignored. The ban on fees was abolished by Emperor Claudius, who legalized advocacy as a profession and allowed the Roman advocates to become the first lawyers who could practice openly—but he also imposed a fee ceiling of 10,000 sesterces. This was apparently not much money; the Satires of Juvenal complained that there was no money in working as an advocate.
+Like their Greek contemporaries, early Roman advocates were trained in rhetoric, not law, and the judges before whom they argued were also not legally trained. But very early on, unlike Athens, Rome developed a class of specialists who were learned in the law, known as jurisconsults (iuris consulti). Jurisconsults were wealthy amateurs who dabbled in law as an intellectual hobby; they did not make their primary living from it. They gave legal opinions (responsa) on legal issues to all comers (a practice known as publice respondere). Roman judges and governors would routinely consult with an advisory panel of jurisconsults before rendering a decision, and advocates and ordinary people also went to jurisconsults for legal opinions. The Romans were the first to have a class of people who spent their days thinking about legal problems, and this is why their law developed in a systematic and technical way.
+
+During the Roman Republic and the early Roman Empire, jurisconsults and advocates were unregulated, since the former were amateurs and the latter were technically illegal. Any citizen could call himself an advocate or a legal expert, though whether people believed him would depend upon his personal reputation. This changed once Claudius legalized the legal profession. By the start of the Byzantine Empire, the legal profession had become well-established, heavily regulated, and highly stratified. The centralization and bureaucratization of the profession was apparently gradual at first, but accelerated during the reign of Emperor Hadrian. At the same time, the jurisconsults went into decline during the imperial period.
+By the fourth century, advocates had to be enrolled on the bar of a court to argue before it, they could only be attached to one court at a time, and there were restrictions on how many advocates could be enrolled at a particular court. By the 380s, advocates were studying law in addition to rhetoric, thus reducing the need for a separate class of jurisconsults; in 460, Emperor Leo imposed a requirement that new advocates seeking admission had to produce testimonials from their teachers; and by the sixth century, a regular course of legal study lasting about four years was required for admission. Claudius's fee ceiling lasted all the way into the Byzantine period, though by then it was measured at 100 solidi. It was widely evaded, either through demands for maintenance and expenses or a sub rosa barter transaction. The latter was cause for disbarment.
+The notaries (tabelliones) appeared in the late Roman Empire. Like their modern-day descendants, the civil law notaries, they were responsible for drafting wills, conveyances, and contracts. They were ubiquitous and most villages had one. In Roman times, notaries were widely considered to be inferior to advocates and jury consults.
+
+
+=== Middle Ages ===
+
+After the fall of the Western Roman Empire and the onset of the Early Middle Ages, the legal profession of Western Europe collapsed. As James Brundage has explained: "[by 1140], no one in Western Europe could properly be described as a professional lawyer or a professional canonist in anything like the modern sense of the term 'professional.' " However, from 1150 (when Decretum Gratiani was compiled) onward, a small but increasing number of men became experts in canon law but only in furtherance of other occupational goals, such as serving the Catholic Church as priests. From 1190 to 1230, however, there was a crucial shift in which some men began to practice canon law as a lifelong profession in itself.
+The legal profession's return was marked by the renewed efforts of church and state to regulate it. In 1231, two French councils mandated that lawyers had to swear an oath of admission before practicing before the bishop's courts in their regions, and a similar oath was promulgated by the papal legate in London in 1237. During the same decade, the emperor of the Holy Roman Empire Frederick II, the king of the Kingdom of Sicily, imposed a similar oath in his civil courts. By 1250, the nucleus of a new legal profession had clearly formed. The new trend towards professionalization culminated in a controversial proposal at the Second Council of Lyon in 1275 that all ecclesiastical courts should require an oath of admission. Although not adopted by the council, it was highly influential in many such courts throughout Europe. The civil courts in England also joined the trend towards professionalization; in 1275 a statute was enacted that prescribed punishment for professional lawyers guilty of deceit, and in 1280 the mayor's court of the city of London promulgated regulations concerning admission procedures, including the administering of an oath. And in 1345, the French crown promulgated a royal ordinance which set forth 24 rules governing advocates, of which 12 were integrated into the oath to be taken by them.
+The French medieval oaths were widely influential and of enduring importance; for example, they directly influenced the structure of the advocates' oath adopted by the Canton of Geneva in 1816.  In turn, the 1816 Geneva oath served as the inspiration for the attorney's oath drafted by David Dudley Field as Section 511 of the proposed New York Code of Civil Procedure of 1848, which was the first attempt in the United States at a comprehensive statement of a lawyer's professional duties.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==

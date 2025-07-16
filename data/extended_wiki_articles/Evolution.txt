@@ -1,0 +1,109 @@
+In political science, a revolution (Latin: revolutio, 'a turn around') is a rapid, fundamental transformation of a society's class, state, ethnic or religious structures. According to sociologist Jack Goldstone, all revolutions contain "a common set of elements at their core: (a) efforts to change the political regime that draw on a competing vision (or visions) of a just order, (b) a notable degree of informal or formal mass mobilization, and (c) efforts to force change through noninstitutionalized actions such as mass demonstrations, protests, strikes, or violence."
+Revolutions have occurred throughout human history and varied in their methods, durations and outcomes. Some revolutions started with peasant uprisings or guerrilla warfare on the periphery of a country; others started with urban insurrection aimed at seizing the country's capital city. Revolutions can be inspired by the rising popularity of certain political ideologies, moral principles, or models of governance such as nationalism, republicanism, egalitarianism, self-determination, human rights, democracy, liberalism, fascism, or socialism. A regime may become vulnerable to revolution due to a recent military defeat, or economic chaos, or an affront to national pride and identity, or persistent  repression and corruption. Revolutions typically trigger counter-revolutions which seek to halt revolutionary momentum, or to reverse the course of an ongoing revolutionary transformation.
+Notable revolutions in recent centuries include the American Revolution (1765–1783), French Revolution (1789–1799), Haitian Revolution (1791–1804), Spanish American wars of independence (1808–1826), Revolutions of 1848 in Europe, Mexican Revolution (1910–1920), Xinhai Revolution in China in 1911, Revolutions of 1917–1923 in Europe (including the Russian Revolution and German Revolution), Chinese Communist Revolution (1927–1949), decolonization of Africa (mid-1950s to 1975), Algerian War of Independence (1954-1962), Cuban Revolution in 1959, Iranian Revolution and Nicaraguan Revolution in 1979, worldwide Revolutions of 1989, and Arab Spring in the early 2010s.
+
+
+== Etymology ==
+The French noun revolucion traces back to the 13th century, and the English equivalent "revolution" to the late 14th century. The word was limited then to mean the revolving motion of celestial bodies. "Revolution" in the sense of abrupt change in a social order was first recorded in the mid-15th century. By 1688, the political meaning of the word was familiar enough that the replacement of James II with William III was termed the "Glorious Revolution".
+
+
+== Definition ==
+"Revolution" is now employed most often to denote a change in social and political institutions. Jeff Goodwin offers two definitions. First, a broad one, including "any and all instances in which a state or a political regime is overthrown and thereby transformed by a popular movement in an irregular, extraconstitutional or violent fashion". Second, a narrow one, in which "revolutions entail not only mass mobilization and regime change, but also more or less rapid and fundamental social, economic or cultural change, during or soon after the struggle for state power".
+Jack Goldstone defines a revolution thusly:
+
+"[Revolution is] an effort to transform the political institutions and the justifications for political authority in society, accompanied by formal or informal mass mobilization and noninstitutionalized actions that undermine authorities. This definition is broad enough to encompass events ranging from the relatively peaceful revolutions that toppled communist regimes to the violent Islamic revolution in Afghanistan. At the same time, this definition is strong enough to exclude coups, revolts, civil wars, and rebellions that make no effort to transform institutions or the justification for authority." Goldstone's definition excludes peaceful transitions to democracy through plebiscite or free elections, as occurred in Spain after the death of Francisco Franco, or in Argentina and Chile after the demise of their military juntas. Early scholars often debated the distinction between revolution and civil war. They also questioned whether a revolution is purely political (i.e., concerned with the restructuring of government) or whether "it is an extensive and inclusive social change affecting all the various aspects of the life of a society, including the economic, religious, industrial, and familial as well as the political".
+
+
+== Types ==
+There are numerous typologies of revolution in the social science literature. Alexis de Tocqueville differentiated between:
+
+sudden and violent revolutions that seek not only to establish a new political system but to overhaul an entire society, and;
+slow and relentless revolutions that involve sweeping transformations of the entire society and may take several generations to bring about (such as changes in religion).
+
+One of the Marxist typologies divides revolutions into: 
+
+pre-capitalist
+early bourgeois
+bourgeois
+bourgeois-democratic
+early proletarian
+socialist
+Charles Tilly, a modern scholar of revolutions, differentiated between: 
+
+coup d'état (a top-down seizure of power), e.g., Poland, 1926
+civil war
+revolt, and
+"great revolution" (a revolution that transforms economic and social structures as well as political institutions, such as the French Revolution of 1789, Russian Revolution of 1917, or Islamic Revolution of Iran in 1979).
+Mark Katz identified six forms of revolution:
+
+rural revolution
+urban revolution
+coup d'état, e.g., Egypt, 1952
+revolution from above, e.g., Mao Zedong's Great Leap Forward of 1958
+revolution from without, e.g., the Allied invasions of Italy in 1943 and of Germany in 1945
+revolution by osmosis, e.g., the gradual Islamization of several countries.
+
+These categories are not mutually exclusive; the Russian Revolution of 1917 began with an urban revolution to depose the Czar, followed by a rural revolution, followed by the Bolshevik coup in November. Katz also cross-classified revolutions as follows:
+
+Central: countries, usually Great Powers, which play a leading role in a revolutionary wave; e.g., the USSR, Nazi Germany, Iran since 1979
+Aspiring revolutions, which follow the Central revolution
+subordinate or puppet revolutions
+rival revolutions, in which a former alliance is broken, such as Yugoslavia after 1948, and China after 1960.
+A further dimension to Katz's typology is that revolutions are either against (anti-monarchy, anti-dictatorial, anti-communist, anti-democratic) or for (pro-fascism, pro-communism, pro-nationalism, etc.). In the latter cases, a transition period is generally necessary to decide which direction to take to achieve the desired form of government. Other types of revolution, created for other typologies, include proletarian or communist revolutions (inspired by the ideas of Marxism that aim to replace capitalism with communism); failed or abortive revolutions (that are not able to secure power after winning temporary victories or amassing large-scale mobilizations); or violent vs. nonviolent revolutions. The term revolution has also been used to denote great changes outside the political sphere. Such revolutions, often labeled social revolutions, are recognized as major transformations in a society's culture, philosophy, or technology, rather than in its political system. Some social revolutions are global in scope, while others are limited to single countries. Commonly cited examples of social revolution are the Industrial Revolution, Scientific Revolution, Commercial Revolution, and Digital Revolution. These revolutions also fit the "slow revolution" type identified by Tocqueville.
+
+
+== Studies of revolution ==
+
+Political and socioeconomic revolutions have been studied in many social sciences, particularly sociology, political science and history. Scholars of revolution differentiate four generations of theoretical research on the subject of revolution. Theorists of the first generation, including Gustave Le Bon, Charles A. Ellwood, and Pitirim Sorokin, were mainly descriptive in their approach, and their explanations of the phenomena of revolutions were usually related to social psychology, such as Le Bon's crowd psychology theory. The second generation sought to develop detailed frameworks, grounded in social behavior theory, to explain why and when revolutions arise. Their work can be divided into three categories: psychological, sociological and political.
+The writings of Ted Robert Gurr, Ivo K. Feierbrand, Rosalind L. Feierbrand, James A. Geschwender, David C. Schwartz, and Denton E. Morrison fall into the first category. They utilized theories of cognitive psychology and frustration-aggression theory to link the cause of revolution to the state of mind of the masses. While these theorists varied in their approach as to what exactly incited the people to revolt (e.g., modernization, recession, or discrimination), they agreed that the primary cause for revolution was a widespread frustration with the socio-political situation.
+The second group, composed of academics such as Chalmers Johnson, Neil Smelser, Bob Jessop, Mark Hart, Edward A. Tiryakian, and Mark Hagopian, drew on the work of Talcott Parsons and the structural-functionalist theory in sociology. They saw society as a system in equilibrium between various resources, demands, and subsystems (political, cultural, etc.). As in the psychological school, they differed in their definitions of what causes disequilibrium, but agreed that it is a state of severe disequilibrium that is responsible for revolutions.
+The third group, including writers such as Charles Tilly, Samuel P. Huntington, Peter Ammann, and Arthur L. Stinchcombe, followed a political science path and looked at pluralist theory and interest group conflict theory. Those theories view events as outcomes of a power struggle between competing interest groups. In such a model, revolutions happen when two or more groups cannot come to terms within the current political system's normal decision-making process, and when they possess the required resources to employ force in pursuit of their goals.
+The second-generation theorists regarded the development of revolutionary situations as a two-step process: "First, a pattern of events arises that somehow marks a break or change from previous patterns. This change then affects some critical variable—the cognitive state of the masses, the equilibrium of the system, or the magnitude of conflict and resource control of competing interest groups. If the effect on the critical variable is of sufficient magnitude, a potentially revolutionary situation occurs." Once this point is reached, a negative incident (a war, a riot, a bad harvest) that in the past might not have been enough to trigger a revolt, will now be enough. However, if authorities are cognizant of the danger, they can still prevent revolution through reform or repression.
+In his influential 1938 book The Anatomy of Revolution, historian Crane Brinton established a convention by choosing four major political revolutions—England (1642), Thirteen Colonies of America (1775), France (1789), and Russia (1917)—for comparative study. He outlined what he called their "uniformities", although the American Revolution deviated somewhat from the pattern. As a result, most later comparative studies of revolution substituted China (1949) in their lists, but they continued Brinton's practice of focusing on four.
+In subsequent decades, scholars began to classify hundreds of other events as revolutions (see List of revolutions and rebellions). Their expanded notion of revolution engendered new approaches and explanations. The theories of the second generation came under criticism for being too limited in geographical scope, and for lacking a means of empirical verification. Also, while second-generation theories may have been capable of explaining a specific revolution, they could not adequately explain why revolutions failed to occur in other societies experiencing very similar circumstances.
+The criticism of the second generation led to the rise of a third generation of theories, put forth by writers such as Theda Skocpol, Barrington Moore, Jeffrey Paige, and others expanding on the old Marxist class-conflict approach. They turned their attention to "rural agrarian-state conflicts, state conflicts with autonomous elites, and the impact of interstate economic and military competition on domestic political change." In particular, Skocpol's States and Social Revolutions (1979) was a landmark book of the third generation. Skocpol defined revolution as "rapid, basic transformations of society's state and class structures ... accompanied and in part carried through by class-based revolts from below", and she attributed revolutions to "a conjunction of multiple conflicts involving state, elites and the lower classes".
+
+In the late 1980s, a new body of academic work started questioning the dominance of the third generation's theories. The old theories were also dealt a significant blow by a series of revolutionary events that they could not readily explain. The Iranian and Nicaraguan Revolutions of 1979, the 1986 People Power Revolution in the Philippines, and the 1989 Autumn of Nations in Europe, Asia and Africa saw diverse opposition movements topple seemingly powerful regimes amidst popular demonstrations and mass strikes in nonviolent revolutions.
+For some historians, the traditional paradigm of revolutions as class struggle-driven conflicts centered in Europe, and involving a violent state versus its discontented people, was no longer sufficient to account for the multi-class coalitions toppling dictators around the world. Consequently, the study of revolutions began to evolve in three directions. As Goldstone describes it, scholars of revolution:
+
+Extended the third generation's structural theories to a more heterogeneous set of cases, "well beyond the small number of 'great' social revolutions".
+Called for greater attention to conscious agency and contingency in understanding the course and outcome of revolutions.
+Observed how studies of social movements—for women's rights, labor rights, and U.S. civil rights—had much in common with studies of revolution and could enrich the latter. Thus, "a new literature on 'contentious politics' has developed that attempts to combine insights from the literature on social movements and revolutions to better understand both phenomena."
+The fourth generation increasingly turned to quantitative techniques when formulating its theories. Political science research moved beyond individual or comparative case studies towards large-N statistical analysis assessing the causes and implications of revolution. The initial fourth-generation books and journal articles generally relied on the Polity data series on democratization. Such analyses, like those by A. J. Enterline, Zeev Maoz, and Edward D. Mansfield and Jack Snyder, identified a revolution by a significant change in the country's score on Polity's autocracy-to-democracy scale.
+Since the 2010s, scholars like Jeff Colgan have argued that the Polity data series—which evaluates the degree of democratic or autocratic authority in a state's governing institutions based on the openness of executive recruitment, constraints on executive authority, and political competition—is inadequate because it measures democratization, not revolution, and doesn't account for regimes which come to power by revolution but fail to change the structure of the state and society sufficiently to yield a notable difference in the Polity score. Instead, Colgan offered a new data set to single out governments that "transform the existing social, political, and economic relationships of the state by overthrowing or rejecting the principal existing institutions of society." This data set has been employed to make empirically based contributions to the literature on revolution by finding links between revolution and the likelihood of international disputes.
+Revolutions have been further examined from an anthropological perspective. Drawing on Victor Turner's writings on ritual and performance, Bjorn Thomassen suggested that revolutions can be understood as "liminal" moments: modern political revolutions very much resemble rituals and can therefore be studied within a process approach. This would imply not only a focus on political behavior "from below", but also a recognition of moments where "high and low" are relativized, subverted, or made irrelevant, and where the micro and macro levels fuse together in critical conjunctions. Economist Douglass North raised a note of caution about revolutionary change, how it "is never as revolutionary as its rhetoric would have us believe". While the "formal rules" of laws and constitutions can be changed virtually overnight, the "informal constraints" such as institutional inertia and cultural inheritance do not change quickly and thereby slow down the societal transformation. According to North, the tension between formal rules and informal constraints is "typically resolved by some restructuring of the overall constraints—in both directions—to produce a new equilibrium that is far less revolutionary than the rhetoric."
+
+
+== See also ==
+
+Revolutions in autocracies after military defeats
+Regime change in autocracies
+
+
+== References ==
+
+
+=== Bibliography ===
+Fukuyama, Francis (1992). The End of History and the Last Man. Penguin. ISBN 978-0-140-13455-1.
+Getachew, Adom (2019). Worldmaking After Empire: The Rise and Fall of Self-Determination. Princeton University Press. ISBN 978-0-691-17915-5.
+Gunitsky, Seva (2017). Aftershocks. Princeton University Press. ISBN 978-0-691-17233-0.
+Gunitsky, Seva (2018). "Democratic Waves in Historical Perspective". Perspectives on Politics. 16 (3): 634–651. doi:10.1017/S1537592718001044. ISSN 1537-5927. S2CID 149523316.
+Gunitsky, Seva (2021), Bartel, Fritz; Monteiro, Nuno P. (eds.), "Great Powers and the Spread of Autocracy Since the Cold War", Before and After the Fall: World Politics and the End of the Cold War, Cambridge University Press, pp. 225–243, doi:10.1017/9781108910194.014, ISBN 978-1-108-84334-8, S2CID 244851964
+Katz, Mark N. (1997). Revolutions and Revolutionary Waves. St Martin's Press. ISBN 978-0-312-17322-7.
+Peter Kropotkin (1906), Memoirs of a Revolutionist. London: Swan Sonnenschein & Co., Ltd.
+Reus-Smit, Christian (2013). Individual Rights and the Making of the International System. Cambridge University Press. doi:10.1017/cbo9781139046527. ISBN 978-0-521-85777-2.
+
+
+== Further reading ==
+Beissinger, Mark R. 2022. The Revolutionary City: Urbanization and the Global Transformation of Rebellion. Princeton University Press
+Beissinger, Mark R. (2024). "The Evolving Study of Revolution". World Politics.
+Beck, Colin J. (2018). "The Structure of Comparison in the Study of Revolution". Sociological Theory. 36 (2): 134–161. doi:10.1177/0735275118777004. S2CID 53669466.
+Edelstein, Dan (2025). The Revolution to Come: A History of an Idea from Thucydides to Lenin. Princeton University Press. ISBN 9780691231853.
+Goldstone, Jack A. (1982). "The Comparative and Historical Study of Revolutions". Annual Review of Sociology. 8: 187–207
+Ness, Immanuel, ed. (2009). The International Encyclopedia of Revolution and Protest: 1500 to the Present. Malden, MA: Wiley & Sons. ISBN 978-1-405-18464-9.
+Strang, David (1991). "Global Patterns of Decolonization, 1500-1987". International Studies Quarterly. 35 (4): 429–454. doi:10.2307/2600949. ISSN 0020-8833. JSTOR 2600949.
+
+
+== External links ==
+
+Arendt, Hannah (1963). IEP.UTM.edu. On Revolution. Penguin Classics. New Ed edition: February 8, 1991. ISBN 0-14-018421-X.

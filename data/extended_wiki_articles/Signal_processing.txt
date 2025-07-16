@@ -1,0 +1,268 @@
+Signal processing is an electrical engineering subfield that focuses on analyzing, modifying and synthesizing signals, such as sound, images, potential fields, seismic signals, altimetry processing, and scientific measurements. Signal processing techniques are used to optimize transmissions, digital storage efficiency, correcting distorted signals, improve subjective video quality, and to detect or pinpoint components of interest in a measured signal.
+
+
+== History ==
+According to Alan V. Oppenheim and Ronald W. Schafer, the principles of signal processing can be found in the classical numerical analysis techniques of the 17th century.  They further state that the digital refinement of these techniques can be found in the digital control systems of the 1940s and 1950s.
+In 1948, Claude Shannon wrote the influential paper "A Mathematical Theory of Communication" which was published in the Bell System Technical Journal.  The paper laid the groundwork for later development of information communication systems and the processing of signals for transmission.
+Signal processing matured and flourished in the 1960s and 1970s, and digital signal processing became widely used with specialized digital signal processor chips in the 1980s.
+
+
+== Definition of a signal ==
+A signal is a function 
+  
+    
+      
+        x
+        (
+        t
+        )
+      
+    
+    {\displaystyle x(t)}
+  
+, where this function is either
+
+deterministic (then one speaks of a deterministic signal) or
+a path 
+  
+    
+      
+        (
+        
+          x
+          
+            t
+          
+        
+        
+          )
+          
+            t
+            ∈
+            T
+          
+        
+      
+    
+    {\displaystyle (x_{t})_{t\in T}}
+  
+, a realization of a stochastic process 
+  
+    
+      
+        (
+        
+          X
+          
+            t
+          
+        
+        
+          )
+          
+            t
+            ∈
+            T
+          
+        
+      
+    
+    {\displaystyle (X_{t})_{t\in T}}
+  
+
+
+== Categories ==
+
+
+=== Analog ===
+
+Analog signal processing is for signals that have not been digitized, as in most 20th-century radio, telephone, and television systems. This involves linear electronic circuits as well as nonlinear ones. The former are, for instance, passive filters, active filters, additive mixers, integrators, and delay lines. Nonlinear circuits include compandors, multipliers (frequency mixers, voltage-controlled amplifiers), voltage-controlled filters, voltage-controlled oscillators, and phase-locked loops.
+
+
+=== Continuous time ===
+Continuous-time signal processing is for signals that vary with the change of continuous domain (without considering some individual interrupted points).
+The methods of signal processing include time domain, frequency domain, and complex frequency domain. This technology mainly discusses the modeling of a linear time-invariant continuous system, integral of the system's zero-state response, setting up system function and the continuous time filtering of deterministic signals. For example, in time domain, a continuous-time signal 
+  
+    
+      
+        x
+        (
+        t
+        )
+      
+    
+    {\displaystyle x(t)}
+  
+ passing through a linear time-invariant filter/system denoted as 
+  
+    
+      
+        h
+        (
+        t
+        )
+      
+    
+    {\displaystyle h(t)}
+  
+, can be expressed at the output as
+
+  
+    
+      
+        y
+        (
+        t
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        h
+        (
+        τ
+        )
+        x
+        (
+        t
+        −
+        τ
+        )
+        
+        d
+        τ
+      
+    
+    {\displaystyle y(t)=\int _{-\infty }^{\infty }h(\tau )x(t-\tau )\,d\tau }
+  
+
+In some contexts, 
+  
+    
+      
+        h
+        (
+        t
+        )
+      
+    
+    {\displaystyle h(t)}
+  
+ is referred to as the impulse response of the system. The above convolution operation is conducted between the input and the system.
+
+
+=== Discrete time ===
+Discrete-time signal processing is for sampled signals, defined only at discrete points in time, and as such are quantized in time, but not in magnitude.
+Analog discrete-time signal processing is a technology based on electronic devices such as sample and hold circuits, analog time-division multiplexers, analog delay lines and analog feedback shift registers. This technology was a predecessor of digital signal processing (see below), and is still used in advanced processing of gigahertz signals.
+The concept of discrete-time signal processing also refers to a theoretical discipline that establishes a mathematical basis for digital signal processing, without taking quantization error into consideration.
+
+
+=== Digital ===
+
+Digital signal processing is the processing of digitized discrete-time sampled signals. Processing is done by general-purpose computers or by digital circuits such as ASICs, field-programmable gate arrays or specialized digital signal processors. Typical arithmetical operations include fixed-point and floating-point, real-valued and complex-valued, multiplication and addition. Other typical operations supported by the hardware are circular buffers and lookup tables. Examples of algorithms are the fast Fourier transform (FFT), finite impulse response (FIR) filter, Infinite impulse response (IIR) filter, and adaptive filters such as the Wiener and Kalman filters.
+
+
+=== Nonlinear ===
+Nonlinear signal processing involves the analysis and processing of signals produced from nonlinear systems and can be in the time, frequency, or spatiotemporal domains. Nonlinear systems can produce highly complex behaviors including bifurcations, chaos, harmonics, and subharmonics which cannot be produced or analyzed using linear methods. 
+Polynomial signal processing is a type of non-linear signal processing, where polynomial systems may be interpreted as conceptually straightforward extensions of linear systems to the nonlinear case.
+
+
+=== Statistical ===
+Statistical signal processing is an approach which treats signals as stochastic processes, utilizing their statistical properties to perform signal processing tasks. Statistical techniques are widely used in signal processing applications. For example, one can model the probability distribution of noise incurred when photographing an image, and construct techniques based on this model to reduce the noise in the resulting image.
+
+
+=== Graph ===
+Graph signal processing generalizes signal processing  tasks to signals living on non-Euclidean domains whose structure can be captured by a weighted graph. Graph signal processing presents several key points such as sampling signal techniques, recovery techniques   and time-varying techiques. Graph signal processing has been applied with success in the field of image processing, computer vision  
+ 
+ and sound anomaly detection.
+
+
+== Application fields ==
+
+Audio signal processing –  for electrical signals representing sound, such as speech or music
+Image processing –  in digital cameras, computers and various imaging systems
+Video processing –  for interpreting moving pictures
+Wireless communication –  waveform generations, demodulation, filtering, equalization
+Control systems
+Array processing –  for processing signals from arrays of sensors
+Process control –  a variety of signals are used, including the industry standard 4-20 mA current loop
+Seismology
+Feature extraction, such as image understanding, semantic audio and speech recognition.
+Quality improvement, such as noise reduction, image enhancement, and echo cancellation.
+Source coding including audio compression, image compression, and video compression.
+Genomic signal processing
+In geophysics, signal processing is used to amplify the signal vs the noise within time-series measurements of geophysical data. Processing is conducted within the time domain or frequency domain, or both.
+In communication systems, signal processing may occur at:
+
+OSI layer 1 in the seven-layer OSI model, the physical layer (modulation, equalization, multiplexing, etc.);
+OSI layer 2, the data link layer (forward error correction);
+OSI layer 6, the presentation layer (source coding, including analog-to-digital conversion and data compression).
+
+
+== Typical devices ==
+Filters –  for example analog (passive or active) or digital (FIR, IIR, frequency domain or stochastic filters, etc.)
+Samplers and analog-to-digital converters for signal acquisition and reconstruction, which involves measuring a physical signal, storing or transferring it as digital signal, and possibly later rebuilding the original signal or an approximation thereof.
+Digital signal processors (DSPs)
+
+
+== Mathematical methods applied ==
+Differential equations –  for modeling system behavior, connecting input and output relations in linear time-invariant systems. For instance, a low-pass filter such as an RC circuit can be modeled as a differential equation in signal processing, which allows one to compute the continuous output signal as a function of the input or initial conditions.
+Recurrence relations
+Transform theory
+Time-frequency analysis –  for processing non-stationary signals
+Linear canonical transformation
+Spectral estimation –  for determining the spectral content (i.e., the distribution of power over frequency) of a set of time series data points
+Statistical signal processing –  analyzing and extracting information from signals and noise based on their stochastic properties
+Linear time-invariant system theory, and transform theory
+Polynomial signal processing –  analysis of systems which relate input and output using polynomials
+System identification and classification
+Calculus
+Coding theory
+Complex analysis
+Vector spaces and Linear algebra
+Functional analysis
+Probability and stochastic processes
+Detection theory
+Estimation theory
+Optimization
+Numerical methods
+Data mining –  for statistical analysis of relations between large quantities of variables (in this context representing many physical signals), to extract previously unknown interesting patterns
+
+
+== See also ==
+Algebraic signal processing
+Audio filter
+Bounded variation
+Dynamic range compression
+Information theory
+Least-squares spectral analysis
+Non-local means
+Reverberation
+Sensitivity (electronics)
+Similarity (signal processing)
+
+
+== References ==
+
+
+== Further reading ==
+Byrne, Charles (2014). Signal Processing: A Mathematical Approach. Taylor & Francis. doi:10.1201/b17672. ISBN 9780429158711.
+P Stoica, R Moses (2005). Spectral Analysis of Signals (PDF). NJ: Prentice Hall.
+Papoulis, Athanasios (1991). Probability, Random Variables, and Stochastic Processes (third ed.). McGraw-Hill. ISBN 0-07-100870-5.
+Kainam Thomas Wong [1]: Statistical Signal Processing lecture notes at the University of Waterloo, Canada.
+Ali H. Sayed, Adaptive Filters, Wiley, NJ, 2008, ISBN 978-0-470-25388-5.
+Thomas Kailath, Ali H. Sayed, and Babak Hassibi, Linear Estimation, Prentice-Hall, NJ, 2000, ISBN 978-0-13-022464-4.
+
+
+== External links ==
+Signal Processing for Communications – free online textbook by Paolo Prandoni and Martin Vetterli (2008)
+Scientists and Engineers Guide to Digital Signal Processing – free online textbook by Stephen Smith
+Julius O. Smith III: Spectral Audio Signal Processing – free online textbook
+Graph Signal Processing Website – free online website by Thierry Bouwmans (2025)

@@ -1,0 +1,142 @@
+Evolutionary computation from computer science is a family of algorithms for global optimization inspired by biological evolution, and the subfield of artificial intelligence and soft computing studying these algorithms. In technical terms, they are a family of population-based trial and error problem solvers with a metaheuristic or stochastic optimization character.
+In evolutionary computation, an initial set of candidate solutions is generated and iteratively updated. Each new generation is produced by stochastically removing less desired solutions, and introducing small random changes as well as, depending on the method, mixing parental information. In biological terminology, a population of solutions is subjected to natural selection (or artificial selection), mutation and possibly recombination. As a result, the population will gradually evolve to increase in fitness, in this case the chosen fitness function of the algorithm.
+Evolutionary computation techniques can produce highly optimized solutions in a wide range of problem settings, making them popular in computer science. Many variants and extensions exist, suited to more specific families of problems and data structures. Evolutionary computation is also sometimes used in evolutionary biology as an in silico experimental procedure to study common aspects of general evolutionary processes.
+
+
+== History ==
+The concept of mimicking evolutionary processes to solve problems originates before the advent of computers, such as when Alan Turing proposed a method of genetic search in 1948 . Turing's B-type u-machines resemble primitive neural networks, and connections between neurons were learnt via a sort of genetic algorithm. His P-type u-machines resemble a method for reinforcement learning, where pleasure and pain signals direct the machine to learn certain behaviors. However, Turing's paper went unpublished until 1968, and he died in 1954, so this early work had little to no effect on the field of evolutionary computation that was to develop.
+Evolutionary computing as a field began in earnest in the 1950s and 1960s. There were several independent attempts to use the process of evolution in computing at this time, which developed separately for roughly 15 years. Three branches emerged in different places to attain this goal: evolution strategies, evolutionary programming, and genetic algorithms. A fourth branch, genetic programming, eventually emerged in the early 1990s. These approaches differ in the method of selection, the permitted mutations, and the representation of genetic data. By the 1990s, the distinctions between the historic branches had begun to blur, and the term 'evolutionary computing' was  coined in 1991 to denote a field that exists over all four paradigms.
+In 1962, Lawrence J. Fogel initiated the research of Evolutionary Programming in the United States, which was considered an artificial intelligence endeavor. In this system, finite state machines are used to solve a prediction problem: these machines would be mutated (adding or deleting states, or changing the state transition rules), and the best of these mutated machines would be evolved further in future generations. The final finite state machine may be used to generate predictions when needed. The evolutionary programming method was successfully applied to prediction problems, system identification, and automatic control. It was eventually extended to handle time series data and to model the evolution of gaming strategies.
+In 1964, Ingo Rechenberg and Hans-Paul Schwefel introduce the paradigm of evolution strategies in Germany. Since traditional gradient descent techniques produce results that may get stuck in local minima, Rechenberg and Schwefel proposed that random mutations (applied to all parameters of some solution vector) may be used to escape these minima. Child solutions were generated from parent solutions, and the more successful of the two was kept for future generations. This technique was first used by the two to successfully solve optimization problems in fluid dynamics. Initially, this optimization technique was performed without computers, instead relying on dice to determine random mutations. By 1965, the calculations were performed wholly by machine.
+John Henry Holland introduced genetic algorithms in the 1960s, and it was further developed at the University of Michigan in the 1970s. While the other approaches were focused on solving problems, Holland primarily aimed to use genetic algorithms to study adaptation and determine how it may be simulated. Populations of chromosomes, represented as bit strings, were transformed by an artificial selection process, selecting for specific 'allele' bits in the bit string. Among other mutation methods, interactions between chromosomes were used to simulate the recombination of DNA between different organisms. While previous methods only tracked a single optimal organism at a time (having children compete with parents), Holland's genetic algorithms tracked large populations (having many organisms compete each generation).
+By the 1990s, a new approach to evolutionary computation that came to be called genetic programming emerged, advocated for by John Koza among others. In this class of algorithms, the subject of evolution was itself a program written in a high-level programming language (there had been some previous attempts as early as 1958 to use machine code, but they met with little success). For Koza, the programs were Lisp S-expressions, which can be thought of as trees of sub-expressions. This representation permits programs to swap subtrees, representing a sort of genetic mixing. Programs are scored based on how well they complete a certain task, and the score is used for artificial selection. Sequence induction, pattern recognition, and planning were all successful applications of the genetic programming paradigm.
+Many other figures played a role in the history of evolutionary computing, although their work did not always fit into one of the major historical branches of the field. The earliest computational simulations of evolution using evolutionary algorithms and artificial life techniques were performed by Nils Aall Barricelli in 1953, with first results published in 1954. Another pioneer in the 1950s was Alex Fraser, who published a series of papers on simulation of artificial selection. As academic interest grew, dramatic increases in the power of computers allowed practical applications, including the automatic evolution of computer programs. Evolutionary algorithms are now used to solve multi-dimensional problems more efficiently than software produced by human designers, and also to optimize the design of systems.
+
+
+== Techniques ==
+Evolutionary computing techniques mostly involve metaheuristic optimization algorithms. Broadly speaking, the field includes:
+
+Agent-based modeling
+Ant colony optimization
+Particle swarm optimization
+Swarm intelligence
+Artificial immune systems
+Artificial life
+Digital organism
+Cultural algorithms
+Differential evolution
+Dual-phase evolution
+Estimation of distribution algorithm
+Evolutionary algorithm
+Genetic algorithm
+Evolutionary programming
+Genetic programming
+Gene expression programming
+Grammatical evolution
+Evolution strategy
+Learnable evolution model
+Learning classifier system
+Memetic algorithms
+Neuroevolution
+Self-organization such as self-organizing maps, competitive learning
+A thorough catalogue with many other recently proposed algorithms has been published in the Evolutionary Computation Bestiary. It is important to note that many recent algorithms, however, have poor experimental validation.
+
+
+== Evolutionary algorithms ==
+
+Evolutionary algorithms form a subset of evolutionary computation in that they generally only involve techniques implementing mechanisms inspired by biological evolution such as reproduction, mutation, recombination and natural selection. Candidate solutions to the optimization problem play the role of individuals in a population, and the cost function determines the environment within which the solutions "live" (see also fitness function). Evolution of the population then takes place after the repeated application of the above operators.
+In this process, there are two main forces that form the basis of evolutionary systems:  Recombination (e.g. crossover) and mutation create the necessary diversity and thereby facilitate novelty, while selection acts as a force increasing quality.
+Many aspects of such an evolutionary process are stochastic. Changed pieces of information due to recombination and mutation are randomly chosen. On the other hand, selection operators can be either deterministic, or stochastic. In the latter case, individuals with a higher fitness have a higher chance to be selected than individuals with a lower fitness, but typically even the weak individuals have a chance to become a parent or to survive.
+
+
+=== Evolutionary algorithms and biology ===
+
+Genetic algorithms deliver methods to model biological systems and systems biology that are linked to the theory of dynamical systems, since they are used to predict the future states of the system. This is just a vivid (but perhaps misleading) way of drawing attention to the orderly, well-controlled and highly structured character of development in biology.
+However, the use of algorithms and informatics, in particular of computational theory, beyond the analogy to dynamical systems, is also relevant to understand evolution itself.
+This view has the merit of recognizing that there is no central control of development; organisms develop as a result of local interactions within and between cells. The most promising ideas about program-development parallels seem to us to be ones that point to an apparently close analogy between processes within cells, and the low-level operation of modern computers. Thus, biological systems are like computational machines that process input information to compute next states, such that biological systems are closer to a computation than classical dynamical system.
+Furthermore, following concepts from computational theory, micro processes in biological organisms are fundamentally incomplete and undecidable (completeness (logic)), implying that “there is more than a crude metaphor behind the analogy between cells and computers.
+The analogy to computation extends also to the relationship between inheritance systems and biological structure, which is often thought to reveal one of the most pressing problems in explaining the origins of life.
+Evolutionary automata, a generalization of Evolutionary Turing machines, have been introduced in order to investigate more precisely properties of biological and evolutionary computation. In particular, they allow to obtain new results on expressiveness of evolutionary computation. This confirms the initial result about undecidability of natural evolution and evolutionary algorithms and processes. Evolutionary finite automata, the simplest subclass of Evolutionary automata working in terminal mode can accept arbitrary languages over a given alphabet, including non-recursively enumerable (e.g., diagonalization language) and recursively enumerable but not recursive languages (e.g., language of the universal Turing machine).
+
+
+== Notable practitioners ==
+The list of active researchers is naturally dynamic and non-exhaustive. A network analysis of the community was published in 2007.
+
+Kalyanmoy Deb
+Kenneth A De Jong
+Peter J. Fleming
+David B. Fogel
+Stephanie Forrest
+David E. Goldberg
+John Henry Holland
+Theo Jansen
+John Koza
+Zbigniew Michalewicz
+Melanie Mitchell
+Peter Nordin
+Riccardo Poli
+Ingo Rechenberg
+Hans-Paul Schwefel
+
+
+== Publications ==
+
+
+=== Journals ===
+While articles on or using evolutionary computation permeate the literature, several journals are dedicated to evolutionary computation:
+
+Evolutionary Computation (journal) (founded 1993, MIT Press)
+Artificial Life (journal) (founded 1993, MIT Press)
+IEEE Transactions on Evolutionary Computation (founded 1997, IEEE)
+Genetic Programming and Evolvable Machines (founded 2000, Springer Nature)
+Swarm Intelligence (founded 2007, Springer Nature)
+Evolutionary Intelligence (founded 2008, Springer Nature)
+Journal of Artificial Evolution and Applications  (2008–2010,  Hindawi)
+Memetic Computing (founded 2009, Springer Nature)
+International Journal of Applied Evolutionary Computation (founded 2010, fr:IGI Global)
+Swarm and Evolutionary Computation (founded 2011, Elsevier)
+International Journal of Swarm Intelligence and Evolutionary Computation (founded 2012, Walsh Medical Media)
+
+
+=== Conferences ===
+The main conferences in the evolutionary computation area include 
+
+ACM Genetic and Evolutionary Computation Conference (GECCO),
+IEEE Congress on Evolutionary Computation (CEC),
+EvoStar, which comprises four conferences: EuroGP, EvoApplications, EvoCOP and EvoMUSART,
+Parallel Problem Solving from Nature (PPSN).
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+Th. Bäck, D.B. Fogel, and Z. Michalewicz (Editors), Handbook of Evolutionary Computation, 1997, ISBN 0750303921
+Th. Bäck and H.-P. Schwefel. An overview of evolutionary algorithms for parameter optimization. Archived July 12, 2018, at the Wayback Machine Evolutionary Computation, 1(1):1–23, 1993.
+W. Banzhaf, P. Nordin, R.E. Keller, and F.D. Francone. Genetic Programming — An Introduction. Morgan Kaufmann, 1998.
+S. Cagnoni, et al., Real-World Applications of Evolutionary Computing, Springer-Verlag Lecture Notes in Computer Science, Berlin, 2000.
+R. Chiong, Th. Weise, Z. Michalewicz (Editors), Variants of Evolutionary Algorithms for Real-World Applications, Springer, 2012, ISBN 3642234232
+K. A. De Jong, Evolutionary computation: a unified approach. MIT Press, Cambridge MA, 2006
+A. E. Eiben and J.E. Smith, From evolutionary computation to the evolution of things, Nature, 521:476-482, doi:10.1038/nature14544, 2015
+A. E. Eiben and J.E. Smith, Introduction to Evolutionary Computing, Springer, First edition, 2003; Second edition, 2015
+D. B. Fogel. Evolutionary Computation. Toward a New Philosophy of Machine Intelligence. IEEE Press, Piscataway, NJ, 1995.
+L. J. Fogel, A. J. Owens, and M. J. Walsh. Artificial Intelligence through Simulated Evolution. New York: John Wiley, 1966.
+D. E. Goldberg. Genetic algorithms in search, optimization and machine learning. Addison Wesley, 1989.
+J. H. Holland. Adaptation in natural and artificial systems. University of Michigan Press, Ann Arbor, 1975.
+P. Hingston, L. Barone, and Z. Michalewicz (Editors), Design by Evolution, Natural Computing Series, 2008, Springer, ISBN 3540741097
+J. R. Koza. Genetic Programming: On the Programming of Computers by means of Natural Evolution. MIT Press, Massachusetts, 1992.
+F.J. Lobo, C.F. Lima, Z. Michalewicz (Editors), Parameter Setting in Evolutionary Algorithms, Springer, 2010, ISBN 3642088929
+Z. Michalewicz, Genetic Algorithms + Data Structures – Evolution Programs, 1996, Springer, ISBN 3540606769
+Z. Michalewicz and D.B. Fogel, How to Solve It: Modern Heuristics, Springer, 2004, ISBN 978-3-540-22494-5
+I. Rechenberg. Evolutionstrategie: Optimierung Technischer Systeme nach Prinzipien des Biologischen Evolution. Fromman-Hozlboog Verlag, Stuttgart, 1973. (in German)
+H.-P. Schwefel. Numerical Optimization of Computer Models. John Wiley & Sons, New-York, 1981. 1995 – 2nd edition.
+D. Simon. Evolutionary Optimization Algorithms Archived March 10, 2014, at the Wayback Machine. Wiley, 2013.
+M. Sipper; W. Fu; K. Ahuja; J. H. Moore (2018). "Investigating the parameter space of evolutionary algorithms". BioData Mining. 11: 2. doi:10.1186/s13040-018-0164-x. PMC 5816380. PMID 29467825.
+Y. Zhang; S. Li. (2017). "PSA: A novel optimization algorithm based on survival rules of porcellio scaber". arXiv:1709.09840 [cs.NE].
+
+
+== External links ==
+Article in the Stanford Encyclopedia of Philosophy about Biological Information (English)

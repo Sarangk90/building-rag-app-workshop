@@ -42,6 +42,10 @@ Create a `.env` file in the root directory with the following content:
 OPENAI_API_KEY=your_openai_api_key
 OPENAI_BASE_URL=your_openai_api_base  # Optional: for Azure OpenAI or other endpoints
 COHERE_API_KEY=your_cohere_api_key    # For reranking functionality
+
+# Qdrant Cloud Configuration (for streamlined workshop experience)
+QDRANT_URL=your_qdrant_cloud_url      # Provided by instructor
+QDRANT_API_KEY=your_qdrant_api_key    # Provided by instructor
 ```
 
 ## Running the Workshop
@@ -56,11 +60,21 @@ The workshop is organized into progressive notebooks that build on each other:
 jupyter notebook naive-rag/naive-rag.ipynb
 ```
 
-2. **Testing with larger dataset**:
+2. **Naive RAG challenges (streamlined version - recommended)**:
 
 ```bash
-jupyter notebook naive-rag/naive-rag-extended.ipynb
+jupyter notebook naive-rag/naive-rag-challenges-streamlined.ipynb
 ```
+
+   *This version connects to pre-populated Qdrant Cloud, eliminating data preparation time*
+
+3. **Alternative: Full data processing version**:
+
+```bash
+jupyter notebook naive-rag/naive-rag-challenges.ipynb
+```
+
+   *This version includes the complete data fetching and embedding process*
 
 ### Advanced RAG
 
@@ -116,6 +130,31 @@ The workshop uses:
 - **cohere**: For additional reranking options
 - **ragas**: For comprehensive RAG evaluation
 - **Various utilities**: tqdm, python-dotenv, etc.
+
+## Streamlined Workshop Experience
+
+For workshop instructors, we provide automation scripts to pre-process data and set up cloud infrastructure:
+
+### For Instructors
+
+1. **Create extended dataset**:
+```bash
+python scripts/create_extended_dataset.py
+```
+
+2. **Ingest to Qdrant Cloud**:
+```bash
+python scripts/ingest_to_qdrant_cloud.py
+```
+
+See [`scripts/README.md`](scripts/README.md) for detailed documentation.
+
+### Benefits
+
+- **Time Savings**: Students save 15-25 minutes per session on data preparation
+- **Consistency**: All students work with identical, pre-processed datasets
+- **Focus**: More time for learning RAG concepts and advanced techniques
+- **Scalability**: Cloud infrastructure handles concurrent student access
 
 ## Evaluation
 

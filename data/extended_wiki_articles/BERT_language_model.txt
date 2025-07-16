@@ -1,0 +1,278 @@
+Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by researchers at Google. It learns to represent text as a sequence of vectors using self-supervised learning. It uses the encoder-only transformer architecture. BERT dramatically improved the state-of-the-art for large language models. As of 2020, BERT is a ubiquitous baseline in natural language processing (NLP) experiments. 
+BERT is trained by masked token prediction and next sentence prediction. As a result of this training process, BERT learns contextual, latent representations of tokens in their context, similar to ELMo and GPT-2. It found applications for many natural language processing tasks, such as coreference resolution and polysemy resolution. It is an evolutionary step over ELMo, and spawned the study of "BERTology", which attempts to interpret what is learned by BERT.
+BERT was originally implemented in the English language at two model sizes, BERTBASE (110 million parameters) and BERTLARGE (340 million parameters). Both were trained on the Toronto BookCorpus (800M words) and English Wikipedia  (2,500M words).: 5  The weights were released on GitHub. On March 11, 2020, 24 smaller models were released, the smallest being BERTTINY with just 4 million parameters.
+
+
+== Architecture ==
+
+BERT is an "encoder-only" transformer architecture. At a high level, BERT consists of 4 modules: 
+
+Tokenizer: This module converts a piece of English text into a sequence of integers ("tokens").
+Embedding: This module converts the sequence of tokens into an array of real-valued vectors representing the tokens. It represents the conversion of discrete token types into a lower-dimensional Euclidean space.
+Encoder: a stack of Transformer blocks with self-attention, but without causal masking.
+Task head: This module converts the final representation vectors into one-hot encoded tokens again by producing a predicted probability distribution over the token types. It can be viewed as a simple decoder, decoding the latent representation into token types, or as an "un-embedding layer".
+The task head is necessary for pre-training, but it is often unnecessary for so-called "downstream tasks," such as question answering or sentiment classification. Instead, one removes the task head and replaces it with a newly initialized module suited for the task, and finetune the new module. The latent vector representation of the model is directly fed into this new module, allowing for sample-efficient transfer learning.
+
+
+=== Embedding ===
+This section describes the embedding used by BERTBASE. The other one, BERTLARGE, is similar, just larger.
+The tokenizer of BERT is WordPiece, which is a sub-word strategy like byte-pair encoding. Its vocabulary size is 30,000, and any token not appearing in its vocabulary is replaced by [UNK] ("unknown"). 
+
+The first layer is the embedding layer, which contains three components: token type embeddings, position embeddings, and segment type embeddings. 
+
+Token type: The token type is a standard embedding layer, translating a one-hot vector into a dense vector based on its token type.
+Position: The position embeddings are based on a token's position in the sequence. BERT uses absolute position embeddings, where each position in a sequence is mapped to a real-valued vector. Each dimension of the vector consists of a sinusoidal function that takes the position in the sequence as input.
+Segment type: Using a vocabulary of just 0 or 1, this embedding layer produces a dense vector based on whether the token belongs to the first or second text segment in that input. In other words, type-1 tokens are all tokens that appear after the [SEP] special token. All prior tokens are type-0.
+The three embedding vectors are added together representing the initial token representation as a function of these three pieces of information. After embedding, the vector representation is normalized using a LayerNorm operation, outputting a 768-dimensional vector for each input token. After this, the representation vectors are passed forward through 12 Transformer encoder blocks, and are decoded back to 30,000-dimensional vocabulary space using a basic affine transformation layer.
+
+
+=== Architectural family ===
+The encoder stack of BERT has 2 free parameters: 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+, the number of layers, and 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+, the hidden size. There are always 
+  
+    
+      
+        H
+        
+          /
+        
+        64
+      
+    
+    {\displaystyle H/64}
+  
+ self-attention heads, and the feed-forward/filter size is always 
+  
+    
+      
+        4
+        H
+      
+    
+    {\displaystyle 4H}
+  
+. By varying these two numbers, one obtains an entire family of BERT models.
+For BERT
+
+the feed-forward size and filter size are synonymous. Both of them denote the number of dimensions in the middle layer of the feed-forward network.
+the hidden size and embedding size are synonymous. Both of them denote the number of real numbers used to represent a token.
+The notation for encoder stack is written as L/H. For example, BERTBASE is written as 12L/768H, BERTLARGE as 24L/1024H, and BERTTINY as 2L/128H.
+
+
+== Training ==
+
+
+=== Pre-training ===
+BERT was pre-trained simultaneously on two tasks.
+
+Masked Language Model (MLM): In this task, BERT ingests a sequence of words, where one words may be randomly changed ("masked"), and BERT tries to predict the original words that had been changed. For example, in the sentence "The cat sat on the [MASK]," BERT would need to predict "mat." This helps BERT learn bidirectional context, meaning it understands the relationships between words not just from left to right or right to left but from both directions at the same time.
+Next Sentence Prediction (NSP): In this task, BERT is trained to predict whether one sentence logically follows another. For example, given two sentences, "The cat sat on the mat." and "It was a sunny day," BERT has to decide if the second sentence is a valid continuation of the first one. This helps BERT understand relationships between sentences, which is important for tasks like question answering or document classification.
+
+
+==== Masked language modeling ====
+
+In masked language modeling, 15% of tokens would be randomly selected for masked-prediction task, and the training objective was to predict the masked token given its context. In more detail, the selected token is 
+
+replaced with a [MASK] token with probability 80%,
+replaced with a random word token with probability 10%,
+not replaced with probability 10%.
+The reason not all selected tokens are masked is to avoid the dataset shift problem. The dataset shift problem arises when the distribution of inputs seen during training differs significantly from the distribution encountered during inference. A trained BERT model might be applied to word representation (like Word2Vec), where it would be run over sentences not containing any [MASK] tokens. It is later found that more diverse training objectives are generally better.
+As an illustrative example, consider the sentence "my dog is cute". It would first be divided into tokens like "my1 dog2 is3 cute4". Then a random token in the sentence would be picked. Let it be the 4th one "cute4". Next, there would be three possibilities:
+
+with probability 80%, the chosen token is masked, resulting in "my1 dog2 is3 [MASK]4";
+with probability 10%, the chosen token is replaced by a uniformly sampled random token, such as "happy", resulting in "my1 dog2 is3 happy4";
+with probability 10%, nothing is done, resulting in "my1 dog2 is3 cute4".
+After processing the input text, the model's 4th output vector is passed to its decoder layer, which outputs a probability distribution over its 30,000-dimensional vocabulary space.
+
+
+==== Next sentence prediction ====
+
+Given two spans of text, the model predicts if these two spans appeared sequentially in the training corpus, outputting either [IsNext] or [NotNext]. Specifically, the training algorithm would sometimes sample two spans from a single continuous span in the training corpus, but other times, sample two spans from two discontinuous spans in the training corpus.
+The first span starts with a special token [CLS] (for "classify"). The two spans are separated by a special token [SEP] (for "separate"). After processing the two spans, the 1-st output vector (the vector coding for [CLS]) is passed to a separate neural network for the binary classification into [IsNext] and [NotNext].
+
+For example, given "[CLS] my dog is cute [SEP] he likes playing" the model should output token [IsNext].
+Given "[CLS] my dog is cute [SEP] how do magnets work" the model should output token [NotNext].
+
+
+=== Fine-tuning ===
+
+BERT is meant as a general pretrained model for various applications in natural language processing. That is, after pre-training, BERT can be fine-tuned with fewer resources on smaller datasets to optimize its performance on specific tasks such as natural language inference and text classification, and sequence-to-sequence-based language generation tasks such as question answering and conversational response generation.
+The original BERT paper published results demonstrating that a small amount of finetuning (for BERTLARGE, 1 hour on 1 Cloud TPU) allowed it to achieved state-of-the-art performance on a number of natural language understanding tasks:
+
+GLUE (General Language Understanding Evaluation) task set (consisting of 9 tasks);
+SQuAD (Stanford Question Answering Dataset) v1.1 and v2.0;
+SWAG (Situations With Adversarial Generations).
+In the original paper, all parameters of BERT are finetuned, and recommended that, for downstream applications that are text classifications, the output token at the [CLS] input token is fed into a linear-softmax layer to produce the label outputs.
+The original code base defined the final linear layer as a "pooler layer", in analogy with global pooling in computer vision, even though it simply discards all output tokens except the one corresponding to  [CLS] .
+
+
+=== Cost ===
+BERT was trained on the BookCorpus (800M words) and a filtered version of English Wikipedia (2,500M words) without lists, tables, and headers.
+Training BERTBASE  on 4 cloud TPU (16 TPU chips total) took 4 days, at an estimated cost of 500 USD. Training BERTLARGE on 16 cloud TPU (64 TPU chips total) took 4 days.
+
+
+== Interpretation ==
+Language models like ELMo, GPT-2, and BERT, spawned the study of "BERTology", which attempts to interpret what is learned by these models. Their performance on these natural language understanding tasks are not yet well understood. Several research publications in 2018 and 2019 focused on investigating the relationship behind BERT's output as a result of carefully chosen input sequences, analysis of internal vector representations through probing classifiers, and the relationships represented by attention weights.
+The high performance of the BERT model could also be attributed to the fact that it is bidirectionally trained. This means that BERT, based on the Transformer model architecture, applies its self-attention mechanism to learn information from a text from the left and right side during training, and consequently gains a deep understanding of the context. For example, the word fine can have two different meanings depending on the context (I feel fine today, She has fine blond hair). BERT considers the words surrounding the target word fine from the left and right side.
+However it comes at a cost: due to encoder-only architecture lacking a decoder, BERT can't be prompted and can't generate text, while bidirectional models in general do not work effectively without the right side, thus being difficult to prompt. As an illustrative example, if one wishes to use BERT to continue a sentence fragment "Today, I went to", then naively one would mask out all the tokens as "Today, I went to  [MASK]  [MASK]  [MASK] ...  [MASK] ." where the number of  [MASK]  is the length of the sentence one wishes to extend to. However, this constitutes a dataset shift, as during training, BERT has never seen sentences with that many tokens masked out. Consequently, its performance degrades. More sophisticated techniques allow text generation, but at a high computational cost.
+
+
+== History ==
+BERT was originally published by Google researchers Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. The design has its origins from pre-training contextual representations, including semi-supervised sequence learning, generative pre-training, ELMo, and ULMFit. Unlike previous models, BERT is a deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus. Context-free models such as word2vec or GloVe generate a single word embedding representation for each word in the vocabulary, whereas BERT takes into account the context for each occurrence of a given word. For instance, whereas the vector for "running" will have the same word2vec vector representation for both of its occurrences in the sentences "He is running a company" and "He is running a marathon", BERT will provide a contextualized embedding that will be different according to the sentence.
+On October 25, 2019, Google announced that they had started applying BERT models for English language search queries within the US. On December 9, 2019, it was reported that BERT had been adopted by Google Search for over 70 languages. In October 2020, almost every single English-based query was processed by a BERT model.
+
+
+== Variants ==
+The BERT models were influential and inspired many variants.
+RoBERTa (2019) was an engineering improvement. It preserves BERT's architecture (slightly larger, at 355M parameters), but improves its training, changing key hyperparameters, removing the next-sentence prediction task, and using much larger mini-batch sizes. 
+XLM-RoBERTa (2019) was a multilingual RoBERTa model. It was one of the first works on multilingual language modeling at scale.
+DistilBERT (2019) distills BERTBASE to a model with just 60% of its parameters (66M), while preserving 95% of its benchmark scores. Similarly, TinyBERT (2019) is a distilled model with just 28% of its parameters.
+ALBERT (2019) used shared-parameter across layers, and experimented with independently varying the hidden size and the word-embedding layer's output size as two hyperparameters. They also replaced the next sentence prediction task with the sentence-order prediction (SOP) task, where the model must distinguish the correct order of two consecutive text segments from their reversed order. 
+ELECTRA (2020) applied the idea of generative adversarial networks to the MLM task. Instead of masking out tokens, a small language model generates random plausible substitutions, and a larger network identify these replaced tokens. The small model aims to fool the large model.
+DeBERTa (2020) is a significant architectural variant, with disentangled attention. Its key idea is to treat the positional and token encodings separately throughout the attention mechanism. Instead of combining the positional encoding (
+  
+    
+      
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+      
+    
+    {\displaystyle x_{position}}
+  
+) and token encoding (
+  
+    
+      
+        
+          x
+          
+            token
+          
+        
+      
+    
+    {\displaystyle x_{\text{token}}}
+  
+) into a single input vector (
+  
+    
+      
+        
+          x
+          
+            i
+            n
+            p
+            u
+            t
+          
+        
+        =
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+        +
+        
+          x
+          
+            t
+            o
+            k
+            e
+            n
+          
+        
+      
+    
+    {\displaystyle x_{input}=x_{position}+x_{token}}
+  
+), DeBERTa keeps them separate as a tuple: (
+  
+    
+      
+        (
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+        ,
+        
+          x
+          
+            t
+            o
+            k
+            e
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle (x_{position},x_{token})}
+  
+). Then, at each self-attention layer, DeBERTa computes three distinct attention matrices, rather than the single attention matrix used in BERT:
+
+The three attention matrices are added together element-wise, then passed through a softmax layer and multiplied by a projection matrix.
+Absolute position encoding is included in the final self-attention layer as additional input.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Rogers, Anna; Kovaleva, Olga; Rumshisky, Anna (2020). "A Primer in BERTology: What we know about how BERT works". arXiv:2002.12327 [cs.CL].
+
+
+== External links ==
+Official GitHub repository

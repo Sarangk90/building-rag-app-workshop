@@ -1,0 +1,16 @@
+{
+  "ingestion_completed_at": "2025-07-17T00:56:04.438031",
+  "collection_name": "workshop_wikipedia_extended",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimension": 1536,
+  "chunk_size": 300,
+  "chunk_overlap": 50,
+  "total_articles": 61,
+  "total_chunks": 1210,
+  "qdrant_url": "https://193ab6bf-6a0b-4687-9f5a-5c371f663592.eu-west-1-0.aws.cloud.qdrant.io",
+  "usage_instructions": {
+    "connection": "Use QDRANT_URL and QDRANT_API_KEY environment variables",
+    "collection": "workshop_wikipedia_extended",
+    "search_example": "client.query_points(collection_name, query=embedding, limit=5)"
+  }
+}
