@@ -125,31 +125,6 @@ The workshop uses:
 - **ragas**: For comprehensive RAG evaluation
 - **Various utilities**: tqdm, python-dotenv, etc.
 
-## Streamlined Workshop Experience
-
-For workshop instructors, we provide automation scripts to pre-process data and set up cloud infrastructure:
-
-### For Instructors
-
-1. **Create extended dataset**:
-```bash
-python scripts/create_extended_dataset.py
-```
-
-2. **Ingest to Qdrant Cloud**:
-```bash
-python scripts/ingest_to_qdrant_cloud.py
-```
-
-See [`scripts/README.md`](scripts/README.md) for detailed documentation.
-
-### Benefits
-
-- **Time Savings**: Students save 15-25 minutes per session on data preparation
-- **Consistency**: All students work with identical, pre-processed datasets
-- **Focus**: More time for learning RAG concepts and advanced techniques
-- **Scalability**: Cloud infrastructure handles concurrent student access
-
 ## Evaluation
 
 The workshop includes evaluation scripts using RAGAS metrics to assess the quality of RAG outputs across dimensions like relevance, faithfulness, and answer quality.
