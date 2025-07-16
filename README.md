@@ -16,7 +16,7 @@ This repository is used for the O'Reilly training course: [Building Reliable RAG
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/building-rag-app-workshop.git
+git clone https://github.com/Sarangk90/building-rag-app-workshop.git
 cd building-rag-app-workshop
 ```
 
@@ -57,50 +57,44 @@ The workshop is organized into progressive notebooks that build on each other:
 1. **Basic RAG implementation**:
 
 ```bash
-jupyter notebook naive-rag/naive-rag.ipynb
+jupyter notebook naive-rag/01-naive-rag.ipynb
 ```
 
-2. **Naive RAG challenges (streamlined version - recommended)**:
+2. **Naive RAG challenges and evaluation**:
 
 ```bash
-jupyter notebook naive-rag/naive-rag-challenges-streamlined.ipynb
+jupyter notebook naive-rag/02-naive-rag-challenges.ipynb
 ```
 
-   *This version connects to pre-populated Qdrant Cloud, eliminating data preparation time*
-
-3. **Alternative: Full data processing version**:
-
-```bash
-jupyter notebook naive-rag/naive-rag-challenges.ipynb
-```
-
-   *This version includes the complete data fetching and embedding process*
+   *This notebook explores the limitations of naive RAG and includes evaluation metrics*
 
 ### Advanced RAG
 
-1. **Implementation with reranking**:
+1. **Advanced RAG with reranking**:
 
 ```bash
-jupyter notebook naive-rag/naive-rag-extended-with-rerank.ipynb
+jupyter notebook advanced-rag/01-advanced-rag-rerank.ipynb
 ```
 
-2. **Start the Qdrant vector database**:
+2. **SciFact dataset experiments**:
+
+   First, start the Qdrant vector database:
 
 ```bash
-cd advanced-rag
+cd advanced-rag/scifact
 bash run-qdrant.sh
 ```
 
-3. **Data indexing for advanced techniques**:
+3. **Data indexing for SciFact dataset**:
 
 ```bash
-jupyter notebook advanced-rag/01-data-indexing.ipynb
+jupyter notebook advanced-rag/scifact/01-data-indexing.ipynb
 ```
 
-4. **Advanced RAG techniques notebook**:
+4. **Advanced RAG techniques with SciFact**:
 
 ```bash
-jupyter notebook advanced-rag/02-advanced-rag.ipynb
+jupyter notebook advanced-rag/scifact/02-advanced-rag.ipynb
 ```
 
 ## Workshop Content
