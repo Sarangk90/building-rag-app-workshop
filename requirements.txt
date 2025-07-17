@@ -19,3 +19,4 @@ numpy
 ragas>=0.2.0
 datasets>=2.0.0
 Pillow
+fastembed==0.7.1
