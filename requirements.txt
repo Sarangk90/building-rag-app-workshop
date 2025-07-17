@@ -4,7 +4,7 @@ beautifulsoup4==4.13.3
 openai
 tqdm==4.67.1
 python-dotenv==1.0.1
-ipykernel==6.31.1
+ipykernel==6.29.5
 nest-asyncio==1.6.0
 ipywidgets==8.1.1
 spacy
@@ -18,3 +18,4 @@ cohere==5.13.12
 numpy
 ragas>=0.2.0
 datasets>=2.0.0
+Pillow
