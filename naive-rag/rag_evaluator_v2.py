@@ -138,7 +138,7 @@ def _print_results(results: Dict[str, Any]):
     
     if "context_recall" in scores:
         recall_score = scores["context_recall"]
-        print(f"\n{_get_score_interpretation(recall_score)}")
+        # print(f"\n{_get_score_interpretation(recall_score)}")
     
     print("=" * 60)
 
