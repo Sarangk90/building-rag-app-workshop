@@ -7,95 +7,55 @@ This repository is used for the O'Reilly training course: [Building Reliable RAG
 ## Prerequisites
 
 - Python 3.11+ recommended
-- Docker (for running Qdrant vector database)
 - API keys (OpenAI, Cohere)
 - Jupyter notebook environment
+- Qdrant database (Cloud or Docker)
 
-## Installation
+## Quick Start
 
-1. **Clone the repository**
+### 1. Clone and Install
 
 ```bash
 git clone https://github.com/Sarangk90/building-rag-app-workshop.git
 cd building-rag-app-workshop
-```
 
-2. **Create and activate a virtual environment**
-
-```bash
+# Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
 
-3. **Install dependencies**
-
-```bash
+# Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-4. **Set up API keys**
+### 2. Complete Workshop Setup
 
-Create a `.env` file in the root directory with the following content:
+📖 **Follow the complete setup guide: [`SETUP.md`](SETUP.md)**
 
-```
-OPENAI_API_KEY=your_openai_api_key
-OPENAI_BASE_URL=your_openai_api_base  # Optional: for Azure OpenAI or other endpoints
-COHERE_API_KEY=your_cohere_api_key    # For reranking functionality
+The setup guide covers:
+- Qdrant database setup (Cloud or Docker options)
+- Environment variable configuration  
+- Data ingestion process
+- Troubleshooting common issues
 
-# Qdrant Cloud Configuration (for streamlined workshop experience)
-QDRANT_URL=your_qdrant_cloud_url      # Provided by instructor
-QDRANT_API_KEY=your_qdrant_api_key    # Provided by instructor
-```
+**⚠️ You must complete the setup before running any notebooks!**
 
-## Running the Workshop
+## Workshop Notebooks
 
-The workshop is organized into progressive notebooks that build on each other:
+After completing the setup, run the notebooks in this order:
 
-### Naive RAG
+### 1. Naive RAG
+- **`naive-rag/01-naive-rag.ipynb`** - Basic RAG implementation
+- **`naive-rag/02-naive-rag-challenges.ipynb`** - RAG limitations and evaluation
 
-1. **Basic RAG implementation**:
+### 2. Advanced RAG  
+- **`advanced-rag/01-advanced-rag-rerank.ipynb`** - Advanced RAG with reranking
 
-```bash
-jupyter notebook naive-rag/01-naive-rag.ipynb
-```
+### 3. SciFact Dataset (Optional)
+- **`advanced-rag/scifact/01-data-indexing.ipynb`** - Data indexing techniques
+- **`advanced-rag/scifact/02-advanced-rag.ipynb`** - Advanced techniques
 
-2. **Naive RAG challenges and evaluation**:
-
-```bash
-jupyter notebook naive-rag/02-naive-rag-challenges.ipynb
-```
-
-   *This notebook explores the limitations of naive RAG and includes evaluation metrics*
-
-### Advanced RAG
-
-1. **Advanced RAG with reranking**:
-
-```bash
-jupyter notebook advanced-rag/01-advanced-rag-rerank.ipynb
-```
-
-2. **SciFact dataset experiments**:
-
-   First, start the Qdrant vector database:
-
-```bash
-cd advanced-rag/scifact
-bash run-qdrant.sh
-```
-
-3. **Data indexing for SciFact dataset**:
-
-```bash
-jupyter notebook advanced-rag/scifact/01-data-indexing.ipynb
-```
-
-4. **Advanced RAG techniques with SciFact**:
-
-```bash
-jupyter notebook advanced-rag/scifact/02-advanced-rag.ipynb
-```
+**Note**: Each notebook automatically detects your setup (Cloud vs Docker) and connects appropriately.
 
 ## Workshop Content
 

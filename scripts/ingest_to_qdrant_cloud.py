@@ -45,16 +45,28 @@ BATCH_SIZE = 50  # Process embeddings in batches to manage API limits
 def setup_clients():
     """Initialize OpenAI and Qdrant clients."""
     # Check required environment variables
-    required_vars = ["OPENAI_API_KEY", "QDRANT_URL", "QDRANT_API_KEY"]
-    missing_vars = [var for var in required_vars if not os.getenv(var)]
+    qdrant_url = os.getenv("QDRANT_URL")
+    qdrant_api_key = os.getenv("QDRANT_API_KEY")
+    openai_api_key = os.getenv("OPENAI_API_KEY")
     
-    if missing_vars:
-        raise ValueError(f"Missing required environment variables: {missing_vars}")
+    # Always require OpenAI API key and Qdrant URL
+    if not openai_api_key:
+        raise ValueError("Missing required environment variable: OPENAI_API_KEY")
+    if not qdrant_url:
+        raise ValueError("Missing required environment variable: QDRANT_URL")
+    
+    # Determine if this is a local or cloud setup
+    is_local_setup = "localhost" in qdrant_url.lower()
+    
+    if not is_local_setup and not qdrant_api_key:
+        raise ValueError("QDRANT_API_KEY is required for cloud setup. For local Docker setup, use QDRANT_URL=http://localhost:6333")
+    
+    print(f"🔧 Setting up clients for {'local Docker' if is_local_setup else 'cloud'} Qdrant...")
     
     openai_client = OpenAI()
     qdrant_client = QdrantClient(
-        url=os.getenv("QDRANT_URL"),
-        api_key=os.getenv("QDRANT_API_KEY")
+        url=qdrant_url,
+        api_key=qdrant_api_key  # Will be None for local setup, which is fine
     )
     
     return openai_client, qdrant_client
