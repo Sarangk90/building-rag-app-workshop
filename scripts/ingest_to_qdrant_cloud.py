@@ -66,7 +66,8 @@ def setup_clients():
     openai_client = OpenAI()
     qdrant_client = QdrantClient(
         url=qdrant_url,
-        api_key=qdrant_api_key  # Will be None for local setup, which is fine
+        api_key=qdrant_api_key,  # Will be None for local setup, which is fine
+        timeout=60.0  # 60 second timeout for cloud operations
     )
     
     return openai_client, qdrant_client
@@ -320,14 +321,30 @@ def ingest_chunks_to_qdrant(chunks: List[Dict], openai_client: OpenAI, qdrant_cl
     
     try:
         # Upload in smaller batches to avoid timeouts
-        upload_batch_size = 100
+        upload_batch_size = 25  # Reduced batch size for better reliability
+        total_upload_batches = (len(points_to_upload) + upload_batch_size - 1) // upload_batch_size
+        
         for i in tqdm(range(0, len(points_to_upload), upload_batch_size), 
-                     desc="Uploading to Qdrant"):
+                     desc="Uploading to Qdrant", total=total_upload_batches):
             batch_points = points_to_upload[i:i + upload_batch_size]
-            qdrant_client.upsert(
-                collection_name=COLLECTION_NAME,
-                points=batch_points
-            )
+            
+            # Retry mechanism for upload failures
+            max_retries = 3
+            for retry in range(max_retries):
+                try:
+                    qdrant_client.upsert(
+                        collection_name=COLLECTION_NAME,
+                        points=batch_points
+                    )
+                    break  # Success, exit retry loop
+                except Exception as e:
+                    if retry == max_retries - 1:
+                        raise e  # Re-raise on final retry
+                    print(f"⚠️  Upload batch {i//upload_batch_size + 1} failed (retry {retry + 1}/{max_retries}): {e}")
+                    time.sleep(2 ** retry)  # Exponential backoff
+            
+            # Small delay between batches to avoid rate limits
+            time.sleep(0.5)
         
         print("✅ Successfully uploaded all points to Qdrant Cloud")
         
