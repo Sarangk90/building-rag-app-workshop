@@ -75,6 +75,40 @@ The workshop uses:
 - Wikipedia articles on machine learning topics (Deep learning, Transformers, etc.)
 - BeIR SciFact dataset for demonstrations and evaluations
 
+### Wikipedia Article Management
+
+The repository includes pre-downloaded Wikipedia articles in `data/wiki_articles/` to avoid repetitive API calls during workshops. Use the following scripts to manage articles:
+
+#### List Available Articles
+```bash
+python scripts/fetch_additional_articles.py --list-available
+```
+
+#### Fetch Additional Articles
+```bash
+# Fetch specific articles
+python scripts/fetch_additional_articles.py "Machine learning" "Computer vision"
+
+# Fetch from extended list (30+ ML/AI topics)
+python scripts/fetch_additional_articles.py
+
+# View the extended article list
+python scripts/fetch_additional_articles.py --list-extended
+```
+
+#### Force Re-fetch Existing Articles
+```bash
+python scripts/fetch_additional_articles.py --force "Deep learning"
+```
+
+**Available Pre-downloaded Articles:**
+- Artificial neural network
+- BERT (language model) 
+- Deep learning
+- Generative pre-trained transformer
+- Overfitting
+- Transformer (machine learning model)
+
 ## Key Dependencies
 
 - **openai**: For embeddings and completions
