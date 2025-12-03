@@ -2,24 +2,37 @@
 
 This guide walks you through setting up your environment for the RAG workshop. You'll need to complete these steps before running any of the workshop notebooks.
 
-## 🚀 Choose Your Setup Option
+---
 
-You have **two options** to set up Qdrant and ingest the extended Wikipedia dataset. Choose the option that works best for your environment:
+## 🚀 Quick Start with uv
+
+This project uses [uv](https://docs.astral.sh/uv/) for fast, reliable dependency management. uv automatically handles Python version management and virtual environments.
+
+### Step 1: Install uv
+
+```bash
+# macOS / Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+### Step 2: Install Dependencies
+
+```bash
+# This installs Python 3.11 (if needed) and all dependencies
+uv sync
+```
+
+That's it! uv handles everything automatically.
 
 ---
 
-## Option A: Qdrant Cloud (Recommended)
+## 🔑 Configure API Keys
 
-This is the easiest option and works on all platforms without requiring Docker.
+Create a `.env` file in the project root with your API keys:
 
-### Step 1: Create Qdrant Cloud Account
-1. Go to [Qdrant Cloud](https://cloud.qdrant.io/)
-2. Sign up for a free account
-3. Create a new cluster (free tier is sufficient)
-4. Get your cluster URL and API key from the dashboard
-
-### Step 2: Set Environment Variables
-Create a `.env` file in the project root with:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 QDRANT_URL=your_qdrant_cluster_url_here
@@ -29,53 +42,66 @@ QDRANT_API_KEY=your_qdrant_api_key_here
 COHERE_API_KEY=your_cohere_api_key_here
 ```
 
-### Step 3: Run Data Ingestion Script
-```bash
-# From the project root directory
-python scripts/ingest_to_qdrant_cloud.py
-```
-
 ---
 
-## Option B: Local Docker Setup
+## 🗄️ Choose Your Qdrant Setup
 
-If you prefer to run Qdrant locally using Docker, follow these steps:
+You have **two options** for the vector database. Choose the one that works best for your environment:
 
-### Step 1: Start Local Qdrant with Docker
+### Option A: Qdrant Cloud (Recommended)
+
+1. Go to [Qdrant Cloud](https://cloud.qdrant.io/) and sign up for a free account
+2. Create a new cluster (free tier is sufficient)
+3. Get your cluster URL and API key from the dashboard
+4. Add them to your `.env` file
+
+### Option B: Local Docker Setup
+
 ```bash
 # Run Qdrant locally
 docker run -d -p 6333:6333 -p 6334:6334 qdrant/qdrant:v1.13.2
 ```
 
-### Step 2: Set Environment Variables
-Create a `.env` file in the project root with:
+For local setup, use these `.env` values:
 ```bash
-OPENAI_API_KEY=your_openai_api_key_here
 QDRANT_URL=http://localhost:6333
 # Note: No QDRANT_API_KEY needed for local setup
-
-# Optional: For advanced RAG features
-COHERE_API_KEY=your_cohere_api_key_here
 ```
-
-### Step 3: Run Data Ingestion Script
-```bash
-# From the project root directory
-python scripts/ingest_to_qdrant_cloud.py
-```
-
-**Note**: The same ingestion script automatically detects whether you're using cloud or local setup based on your QDRANT_URL!
 
 ---
 
-## 📋 What the Ingestion Script Does
+## 📥 Run Data Ingestion
 
-Regardless of which option you choose, the ingestion script will:
+```bash
+# From the project root directory
+uv run python scripts/ingest_to_qdrant_cloud.py
+```
+
+The script automatically detects whether you're using cloud or local setup based on your `QDRANT_URL`.
+
+### What the Ingestion Script Does
+
 - ✅ Load the extended Wikipedia dataset (61 articles)
 - 🔪 Create 1,210 chunks with 300 character chunks, 50 character overlap  
 - 🤖 Generate embeddings using OpenAI text-embedding-3-small
 - 📤 Upload everything to your Qdrant instance (cloud or local)
 - ⏱️ Takes approximately 5-10 minutes to complete
+
+---
+
+## 📓 Start the Workshop
+
+```bash
+uv run jupyter lab
+```
+
+Then open the notebooks in order:
+1. `naive-rag/01-naive-rag.ipynb` - Basic RAG implementation
+2. `naive-rag/02-naive-rag-challenges.ipynb` - Exploring RAG limitations
+3. `advanced-rag/01-advanced-rag-rerank.ipynb` - Advanced RAG with reranking
+4. `advanced-rag/scifact/` - SciFact dataset examples (optional)
+
+Each notebook automatically detects your setup and connects appropriately.
 
 ---
 
@@ -87,7 +113,7 @@ Regardless of which option you choose, the ingestion script will:
 cd path/to/building-rag-app-workshop
 
 # Run the ingestion script
-python scripts/ingest_to_qdrant_cloud.py
+uv run python scripts/ingest_to_qdrant_cloud.py
 ```
 
 ### Docker Setup Issues (Option B)
@@ -137,16 +163,3 @@ After completing the setup, you should see:
 - A `data/ingestion_summary.json` file with ingestion details
 
 **You're ready to start the workshop once you see "Expected number of chunks found! Ingestion was successful." in any notebook!**
-
----
-
-## 📚 Workshop Notebooks
-
-After completing this setup, you can run any of these notebooks:
-
-1. **`naive-rag/01-naive-rag.ipynb`** - Basic RAG implementation
-2. **`naive-rag/02-naive-rag-challenges.ipynb`** - Exploring RAG limitations
-3. **`advanced-rag/01-advanced-rag-rerank.ipynb`** - Advanced RAG with reranking
-4. **`advanced-rag/scifact/`** - SciFact dataset examples
-
-Each notebook will automatically detect your setup and connect appropriately. 

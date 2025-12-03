@@ -6,29 +6,34 @@ This repository is used for the O'Reilly training course: [Building Reliable RAG
 
 ## Prerequisites
 
-- Python 3.11+ recommended
 - API keys (OpenAI, Cohere)
-- Jupyter notebook environment
 - Qdrant database (Cloud or Docker)
 
 ## Quick Start
 
-### 1. Clone and Install
+### 1. Install uv
+
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management. It automatically handles Python and virtual environments.
+
+```bash
+# macOS / Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+### 2. Clone and Install
 
 ```bash
 git clone https://github.com/Sarangk90/building-rag-app-workshop.git
 cd building-rag-app-workshop
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+# Install Python 3.11 and all dependencies
+uv sync
 ```
 
-### 2. Complete Workshop Setup
+### 3. Complete Workshop Setup
 
 📖 **Follow the complete setup guide: [`SETUP.md`](SETUP.md)**
 
@@ -39,6 +44,12 @@ The setup guide covers:
 - Troubleshooting common issues
 
 **⚠️ You must complete the setup before running any notebooks!**
+
+### 4. Start Jupyter
+
+```bash
+uv run jupyter lab
+```
 
 ## Workshop Notebooks
 
@@ -81,24 +92,24 @@ The repository includes pre-downloaded Wikipedia articles in `data/wiki_articles
 
 #### List Available Articles
 ```bash
-python scripts/fetch_additional_articles.py --list-available
+uv run python scripts/fetch_additional_articles.py --list-available
 ```
 
 #### Fetch Additional Articles
 ```bash
 # Fetch specific articles
-python scripts/fetch_additional_articles.py "Machine learning" "Computer vision"
+uv run python scripts/fetch_additional_articles.py "Machine learning" "Computer vision"
 
 # Fetch from extended list (30+ ML/AI topics)
-python scripts/fetch_additional_articles.py
+uv run python scripts/fetch_additional_articles.py
 
 # View the extended article list
-python scripts/fetch_additional_articles.py --list-extended
+uv run python scripts/fetch_additional_articles.py --list-extended
 ```
 
 #### Force Re-fetch Existing Articles
 ```bash
-python scripts/fetch_additional_articles.py --force "Deep learning"
+uv run python scripts/fetch_additional_articles.py --force "Deep learning"
 ```
 
 **Available Pre-downloaded Articles:**

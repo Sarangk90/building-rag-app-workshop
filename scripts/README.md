@@ -21,7 +21,7 @@ The scripts eliminate the need for students to repeatedly fetch, clean, and embe
 
 **Usage**:
 ```bash
-python scripts/create_extended_dataset.py
+uv run python scripts/create_extended_dataset.py
 ```
 
 **Output**:
@@ -47,7 +47,7 @@ python scripts/create_extended_dataset.py
 
 **Usage**:
 ```bash
-python scripts/ingest_to_qdrant_cloud.py
+uv run python scripts/ingest_to_qdrant_cloud.py
 ```
 
 **Prerequisites**:
@@ -79,12 +79,12 @@ python scripts/ingest_to_qdrant_cloud.py
 
 2. **Create Extended Dataset**:
    ```bash
-   python scripts/create_extended_dataset.py
+   uv run python scripts/create_extended_dataset.py
    ```
 
 3. **Ingest to Qdrant Cloud**:
    ```bash
-   python scripts/ingest_to_qdrant_cloud.py
+   uv run python scripts/ingest_to_qdrant_cloud.py
    ```
 
 4. **Distribute to Students**:
@@ -159,7 +159,7 @@ QDRANT_API_KEY=your-api-key
 
 4. **Missing Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 ### Verification
@@ -202,7 +202,7 @@ data/
 For issues or questions:
 1. Check the troubleshooting section above
 2. Verify environment variables are set correctly
-3. Ensure all dependencies are installed
+3. Ensure all dependencies are installed (`uv sync`)
 4. Check script output for specific error messages
 
 The scripts are designed to be robust and provide clear feedback about their progress and any issues encountered.

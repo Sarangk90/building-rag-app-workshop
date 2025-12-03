@@ -15,12 +15,14 @@ This is an educational workshop repository for building Retrieval-Augmented Gene
 
 ## Environment Setup
 
-```bash
-# Activate virtual environment
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 
-# Install dependencies
-pip install -r requirements.txt
+```bash
+# Install uv (if not installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install Python 3.11 and all dependencies
+uv sync
 
 # Set environment variables in .env file
 OPENAI_API_KEY=your_key_here
@@ -32,6 +34,11 @@ COHERE_API_KEY=your_cohere_key_here  # Optional, for advanced features
 ## Running Notebooks
 
 Start Jupyter and run notebooks in order:
+
+```bash
+uv run jupyter lab
+```
+
 1. `naive-rag/01-naive-rag.ipynb` - Basic RAG implementation
 2. `naive-rag/02-naive-rag-challenges.ipynb` - Exploring limitations
 3. `advanced-rag/01-advanced-rag-rerank.ipynb` - Advanced techniques with reranking
@@ -44,13 +51,13 @@ Two setup options available:
 
 **Option A: Qdrant Cloud (Recommended)**
 ```bash
-python scripts/ingest_to_qdrant_cloud.py
+uv run python scripts/ingest_to_qdrant_cloud.py
 ```
 
 **Option B: Local Docker Setup**
 ```bash
 docker run -d -p 6333:6333 -p 6334:6334 qdrant/qdrant:v1.13.2
-python scripts/ingest_to_qdrant_cloud.py
+uv run python scripts/ingest_to_qdrant_cloud.py
 ```
 
 The ingestion script loads 61 Wikipedia articles, creates 1,210 chunks (300 chars with 50 char overlap), and uploads to Qdrant.
@@ -124,7 +131,8 @@ The ingestion script loads 61 Wikipedia articles, creates 1,210 chunks (300 char
 ├── advanced-rag/                 # Advanced techniques (reranking, hybrid)
 ├── scripts/                      # Data preparation and ingestion
 ├── data/                         # Processed datasets and evaluation data
-├── requirements.txt              # Python dependencies
+├── pyproject.toml                # Python dependencies (uv)
+├── uv.lock                       # Locked dependencies
 ├── SETUP.md                      # Detailed setup instructions
 └── .env                          # Environment variables (not in git)
 ```
